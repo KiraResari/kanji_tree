@@ -2,6 +2,7 @@ use std::error::Error;
 use std::fs;
 mod value_objects;
 use value_objects::*;
+use std::io::ErrorKind;
 
 pub struct KanjiParser {
     parsed_kanji: Vec<ParsedKanjiJsonElement>,
@@ -43,6 +44,26 @@ impl KanjiParser{
         Ok(parents)
     }
 
+    pub fn get_element(&self, identifier: &str)
+        -> Result<&ParsedKanjiJsonElement, std::io::Error>{
+        let query_element_option = self.parsed_kanji.iter()
+            .find(|element| element.name == identifier);
+        match query_element_option{
+            Some(v) => Ok(v),
+            None =>{
+                Err(
+                    std::io::Error::new(
+                        ErrorKind::Other,
+                        format!(
+                            "No Kanji with name '{}' could be found.",
+                            identifier
+                        )
+                    )
+                )
+            }
+        }
+    }
+
     pub fn new() -> KanjiParser{
         KanjiParser{
             parsed_kanji: vec![],
@@ -80,6 +101,34 @@ mod tests {
 
         let expected_children = vec![&kanji_two, &kanji_three];
         assert_eq!(children, expected_children);
+    }
+
+    #[test]
+    fn get_element_should_return_element(){
+        let mut kanji_parser = KanjiParser::new();
+        kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+
+        let element = kanji_parser.get_element("Two").unwrap();
+
+        let kanji_two = ParsedKanjiJsonElement{
+                name: String::from("Two"),
+                node_type: NodeType::Kanji,
+                character: String::from("二"),
+                stroke_arrangement: String::from("2H"),
+                stroke_count: 2,
+                parent_names: vec![String::from("One")]
+            };
+
+        assert_eq!(element, &kanji_two);
+    }
+
+    #[test]
+    #[should_panic(expected = "No Kanji with name")]
+    fn get_element_should_return_error_if_element_does_not_exist(){
+        let mut kanji_parser = KanjiParser::new();
+        kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+
+        kanji_parser.get_element("Does Not Exist").unwrap();
     }
 
     #[test]
