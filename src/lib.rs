@@ -9,17 +9,38 @@ pub struct KanjiParser {
 
 impl KanjiParser{
 
-    pub fn parse_kanji_json(&mut self, kanji_file_path: &str) -> Result<(), Box<dyn Error>>{
+    pub fn parse_kanji_json(&mut self, kanji_file_path: &str)
+         -> Result<(), Box<dyn Error>>{
         let contents = fs::read_to_string(kanji_file_path)?;
         self.parsed_kanji = serde_json::from_str(&contents)?;
         Ok(())
     }
 
-    pub fn get_children(&self, identifier: &str) -> Result<Vec<&ParsedKanjiJsonElement>, Box<dyn Error>>{
+    pub fn get_children(&self, identifier: &str)
+         -> Result<Vec<&ParsedKanjiJsonElement>, Box<dyn Error>>{
         let children: Vec<&ParsedKanjiJsonElement> = self.parsed_kanji.iter()
-            .filter(|x| x.parent_names.contains(&String::from(identifier)))
+            .filter(
+                |element| element.parent_names.contains(&String::from(identifier))
+            )
             .collect();
         Ok(children)
+    }
+
+    pub fn get_parents(&self, identifier: &str)
+        -> Result<Vec<&ParsedKanjiJsonElement>, Box<dyn Error>>{
+        let query_element_option = self.parsed_kanji.iter()
+            .find(|element| element.name == identifier);
+        let query_element: &ParsedKanjiJsonElement;
+        match query_element_option{
+            Some(v) => query_element = v,
+            None => return Ok(vec![])
+        }
+        let parents: Vec<&ParsedKanjiJsonElement> = self.parsed_kanji.iter()
+        .filter(
+            |element| query_element.parent_names.contains(&element.name)
+        )
+        .collect();
+        Ok(parents)
     }
 
     pub fn new() -> KanjiParser{
@@ -40,7 +61,7 @@ mod tests {
 
         let children = kanji_parser.get_children("One").unwrap();
 
-        let kanji1 = ParsedKanjiJsonElement{
+        let kanji_two = ParsedKanjiJsonElement{
                 name: String::from("Two"),
                 node_type: NodeType::Kanji,
                 character: String::from("二"),
@@ -48,7 +69,7 @@ mod tests {
                 stroke_count: 2,
                 parent_names: vec![String::from("One")]
             };
-        let kanji2 = ParsedKanjiJsonElement{
+        let kanji_three = ParsedKanjiJsonElement{
                 name: String::from("Three"),
                 node_type: NodeType::Kanji,
                 character: String::from("三"),
@@ -57,8 +78,37 @@ mod tests {
                 parent_names: vec![String::from("One"), String::from("Two")]
             };
 
-        let expected_children = vec![&kanji1, &kanji2];
+        let expected_children = vec![&kanji_two, &kanji_three];
         assert_eq!(children, expected_children);
+    }
+
+    #[test]
+    fn get_parents_should_return_parents(){
+        let mut kanji_parser = KanjiParser::new();
+        kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+
+        let children = kanji_parser.get_parents("Three").unwrap();
+
+        let kanji_one = ParsedKanjiJsonElement{
+            name: String::from("One"),
+            node_type: NodeType::Kanji,
+            character: String::from("一"),
+            stroke_arrangement: String::from("Whole"),
+            stroke_count: 1,
+            parent_names: vec![]
+        };
+        let kanji_two = ParsedKanjiJsonElement{
+            name: String::from("Two"),
+            node_type: NodeType::Kanji,
+            character: String::from("二"),
+            stroke_arrangement: String::from("2H"),
+            stroke_count: 2,
+            parent_names: vec![String::from("One")]
+        };
+
+
+    let expected_children = vec![&kanji_one, &kanji_two];
+    assert_eq!(children, expected_children);
     }
 
     #[test]
