@@ -1,25 +1,7 @@
 use std::error::Error;
 use std::fs;
-use serde::Deserialize;
-
-#[derive(Deserialize, Debug, PartialEq)]
-pub struct ParsedKanjiJsonElement{
-    pub name: String,
-    pub node_type: NodeType,
-    pub character: String,
-    pub stroke_arrangement: String,
-    pub stroke_count: u8,
-    #[serde(default)]
-    pub parent_names: Vec<String>,
-}
-
-#[derive(Deserialize, Debug, PartialEq)]
-pub enum NodeType {
-    Kanji,
-    Radical,
-    XPart,
-    Dead,
-}
+mod value_objects;
+use value_objects::*;
 
 pub fn parse_kanji_json(kanji_file_path: &str) -> Result<Vec<ParsedKanjiJsonElement>, Box<dyn Error>>{
     let contents = fs::read_to_string(kanji_file_path)?;
