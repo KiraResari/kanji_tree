@@ -253,7 +253,11 @@
     * It'll probably be better to start with a smaller sample though
     * The `counter` sample seems pretty minimal
   * I am working on this now, and making progress, but I am still running into trouble
-  * 
+  * But I managed to push through, and now built the first working iced app, that does not display my kanji due to an incompatible font, but in a nice, big size
+  * So, I suppose I have to figure out how to make fonts work in this one too
+    * I think the Pokédex sample featured different fonts
+    * ...or not
+    * 
 
 * 
 

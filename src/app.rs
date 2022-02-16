@@ -1,13 +1,13 @@
-use iced::{Sandbox, Column, Element, Button, Text};
+use iced::{Sandbox, Column, Element, Text, Font};
 
 pub struct KanjiTreeApp{
-    activeKanji: String,
+    active_kanji: String,
 }
 
 impl Default for KanjiTreeApp {
     fn default() -> Self {
         Self {
-            activeKanji: String::from("狐"),
+            active_kanji: String::from("狐"),
         }
     }
 }
@@ -20,7 +20,7 @@ impl Sandbox for KanjiTreeApp {
     }
 
     fn title(&self) -> String {
-        String::from("Counter - Iced")
+        String::from("KanjiTree")
     }
 
     fn update(&mut self, message: Message) {
@@ -37,9 +37,15 @@ impl Sandbox for KanjiTreeApp {
     fn view(&mut self) -> Element<Message> {
         Column::new()
             .padding(20)
-
-            .push(Text::new(self.activeKanji.to_string()).size(50))
-
+            .push(
+                Text::new(
+                    self.active_kanji.to_string()
+                ).size(64)
+                .font(Font::External{
+                    name: "msgothic",
+                    bytes: include_bytes!("../fonts/msgothic.ttc")
+                })
+            )
             .into()
     }
 }
