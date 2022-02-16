@@ -1,8 +1,10 @@
+mod app;
 use std::error::Error;
 use std::fs;
 mod value_objects;
 use value_objects::*;
 use std::io::ErrorKind;
+pub use app::KanjiTreeApp;
 
 pub struct KanjiParser {
     parsed_kanji: Vec<ParsedKanjiJsonElement>,
