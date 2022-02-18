@@ -1,4 +1,4 @@
-pub use self::parsed_kanji_json_element::ParsedKanjiJsonElement;
+pub use self::kanji::Kanji;
 pub use self::node_type::NodeType;
-mod parsed_kanji_json_element;
+mod kanji;
 mod node_type;

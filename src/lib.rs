@@ -2,89 +2,44 @@ mod app;
 use std::error::Error;
 use std::fs;
 mod value_objects;
-use value_objects::*;
-use std::io::ErrorKind;
 pub use app::KanjiTreeApp;
+mod kanji_source; 
+use kanji_source::KanjiSource;
 
 pub struct KanjiParser {
-    parsed_kanji: Vec<ParsedKanjiJsonElement>,
 }
 
 impl KanjiParser{
 
     pub fn parse_kanji_json(&mut self, kanji_file_path: &str)
-         -> Result<(), Box<dyn Error>>{
+         -> Result<KanjiSource, Box<dyn Error>>{
         let contents = fs::read_to_string(kanji_file_path)?;
-        self.parsed_kanji = serde_json::from_str(&contents)?;
-        Ok(())
-    }
-
-    pub fn get_children(&self, identifier: &str)
-         -> Result<Vec<&ParsedKanjiJsonElement>, Box<dyn Error>>{
-        let children: Vec<&ParsedKanjiJsonElement> = self.parsed_kanji.iter()
-            .filter(
-                |element| element.parent_names.contains(&String::from(identifier))
-            )
-            .collect();
-        Ok(children)
-    }
-
-    pub fn get_parents(&self, identifier: &str)
-        -> Result<Vec<&ParsedKanjiJsonElement>, Box<dyn Error>>{
-        let query_element_option = self.parsed_kanji.iter()
-            .find(|element| element.name == identifier);
-        let query_element: &ParsedKanjiJsonElement;
-        match query_element_option{
-            Some(v) => query_element = v,
-            None => return Ok(vec![])
-        }
-        let parents: Vec<&ParsedKanjiJsonElement> = self.parsed_kanji.iter()
-        .filter(
-            |element| query_element.parent_names.contains(&element.name)
-        )
-        .collect();
-        Ok(parents)
-    }
-
-    pub fn get_element(&self, identifier: &str)
-        -> Result<&ParsedKanjiJsonElement, std::io::Error>{
-        let query_element_option = self.parsed_kanji.iter()
-            .find(|element| element.name == identifier);
-        match query_element_option{
-            Some(v) => Ok(v),
-            None =>{
-                Err(
-                    std::io::Error::new(
-                        ErrorKind::Other,
-                        format!(
-                            "No Kanji with name '{}' could be found.",
-                            identifier
-                        )
-                    )
-                )
-            }
-        }
+        let parsed_kanji = serde_json::from_str(&contents)?;
+        Ok(KanjiSource::new(parsed_kanji))
     }
 
     pub fn new() -> KanjiParser{
-        KanjiParser{
-            parsed_kanji: vec![],
-        }
+        KanjiParser{ }
     }
 }
 
 #[cfg(test)]
 mod tests {
+    use crate::value_objects::{Kanji, NodeType};
+
     use super::*;
 
     #[test]
     fn get_children_should_return_children(){
         let mut kanji_parser = KanjiParser::new();
-        kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+        let kanji_source: KanjiSource
+             = kanji_parser.parse_kanji_json(
+                 "kanji_test_with_three_kanji.json"
+            ).unwrap();
 
-        let children = kanji_parser.get_children("One").unwrap();
+        let children = kanji_source.get_children("One").unwrap();
 
-        let kanji_two = ParsedKanjiJsonElement{
+        let kanji_two = Kanji{
                 name: String::from("Two"),
                 node_type: NodeType::Kanji,
                 character: String::from("二"),
@@ -92,7 +47,7 @@ mod tests {
                 stroke_count: 2,
                 parent_names: vec![String::from("One")]
             };
-        let kanji_three = ParsedKanjiJsonElement{
+        let kanji_three = Kanji{
                 name: String::from("Three"),
                 node_type: NodeType::Kanji,
                 character: String::from("三"),
@@ -108,11 +63,12 @@ mod tests {
     #[test]
     fn get_element_should_return_element(){
         let mut kanji_parser = KanjiParser::new();
-        kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+        let kanji_source: KanjiSource
+             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
 
-        let element = kanji_parser.get_element("Two").unwrap();
+        let element = kanji_source.get_element("Two").unwrap();
 
-        let kanji_two = ParsedKanjiJsonElement{
+        let kanji_two = Kanji{
                 name: String::from("Two"),
                 node_type: NodeType::Kanji,
                 character: String::from("二"),
@@ -128,19 +84,21 @@ mod tests {
     #[should_panic(expected = "No Kanji with name")]
     fn get_element_should_return_error_if_element_does_not_exist(){
         let mut kanji_parser = KanjiParser::new();
-        kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+        let kanji_source: KanjiSource
+             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
 
-        kanji_parser.get_element("Does Not Exist").unwrap();
+        kanji_source.get_element("Does Not Exist").unwrap();
     }
 
     #[test]
     fn get_parents_should_return_parents(){
         let mut kanji_parser = KanjiParser::new();
-        kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+        let kanji_source: KanjiSource
+             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
 
-        let children = kanji_parser.get_parents("Three").unwrap();
+        let children = kanji_source.get_parents("Three").unwrap();
 
-        let kanji_one = ParsedKanjiJsonElement{
+        let kanji_one = Kanji{
             name: String::from("One"),
             node_type: NodeType::Kanji,
             character: String::from("一"),
@@ -148,7 +106,7 @@ mod tests {
             stroke_count: 1,
             parent_names: vec![]
         };
-        let kanji_two = ParsedKanjiJsonElement{
+        let kanji_two = Kanji{
             name: String::from("Two"),
             node_type: NodeType::Kanji,
             character: String::from("二"),
@@ -176,19 +134,21 @@ mod tests {
     fn parse_kanji_json_should_return_correct_count_of_kanji(){
         let mut kanji_parser = KanjiParser::new();
 
-        kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+        let kanji_source: KanjiSource
+             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
 
-        assert_eq!(3, kanji_parser.parsed_kanji.len());
+        assert_eq!(3, kanji_source.kanji.len());
     }
 
     #[test]
     fn parse_kanji_json_should_return_expected_result(){
         let mut kanji_parser = KanjiParser::new();
 
-        kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+        let kanji_source: KanjiSource
+             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
 
         let expected_parsed_kanji_json_elements = vec![
-            ParsedKanjiJsonElement{
+            Kanji{
                 name: String::from("One"),
                 node_type: NodeType::Kanji,
                 character: String::from("一"),
@@ -196,7 +156,7 @@ mod tests {
                 stroke_count: 1,
                 parent_names: vec![]
             },
-            ParsedKanjiJsonElement{
+            Kanji{
                 name: String::from("Two"),
                 node_type: NodeType::Kanji,
                 character: String::from("二"),
@@ -204,7 +164,7 @@ mod tests {
                 stroke_count: 2,
                 parent_names: vec![String::from("One")]
             },
-            ParsedKanjiJsonElement{
+            Kanji{
                 name: String::from("Three"),
                 node_type: NodeType::Kanji,
                 character: String::from("三"),
@@ -214,7 +174,7 @@ mod tests {
             }
         ];
 
-        assert_eq!(expected_parsed_kanji_json_elements, kanji_parser.parsed_kanji);
+        assert_eq!(expected_parsed_kanji_json_elements, kanji_source.kanji);
     }
 
 }

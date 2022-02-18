@@ -3,7 +3,7 @@ use serde::Deserialize;
 use super::node_type::NodeType;
 
 #[derive(Deserialize, Debug, PartialEq)]
-pub struct ParsedKanjiJsonElement{
+pub struct Kanji{
     pub name: String,
     pub node_type: NodeType,
     pub character: String,

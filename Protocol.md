@@ -347,6 +347,28 @@
 
   * I now tried around a little bit, and in the end, it turned out to work still differently, but now I got a centered Kanji. Yay! =^,^=
 
+* Okay, so next, I want the Kanji Tree to start working with the data it gets from the `Kanji.json`
+
+  * I'd do well to think of a good way to encapsulate this. After all, it might not always be a `.json` file
+  * Currently, I have in the `lib.rs` a `KanjiParser` class with the following functions:
+    * `parse_kanji_json`
+    * `get_children`
+    * `get_parents`
+    * `get_element`
+  * Those clearly violate the SRP
+  * I think this would be a better structure:
+    * `KanjiParser`
+      * `parse_kanji_json`
+    * `KanjiSource`
+      * `get_children`
+      * `get_parents`
+      * `get_element`
+  * I am a bit concerned with how the tests are going to run when I separate this, and a I am considerably concerned about the trouble that splitting this up into several files is going to cause, but I saved, so at worst I'll just make no progress for a while
+  * As expected, the modularity of rust causes errors again
+    * I now managed to figure them out and fix them with a bit of help from the Rust chat
+  * With that, I now have a separate `KanjiSource` class, and all the tests are still passing too
+  * 
+
 
 
 # ⚓
