@@ -244,21 +244,109 @@
 * Since Iced seems to be pretty popular, I'll have a look at that now
 
   * The documentation for iced is here:
+
     * https://docs.rs/iced/latest/iced/
+
   * Examples for iced are here:
+
     * https://github.com/iced-rs/iced/tree/master/examples
     * These samples include all sorts of cool stuff that might be useful, including a Pokédex which displays random Pokémon entries, complete with pictures
       * I think I'll analyze that one, since it seems to be closely related to what I want to do with my Kanji tree
       * Most notably, I'm pretty certain this one uses different font sizes (and not just pre-programmed font styles)
     * It'll probably be better to start with a smaller sample though
     * The `counter` sample seems pretty minimal
-  * I am working on this now, and making progress, but I am still running into trouble
-  * But I managed to push through, and now built the first working iced app, that does not display my kanji due to an incompatible font, but in a nice, big size
-  * So, I suppose I have to figure out how to make fonts work in this one too
-    * I think the Pokédex sample featured different fonts
-    * ...or not
-    * 
 
-* 
+  * I am working on this now, and making progress, but I am still running into trouble
+
+  * But I managed to push through, and now built the first working iced app, that does not display my kanji due to an incompatible font, but in a nice, big size
+
+  * So, I suppose I have to figure out how to make fonts work in this one too
+
+    * I think the Pokédex sample featured different fonts
+
+    * ...or not
+
+    * This might be helpful though:
+
+      * https://docs.rs/iced/0.1.1/iced/widget/struct.Text.html
+
+      * ````
+        pub fn font(self, font: Font) -> Text
+        [−]
+        Sets the Font of the Text.
+        ````
+
+      * Incredibly, this actually worked
+
+  * Now I got an UI that displays a kanji in an adjustable size
+
+* This is as far as I'm getting today
+
+
+
+# 18-Feb
+
+* Now continuing with this
+
+* Currently, I have a program that displays one Kanji, and in an acceptable size too
+
+* Next, I want to have it front and centered
+
+  * The iced Pokédex sample app already does that, so I should be able to copycat that behavior from there
+
+  * ...somehow that doesn't quite work though
+
+  * In that app, it's written like this:
+
+    * ````
+              Row::new()
+                  .spacing(20)
+                  .align_items(Alignment::Center)
+      ````
+
+  * However, when I try that, I get the following error:
+
+    * ````
+      error[E0433]: failed to resolve: use of undeclared type `Alignment`
+        --> src\app.rs:40:26
+         |
+      40 |             .align_items(Alignment::Center)
+         |                          ^^^^^^^^^ use of undeclared type `Alignment`
+      ````
+
+  * And if I try to import it, I get an error too
+
+    * In the Pokédex app, it's imported like this:
+
+      * ````
+        use iced::{
+            button, futures, image, Alignment, Application, Button, Column, Command,
+            Container, Element, Length, Row, Settings, Text,
+        };
+        ````
+
+    * Meanwhile, I try to import it like this:
+
+      * ````
+        use iced::{Sandbox, Column, Element, Text, Font, Alignment,};
+        ````
+
+      * This is essentially identical
+
+    * However, in my project, I get this error:
+
+      * ````
+        error[E0432]: unresolved import `iced::Alignment`
+         --> src\app.rs:1:50
+          |
+        1 | use iced::{Sandbox, Column, Element, Text, Font, Alignment,};
+          |                                                  ^^^^^^^^^ no `Alignment` in the root
+        ````
+
+    * Since I've had one error like this once before, I now checked whether the `Alignment` class was already released, and as it turns out, this, too, is an unreleased feature
+
+  * I now tried around a little bit, and in the end, it turned out to work still differently, but now I got a centered Kanji. Yay! =^,^=
+
+
 
 # ⚓

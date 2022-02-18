@@ -1,4 +1,4 @@
-use iced::{Sandbox, Column, Element, Text, Font};
+use iced::{Sandbox, Column, Element, Text, Font, Container, Length};
 
 pub struct KanjiTreeApp{
     active_kanji: String,
@@ -35,7 +35,7 @@ impl Sandbox for KanjiTreeApp {
     }
 
     fn view(&mut self) -> Element<Message> {
-        Column::new()
+        let content = Column::new()
             .padding(20)
             .push(
                 Text::new(
@@ -45,7 +45,13 @@ impl Sandbox for KanjiTreeApp {
                     name: "msgothic",
                     bytes: include_bytes!("../fonts/msgothic.ttc")
                 })
-            )
+            );
+
+        Container::new(content)
+            .width(Length::Fill)
+            .height(Length::Fill)
+            .center_x()
+            .center_y()
             .into()
     }
 }
