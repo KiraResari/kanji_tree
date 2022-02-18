@@ -1,5 +1,9 @@
 use iced::{Sandbox, Column, Element, Text, Font, Container, Length};
 
+use crate::{kanji_parser::KanjiParser};
+
+static KANJI_JSON_PATH: &str = "kanji.json";
+
 pub struct KanjiTreeApp{
     active_kanji: String,
 }
@@ -7,7 +11,7 @@ pub struct KanjiTreeApp{
 impl Default for KanjiTreeApp {
     fn default() -> Self {
         Self {
-            active_kanji: String::from("狐"),
+            active_kanji: String::from("Not loaded"),
         }
     }
 }
@@ -15,8 +19,16 @@ impl Default for KanjiTreeApp {
 impl Sandbox for KanjiTreeApp {
     type Message = Message;
 
-    fn new() -> Self {
-        Self::default()
+    fn new() -> KanjiTreeApp {
+        let mut kanji_parser = KanjiParser::new();
+        let kanji_source 
+            = kanji_parser.parse_kanji_json(KANJI_JSON_PATH)
+                .unwrap();
+        let first_kanji = kanji_source.kanji.first();
+        let active_kanji = &first_kanji.unwrap().character;
+        KanjiTreeApp{
+            active_kanji: active_kanji.to_string()
+        }
     }
 
     fn title(&self) -> String {

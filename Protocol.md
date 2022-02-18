@@ -284,7 +284,7 @@
 
 
 
-# 18-Feb
+# 18-Feb-2022
 
 * Now continuing with this
 
@@ -374,7 +374,17 @@
       * Amazingly, I managed to get this working without too much trouble
       * Maybe I'm finally getting the hang of this
   * Anyway, the KanjiTree still doesn't use the imported data just yet, but at the very least I now managed to clean up the data structure to a point that I'm happy with
-  * 
+  * And now, I managed to integrate the `KanjiSource` and `KanjiParser` in a way that the KanjiTree now loads the `kanji.json` on startup, and displays the first Kanji in that file
+  * The way I implemented it now was kinda dirty though, so I still want to clean it up
+  * However, this is still a good place to stop for today
+
+* This is as far as I'm getting today
+
+
+
+TODO:
+
+* Clean up `fn new() -> KanjiTreeApp` in `app.rs`
 
 
 
