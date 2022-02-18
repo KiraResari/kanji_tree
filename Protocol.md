@@ -367,6 +367,13 @@
   * As expected, the modularity of rust causes errors again
     * I now managed to figure them out and fix them with a bit of help from the Rust chat
   * With that, I now have a separate `KanjiSource` class, and all the tests are still passing too
+  * Now, what still bothers me is that the `KanjiParser` class is in the `lib.rs`. I feel like it should be in its own file too
+    * That naturally also poses the problem as to where to place the tests
+      * I think they should be distributed between the `KanjiParser` and the `KanjiSource`
+      * Let's see if I can manage to get that working
+      * Amazingly, I managed to get this working without too much trouble
+      * Maybe I'm finally getting the hang of this
+  * Anyway, the KanjiTree still doesn't use the imported data just yet, but at the very least I now managed to clean up the data structure to a point that I'm happy with
   * 
 
 
