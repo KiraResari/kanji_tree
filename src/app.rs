@@ -5,15 +5,8 @@ use crate::{kanji_parser::KanjiParser};
 static KANJI_JSON_PATH: &str = "kanji.json";
 
 pub struct KanjiTreeApp{
-    active_kanji: String,
-}
-
-impl Default for KanjiTreeApp {
-    fn default() -> Self {
-        Self {
-            active_kanji: String::from("Not loaded"),
-        }
-    }
+    active_kanji_name: String,
+    active_kanji_character: String,
 }
 
 impl Sandbox for KanjiTreeApp {
@@ -24,10 +17,11 @@ impl Sandbox for KanjiTreeApp {
         let kanji_source 
             = kanji_parser.parse_kanji_json(KANJI_JSON_PATH)
                 .unwrap();
-        let first_kanji = kanji_source.kanji.first();
-        let active_kanji = &first_kanji.unwrap().character;
+        let first_kanji_option = kanji_source.kanji.first();
+        let first_kanji = first_kanji_option.unwrap();
         KanjiTreeApp{
-            active_kanji: active_kanji.to_string()
+            active_kanji_name: first_kanji.name.to_string(),
+            active_kanji_character: first_kanji.character.to_string()
         }
     }
 
@@ -51,7 +45,7 @@ impl Sandbox for KanjiTreeApp {
             .padding(20)
             .push(
                 Text::new(
-                    self.active_kanji.to_string()
+                    self.active_kanji_character.to_string()
                 ).size(64)
                 .font(Font::External{
                     name: "msgothic",

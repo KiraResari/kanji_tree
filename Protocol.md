@@ -382,6 +382,91 @@
 
 
 
+# 19-Feb-2022
+
+* Now continuing with this
+
+* Last time I implemented a way to display a Kanji from the `kanji.json` that was kinda dirty
+
+* Now, first thing, I want to clean that up
+
+  * For starters, the functionality for returning the first Kanji belongs in the `KanjiSource`
+
+  * A good and tricky question here is what should happen if the `kanji.json` doesn't contain any Kanji
+
+    * It would be great if this could show an error message and quit the program, but how do I do that?
+    * I feel like I'm getting sidetracked here. I should probably find a solution that I know how to do now and use that
+    * So for now, let's just create a special "error Kanji" that displays the error message instead
+
+  * Now I'm having troubles with lifetimes
+
+    * I want the `KanjiTreeApp` to hold a reference to the currently active Kanji from the `KanjiSource`
+
+    * So I tried this:
+
+      * ````
+        pub struct KanjiTreeApp{
+            active_kanji: &Kanji,
+            kanji_source: KanjiSource
+        }
+        ````
+
+    * But then it complains:
+
+      * ````
+        8 |     active_kanji: &Kanji,
+          |                   ^ expected named lifetime parameter
+        ````
+
+    * So then I tried this:
+
+      * ``````
+        pub struct KanjiTreeApp<'a>{
+            active_kanji: &'a Kanji,
+            kanji_source: KanjiSource
+        }
+        ``````
+
+    * I _think_ I got this to work somehow?
+
+  * But now I have this error:
+
+    * ````
+      error[E0515]: cannot return value referencing local variable `kanji_source`
+        --> src\app.rs:25:9
+         |
+      24 |           let active_kanji = kanji_source.get_first_element();
+         |                              -------------------------------- `kanji_source` is borrowed here
+      25 | /         KanjiTreeApp{
+      26 | |             active_kanji,
+      27 | |             kanji_source
+      28 | |         }
+         | |_________^ returns a value referencing data owned by the current function
+      ````
+
+  * In the end, this amounted to this being a complex logic puzzle related to the lifetimes
+
+  * In the end, I think doing it via IDs is easier
+
+* So, I think everything I did until now was pretty much floundering around
+
+* I'll start again
+
+* Last time I implemented a way to display a Kanji from the `kanji.json` that was kinda dirty
+
+* Now, first thing, I want to clean that up
+
+  * For starters, I only want to pass around the IDs of Kanji
+    * In my case, those are called `name`
+    * I did that now
+  * 
+
+
+
+
+
+
+
 TODO:
 
 * Clean up `fn new() -> KanjiTreeApp` in `app.rs`
