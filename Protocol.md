@@ -459,7 +459,9 @@
   * For starters, I only want to pass around the IDs of Kanji
     * In my case, those are called `name`
     * I did that now
-  * 
+  * Next, I still think the function for getting the first Kanji belongs in the `KanjiSource`
+    * I think I actually managed to do it this time, though I'm not quite happy with just how rust forced me to do it
+    * 
 
 
 

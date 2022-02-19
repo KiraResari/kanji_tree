@@ -9,6 +9,10 @@ pub struct KanjiSource {
 
 impl KanjiSource{
 
+    pub fn new(kanji: Vec<Kanji>) -> KanjiSource{
+        KanjiSource{ kanji }
+    }
+
     pub fn get_children(&self, identifier: &str)
          -> Result<Vec<&Kanji>, Box<dyn Error>>{
         let children: Vec<&Kanji> = self.kanji.iter()
@@ -58,8 +62,20 @@ impl KanjiSource{
         }
     }
 
-    pub fn new(kanji: Vec<Kanji>) -> KanjiSource{
-        KanjiSource{ kanji }
+    pub fn get_first_element(&self)
+        -> Result<&Kanji, std::io::Error>{
+        let first_element_option = self.kanji.first();
+        match first_element_option{
+            Some(v) => Ok(v),
+            None =>{
+                Err(
+                    std::io::Error::new(
+                        ErrorKind::Other,
+                        "Kanji list contains no elements".to_string() 
+                    )
+                )
+            }
+        }
     }
 }
 
@@ -158,6 +174,36 @@ mod tests {
 
     let expected_children = vec![&kanji_one, &kanji_two];
     assert_eq!(children, expected_children);
+    }
+
+    #[test]
+    fn get_first_element_should_return_first_element(){
+        let mut kanji_parser = KanjiParser::new();
+        let kanji_source: KanjiSource
+             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+
+        let element = kanji_source.get_first_element().unwrap();
+
+        let kanji_one = Kanji{
+            name: String::from("One"),
+            node_type: NodeType::Kanji,
+            character: String::from("一"),
+            stroke_arrangement: String::from("Whole"),
+            stroke_count: 1,
+            parent_names: vec![]
+        };
+
+        assert_eq!(element, &kanji_one);
+    }
+
+    #[test]
+    #[should_panic(expected = "Kanji list contains no elements")]
+    fn get_first_element_should_return_error_if_kanji_list_is_empty(){
+        let mut kanji_parser = KanjiParser::new();
+        let kanji_source: KanjiSource
+             = kanji_parser.parse_kanji_json("kanji_test_empty.json").unwrap();
+
+        kanji_source.get_first_element().unwrap();
     }
 
 }

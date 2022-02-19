@@ -1,12 +1,24 @@
 use iced::{Sandbox, Column, Element, Text, Font, Container, Length};
 
-use crate::{kanji_parser::KanjiParser};
+use crate::{kanji_parser::KanjiParser, kanji_source::KanjiSource};
 
 static KANJI_JSON_PATH: &str = "kanji.json";
 
 pub struct KanjiTreeApp{
+    kanji_source: KanjiSource,
     active_kanji_name: String,
     active_kanji_character: String,
+}
+
+impl KanjiTreeApp{
+    fn load_first_kanji(kanji_source: &KanjiSource) -> (String, String){
+        let first_kanji_result
+             = kanji_source.get_first_element();
+        match first_kanji_result{
+            Ok(v) => (v.name.to_string(), v.character.to_string()),
+            Err(e) => (e.to_string(), e.to_string())
+        }
+    }
 }
 
 impl Sandbox for KanjiTreeApp {
@@ -17,11 +29,12 @@ impl Sandbox for KanjiTreeApp {
         let kanji_source 
             = kanji_parser.parse_kanji_json(KANJI_JSON_PATH)
                 .unwrap();
-        let first_kanji_option = kanji_source.kanji.first();
-        let first_kanji = first_kanji_option.unwrap();
+        let (active_kanji_name, active_kanji_character)
+            = KanjiTreeApp::load_first_kanji(&kanji_source);
         KanjiTreeApp{
-            active_kanji_name: first_kanji.name.to_string(),
-            active_kanji_character: first_kanji.character.to_string()
+            kanji_source,
+            active_kanji_name,
+            active_kanji_character
         }
     }
 
