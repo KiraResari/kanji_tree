@@ -1,22 +1,21 @@
 use iced::{Sandbox, Column, Element, Text, Font, Container, Length};
 
-use crate::{kanji_parser::KanjiParser, kanji_source::KanjiSource};
+use crate::{kanji_parser::KanjiParser, kanji_source::KanjiSource, value_objects::Kanji};
 
 static KANJI_JSON_PATH: &str = "kanji.json";
 
 pub struct KanjiTreeApp{
     kanji_source: KanjiSource,
-    active_kanji_name: String,
-    active_kanji_character: String,
+    active_kanji: Kanji,
 }
 
 impl KanjiTreeApp{
-    fn load_first_kanji(kanji_source: &KanjiSource) -> (String, String){
+    fn load_first_kanji(kanji_source: &KanjiSource) -> Kanji{
         let first_kanji_result
              = kanji_source.get_first_element();
         match first_kanji_result{
-            Ok(v) => (v.name.to_string(), v.character.to_string()),
-            Err(e) => (e.to_string(), e.to_string())
+            Ok(v) => v,
+            Err(e) => Kanji::create_error_kanji(&e.to_string())
         }
     }
 }
@@ -29,12 +28,11 @@ impl Sandbox for KanjiTreeApp {
         let kanji_source 
             = kanji_parser.parse_kanji_json(KANJI_JSON_PATH)
                 .unwrap();
-        let (active_kanji_name, active_kanji_character)
+        let active_kanji
             = KanjiTreeApp::load_first_kanji(&kanji_source);
         KanjiTreeApp{
             kanji_source,
-            active_kanji_name,
-            active_kanji_character
+            active_kanji
         }
     }
 
@@ -58,7 +56,7 @@ impl Sandbox for KanjiTreeApp {
             .padding(20)
             .push(
                 Text::new(
-                    self.active_kanji_character.to_string()
+                    self.active_kanji.character.to_string()
                 ).size(64)
                 .font(Font::External{
                     name: "msgothic",

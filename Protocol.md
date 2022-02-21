@@ -461,17 +461,21 @@
     * I did that now
   * Next, I still think the function for getting the first Kanji belongs in the `KanjiSource`
     * I think I actually managed to do it this time, though I'm not quite happy with just how rust forced me to do it
-    * 
+    * Because as it is now, I can see that it will turn into me having a full copy of all the `Kanji` fields in the `KanjiTreeApp` 
+
+* Next, I'll maybe look into copying the Kanji instead, since that's effectively what I'll be doing anyway
+
+* This is as far as I'm getting today
 
 
 
+# 21-Feb-2022
 
+* Now continuing with this
+* I still haven't made any significant progress
+* Anyway, today I wanted to try copying Kanji instead of passing around references
+  * Amazingly, I managed to do this relatively straightforwardly using the `Clone` trait
 
-
-
-TODO:
-
-* Clean up `fn new() -> KanjiTreeApp` in `app.rs`
 
 
 

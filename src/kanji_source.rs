@@ -63,10 +63,10 @@ impl KanjiSource{
     }
 
     pub fn get_first_element(&self)
-        -> Result<&Kanji, std::io::Error>{
+        -> Result<Kanji, std::io::Error>{
         let first_element_option = self.kanji.first();
         match first_element_option{
-            Some(v) => Ok(v),
+            Some(v) => Ok(v.clone()),
             None =>{
                 Err(
                     std::io::Error::new(
