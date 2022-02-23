@@ -13,16 +13,15 @@ impl KanjiSource{
         KanjiSource{ kanji }
     }
 
-    pub fn get_children(&self, identifier: &str)
-         -> Result<Vec<&Kanji>, Box<dyn Error>>{
-        let children: Vec<&Kanji> = self.kanji.iter()
+    pub fn get_children(&self, identifier: &String)
+         -> Vec<Kanji>{
+        self.kanji.iter()
             .filter(
                 |element| element.parent_names.contains(
-                    &String::from(identifier)
+                    identifier
                 )
-            )
-            .collect();
-        Ok(children)
+            ).cloned()
+            .collect()
     }
 
     pub fn get_parents(&self, identifier: &str)
@@ -93,7 +92,9 @@ mod tests {
                  "kanji_test_with_three_kanji.json"
             ).unwrap();
 
-        let children = kanji_source.get_children("One").unwrap();
+        let children = kanji_source.get_children(
+            &"One".to_string()
+        );
 
         let kanji_two = Kanji{
                 name: String::from("Two"),
@@ -112,7 +113,7 @@ mod tests {
                 parent_names: vec![String::from("One"), String::from("Two")]
             };
 
-        let expected_children = vec![&kanji_two, &kanji_three];
+        let expected_children = vec![kanji_two, kanji_three];
         assert_eq!(children, expected_children);
     }
 
@@ -193,7 +194,7 @@ mod tests {
             parent_names: vec![]
         };
 
-        assert_eq!(element, &kanji_one);
+        assert_eq!(element, kanji_one);
     }
 
     #[test]

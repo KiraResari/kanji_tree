@@ -472,10 +472,89 @@
 # 21-Feb-2022
 
 * Now continuing with this
+
 * I still haven't made any significant progress
+
 * Anyway, today I wanted to try copying Kanji instead of passing around references
+
   * Amazingly, I managed to do this relatively straightforwardly using the `Clone` trait
 
+* Okay, so that's a wrap
+
+* Next, let's try implementing some actual functionality
+
+* The ultimate goal for he next phase is that each Kanji displays buttons for its children and parents, and that by clicking on these buttons it's possible to navigate up and down the tree
+
+* But let's be pragmatic here
+
+* First, let's try displaying simple fields that display the children of the first Kanji
+
+  * The first question is, how can I display a variable number of elements here
+
+  * I've managed to get my intent down, but I still get this error:
+
+    * ````
+      error[E0382]: use of moved value: `content`                                                                                                                                    
+        --> src\app.rs:69:13
+         |
+      55 |         let content = Column::new()
+         |             ------- move occurs because `content` has type `iced_native::widget::column::Column<'_, Message, iced_graphics::renderer::Renderer<iced_wgpu::backend::Backend>>`, which does not implement the `Copy` trait
+      ...
+      69 |             content.push(
+         |             ^^^^^^^ value moved here, in previous iteration of loop
+      ````
+
+    * I think I recall coming across this while reading the rust book
+
+  * However, I still won't get to fix this today
+
+* This is as far as I'm getting today
+
+
+
+# 23-Feb-2022
+
+* Now continuing with this
+
+* I am currently trying to get a list of labels displayed, one for each child Kanji
+
+  * Currently, I am getting the following error there:
+
+    * ````
+      error[E0382]: use of moved value: `content`                                                                                                                                    
+        --> src\app.rs:69:13
+         |
+      55 |         let content = Column::new()
+         |             ------- move occurs because `content` has type `iced_native::widget::column::Column<'_, Message, iced_graphics::renderer::Renderer<iced_wgpu::backend::Backend>>`, which does not implement the `Copy` trait
+      ...
+      69 |             content.push(
+         |             ^^^^^^^ value moved here, in previous iteration of loop
+      ````
+
+  * I tried searching for this error, but none of the things that were suggested there seem to work
+
+  * Maybe one of the example projects has a similar situation that I can copycat
+
+  * Someone from the rust chat managed to help me out with this now
+
+  * Turns out I had to make `content` mutable, _and_ re-assign it in the loop, like so:
+
+    * ````
+      		let mut content = Column::new()
+      		[...]
+              for child in children {
+                  content = content.push(                
+                  [...]
+              }
+      ````
+
+  * Now the child Kanji are displayed, below each other, as if in a column, which kinda makes sense since I think we're in a column element
+
+  * I'll try to re-arrange that now
+
+  * I now managed to get the Children Kanji displayed in a satisfactory way
+
+  * Let this be V0-3-0
 
 
 
