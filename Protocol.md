@@ -749,9 +749,28 @@
           fn build_kanji_button_row<'a>(&mut self, kanji_buttons: &'a mut Vec<KanjiButton>) -> Row<'a, Message> 
           ````
 
-      * ...but now, I'm back at the same error again
+      * But then I was back at the same error again
 
-      * 
+      * In the end, after a lot of back and forth, I settled on solving this using static functions like so:
+
+        * ```
+                  Column::new()
+                      .padding(20)
+                      .align_items(Align::Center)
+                      .push(KanjiTreeApp::build_kanji_button_row(&mut self.parent_kanji_buttons))
+                      .push(Text::new( "↓".to_string()))
+                      .push(KanjiTreeApp::build_active_kanji_text(self.active_kanji.clone()))
+                      .push(Text::new( "↓".to_string()))
+                      .push(KanjiTreeApp::build_kanji_button_row(&mut self.child_kanji_buttons))
+          ```
+
+      * That now works, and with "works" I mean I can navigate up and down the Kanji Tree
+
+    * With that, the most basic functionality of the KanjiTree is done!
+
+    * Let this be V1-0-0
+
+
 
 
 
