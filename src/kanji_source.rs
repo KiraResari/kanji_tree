@@ -1,5 +1,5 @@
 
-use std::{error::Error, io::ErrorKind};
+use std::{io::ErrorKind};
 
 use super::value_objects::*;
 
@@ -25,20 +25,20 @@ impl KanjiSource{
     }
 
     pub fn get_parents(&self, identifier: &str)
-        -> Result<Vec<&Kanji>, Box<dyn Error>>{
+        -> Vec<Kanji>{
         let query_element_option = self.kanji.iter()
             .find(|element| element.name == identifier);
         let query_element: &Kanji;
         match query_element_option{
             Some(v) => query_element = v,
-            None => return Ok(vec![])
+            None => return vec![]
         }
-        let parents: Vec<&Kanji> = self.kanji.iter()
+        let parents: Vec<Kanji> = self.kanji.iter()
         .filter(
             |element| query_element.parent_names.contains(&element.name)
-        )
+        ).cloned()
         .collect();
-        Ok(parents)
+        parents
     }
 
     pub fn get_element(&self, identifier: &str)
@@ -153,7 +153,7 @@ mod tests {
         let kanji_source: KanjiSource
              = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
 
-        let children = kanji_source.get_parents("Three").unwrap();
+        let parents = kanji_source.get_parents("Three");
 
         let kanji_one = Kanji{
             name: String::from("One"),
@@ -173,8 +173,8 @@ mod tests {
         };
 
 
-    let expected_children = vec![&kanji_one, &kanji_two];
-    assert_eq!(children, expected_children);
+    let expected_children = vec![kanji_one, kanji_two];
+    assert_eq!(parents, expected_children);
     }
 
     #[test]

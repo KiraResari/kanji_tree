@@ -699,6 +699,60 @@
 
   * I now managed to do that
 
+* So, next, I want the parent Kanji, if any, to be displayed in the form of buttons as well, and while we're at it also make them navigable
+
+  * Basically, this is only stuff that we already did before, so this _should_ be easy, but...
+
+  * ...given how much pain the last set of buttons caused me, I am extremely wary about hidden pitfalls and such
+
+  * As feared, now I am running into weird borrowing errors again:
+
+    * ```
+      error[E0499]: cannot borrow `*self` as mutable more than once at a time
+        --> src\app.rs:58:19
+         |
+      52 |       fn build_main_column(&mut self) -> Column<Message> {
+         |                            - let's call the lifetime of this reference `'1`
+      53 | /         Column::new()
+      54 | |             .padding(20)
+      55 | |             .align_items(Align::Center)
+      56 | |             .push(self.build_parents_row())
+         | |                   ------------------------ first mutable borrow occurs here
+      57 | |             .push(Text::new( "↓".to_string()))
+      58 | |             .push(self.build_active_kanji_text())
+         | |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ second mutable borrow occurs here
+      59 | |             .push(Text::new( "↓".to_string()))
+      60 | |             .push(self.build_children_row())
+         | |____________________________________________- returning this value requires that `*self` is borrowed for `'1`
+      ```
+
+    * I managed to fix this one now by redefining the `build_parents_row` and `build_children_row` buttons to use the same funstion, taking a parameter instead, but now I get this error for it:
+
+      * ````
+        error[E0623]: lifetime mismatch
+          --> src\app.rs:80:9
+           |
+        73 |     fn build_kanji_button_row(&mut self, kanji_buttons: &Vec<KanjiButton>) -> Row<Message> {
+           |                                                         -----------------     ------------
+           |                                                         |
+           |                                                         this parameter and the return type are declared with different lifetimes...
+        ...
+        80 |         children_row
+           |         ^^^^^^^^^^^^ ...but data from `kanji_buttons` is returned here
+        ````
+
+      * Lifetime issues... now there's something I didn't run into yet. Let's see if I can figure that out on my own (Spoiler: No)
+
+      * I now managed to solve this using:
+
+        * ````
+          fn build_kanji_button_row<'a>(&mut self, kanji_buttons: &'a mut Vec<KanjiButton>) -> Row<'a, Message> 
+          ````
+
+      * ...but now, I'm back at the same error again
+
+      * 
+
 
 
 # ⚓
