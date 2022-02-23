@@ -1,4 +1,4 @@
-use iced::{Sandbox, Column, Element, Text, Font, Container, Length, Row, Align};
+use iced::{Sandbox, Column, Element, Text, Font, Container, Length, Row, Align, Button, button::State};
 
 use crate::{kanji_parser::KanjiParser, kanji_source::KanjiSource, value_objects::Kanji};
 
@@ -7,6 +7,7 @@ static KANJI_JSON_PATH: &str = "kanji.json";
 pub struct KanjiTreeApp{
     kanji_source: KanjiSource,
     active_kanji: Kanji,
+    child_kanji_buttons: Vec<KanjiButton>,
 }
 
 impl KanjiTreeApp{
@@ -19,7 +20,22 @@ impl KanjiTreeApp{
         }
     }
 
+    fn build_child_kanji_buttons(
+        active_kanji: &Kanji,
+        kanji_source: &KanjiSource
+    ) -> Vec<KanjiButton>{
+        let mut child_kanji_buttons: Vec<KanjiButton> =  Vec::new();
+        let children 
+            = kanji_source.get_children(&active_kanji.name);
+        for child in children {
+            let kanji_button = KanjiButton::new(child);
+            child_kanji_buttons.push(kanji_button);
+        }
+        child_kanji_buttons
+    }
+
     fn build_main_column(&mut self) -> Column<Message> {
+        
         Column::new()
             .padding(20)
             .align_items(Align::Center)
@@ -39,29 +55,39 @@ impl KanjiTreeApp{
     }
 
     fn build_children_row(&mut self) -> Row<Message> {
-        let children 
-            = self.kanji_source.get_children(&self.active_kanji.name);
         let mut children_row: Row<Message> = Row::new().padding(20);
-        for child in children {
-            children_row = children_row.push(                
-                self.build_child_text(child)
+        for kanji_button in &mut self.child_kanji_buttons {
+            children_row = children_row.push( 
+                kanji_button.view()
             );
         }
         children_row
     }
-
-    fn build_child_text(&mut self, child: Kanji) -> Text {
-        Text::new(
-            child.character.to_string()
-        ).size(32)
-        .font(Font::External{
-            name: "msgothic",
-            bytes: include_bytes!("../fonts/msgothic.ttc")
-        })
-    }
 }
 
+struct KanjiButton{
+    kanji: Kanji,
+    state: State,
+}
 
+impl KanjiButton{
+    pub fn new(kanji: Kanji) -> Self{
+        KanjiButton { kanji: kanji, state: State::new() }
+    }
+
+    pub fn view(&mut self) -> Button<Message> {
+        Button::new(
+            &mut self.state, 
+            Text::new(
+                self.kanji.character.to_string()
+            ).size(32)
+            .font(Font::External{
+                name: "msgothic",
+                bytes: include_bytes!("../fonts/msgothic.ttc")
+            }))
+            .on_press(Message::LoadKanji(self.kanji.clone()))
+    }
+}
 
 impl Sandbox for KanjiTreeApp {
     type Message = Message;
@@ -73,9 +99,12 @@ impl Sandbox for KanjiTreeApp {
                 .unwrap();
         let active_kanji
             = KanjiTreeApp::load_first_kanji(&kanji_source);
+        let child_kanji_buttons 
+            = KanjiTreeApp::build_child_kanji_buttons(&active_kanji, &kanji_source);
         KanjiTreeApp{
             kanji_source,
-            active_kanji
+            active_kanji,
+            child_kanji_buttons,
         }
     }
 
@@ -85,10 +114,7 @@ impl Sandbox for KanjiTreeApp {
 
     fn update(&mut self, message: Message) {
         match message {
-            Message::IncrementPressed => {
-                
-            }
-            Message::DecrementPressed => {
+            Message::LoadKanji(kanji) => {
                 
             }
         }
@@ -108,8 +134,7 @@ impl Sandbox for KanjiTreeApp {
     
 }
 
-#[derive(Debug, Clone, Copy)]
+#[derive(Debug, Clone)]
 pub enum Message {
-    IncrementPressed,
-    DecrementPressed,
+    LoadKanji(Kanji),
 }

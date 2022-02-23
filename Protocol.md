@@ -563,6 +563,92 @@
   * Let's see if rust just lets me do that
   * I now managed to do that, and the result already looks so much nicer and more workable than before
 
+* So, now, the next step is going to be turning the children labels into buttons
+
+  * For this step, I won't expect the buttons to do any logic just yet - I just want to have them displayed 
+
+  * Even if it doesn't need to do anything just yet, a `Button` in iced still requires a `Message` that it can send, so I first have to create this
+
+    * All the Kanji-Buttons - regardless of whether they are Children, Parents or Siblings - should effectively perform the same message: Namely loading the Kanji of the button they are on
+
+    * So that would mean that this would be a `LoadKanjiMessage`, and that the message would have to hold the parameter of the Kanji that it represents
+
+    * That last part seems more tricky, since the basic `iced` tutorial does not cover a use case where a message is passed a parameter, but maybe one of the sample projects has something like that
+
+    * Bingo! The `pane_grid` sample project has something like that, so I can use that as a reference
+
+    * However, that thing with the button state is confusing me
+
+      * I think there needs to be a state variable for each button, but how do I do that when the number of buttons is unknown?
+      * Well, again, I think the `pane_grid` sample does something like this, I just need to figure out how it does that
+      * I tried a bunch of things now, but no matter what I try, the button state just trips me up
+      * And the `pane_grid` sample is too messy to be any help here
+      * Maybe I need to try another approach here
+      * Basically, I want a state to be created for each button that is created
+      * I don't know what I did differently now, but now the thing with the state seems to work
+
+    * However, instead, I now get this weird error:
+
+      * ````
+        error[E0277]: the trait bound `iced_native::element::Element<'_, _, iced_graphics::renderer::Renderer<iced_wgpu::backend::Backend>>: From<&iced_native::widget::text::Text<iced_graphics::renderer::Renderer<iced_wgpu::backend::Backend>>>` is not satisfied
+          --> src\app.rs:64:9
+           |
+        64 |         Button::new(&mut State::new(), &self.build_child_text(child.clone()))
+           |         ^^^^^^^^^^^ the trait `From<&iced_native::widget::text::Text<iced_graphics::renderer::Renderer<iced_wgpu::backend::Backend>>>` is not implemented for `iced_native::element::Element<'_, _, iced_graphics::renderer::Renderer<iced_wgpu::backend::Backend>>`
+           |
+           = help: the following implementations were found:
+                     <iced_native::element::Element<'a, Message, Renderer> as From<Image>>
+                     <iced_native::element::Element<'a, Message, Renderer> as From<Svg>>
+                     <iced_native::element::Element<'a, Message, Renderer> as From<Viewer<'a>>>
+                     <iced_native::element::Element<'a, Message, Renderer> as From<iced::Space>>
+                   and 14 others
+           = note: required because of the requirements on the impl of `Into<iced_native::element::Element<'_, _, iced_graphics::renderer::Renderer<iced_wgpu::backend::Backend>>>` for `&iced_native::widget::text::Text<iced_graphics::renderer::Renderer<iced_wgpu::backend::Backend>>`
+        note: required by `iced_native::widget::button::Button::<'a, Message, Renderer>::new`
+          --> C:\Users\Kira Recover\.cargo\registry\src\github.com-1ecc6299db9ec823\iced_native-0.4.0\src\widget\button.rs:51:5
+           |
+        51 | /     pub fn new<E>(state: &'a mut State, content: E) -> Self
+        52 | |     where
+        53 | |         E: Into<Element<'a, Message, Renderer>>,
+           | |________________________________________________^
+        ````
+
+    * Or possibly also this:
+
+      * ````
+        error[E0499]: cannot borrow `*self` as mutable more than once at a time
+          --> src\app.rs:47:17
+           |
+        41 |     fn build_children_row(&mut self) -> Row<Message> {
+           |                           - let's call the lifetime of this reference `'1`
+        ...
+        47 |                 self.build_child_button(child)
+           |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ `*self` was mutably borrowed here in the previous iteration of the loop
+        ...
+        50 |         children_row
+           |         ------------ returning this value requires that `*self` is borrowed for `'1`
+        ````
+
+      * Someone suggested to use `\#![deny(elided_lifetimes_in_paths)]` at the top of the crate root against **that**
+
+    * I collapsed the function down to one big super-function now again, which got rid of most of these errors, but I still have this one:
+
+      * ````
+        error[E0515]: cannot return value referencing temporary value
+          --> src\app.rs:59:9
+           |
+        48 |                     &mut State::new(), 
+           |                          ------------ temporary value created here
+        ...
+        59 |         children_row
+           |         ^^^^^^^^^^^^ returns a value referencing data owned by the current function
+        ````
+
+    * I am beginning to get an inkling of an idea, that the Buttons should be their own structs (which is silly really), but it seems like the reason why it works in the `pane_grid` sample _seems_ to be something like this
+
+    * However, the `pane_grid` sample is clearly to convoluted for me to understand, so maybe I'll have a look at some of the other samples, to see if there's a sample that does what I'm looking for (a variable number of buttons) in a simpler way
+
+      * The `download_progress` sample project also dynamically adds new buttons
+
 
 
 # ⚓
