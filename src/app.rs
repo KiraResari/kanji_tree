@@ -115,7 +115,12 @@ impl Sandbox for KanjiTreeApp {
     fn update(&mut self, message: Message) {
         match message {
             Message::LoadKanji(kanji) => {
-                
+                self.active_kanji = kanji;
+                self.child_kanji_buttons 
+                    = KanjiTreeApp::build_child_kanji_buttons(
+                        &self.active_kanji, 
+                        &self.kanji_source
+                    );
             }
         }
     }

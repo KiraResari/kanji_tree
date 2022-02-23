@@ -649,6 +649,47 @@
 
       * The `download_progress` sample project also dynamically adds new buttons
 
+    * I _think_ I have something figured out that should work now, but I still get this error:
+
+      * ``````
+        error[E0515]: cannot return value referencing temporary value
+          --> src\app.rs:50:9
+           |
+        47 |                 KanjiButton::new(child).view()
+           |                 ----------------------- temporary value created here
+        ...
+        50 |         children_row
+           |         ^^^^^^^^^^^^ returns a value referencing data owned by the current function
+        ``````
+
+    * Okay, so now I've tried a whole bunch of things, chatted with the people from the rust beginner's chat for hours, tried more things, lay down on the couch a couple of times, and I think now I am slowly starting to get a grasp on the whole situation
+
+    * The bottom line is that the iteration in it's current form is not at the right place
+
+    * The KanjiButtons need to be created independently of their use, and then called when needed
+
+      * What would be a good place to call them from?
+      * Let me try to put them into the `KanjiTreeApp` class, which would mean that they need to be in the constructor
+
+    * Breakthrough!
+
+    * We won!
+
+* Okay, so that was a handful
+
+* And at the same time, it fully validated my "baby steps" approach here
+
+* Aka, I _knew_ that the buttons would not be straightforward, for whatever stupid reasons
+
+* And now, we're facing the thing that I'm _really_ worried about
+
+* As is, the buttons are there, clickable, but nothing happens when you click them
+
+* Next, I want the Kanji represented by the button that is clicked to be loaded as the active Kanji
+
+  * This, once again, bears the potential for unending grief and misery
+  * 
+
 
 
 # ⚓
