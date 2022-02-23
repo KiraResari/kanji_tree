@@ -20,37 +20,48 @@ impl KanjiTreeApp{
     }
 
     fn build_main_column(&mut self) -> Column<Message> {
-        let mut main_column = Column::new()
+        Column::new()
             .padding(20)
             .align_items(Align::Center)
-            .push(
-                Text::new(
-                    self.active_kanji.character.to_string()
-                ).size(64)
-                .font(Font::External{
-                    name: "msgothic",
-                    bytes: include_bytes!("../fonts/msgothic.ttc")
-                })
-            );
+            .push(self.build_active_kanji_text())
+            .push(Text::new( "↓".to_string()))
+            .push(self.build_children_row())
+    }
+
+    fn build_active_kanji_text(&mut self) -> Text {
+        Text::new(
+            self.active_kanji.character.to_string()
+        ).size(64)
+        .font(Font::External{
+            name: "msgothic",
+            bytes: include_bytes!("../fonts/msgothic.ttc")
+        })
+    }
+
+    fn build_children_row(&mut self) -> Row<Message> {
         let children 
             = self.kanji_source.get_children(&self.active_kanji.name);
-        main_column = main_column.push(Text::new( "Children".to_string()));
         let mut children_row: Row<Message> = Row::new().padding(20);
         for child in children {
             children_row = children_row.push(                
-                Text::new(
-                    child.character.to_string()
-                ).size(32)
-                .font(Font::External{
-                    name: "msgothic",
-                    bytes: include_bytes!("../fonts/msgothic.ttc")
-                })
+                self.build_child_text(child)
             );
         }
-        main_column = main_column.push(children_row);
-        main_column
+        children_row
+    }
+
+    fn build_child_text(&mut self, child: Kanji) -> Text {
+        Text::new(
+            child.character.to_string()
+        ).size(32)
+        .font(Font::External{
+            name: "msgothic",
+            bytes: include_bytes!("../fonts/msgothic.ttc")
+        })
     }
 }
+
+
 
 impl Sandbox for KanjiTreeApp {
     type Message = Message;

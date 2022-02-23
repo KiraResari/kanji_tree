@@ -561,7 +561,7 @@
   * Right now, the `view` method of the `app.rs` is getting a little long
   * I want to break it down into smaller components, like, a component for each display element and group or so
   * Let's see if rust just lets me do that
-  * 
+  * I now managed to do that, and the result already looks so much nicer and more workable than before
 
 
 
