@@ -18,6 +18,38 @@ impl KanjiTreeApp{
             Err(e) => Kanji::create_error_kanji(&e.to_string())
         }
     }
+
+    fn build_main_column(&mut self) -> Column<Message> {
+        let mut main_column = Column::new()
+            .padding(20)
+            .align_items(Align::Center)
+            .push(
+                Text::new(
+                    self.active_kanji.character.to_string()
+                ).size(64)
+                .font(Font::External{
+                    name: "msgothic",
+                    bytes: include_bytes!("../fonts/msgothic.ttc")
+                })
+            );
+        let children 
+            = self.kanji_source.get_children(&self.active_kanji.name);
+        main_column = main_column.push(Text::new( "Children".to_string()));
+        let mut children_row: Row<Message> = Row::new().padding(20);
+        for child in children {
+            children_row = children_row.push(                
+                Text::new(
+                    child.character.to_string()
+                ).size(32)
+                .font(Font::External{
+                    name: "msgothic",
+                    bytes: include_bytes!("../fonts/msgothic.ttc")
+                })
+            );
+        }
+        main_column = main_column.push(children_row);
+        main_column
+    }
 }
 
 impl Sandbox for KanjiTreeApp {
@@ -52,35 +84,7 @@ impl Sandbox for KanjiTreeApp {
     }
 
     fn view(&mut self) -> Element<Message> {
-        let mut main_column = Column::new()
-            .padding(20)
-            .align_items(Align::Center)
-            .push(
-                Text::new(
-                    self.active_kanji.character.to_string()
-                ).size(64)
-                .font(Font::External{
-                    name: "msgothic",
-                    bytes: include_bytes!("../fonts/msgothic.ttc")
-                })
-            );
-        let children 
-            = self.kanji_source.get_children(&self.active_kanji.name);
-        main_column = main_column.push(Text::new( "Children".to_string()));
-        let mut children_row: Row<Message> = Row::new().padding(20);
-        for child in children {
-            children_row = children_row.push(                
-                Text::new(
-                    child.character.to_string()
-                ).size(32)
-                .font(Font::External{
-                    name: "msgothic",
-                    bytes: include_bytes!("../fonts/msgothic.ttc")
-                })
-            );
-        }
-        main_column = main_column.push(children_row);
-
+        let main_column = self.build_main_column();
 
         Container::new(main_column)
             .width(Length::Fill)
@@ -89,6 +93,8 @@ impl Sandbox for KanjiTreeApp {
             .center_y()
             .into()
     }
+
+    
 }
 
 #[derive(Debug, Clone, Copy)]

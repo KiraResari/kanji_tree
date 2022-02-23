@@ -556,6 +556,13 @@
 
   * Let this be V0-3-0
 
+* Next, I want to clean this up a little bit
+
+  * Right now, the `view` method of the `app.rs` is getting a little long
+  * I want to break it down into smaller components, like, a component for each display element and group or so
+  * Let's see if rust just lets me do that
+  * 
+
 
 
 # ⚓
