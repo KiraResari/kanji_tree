@@ -697,7 +697,7 @@
 
 * For one, it bothers me that the `app.rs` by now also holds the struct `KanjiButton` and the enum `Message`, so I want to try and get them out of there somehow
 
-* 
+  * I now managed to do that
 
 
 

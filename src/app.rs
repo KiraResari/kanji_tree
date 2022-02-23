@@ -1,6 +1,6 @@
 use iced::{Sandbox, Column, Element, Text, Font, Container, Length, Row, Align, Button, button::State};
 
-use crate::{kanji_parser::KanjiParser, kanji_source::KanjiSource, value_objects::Kanji, message::Message};
+use crate::{kanji_parser::KanjiParser, kanji_source::KanjiSource, value_objects::Kanji, message::Message, kanji_button::KanjiButton};
 
 static KANJI_JSON_PATH: &str = "kanji.json";
 
@@ -73,30 +73,6 @@ impl KanjiTreeApp{
     }
 }
 
-struct KanjiButton{
-    kanji: Kanji,
-    state: State,
-}
-
-impl KanjiButton{
-    pub fn new(kanji: Kanji) -> Self{
-        KanjiButton { kanji: kanji, state: State::new() }
-    }
-
-    pub fn view(&mut self) -> Button<Message> {
-        Button::new(
-            &mut self.state, 
-            Text::new(
-                self.kanji.character.to_string()
-            ).size(32)
-            .font(Font::External{
-                name: "msgothic",
-                bytes: include_bytes!("../fonts/msgothic.ttc")
-            }))
-            .on_press(Message::LoadKanji(self.kanji.clone()))
-    }
-}
-
 impl Sandbox for KanjiTreeApp {
     type Message = Message;
 
@@ -138,7 +114,5 @@ impl Sandbox for KanjiTreeApp {
             .center_x()
             .center_y()
             .into()
-    }
-
-    
+    }   
 }
