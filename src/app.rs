@@ -63,6 +63,14 @@ impl KanjiTreeApp{
         }
         children_row
     }
+
+    fn update_kanji_buttons(&mut self){
+        self.child_kanji_buttons 
+            = KanjiTreeApp::build_child_kanji_buttons(
+                &self.active_kanji, 
+                &self.kanji_source
+            );
+    }
 }
 
 struct KanjiButton{
@@ -116,11 +124,7 @@ impl Sandbox for KanjiTreeApp {
         match message {
             Message::LoadKanji(kanji) => {
                 self.active_kanji = kanji;
-                self.child_kanji_buttons 
-                    = KanjiTreeApp::build_child_kanji_buttons(
-                        &self.active_kanji, 
-                        &self.kanji_source
-                    );
+                self.update_kanji_buttons();
             }
         }
     }

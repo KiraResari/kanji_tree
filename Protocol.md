@@ -688,6 +688,7 @@
 * Next, I want the Kanji represented by the button that is clicked to be loaded as the active Kanji
 
   * This, once again, bears the potential for unending grief and misery
+  * ...and just to prove me wrong, this one turned out to be no problem at all, and worked pretty much exactly as I had hoped it would
   * 
 
 
