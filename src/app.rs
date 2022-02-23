@@ -1,6 +1,6 @@
 use iced::{Sandbox, Column, Element, Text, Font, Container, Length, Row, Align, Button, button::State};
 
-use crate::{kanji_parser::KanjiParser, kanji_source::KanjiSource, value_objects::Kanji};
+use crate::{kanji_parser::KanjiParser, kanji_source::KanjiSource, value_objects::Kanji, message::Message};
 
 static KANJI_JSON_PATH: &str = "kanji.json";
 
@@ -141,9 +141,4 @@ impl Sandbox for KanjiTreeApp {
     }
 
     
-}
-
-#[derive(Debug, Clone)]
-pub enum Message {
-    LoadKanji(Kanji),
 }

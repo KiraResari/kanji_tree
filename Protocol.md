@@ -689,7 +689,15 @@
 
   * This, once again, bears the potential for unending grief and misery
   * ...and just to prove me wrong, this one turned out to be no problem at all, and worked pretty much exactly as I had hoped it would
-  * 
+  * Let us call this V0-4-0
+
+* Now, there's just one last thing to be done before I can call it V1-0-0, and that is implementing the capability to traverse back upwards the Kanji Tree
+
+* Before I do that, however, I want to do a little bit more cleanup
+
+* For one, it bothers me that the `app.rs` by now also holds the struct `KanjiButton` and the enum `Message`, so I want to try and get them out of there somehow
+
+* 
 
 
 
