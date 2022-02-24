@@ -21,5 +21,60 @@
 		"stroke_arrangement": "3H",
 		"stroke_count": 3,
 		"parent_names":["One", "Two"]	
+	},
+	{
+		"name": "Ten",
+		"node_type": "Kanji",
+		"character": "十",
+		"stroke_arrangement": "Whole",
+		"stroke_count": 2,
+		"parent_names":["One", "R2_Line"]	
+	},
+	{
+		"name": "Up",
+		"node_type": "Kanji",
+		"character": "上",
+		"stroke_arrangement": "Whole",
+		"stroke_count": 3,
+		"parent_names":["One", "R2_Line"]	
+	},
+	{
+		"name": "Soil",
+		"node_type": "Kanji",
+		"character": "土",
+		"stroke_arrangement": "Whole",
+		"stroke_count": 3,
+		"parent_names":["Two", "R2_Line"]	
+	},
+	{
+		"name": "King",
+		"node_type": "Kanji",
+		"character": "王",
+		"stroke_arrangement": "Whole",
+		"stroke_count": 4,
+		"parent_names":["Three", "R2_Line"]	
+	},
+	{
+		"name": "Stop",
+		"node_type": "Kanji",
+		"character": "止",
+		"stroke_arrangement": "Whole",
+		"stroke_count": 4,
+		"parent_names":["Up", "R2_Line"]	
+	},
+	{
+		"name": "Correct",
+		"node_type": "Kanji",
+		"character": "正",
+		"stroke_arrangement": "Whole",
+		"stroke_count": 5,
+		"parent_names":["One", "Stop"]	
+	},
+	{
+		"name": "R2_Line",
+		"node_type": "Radical",
+		"character": "丨",
+		"stroke_arrangement": "Whole",
+		"stroke_count": 1
 	}
 ]

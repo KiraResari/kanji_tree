@@ -541,7 +541,7 @@
 
     * ````
       		let mut content = Column::new()
-      		[...]
+        		[...]
               for child in children {
                   content = content.push(                
                   [...]
@@ -770,7 +770,47 @@
 
     * Let this be V1-0-0
 
+* That is a good place to stop for today
 
+
+
+# 24-Feb-2022
+
+* Now continuing with this
+* For starters, I want to add additional Kanji to the `kanji.json` and see how fast we hit limitations
+  * Most notably, I'll very quickly have to add radicals in order to add new origin points
+  * For starters, I'll try adding the Radical "｜" and the Kanji "十" and see what happens
+  * Looks like this works nicely, though for now, Kanji and Radicals are indiscernible in the Kanji Tree
+  * Also, a lot of "Metadata" about the Kanji is still not being displayed
+  * I should work on that eventually
+  * In fact, that might make for a nice next step
+  * However, first, I want to add just a few more characters to the Kanji Tree
+  * While doing this, I came across a bit of a dilemma:
+    * Like, what are the parents of 正?
+    * I initially defined 正 as 一 + 二 + 丨
+    * However, then I realized that 正 is pretty much just a 止 with a 一 on top
+    * So it could more easily be described as: 正 = 止 + 一
+    * But which one is correct?
+    * I need a definition for that which I can adhere to for this project
+    * I'll come up with the definition now
+
+## Definition of how to determine parents of a Kanji
+
+* A Kanji's parents **must** contain all the strokes in the Kanji
+* A Kanji should have as few parents as possible
+  * If there are multiple options to write a Kanji with equally few parents, then the option that combines the most complex parent with one or more simple parents should be used
+* A Kanji that consists of two of the same parent should only list that parent once 
+  * e.g.: 林 has just one parent: 木
+  * In case of double->triple Kanji, the triple Kanji should be assigned the single and double parents if the arrangement fits
+    * e.g.: 
+      * 森 has the parents 木 and 林
+      * But 晶 has only one parent: 日, because the double of 日 (昌 has one parent: 日) is vertical in arrangement, but 晶 has the two lower 日 (which form a unit) next to each other, and there is no kanji that features two 日 next to each other which could server as a component
+
+
+
+* Anyway, I now added a bunch of Kanji to the `kanji.json`, and the Kanji Tree still works nicely
+
+  * More notably, since the `kanji.json` is only imported at runtime, no recompilation is necessary, so this works nice and quickly
 
 
 
