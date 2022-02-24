@@ -811,6 +811,11 @@
 * Anyway, I now added a bunch of Kanji to the `kanji.json`, and the Kanji Tree still works nicely
 
   * More notably, since the `kanji.json` is only imported at runtime, no recompilation is necessary, so this works nice and quickly
+* Okay, so for the next part, displaying the metadata of the Kanji
+  * Now, the good part is that I already nicely encapsulated the part where the active Kanji itself is being rendered, so I should be able to extend that with relative ease
+  * Of course, I am still highly apprehensive about rusts quirks and fully expect it to throw me exciting new errors when I try this
+  * Actually, I think I'll try to create an ActiveKanjiPanel object here, since I already managed to create a custom element with the `KanjiButton`, and doing so will keep my code a bit cleaner
+
 
 
 

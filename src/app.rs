@@ -1,10 +1,8 @@
-use iced::{Sandbox, Column, Element, Text, Font, Container, Length, Row, Align};
+use iced::{Sandbox, Column, Element, Text, Container, Length, Row, Align};
 
-use crate::{kanji_parser::KanjiParser, kanji_source::KanjiSource, value_objects::Kanji, message::Message, kanji_button::KanjiButton};
+use crate::{kanji_parser::KanjiParser, kanji_source::KanjiSource, value_objects::Kanji, message::Message, kanji_button::KanjiButton, kanji_panel::KanjiPanel};
 
 static KANJI_JSON_PATH: &str = "kanji.json";
-
-
 
 pub struct KanjiTreeApp{
     kanji_source: KanjiSource,
@@ -58,19 +56,9 @@ impl KanjiTreeApp{
             .align_items(Align::Center)
             .push(KanjiTreeApp::build_kanji_button_row(&mut self.parent_kanji_buttons))
             .push(Text::new( "↓".to_string()))
-            .push(KanjiTreeApp::build_active_kanji_text(self.active_kanji.clone()))
+            .push(KanjiPanel::from(self.active_kanji.clone()))
             .push(Text::new( "↓".to_string()))
             .push(KanjiTreeApp::build_kanji_button_row(&mut self.child_kanji_buttons))
-    }
-
-    fn build_active_kanji_text(active_kanji: Kanji) -> Text {
-        Text::new(
-            active_kanji.character.to_string()
-        ).size(64)
-        .font(Font::External{
-            name: "msgothic",
-            bytes: include_bytes!("../fonts/msgothic.ttc")
-        })
     }
 
     fn build_kanji_button_row<'a>(kanji_buttons: &'a mut Vec<KanjiButton>) -> Row<'a, Message> {

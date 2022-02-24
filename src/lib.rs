@@ -5,3 +5,4 @@ mod kanji_source;
 mod kanji_parser; 
 mod message;
 mod kanji_button;
+mod kanji_panel;
