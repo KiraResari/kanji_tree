@@ -815,6 +815,8 @@
   * Now, the good part is that I already nicely encapsulated the part where the active Kanji itself is being rendered, so I should be able to extend that with relative ease
   * Of course, I am still highly apprehensive about rusts quirks and fully expect it to throw me exciting new errors when I try this
   * Actually, I think I'll try to create an ActiveKanjiPanel object here, since I already managed to create a custom element with the `KanjiButton`, and doing so will keep my code a bit cleaner
+  * I now did that, and now the Kanji Tree displays the name, type, stroke count and stroke arrangement nicely
+  * The alignment is still inconsistent, but that is a cosmetic feature that I can take care of later
 
 
 

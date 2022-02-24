@@ -1,4 +1,4 @@
-use iced::{Text, Font, Column, Align};
+use iced::{Text, Font, Column, Align, Row};
 
 use crate::{value_objects::Kanji, message::Message};
 
@@ -6,12 +6,22 @@ pub struct KanjiPanel{
 }
 
 impl KanjiPanel{
-    pub fn from(kanji: Kanji) -> Column<'static, Message>{
+    pub fn from(kanji: Kanji) -> Row<'static, Message>{
+        Row::new()
+            .padding(20)
+            .align_items(Align::Center)
+            .push(Text::new(kanji.stroke_count.to_string()))
+            .push(KanjiPanel::build_kanji_column(kanji.clone()))
+            .push(Text::new(kanji.stroke_arrangement.to_string()))
+    }
+
+    fn build_kanji_column(kanji: Kanji) -> Column<'static, Message>{
         Column::new()
             .padding(20)
             .align_items(Align::Center)
-            .push(Text::new(kanji.node_type.to_string()))
+            .push(Text::new(kanji.name.to_string()))
             .push(KanjiPanel::build_kanji_character(kanji.character))
+            .push(Text::new(kanji.node_type.to_string()))
     }
 
     fn build_kanji_character(character: String) -> Text {
