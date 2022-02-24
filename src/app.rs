@@ -56,7 +56,7 @@ impl KanjiTreeApp{
             .align_items(Align::Center)
             .push(KanjiTreeApp::build_kanji_button_row(&mut self.parent_kanji_buttons))
             .push(Text::new( "↓".to_string()))
-            .push(KanjiPanel::from(self.active_kanji.clone()))
+            .push(KanjiPanel::from(&self.active_kanji))
             .push(Text::new( "↓".to_string()))
             .push(KanjiTreeApp::build_kanji_button_row(&mut self.child_kanji_buttons))
     }

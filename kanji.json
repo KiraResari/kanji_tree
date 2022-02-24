@@ -28,7 +28,7 @@
 		"character": "十",
 		"stroke_arrangement": "Whole",
 		"stroke_count": 2,
-		"parent_names":["One", "R2_Line"]	
+		"parent_names":["One", "[R2] Line"]	
 	},
 	{
 		"name": "Up",
@@ -36,7 +36,7 @@
 		"character": "上",
 		"stroke_arrangement": "Whole",
 		"stroke_count": 3,
-		"parent_names":["One", "R2_Line"]	
+		"parent_names":["One", "[R2] Line"]	
 	},
 	{
 		"name": "Soil",
@@ -44,7 +44,7 @@
 		"character": "土",
 		"stroke_arrangement": "Whole",
 		"stroke_count": 3,
-		"parent_names":["Two", "R2_Line"]	
+		"parent_names":["Two", "[R2] Line"]	
 	},
 	{
 		"name": "King",
@@ -52,7 +52,7 @@
 		"character": "王",
 		"stroke_arrangement": "Whole",
 		"stroke_count": 4,
-		"parent_names":["Three", "R2_Line"]	
+		"parent_names":["Three", "[R2] Line"]	
 	},
 	{
 		"name": "Stop",
@@ -60,7 +60,7 @@
 		"character": "止",
 		"stroke_arrangement": "Whole",
 		"stroke_count": 4,
-		"parent_names":["Up", "R2_Line"]	
+		"parent_names":["Up", "[R2] Line"]	
 	},
 	{
 		"name": "Correct",
@@ -71,7 +71,7 @@
 		"parent_names":["One", "Stop"]	
 	},
 	{
-		"name": "R2_Line",
+		"name": "[R2] Line",
 		"node_type": "Radical",
 		"character": "丨",
 		"stroke_arrangement": "Whole",

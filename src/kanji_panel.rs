@@ -6,21 +6,21 @@ pub struct KanjiPanel{
 }
 
 impl KanjiPanel{
-    pub fn from(kanji: Kanji) -> Row<'static, Message>{
+    pub fn from(kanji: &Kanji) -> Row<Message>{
         Row::new()
             .padding(20)
             .align_items(Align::Center)
             .push(Text::new(kanji.stroke_count.to_string()))
-            .push(KanjiPanel::build_kanji_column(kanji.clone()))
+            .push(KanjiPanel::build_kanji_column(kanji))
             .push(Text::new(kanji.stroke_arrangement.to_string()))
     }
 
-    fn build_kanji_column(kanji: Kanji) -> Column<'static, Message>{
+    fn build_kanji_column(kanji: &Kanji) -> Column<Message>{
         Column::new()
             .padding(20)
             .align_items(Align::Center)
             .push(Text::new(kanji.name.to_string()))
-            .push(KanjiPanel::build_kanji_character(kanji.character))
+            .push(KanjiPanel::build_kanji_character(kanji.character.clone()))
             .push(Text::new(kanji.node_type.to_string()))
     }
 
