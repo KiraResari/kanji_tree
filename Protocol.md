@@ -937,6 +937,7 @@
   * I now also added a style for radicals, and also moved the styles into the `node_Type.rs` so I can use the same enum for node types and formats specific to them 
   * And while I'm at it, let's see if I can use that same logic to color the buttons too
     * SUCCESS: This now works too
+  * Let this be V1-1-0
 
 
 
