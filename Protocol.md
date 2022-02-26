@@ -811,16 +811,141 @@
 * Anyway, I now added a bunch of Kanji to the `kanji.json`, and the Kanji Tree still works nicely
 
   * More notably, since the `kanji.json` is only imported at runtime, no recompilation is necessary, so this works nice and quickly
+  
 * Okay, so for the next part, displaying the metadata of the Kanji
+
   * Now, the good part is that I already nicely encapsulated the part where the active Kanji itself is being rendered, so I should be able to extend that with relative ease
+
   * Of course, I am still highly apprehensive about rusts quirks and fully expect it to throw me exciting new errors when I try this
+
   * Actually, I think I'll try to create an `KanjiPanel` object here, since I already managed to create a custom element with the `KanjiButton`, and doing so will keep my code a bit cleaner
+
   * I now did that, and now the Kanji Tree displays the name, type, stroke count and stroke arrangement nicely
+
   * The alignment is still inconsistent, but that is a cosmetic feature that I can take care of later
+
   * However, what still bothers me with the solution that I currently have is that I need to declare the `KanjiPanel` with a `'static` lifetime. I figure that should be avoided
+
     * I'll now try to restructure the code in such a way that the lifetime of the `KanjiPanel` can be correctly elided
     * I now managed to do that by passing references to the functions instead of clones
 
+  * Looking good so far
+
+  * Now, as a Coup de Grace for today, I want to try if I can add such things as an outline and a color to the `KanjiPanel`
+
+  *  The `color_palette` sample project of `iced` might help with this
+
+    * Actually, that one is kinda complicated
+
+  * The `pane_grid` also has something like that
+
+    * That has something like this which _may_ be what I'm looking for:
+
+      * ````
+            impl container::StyleSheet for Pane {
+                fn style(&self) -> container::Style {
+                    container::Style {
+                        background: Some(Background::Color(SURFACE)),
+                        border_width: 2.0,
+                        border_color: match self {
+                            Self::Active => Color::from_rgb(0.7, 0.7, 0.7),
+                            Self::Focused => Color::BLACK,
+                        },
+                        ..Default::default()
+                    }
+                }
+            }
+        ````
+
+  * And the `styling` sample project also seems kinda relevant for this
+
+  * Anyway, I am making progress, but once again, the styling seems more complicated, so I'll need more time for this than I have today
+
+* This is as far as I'm getting with this today
+
+
+
+# 25-Feb-2022
+
+* I don't have a lot of time today, so I don't think I'll be making any progress with what I'm stuck at, but let's try
+
+* I am currently trying to apply a style to the `KanjiPanel`
+
+  * To do so, I am trying to use the `container::Style` struct, and the `.style` method of the `Container`
+
+  * That, however, results in the following error:
+
+    * ````
+      error[E0283]: type annotations needed
+        --> src\kanji_panel.rs:26:11
+         |
+      26 |         ).style(style.into())
+         |           ^^^^^ ------------ this method call resolves to `T`
+         |           |
+         |           cannot infer type for type parameter `impl Into<Renderer::Style>` declared on the associated function `style`
+         |
+         = note: cannot satisfy `_: Into<Box<(dyn iced::container::StyleSheet + 'static)>>`
+      ````
+
+  * Turns out the problem here was the `.into()`, which "falsified" the error
+
+  * After removing the `into()`, I got the actual error, which is:
+
+    * ````
+      error[E0277]: the trait bound `&iced::container::Style: From<&iced::container::Style>` is not satisfied
+        --> src\kanji_panel.rs:26:17
+         |
+      26 |         ).style(&style)
+         |           ----- ^^^^^^ the trait `iced::container::StyleSheet` is not implemented for `&iced::container::Style`
+         |           |
+         |           required by a bound introduced by this call
+         |
+         = note: required because of the requirements on the impl of `From<&iced::container::Style>` for `Box<(dyn iced::container::StyleSheet + 'static)>`
+         = note: required because of the requirements on the impl of `Into<Box<(dyn iced::container::StyleSheet + 'static)>>` for `&iced::container::Style`
+      ````
+
+  * I now posted this discussion about this:
+
+    * https://github.com/iced-rs/iced/discussions/1266
+
+* This is as far as I'm getting today
+
+
+
+# 26-Feb-2022
+
+* Now, It's judgement day for this project
+* Two weeks ago I started full-on development on the Rust Kanji Tree
+* Since then, I managed to put about  25 hours of work time into this, most of which were spent frantically trying to figure out things that are easy in other programming languages, _including_ Delphi
+* It has not been a pleasant experience
+* In Java or C#, and probably even Delphi, I would have had a fully functional and probably even nice-looking Kanji Tree by now
+* In Rust, I am nowhere near as far as I wanted to be at this point
+* Today, I wanted to be at a stage where I could insert the new Kanji I learnt today, but that is as of yet not possible
+* _However_, that stage is also not far off
+* And while programming in Rust has not been enjoyable, at the very least it was educational
+* And so, I now make the choice to continue programming the Kanji Tree in Rust, but also will make a note to never again start a personal project in this language
+* So, now continuing with this
+* I am _still_ trying to figure out how to make a colored, box-like element using iced
+  * Last time, I wrote a help request about this on the iced forum
+    * https://github.com/iced-rs/iced/discussions/1266
+  * And a amazingly, I even got a helpful answer
+    * "Basically your style needs to implement ‘From’ for each widget you want  to put it on, then that let’s rust “find” the right value for each  widget, which you then you can implement the style sheet for each widget"
+  * And there were a bunch of samples too
+  * Let's see if I can figure it out with that
+  * 
+
+
+
+ESSENTIAL OUTSTANDING REQUIREMENTS:
+
+* Implement X-Parts
+* Refactor `kanji.json` into sections by type (Kanji, Radical, X-Part, Dead...)
+
+
+
+TODO:
+
+* Renaming: "Nodes", because a lot if the things I call "Kanji" now can actually be a bunch of different things, such as Radicals
 
 
 

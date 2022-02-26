@@ -1,18 +1,21 @@
-use iced::{Text, Font, Column, Align, Row};
+use iced::{Text, Font, Column, Align, Row, Container, container};
 
 use crate::{value_objects::Kanji, message::Message};
 
 pub struct KanjiPanel{
 }
 
-impl KanjiPanel{
-    pub fn from(kanji: &Kanji) -> Row<Message>{
-        Row::new()
-            .padding(20)
-            .align_items(Align::Center)
-            .push(Text::new(kanji.stroke_count.to_string()))
-            .push(KanjiPanel::build_kanji_column(kanji))
-            .push(Text::new(kanji.stroke_arrangement.to_string()))
+impl<'a> KanjiPanel{
+    pub fn from(kanji: &Kanji) -> Container<Message>{
+
+        Container::new(
+            Row::new()
+                .padding(20)
+                .align_items(Align::Center)
+                .push(Text::new(kanji.stroke_count.to_string()))
+                .push(KanjiPanel::build_kanji_column(kanji))
+                .push(Text::new(kanji.stroke_arrangement.to_string()))
+        ).style(Theme::Kanji)
     }
 
     fn build_kanji_column(kanji: &Kanji) -> Column<Message>{
@@ -31,5 +34,35 @@ impl KanjiPanel{
             name: "msgothic",
             bytes: include_bytes!("../fonts/msgothic.ttc")
         })
+    }
+}
+
+pub enum Theme{
+    Kanji,
+}
+
+impl From<Theme> for Box<dyn container::StyleSheet> {
+    fn from(theme: Theme) -> Self {
+        match theme {
+            Theme::Kanji => kanji_theme::Container.into(),
+        }
+    }
+}
+
+mod kanji_theme {
+    use iced::{container, Color};
+
+    pub struct Container;
+
+    impl container::StyleSheet for Container {
+        fn style(&self) -> container::Style {
+            container::Style {
+                text_color: Some(Color::WHITE),
+                background: Color::from_rgb8(249, 40, 20).into(),
+                border_color: Color::from_rgb8(229, 20, 0),
+                border_width: 5.0,
+                border_radius: 8.0,
+            }
+        }
     }
 }
