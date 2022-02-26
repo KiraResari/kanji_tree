@@ -5,7 +5,7 @@ use crate::{value_objects::Kanji, message::Message};
 pub struct KanjiPanel{
 }
 
-impl<'a> KanjiPanel{
+impl KanjiPanel{
     pub fn from(kanji: &Kanji) -> Container<Message>{
 
         Container::new(
@@ -57,10 +57,10 @@ mod kanji_theme {
     impl container::StyleSheet for Container {
         fn style(&self) -> container::Style {
             container::Style {
-                text_color: Some(Color::WHITE),
-                background: Color::from_rgb8(249, 40, 20).into(),
-                border_color: Color::from_rgb8(229, 20, 0),
-                border_width: 5.0,
+                text_color: Some(Color::BLACK),
+                background: Color::from_rgb8(255, 127, 0).into(),
+                border_color: Color::BLACK,
+                border_width: 2.0,
                 border_radius: 8.0,
             }
         }

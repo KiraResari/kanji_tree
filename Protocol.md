@@ -932,7 +932,8 @@
     * "Basically your style needs to implement ‘From’ for each widget you want  to put it on, then that let’s rust “find” the right value for each  widget, which you then you can implement the style sheet for each widget"
   * And there were a bunch of samples too
   * Let's see if I can figure it out with that
-  * 
+  * Breakthrough! We won!
+  * Now I managed to have the Kanji in a nice box, but that sure wasn't easy
 
 
 
