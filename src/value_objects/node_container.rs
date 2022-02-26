@@ -6,7 +6,9 @@ use super::{KanjiNode, RadicalNode, Kanji};
 
 #[derive(Deserialize)]
 pub struct NodeContainer{
+    #[serde(default)]
     pub kanji: Vec<KanjiNode>,
+    #[serde(default)]
     pub radical: Vec<RadicalNode>,
 }
 

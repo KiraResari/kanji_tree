@@ -10,13 +10,6 @@ pub struct KanjiParser {
 impl KanjiParser{
 
     pub fn parse_kanji_json(&mut self, kanji_file_path: &str)
-         -> Result<KanjiSource, Box<dyn Error>>{
-        let contents = fs::read_to_string(kanji_file_path)?;
-        let parsed_kanji = serde_json::from_str(&contents)?;
-        Ok(KanjiSource::new(parsed_kanji))
-    }
-
-    pub fn parse_kanji_json_with_separate_sections(&mut self, kanji_file_path: &str)
     -> Result<KanjiSource, Box<dyn Error>>{
         let contents = fs::read_to_string(kanji_file_path)?;
         let parsed_node_container:NodeContainer = serde_json::from_str(&contents)?;
@@ -95,7 +88,7 @@ mod tests {
     fn parse_kanji_json_with_separate_sections_should_not_return_error(){
         let mut kanji_parser = KanjiParser::new();
 
-        match kanji_parser.parse_kanji_json_with_separate_sections(
+        match kanji_parser.parse_kanji_json(
             "kanji_test_with_separate_kanji_and_radical.json"
         ){
             Ok(_) => println!("Test Passed"),
@@ -108,7 +101,7 @@ mod tests {
         let mut kanji_parser = KanjiParser::new();
 
         let kanji_source: KanjiSource
-             = kanji_parser.parse_kanji_json_with_separate_sections(
+             = kanji_parser.parse_kanji_json(
                  "kanji_test_with_separate_kanji_and_radical.json"
             ).unwrap();
 
