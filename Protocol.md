@@ -934,6 +934,7 @@
   * Let's see if I can figure it out with that
   * Breakthrough! We won!
   * Now I managed to have the Kanji in a nice box, but that sure wasn't easy
+  * I now also added a style for radicals, and also moved the styles into the `node_Type.rs` so I can use the same enum for node types and formats specific to them 
 
 
 
