@@ -1,4 +1,10 @@
 pub use self::kanji::Kanji;
 pub use self::node_type::NodeType;
+pub use self::node_container::NodeContainer;
+pub use self::kanji_node::KanjiNode;
+pub use self::radical_node::RadicalNode;
 mod kanji;
 mod node_type;
+mod node_container;
+mod kanji_node;
+mod radical_node;

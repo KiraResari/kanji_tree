@@ -915,17 +915,29 @@
 # 26-Feb-2022
 
 * Now, It's judgement day for this project
+
 * Two weeks ago I started full-on development on the Rust Kanji Tree
+
 * Since then, I managed to put about  25 hours of work time into this, most of which were spent frantically trying to figure out things that are easy in other programming languages, _including_ Delphi
+
 * It has not been a pleasant experience
+
 * In Java or C#, and probably even Delphi, I would have had a fully functional and probably even nice-looking Kanji Tree by now
+
 * In Rust, I am nowhere near as far as I wanted to be at this point
+
 * Today, I wanted to be at a stage where I could insert the new Kanji I learnt today, but that is as of yet not possible
+
 * _However_, that stage is also not far off
+
 * And while programming in Rust has not been enjoyable, at the very least it was educational
+
 * And so, I now make the choice to continue programming the Kanji Tree in Rust, but also will make a note to never again start a personal project in this language
+
 * So, now continuing with this
+
 * I am _still_ trying to figure out how to make a colored, box-like element using iced
+
   * Last time, I wrote a help request about this on the iced forum
     * https://github.com/iced-rs/iced/discussions/1266
   * And a amazingly, I even got a helpful answer
@@ -938,6 +950,58 @@
   * And while I'm at it, let's see if I can use that same logic to color the buttons too
     * SUCCESS: This now works too
   * Let this be V1-1-0
+
+* Next, I think I need to do something about my `kanji.json`
+
+  * Right now, this is just a big `.json` that holds an array, which in turn may hold any kind of node
+
+  * However, I can already tell that this is going to get chaotic, especially when different types like Radicals and XParts get added
+
+  * So, what I'd want at this point was to adjust the `kanji.json` so that it contains all the Kanji in a `kanji` array, all the Radicals in a `radicals` array, and so on and so forth
+
+  * That will effectively enforce that Kanji, Radicals and XParts are always grouped together in the `kanji.json` source file
+
+  * Of course, adjusting the `kanji.json` itself is not going to be difficult
+
+  * The difficult part is going to be adjusting the `KanjiParser` so it can handle this
+
+  * I currently use `serde_json` for that
+
+  * The documentation for that is here:
+
+    * https://docs.serde.rs/serde_json/
+
+  * Internally, the data structure can stay the same. This is purely for the sake of input
+
+  * So, let's see, how to go about this?
+
+  * First, I'll create a sample `.json` file that I want the `KanjiParser` to be able to parse
+
+    * I did that now
+
+  * Now the difficult thing is going to be writing a parser that can parse this
+
+    * My first attempt failed like this:
+
+      * ``````
+        thread 'kanji_parser::tests::parse_kanji_json_with_separate_sections_should_not_return_error' panicked at 'invalid type: map, expected a sequence at line 1 column 0', src\kanji_parser.rs:102:27
+        stack backtrace:
+           0: std::panicking::begin_panic_handler
+                     at /rustc/f1edd0429582dd29cccacaf50fd134b05593bd9c\/library\std\src\panicking.rs:517     
+           1: core::panicking::panic_fmt
+        ``````
+
+    * I tried fixing this now, but the error still persists
+
+    * Okay, turns out this was because I tried to serialize a `Vector` where all there was was a series of differently named objects
+
+    * The next challenge is going to be that now all the fields are missing their node_type
+
+    * Okay, so now I managed to get the basic parsing to pass
+
+    * And with some more effort (and help from the rust chat), I managed to get it to work in detail too
+
+    * 
 
 
 

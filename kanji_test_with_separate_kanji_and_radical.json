@@ -1,0 +1,25 @@
+{
+	"kanji":[
+		{
+			"name": "One",
+			"character": "一",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 1
+		},
+		{
+			"name": "Ten",
+			"character": "十",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 2,
+			"parent_names":["One", "[R2] Line"]	
+		}
+	],
+	"radical":[
+		{
+			"name": "[R2] Line",
+			"character": "丨",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 1
+		}
+	]
+}
