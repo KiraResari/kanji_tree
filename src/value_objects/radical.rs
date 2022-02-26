@@ -1,9 +1,9 @@
 
 use serde::Deserialize;
-use super::{node_type::NodeType, Kanji};
+use super::{kigou_type::KigouType, Kigou};
 
 #[derive(Deserialize, Debug, PartialEq, Clone)]
-pub struct KanjiNode{
+pub struct Radical{
     pub name: String,
     pub character: String,
     pub stroke_arrangement: String,
@@ -12,16 +12,16 @@ pub struct KanjiNode{
     pub parent_names: Vec<String>,
 }
 
-impl From<&KanjiNode> for Kanji{
-    fn from(kanji_node: &KanjiNode) -> Self{
-        let clone = kanji_node.clone();
+impl From<&Radical> for Kigou{
+    fn from(radical_node: &Radical) -> Self{
+        let clone = radical_node.clone();
         Self{
             name: clone.name,
             character: clone.character,
             stroke_arrangement: clone.stroke_arrangement,
             stroke_count: clone.stroke_count,
             parent_names: clone.parent_names,
-            node_type: NodeType::Kanji
+            kigou_type: KigouType::Radical
         }
     }
 }

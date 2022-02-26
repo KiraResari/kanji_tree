@@ -1,49 +1,49 @@
 use iced::{Sandbox, Column, Element, Text, Container, Length, Row, Align};
 
-use crate::{kanji_parser::KanjiParser, kanji_source::KanjiSource, value_objects::Kanji, message::Message, kanji_button::KanjiButton, kanji_panel::KanjiPanel};
+use crate::{kigou_parser::KigouParser, kigou_source::KigouSource, value_objects::Kigou, message::Message, kigou_button::KigouButton, kigou_panel::KigouPanel};
 
 static KANJI_JSON_PATH: &str = "kanji.json";
 
 pub struct KanjiTreeApp{
-    kanji_source: KanjiSource,
-    active_kanji: Kanji,
-    child_kanji_buttons: Vec<KanjiButton>,
-    parent_kanji_buttons: Vec<KanjiButton>,
+    kanji_source: KigouSource,
+    active_kanji: Kigou,
+    child_kanji_buttons: Vec<KigouButton>,
+    parent_kanji_buttons: Vec<KigouButton>,
 }
 
 impl KanjiTreeApp{
-    fn load_first_kanji(kanji_source: &KanjiSource) -> Kanji{
+    fn load_first_kanji(kanji_source: &KigouSource) -> Kigou{
         let first_kanji_result
              = kanji_source.get_first_element();
         match first_kanji_result{
             Ok(v) => v,
-            Err(e) => Kanji::create_error_kanji(&e.to_string())
+            Err(e) => Kigou::create_error_kigou(&e.to_string())
         }
     }
 
     fn build_child_kanji_buttons(
-        active_kanji: &Kanji,
-        kanji_source: &KanjiSource
-    ) -> Vec<KanjiButton>{
-        let mut child_kanji_buttons: Vec<KanjiButton> =  Vec::new();
+        active_kanji: &Kigou,
+        kanji_source: &KigouSource
+    ) -> Vec<KigouButton>{
+        let mut child_kanji_buttons: Vec<KigouButton> =  Vec::new();
         let children 
             = kanji_source.get_children(&active_kanji.name);
         for child in children {
-            let kanji_button = KanjiButton::new(child);
+            let kanji_button = KigouButton::new(child);
             child_kanji_buttons.push(kanji_button);
         }
         child_kanji_buttons
     }
 
     fn build_parent_kanji_buttons(
-        active_kanji: &Kanji,
-        kanji_source: &KanjiSource
-    ) -> Vec<KanjiButton>{
-        let mut parent_kanji_buttons: Vec<KanjiButton> =  Vec::new();
+        active_kanji: &Kigou,
+        kanji_source: &KigouSource
+    ) -> Vec<KigouButton>{
+        let mut parent_kanji_buttons: Vec<KigouButton> =  Vec::new();
         let parents 
             = kanji_source.get_parents(&active_kanji.name);
         for parent in parents {
-            let kanji_button = KanjiButton::new(parent);
+            let kanji_button = KigouButton::new(parent);
             parent_kanji_buttons.push(kanji_button);
         }
         parent_kanji_buttons
@@ -56,12 +56,12 @@ impl KanjiTreeApp{
             .align_items(Align::Center)
             .push(KanjiTreeApp::build_kanji_button_row(&mut self.parent_kanji_buttons))
             .push(Text::new( "↓".to_string()))
-            .push(KanjiPanel::from(&self.active_kanji))
+            .push(KigouPanel::from(&self.active_kanji))
             .push(Text::new( "↓".to_string()))
             .push(KanjiTreeApp::build_kanji_button_row(&mut self.child_kanji_buttons))
     }
 
-    fn build_kanji_button_row<'a>(kanji_buttons: &'a mut Vec<KanjiButton>) -> Row<'a, Message> {
+    fn build_kanji_button_row<'a>(kanji_buttons: &'a mut Vec<KigouButton>) -> Row<'a, Message> {
         let mut children_row: Row<'a, Message> = Row::new().padding(20);
         for kanji_button in kanji_buttons {
             children_row = children_row.push( 
@@ -89,7 +89,7 @@ impl Sandbox for KanjiTreeApp {
     type Message = Message;
 
     fn new() -> KanjiTreeApp {
-        let mut kanji_parser = KanjiParser::new();
+        let mut kanji_parser = KigouParser::new();
         let kanji_source 
             = kanji_parser.parse_kanji_json(KANJI_JSON_PATH)
                 .unwrap();

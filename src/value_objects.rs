@@ -1,10 +1,10 @@
+pub use self::kigou::Kigou;
+pub use self::kigou_type::KigouType;
+pub use self::kanji_json::KanjiJson;
 pub use self::kanji::Kanji;
-pub use self::node_type::NodeType;
-pub use self::node_container::NodeContainer;
-pub use self::kanji_node::KanjiNode;
-pub use self::radical_node::RadicalNode;
+pub use self::radical::Radical;
+mod kigou;
+mod kigou_type;
+mod kanji_json;
 mod kanji;
-mod node_type;
-mod node_container;
-mod kanji_node;
-mod radical_node;
+mod radical;

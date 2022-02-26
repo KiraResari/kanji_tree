@@ -1,6 +1,6 @@
-use crate::value_objects::Kanji;
+use crate::value_objects::Kigou;
 
 #[derive(Debug, Clone)]
 pub enum Message {
-    LoadKanji(Kanji),
+    LoadKanji(Kigou),
 }

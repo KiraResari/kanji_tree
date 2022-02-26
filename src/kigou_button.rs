@@ -1,15 +1,15 @@
 use iced::{button::State, Button, Text, Font};
 
-use crate::{value_objects::Kanji, message::Message};
+use crate::{value_objects::Kigou, message::Message};
 
-pub struct KanjiButton{
-    kanji: Kanji,
+pub struct KigouButton{
+    kanji: Kigou,
     state: State,
 }
 
-impl KanjiButton{
-    pub fn new(kanji: Kanji) -> Self{
-        KanjiButton { kanji: kanji, state: State::new() }
+impl KigouButton{
+    pub fn new(kanji: Kigou) -> Self{
+        KigouButton { kanji: kanji, state: State::new() }
     }
 
     pub fn view(&mut self) -> Button<Message> {
@@ -23,6 +23,6 @@ impl KanjiButton{
                 bytes: include_bytes!("../fonts/msgothic.ttc")
             }))
             .on_press(Message::LoadKanji(self.kanji.clone()))
-            .style(self.kanji.clone().node_type)
+            .style(self.kanji.clone().kigou_type)
     }
 }

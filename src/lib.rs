@@ -1,8 +1,8 @@
 mod app;
 mod value_objects;
 pub use app::KanjiTreeApp;
-mod kanji_source; 
-mod kanji_parser; 
+mod kigou_source; 
+mod kigou_parser; 
 mod message;
-mod kanji_button;
-mod kanji_panel;
+mod kigou_button;
+mod kigou_panel;

@@ -4,7 +4,7 @@ use iced::{container, button};
 use serde::Deserialize;
 
 #[derive(Deserialize, Debug, PartialEq, Clone)]
-pub enum NodeType {
+pub enum KigouType {
     Kanji,
     Radical,
     XPart,
@@ -12,38 +12,38 @@ pub enum NodeType {
     Error,
 }
 
-impl fmt::Display for NodeType{
+impl fmt::Display for KigouType{
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result{
         match *self{
-            NodeType::Kanji => write!(f, "Kanji"),
-            NodeType::Radical => write!(f, "Radical"),
-            NodeType::XPart => write!(f, "XPart"),
-            NodeType::Dead => write!(f, "Dead"),
-            NodeType::Error => write!(f, "Error"),
+            KigouType::Kanji => write!(f, "Kanji"),
+            KigouType::Radical => write!(f, "Radical"),
+            KigouType::XPart => write!(f, "XPart"),
+            KigouType::Dead => write!(f, "Dead"),
+            KigouType::Error => write!(f, "Error"),
         }
     }
 }
 
-impl From<NodeType> for Box<dyn container::StyleSheet> {
-    fn from(node_type: NodeType) -> Self {
+impl From<KigouType> for Box<dyn container::StyleSheet> {
+    fn from(node_type: KigouType) -> Self {
         match node_type {
-            NodeType::Kanji => kanji_theme::Container.into(),
-            NodeType::Radical => radical_theme::Container.into(),
-            NodeType::XPart => kanji_theme::Container.into(),
-            NodeType::Dead => kanji_theme::Container.into(),
-            NodeType::Error => kanji_theme::Container.into(),
+            KigouType::Kanji => kanji_theme::Container.into(),
+            KigouType::Radical => radical_theme::Container.into(),
+            KigouType::XPart => kanji_theme::Container.into(),
+            KigouType::Dead => kanji_theme::Container.into(),
+            KigouType::Error => kanji_theme::Container.into(),
         }
     }
 }
 
-impl From<NodeType> for Box<dyn button::StyleSheet> {
-    fn from(node_type: NodeType) -> Self {
+impl From<KigouType> for Box<dyn button::StyleSheet> {
+    fn from(node_type: KigouType) -> Self {
         match node_type {
-            NodeType::Kanji => kanji_theme::Button.into(),
-            NodeType::Radical => radical_theme::Button.into(),
-            NodeType::XPart => kanji_theme::Button.into(),
-            NodeType::Dead => kanji_theme::Button.into(),
-            NodeType::Error => kanji_theme::Button.into(),
+            KigouType::Kanji => kanji_theme::Button.into(),
+            KigouType::Radical => radical_theme::Button.into(),
+            KigouType::XPart => kanji_theme::Button.into(),
+            KigouType::Dead => kanji_theme::Button.into(),
+            KigouType::Error => kanji_theme::Button.into(),
         }
     }
 }

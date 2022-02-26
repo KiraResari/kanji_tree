@@ -1001,20 +1001,69 @@
 
     * And with some more effort (and help from the rust chat), I managed to get it to work in detail too
 
-    * 
+  * Now, the next step is going to be migrating this over and hoping that everything still works
+
+  * Of course I saved in advance
+
+  * Looks like this worked with only minor little issues!
+
+  * So with that, the refactoring is complete, and successful
+
+* The next two things that need to be done are:
+
+  * Implement X-Parts
+  * Rename "Kanji"
+
+* The implementation of the X-Parts is more essential, but also more complicated
+
+* The renaming of the elements that I indiscriminately called "Kanji" is not as essential, but should be pretty routine
+
+  * So I'll do that now
+  * Essentially, since I started with Kanji, the name "Kanji" got extended to a lot of things, even though they are not Kanji
+    * Notably, Radicals have been affected by that, and X-Parts would be next
+  * Basically, what the Kanji Tree does is display Elements that can be Kanji, Radicals, X-Parts and others in a tree view
+  * I need a name to collectively call those by
+  * "Node" comes to mind, but then, I already noticed that the `iced` lib has a `Node` struct, so I'd rather call it something else to avoid conflicts
+  * "Element" has the same issue
+  * I've thought about "TreeNode", but that is kinda long
+  * "Character" isn't good either, since the struct already contains a "character" field
+  * How about "Glyph"?
+    * Nah, that is also used by rusttype:Glyph
+  * And "Symbol" has the same issue
+  * Okay, how about we go about this another way?
+  * We already use "Kanji", which is, technically, a Japanese word native to the problem domain
+  * Why not use another Japanese word for this dilemma?
+    * The pros would be that it would be clear, easily recognizable, and confusing it with names from 3rd party libs is pretty much impossible
+    * The cons would be... that it might look a bit strange?
+    * But then again, it'll mostly only be me working with this, and anyone else who looks at it should be able to understand the encoding intuitively since it appears literally everywhere
+  * So, Japanese it is
+  * And I've already decided on a name: "Kigou" (meaning "Symbol" in Japanese) 
+  * Now let's see how the refactoring engine will take this
+    * Remarkably well, I'd say
+    * I wish the Delphi IDE worked as good as this
+    * For the record, I am using VisualStudioCode with the following plugins:
+      * Rust and Friends
+        * Rust Flash Snippets
+        * Rust Mod Generator
+        * CodeLLDB
+        * Syntax Highlighter
+        * Bracket Pair Colorizer 2
+        * Better TOML
+        * crates
+        * rust-analyzer
+        * Rust Syntax
+      * Rust Doc Viewer
+      * Syntax Highlighter
+      * Test Adapter Converter
+      * Test Explorer UI
+
+* Anyway, this is as far as I'm getting today
 
 
 
-ESSENTIAL OUTSTANDING REQUIREMENTS:
+NEXT:
 
 * Implement X-Parts
-* Refactor `kanji.json` into sections by type (Kanji, Radical, X-Part, Dead...)
-
-
-
-TODO:
-
-* Renaming: "Nodes", because a lot if the things I call "Kanji" now can actually be a bunch of different things, such as Radicals
 
 
 
