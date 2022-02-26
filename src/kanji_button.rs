@@ -23,5 +23,6 @@ impl KanjiButton{
                 bytes: include_bytes!("../fonts/msgothic.ttc")
             }))
             .on_press(Message::LoadKanji(self.kanji.clone()))
+            .style(self.kanji.clone().node_type)
     }
 }

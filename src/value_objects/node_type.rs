@@ -1,6 +1,6 @@
 use std::fmt;
 
-use iced::container;
+use iced::{container, button};
 use serde::Deserialize;
 
 #[derive(Deserialize, Debug, PartialEq, Clone)]
@@ -36,8 +36,20 @@ impl From<NodeType> for Box<dyn container::StyleSheet> {
     }
 }
 
+impl From<NodeType> for Box<dyn button::StyleSheet> {
+    fn from(node_type: NodeType) -> Self {
+        match node_type {
+            NodeType::Kanji => kanji_theme::Button.into(),
+            NodeType::Radical => radical_theme::Button.into(),
+            NodeType::XPart => kanji_theme::Button.into(),
+            NodeType::Dead => kanji_theme::Button.into(),
+            NodeType::Error => kanji_theme::Button.into(),
+        }
+    }
+}
+
 mod kanji_theme {
-    use iced::{container, Color};
+    use iced::{container, Color, button};
 
     pub struct Container;
 
@@ -52,10 +64,34 @@ mod kanji_theme {
             }
         }
     }
+    pub struct Button;
+
+    impl button::StyleSheet for Button {
+        fn active(&self) -> button::Style {
+            button::Style {
+                background: Color::from_rgb8(255, 127, 0).into(),
+                text_color: Color::BLACK,
+                border_color: Color::BLACK,
+                border_width: 2.0,
+                border_radius: 8.0,
+                ..button::Style::default()
+            }
+        }
+        fn hovered(&self) -> button::Style {
+            button::Style {
+                background: Color::from_rgb8(255, 192, 127).into(),
+                text_color: Color::BLACK,
+                border_color: Color::BLACK,
+                border_width: 2.0,
+                border_radius: 8.0,
+                ..button::Style::default()
+            }
+        }
+    }
 }
 
 mod radical_theme {
-    use iced::{container, Color};
+    use iced::{container, Color, button};
 
     pub struct Container;
 
@@ -67,6 +103,30 @@ mod radical_theme {
                 border_color: Color::BLACK,
                 border_width: 2.0,
                 border_radius: 8.0,
+            }
+        }
+    }
+    pub struct Button;
+
+    impl button::StyleSheet for Button {
+        fn active(&self) -> button::Style {
+            button::Style {
+                background: Color::from_rgb8(0, 255, 127).into(),
+                text_color: Color::BLACK,
+                border_color: Color::BLACK,
+                border_width: 2.0,
+                border_radius: 8.0,
+                ..button::Style::default()
+            }
+        }
+        fn hovered(&self) -> button::Style {
+            button::Style {
+                background: Color::from_rgb8(127, 255, 192).into(),
+                text_color: Color::BLACK,
+                border_color: Color::BLACK,
+                border_width: 2.0,
+                border_radius: 8.0,
+                ..button::Style::default()
             }
         }
     }
