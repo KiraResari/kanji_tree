@@ -1318,6 +1318,20 @@
 
 * So, let this be Version 2-0-0
 
+* For the rest of today, I'll try to add Kanji and see if I run into any problems doing that
+
+
+
+Wanted Features:
+
+* Search: Jump to any Kigou by name or character
+* Don't display arrow above if Kigou has no parents
+* Don't display arrow below if Kigou has no children
+* Validations on import:
+  * No duplicates
+  * No dead parents
+  * Image could not be found
+
 
 
 # ⚓

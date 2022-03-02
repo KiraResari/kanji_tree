@@ -83,6 +83,104 @@
 			"stroke_arrangement": "Whole",
 			"stroke_count": 3,
 			"parent_names":["One", "Hiragana Ku", "Katakana No"]	
+		},
+		{
+			"name": "Person",
+			"character": "人",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 2,
+			"parent_names":["Katakana No", "X1-2 Reverse No"]	
+		},
+		{
+			"name": "Fire",
+			"character": "火",
+			"stroke_arrangement": "Comp",
+			"stroke_count": 4,
+			"parent_names":["Person", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "Mouth",
+			"character": "口",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 3,
+			"parent_names":["X1-3 Top Right Corner", "One", "R2 Line"]	
+		},
+		{
+			"name": "Rice Field",
+			"character": "田",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 5,
+			"parent_names":["Mouth", "Ten"]	
+		},
+		{
+			"name": "Farm",
+			"character": "畑",
+			"stroke_arrangement": "2V",
+			"stroke_count": 9,
+			"parent_names":["Fire", "Rice Field"]	
+		},
+		{
+			"name": "Type",
+			"character": "型",
+			"stroke_arrangement": "TrB",
+			"stroke_count": 9,
+			"parent_names":["X4-1 Torii", "Katakana Ri", "Soil"]	
+		},
+		{
+			"name": "Stand",
+			"character": "立",
+			"stroke_arrangement": "2H",
+			"stroke_count": 5,
+			"parent_names":["R8 Lid", "X3-1 Double Lid"]	
+		},
+		{
+			"name": "Spicy",
+			"character": "辛",
+			"stroke_arrangement": "2H",
+			"stroke_count": 7,
+			"parent_names":["Stand", "Ten"]	
+		},
+		{
+			"name": "Happiness",
+			"character": "幸",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 8,
+			"parent_names":["Spicy", "One"]	
+		},
+		{
+			"name": "Dish",
+			"character": "皿",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 5,
+			"parent_names":["X1-3 Top Right Corner", "One", "R2 Line"]	
+		},
+		{
+			"name": "Blood",
+			"character": "血",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 5,
+			"parent_names":["Dish", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "Testicles",
+			"character": "睾",
+			"stroke_arrangement": "2HU",
+			"stroke_count": 15,
+			"parent_names":["Blood", "Happiness"]	
+		},
+		{
+			"name": "Crow",
+			"character": "烏",
+			"stroke_arrangement": "Comp",
+			"stroke_count": 10,
+			"parent_names":["X1-1 Reverse Dot", "X1-3 Top Right Corner", "Line", "One", "R86 Legs"]	
+		},
+		{
+			"name": "Bird",
+			"character": "鳥",
+			"stroke_arrangement": "Comp",
+			"stroke_count": 11,
+			"parent_names":["Crow", "One"]	
 		}
 	],
 	"radical":[
@@ -97,14 +195,60 @@
 			"character": "丶",
 			"stroke_arrangement": "Whole",
 			"stroke_count": 1
+		},
+		{
+			"name": "R5 Fishhook",
+			"character": "乚",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 1
+		},
+		{
+			"name": "R8 Lid",
+			"character": "亠",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 2,
+			"parent_names":["R3 Dot", "One"]	
+		},
+		{
+			"name": "R86 Legs",
+			"character": "灬",
+			"stroke_arrangement": "4V",
+			"stroke_count": 4,
+			"parent_names":["X1-1 Reverse Dot", "R3 Dot"]	
 		}
 	],
 	"x_part":[
 		{
 			"name": "X1-1 Reverse Dot",
-			"image_name": "1-1_Reverse_Dot.png",
+			"image_name": "1-1 Reverse Dot.png",
 			"stroke_arrangement": "Whole",
 			"stroke_count": 1
+		},
+		{
+			"name": "X1-2 Reverse No",
+			"image_name": "1-2 Reverse No.png",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 1
+		},
+		{
+			"name": "X1-3 Top Right Corner",
+			"image_name": "1-3 Top Right Corner.png",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 1
+		},
+		{
+			"name": "X3-1 Double Lid",
+			"image_name": "3-1 Double Lid.png",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 3,
+			"parent_names":["R3 Dot", "X1-1 Reverse Dot", "One"]	
+		},
+		{
+			"name": "X4-1 Torii",
+			"image_name": "4-1 Torii.png",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 4,
+			"parent_names":["Two", "Katakana No", "R5 Fishhook"]	
 		}
 	],
 	"kana":[
@@ -119,6 +263,13 @@
 			"character": "ノ",
 			"stroke_arrangement": "Whole",
 			"stroke_count": 1
+		},
+		{
+			"name": "Katakana Ri",
+			"character": "リ",
+			"stroke_arrangement": "2V",
+			"stroke_count": 2,
+			"parent_names":["R2 Line", "Katakana No"]	
 		}
 	]
 }
