@@ -21,7 +21,7 @@ impl From<&Kana> for Kigou{
             stroke_arrangement: clone.stroke_arrangement,
             stroke_count: clone.stroke_count,
             parent_names: clone.parent_names,
-            kigou_type: KigouType::Kanji,
+            kigou_type: KigouType::Kana,
             image_name: "".to_string(),
         }
     }

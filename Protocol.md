@@ -1306,7 +1306,17 @@
 * So now I just have to add the Kana
 
   * That should be easy
-  * 
+  * And indeed, it was
+
+* Sooo, now all the basic elements work
+
+* The Kanji, the Radicals, the X Parts and the Kana are all functional, and I can add new ones by adding them in the `kanji.json`
+
+* With that, the primary objective of the Kanji Tree is now fulfilled: I can now continue to add new Kanji as I learn them
+
+* Of course, there's still plenty to be done in this project, but at the very least, this is now an n-complete version that I can both leave as it is, and also use as a solid starting point for further improvements
+
+* 
 
 
 
