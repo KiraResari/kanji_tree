@@ -1303,6 +1303,9 @@
 
   * With that, the X Parts are officially working now
 
+* So now I just have to add the Kana
+
+  * That should be easy
   * 
 
 
