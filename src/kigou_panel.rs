@@ -46,8 +46,6 @@ impl KigouPanel{
 
     fn build_kigou_image<'a>(kigou: &Kigou) -> Container<'a, Message> {
         Container::new(
-            // This should go away once we unify resource loading on native
-            // platforms
             Image::new(
                 format!("resources/images/{}", kigou.image_name)
             )

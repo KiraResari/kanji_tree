@@ -1292,6 +1292,12 @@
 
     * Next, I need to get the X Parts working in the `KigouButton` too
 
+    * And that now works too
+
+    * Maybe the sizes and scaling are still a bit bogus, but for now, this will do
+
+  * 
+
 
 
 # ⚓
