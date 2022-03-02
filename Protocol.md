@@ -1296,6 +1296,13 @@
 
     * Maybe the sizes and scaling are still a bit bogus, but for now, this will do
 
+  * Next, I noticed that the logic I created for drawing the Kigou on the `KigouButton` and `KigouPanel` are very similar, so I'll try to draw it out now
+
+    * I now did that, and it looks good
+    * Yay! Happy!
+
+  * With that, the X Parts are officially working now
+
   * 
 
 
