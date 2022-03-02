@@ -11,6 +11,7 @@ pub struct Kigou{
     pub stroke_count: u8,
     #[serde(default)]
     pub parent_names: Vec<String>,
+    pub image_name: String,
 }
 
 impl Kigou{
@@ -21,7 +22,12 @@ impl Kigou{
             character: error_message.to_string(), 
             stroke_arrangement: "".to_string(), 
             stroke_count: 0, 
-            parent_names: Vec::new() 
+            parent_names: Vec::new(),
+            image_name: "".to_string(), 
         }
+    }
+
+    pub fn uses_image(&self) -> bool{
+        self.image_name != ""
     }
 }

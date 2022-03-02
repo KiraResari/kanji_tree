@@ -1,4 +1,4 @@
-use iced::{Text, Font, Column, Align, Row, Container};
+use iced::{Text, Font, Column, Align, Row, Container, Element, Image};
 
 use crate::{value_objects::Kigou, message::Message};
 
@@ -6,33 +6,49 @@ pub struct KigouPanel{
 }
 
 impl KigouPanel{
-    pub fn from(kanji: &Kigou) -> Container<Message>{
+    pub fn from(kigou: &Kigou) -> Container<Message>{
 
         Container::new(
             Row::new()
                 .padding(20)
                 .align_items(Align::Center)
-                .push(Text::new(kanji.stroke_count.to_string()))
-                .push(KigouPanel::build_kanji_column(kanji))
-                .push(Text::new(kanji.stroke_arrangement.to_string()))
-        ).style(kanji.clone().kigou_type)
+                .push(Text::new(kigou.stroke_count.to_string()))
+                .push(KigouPanel::build_kigou_column(kigou))
+                .push(Text::new(kigou.stroke_arrangement.to_string()))
+        ).style(kigou.clone().kigou_type)
     }
 
-    fn build_kanji_column(kanji: &Kigou) -> Column<Message>{
+    fn build_kigou_column(kigou: &Kigou) -> Column<Message>{
         Column::new()
             .padding(20)
             .align_items(Align::Center)
-            .push(Text::new(kanji.name.to_string()))
-            .push(KigouPanel::build_kanji_character(kanji.character.clone()))
-            .push(Text::new(kanji.kigou_type.to_string()))
+            .push(Text::new(kigou.name.to_string()))
+            .push(KigouPanel::build_kigou_display(kigou))
+            .push(Text::new(kigou.kigou_type.to_string()))
     }
 
-    fn build_kanji_character(character: String) -> Text {
-        Text::new(character.to_string())
-        .size(64)
-        .font(Font::External{
-            name: "msgothic",
-            bytes: include_bytes!("../fonts/msgothic.ttc")
-        })
+    fn build_kigou_display(kigou: &Kigou) -> Element<Message>{
+        if(kigou.uses_image()){
+            KigouPanel::build_kigou_image(kigou).into()
+        }else{
+            KigouPanel::build_kigou_character(kigou.character.clone()).into()
+        }
+    }
+
+    fn build_kigou_character(character: String) -> Text {
+        Text::new(character)
+            .size(64)
+            .font(Font::External{
+                name: "msgothic",
+                bytes: include_bytes!("../fonts/msgothic.ttc")
+            })
+    }
+
+    fn build_kigou_image<'a>(kigou: &Kigou) -> Container<'a, Message> {
+        Container::new(
+            // This should go away once we unify resource loading on native
+            // platforms
+            Image::new(format!("resources/images/{}", kigou.image_name))
+        )
     }
 }

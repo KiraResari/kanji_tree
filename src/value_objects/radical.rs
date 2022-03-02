@@ -21,7 +21,8 @@ impl From<&Radical> for Kigou{
             stroke_arrangement: clone.stroke_arrangement,
             stroke_count: clone.stroke_count,
             parent_names: clone.parent_names,
-            kigou_type: KigouType::Radical
+            kigou_type: KigouType::Radical,
+            image_name: "".to_string(),
         }
     }
 }

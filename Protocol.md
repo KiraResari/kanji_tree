@@ -1,5 +1,9 @@
 # Legend
 
+* Phun: pronounced "fun"; meaning: "not fun"
+
+
+
 # 12-Feb-2022
 
 * Now continuing with this
@@ -1163,6 +1167,119 @@
   * For that, I figure it makes sense to first add a sample file that uses an X Part, and then write a test for it to see if the import works
 
     * Naturally, it fails at first, but that's what I expected
+
+    * Now I got that to work
+
+    * Now, the next part is going to be actually displaying the images
+
+    * Aaand, of course that's super complicated
+
+    * I am currently failing trying to create a function that returns either an image or a text, because I get an error like this:
+
+      * ````
+          --> src\kigou_panel.rs:48:9
+           |
+        48 |         Container::new(
+           |         ^^^^^^^^^^^^^^ the trait `iced_graphics::backend::Image` is not implemented for `iced_wgpu::backend::Backend`
+           |
+           = note: required because of the requirements on the impl of `iced_native::widget::image::Renderer` for `iced_graphics::renderer::Renderer<iced_wgpu::backend::Backend>`     
+           = note: required because of the requirements on the impl of `From<Image>` for `iced_native::element::Element<'_, _, iced_graphics::renderer::Renderer<iced_wgpu::backend::Backend>>`
+           = note: required because of the requirements on the impl of `Into<iced_native::element::Element<'_, _, iced_graphics::renderer::Renderer<iced_wgpu::backend::Backend>>>` for `Image`
+        ````
+
+    * My original attempt was something like this:
+
+      * ````
+            fn build_kigou_display(kigou: &Kigou) -> Element<Message>{
+                if(kigou.uses_image()){
+                    KigouPanel::build_kigou_image(kigou)
+                }else{
+                    KigouPanel::build_kigou_character(kigou.character.clone()).into()
+                }
+            }
+        ````
+
+    * But that fails with the following message:
+
+      * ````
+        31 |         if(kigou.uses_image()){
+        32 |             KigouPanel::build_kigou_image(kigou)
+           |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ expected struct `iced_native::element::Element`, found struct `Image`
+           |
+           = note: expected struct `iced_native::element::Element<'_, Message, iced_graphics::renderer::Renderer<iced_wgpu::backend::Backend>>`
+                      found struct `Image`
+        ````
+
+    * The problem is that I don't know what the common supertype of Text and Image is
+
+    * Well, in the sample projects, the images are always in a container, like this:
+
+      * ````
+        fn ferris<'a>(width: u16) -> Container<'a, StepMessage> {
+            Container::new(
+                // This should go away once we unify resource loading on native
+                // platforms
+                if cfg!(target_arch = "wasm32") {
+                    Image::new("tour/images/ferris.png")
+                } else {
+                    Image::new(format!(
+                        "{}/images/ferris.png",
+                        env!("CARGO_MANIFEST_DIR")
+                    ))
+                }
+                .width(Length::Units(width)),
+            )
+            .width(Length::Fill)
+            .center_x()
+        }
+        ````
+
+    * However, even if I just copy that, I still get this error again right away:
+
+      * ````
+        error[E0277]: the trait bound `iced_wgpu::backend::Backend: iced_graphics::backend::Image` is not satisfied
+          --> src\kigou_panel.rs:48:9
+           |
+        48 |         Container::new(
+           |         ^^^^^^^^^^^^^^ the trait `iced_graphics::backend::Image` is not implemented for `iced_wgpu::backend::Backend`
+           |
+           = note: required because of the requirements on the impl of `iced_native::widget::image::Renderer` for `iced_graphics::renderer::Renderer<iced_wgpu::backend::Backend>`     
+           = note: required because of the requirements on the impl of `From<Image>` for `iced_native::element::Element<'_, _, iced_graphics::renderer::Renderer<iced_wgpu::backend::Backend>>`
+           = note: required because of the requirements on the impl of `Into<iced_native::element::Element<'_, _, iced_graphics::renderer::Renderer<iced_wgpu::backend::Backend>>>` for `Image`
+        note: required by `iced_native::widget::container::Container::<'a, Message, Renderer>::new`
+        ````
+
+    * So, what in Lerra?
+
+    * So, this might help:
+
+      * https://github.com/iced-rs/iced/issues/258
+
+    * Looks like this is a dependency issue
+
+    * Phun
+
+    * I mean, it clearly works in the `iced` sample project...
+
+    * Okay, so after a bunch of trying, I've now gotten it to work by writing the sections "features" and "dependencies" in the `Cargo.toml` like this:
+
+      * ````
+        [features]
+        default = ["wgpu"]
+        # Enables the `iced_wgpu` renderer
+        wgpu = ["iced_wgpu"]
+        # Enables the `Image` widget
+        image = ["iced_wgpu/image"]
+        
+        [dependencies]
+        serde_json = "1.0"
+        serde = { version = "1.0", features = ["derive"] }
+        iced = {version = "0.3", features = ["image"] }
+        iced_wgpu = { version = "0.4", optional = true }
+        ````
+
+    * "Work" as in "it compiles". I still need to go and see if the images are actually displayed
+
     * 
 
 
