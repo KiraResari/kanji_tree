@@ -16,16 +16,16 @@ pub struct KanjiJson{
 
 impl Into<KigouSource> for KanjiJson{
     fn into(self) -> KigouSource{
-        let mut kanji: Vec<Kigou> = Vec::new();
-        kanji.extend(
+        let mut kigou: Vec<Kigou> = Vec::new();
+        kigou.extend(
            self.kanji.iter().map(|v| v.into())
         );
-        kanji.extend(
+        kigou.extend(
             self.radical.iter().map(|v| v.into())
         );
-        kanji.extend(
+        kigou.extend(
             self.x_part.iter().map(|v| v.into())
         );
-        KigouSource{kigou: kanji}
+        KigouSource{kigou}
     }
 }

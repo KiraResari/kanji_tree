@@ -1,4 +1,4 @@
-use iced::{Text, Font, Column, Align, Row, Container, Element, Image};
+use iced::{Text, Font, Column, Align, Row, Container, Element, Image, Length};
 
 use crate::{value_objects::Kigou, message::Message};
 
@@ -28,7 +28,7 @@ impl KigouPanel{
     }
 
     fn build_kigou_display(kigou: &Kigou) -> Element<Message>{
-        if(kigou.uses_image()){
+        if kigou.uses_image() {
             KigouPanel::build_kigou_image(kigou).into()
         }else{
             KigouPanel::build_kigou_character(kigou.character.clone()).into()
@@ -48,7 +48,10 @@ impl KigouPanel{
         Container::new(
             // This should go away once we unify resource loading on native
             // platforms
-            Image::new(format!("resources/images/{}", kigou.image_name))
+            Image::new(
+                format!("resources/images/{}", kigou.image_name)
+            )
+            .width(Length::Units(100))
         )
     }
 }

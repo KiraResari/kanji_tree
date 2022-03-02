@@ -1280,13 +1280,17 @@
 
     * "Work" as in "it compiles". I still need to go and see if the images are actually displayed
 
-    * 
+    * Aand, it actually displays the image now, but much to big yet
 
+    * Also, the color of the buttons is still wrong
 
+    * And the image is still missing in the buttons
 
-NEXT:
+    * But that it even works in the first place is already the fuck amazing!
 
-* Implement X-Parts
+    * Okay, so now the colors work too, and the size of the X Part looks acceptable
+
+    * Next, I need to get the X Parts working in the `KigouButton` too
 
 
 

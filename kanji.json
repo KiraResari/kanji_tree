@@ -29,7 +29,7 @@
 			"character": "十",
 			"stroke_arrangement": "Whole",
 			"stroke_count": 2,
-			"parent_names":["One", "[R2] Line"]	
+			"parent_names":["One", "R2 Line"]	
 		},
 		{
 			"name": "Up",
@@ -37,7 +37,7 @@
 			"character": "上",
 			"stroke_arrangement": "Whole",
 			"stroke_count": 3,
-			"parent_names":["One", "[R2] Line"]	
+			"parent_names":["One", "R2 Line"]	
 		},
 		{
 			"name": "Soil",
@@ -45,7 +45,7 @@
 			"character": "土",
 			"stroke_arrangement": "Whole",
 			"stroke_count": 3,
-			"parent_names":["Two", "[R2] Line"]	
+			"parent_names":["Two", "R2 Line"]	
 		},
 		{
 			"name": "King",
@@ -53,7 +53,7 @@
 			"character": "王",
 			"stroke_arrangement": "Whole",
 			"stroke_count": 4,
-			"parent_names":["Three", "[R2] Line"]	
+			"parent_names":["Three", "R2 Line"]	
 		},
 		{
 			"name": "Stop",
@@ -61,7 +61,7 @@
 			"character": "止",
 			"stroke_arrangement": "Whole",
 			"stroke_count": 4,
-			"parent_names":["Up", "[R2] Line"]	
+			"parent_names":["Up", "R2 Line"]	
 		},
 		{
 			"name": "Correct",
@@ -70,13 +70,45 @@
 			"stroke_arrangement": "Whole",
 			"stroke_count": 5,
 			"parent_names":["One", "Stop"]	
+		},
+		{
+			"name": "Master",
+			"node_type": "Kanji",
+			"character": "主",
+			"stroke_arrangement": "2HU",
+			"stroke_count": 6,
+			"parent_names":["R3 Dot", "King"]	
+		},
+		{
+			"name": "Eight",
+			"node_type": "Kanji",
+			"character": "八",
+			"stroke_arrangement": "2V",
+			"stroke_count": 6,
+			"parent_names":["X1-1 Reverse Dot", "R3 Dot"]	
 		}
 	],
 	"radical":[
 		{
-			"name": "[R2] Line",
+			"name": "R2 Line",
 			"node_type": "Radical",
 			"character": "丨",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 1
+		},
+		{
+			"name": "R3 Dot",
+			"node_type": "Radical",
+			"character": "丶",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 1
+		}
+	],
+	"x_part":[
+		{
+			"name": "X1-1 Reverse Dot",
+			"node_type": "XPart",
+			"image_name": "1-1_Reverse_Dot.png",
 			"stroke_arrangement": "Whole",
 			"stroke_count": 1
 		}

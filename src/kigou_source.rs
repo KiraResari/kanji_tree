@@ -98,7 +98,8 @@ mod tests {
                 character: String::from("二"),
                 stroke_arrangement: String::from("2H"),
                 stroke_count: 2,
-                parent_names: vec![String::from("One")]
+                parent_names: vec![String::from("One")],
+                image_name: "".to_string(),
             };
         let kanji_three = Kigou{
                 name: String::from("Three"),
@@ -106,7 +107,8 @@ mod tests {
                 character: String::from("三"),
                 stroke_arrangement: String::from("3H"),
                 stroke_count: 3,
-                parent_names: vec![String::from("One"), String::from("Two")]
+                parent_names: vec![String::from("One"), String::from("Two")],
+                image_name: "".to_string(),
             };
 
         let expected_children = vec![kanji_two, kanji_three];
@@ -127,7 +129,8 @@ mod tests {
                 character: String::from("二"),
                 stroke_arrangement: String::from("2H"),
                 stroke_count: 2,
-                parent_names: vec![String::from("One")]
+                parent_names: vec![String::from("One")],
+                image_name: "".to_string(),
             };
 
         assert_eq!(element, &kanji_two);
@@ -157,7 +160,8 @@ mod tests {
             character: String::from("一"),
             stroke_arrangement: String::from("Whole"),
             stroke_count: 1,
-            parent_names: vec![]
+            parent_names: vec![],
+            image_name: "".to_string(),
         };
         let kanji_two = Kigou{
             name: String::from("Two"),
@@ -165,7 +169,8 @@ mod tests {
             character: String::from("二"),
             stroke_arrangement: String::from("2H"),
             stroke_count: 2,
-            parent_names: vec![String::from("One")]
+            parent_names: vec![String::from("One")],
+            image_name: "".to_string(),
         };
 
 
@@ -187,7 +192,8 @@ mod tests {
             character: String::from("一"),
             stroke_arrangement: String::from("Whole"),
             stroke_count: 1,
-            parent_names: vec![]
+            parent_names: vec![],
+            image_name: "".to_string(),
         };
 
         assert_eq!(element, kanji_one);
