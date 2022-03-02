@@ -1061,6 +1061,112 @@
 
 
 
+# 2-Mar-2022
+
+* Now continuing with this
+
+* My goal for today is to whip the KanjiTree into workable shape
+
+* For that, I need to add two more functunalities:
+
+  * Kana
+  * X-Parts
+
+* The Kana should be routine, since they work fundamentally the same as the Kanji and the Radicals, but the X-Parts are more problematic
+
+* So I'll focus on the X-Parts first
+
+  * The X-Parts have an image in place of a font character, and that image should be displayed instead
+
+  * Now, I know for a fact that such a thing is possible, because the `Pokédex` sample app of iced does just that
+
+  * This looks like a puzzle piece:
+
+    * ````
+      struct Pokemon {
+          [...]
+          image: image::Handle,
+          image_viewer: image::viewer::State,
+      }
+      
+      impl Pokemon {
+          [...]
+          fn view(&mut self) -> Element<Message> {
+              Row::new()
+                  [...]
+                  .push(image::Viewer::new(
+                      &mut self.image_viewer,
+                      self.image.clone(),
+                  ))
+      ````
+
+  * However, the way that the image is loaded looks kinda funky:
+
+    * ````
+          async fn fetch_image(id: u16) -> Result<image::Handle, reqwest::Error> {
+              let url = format!(
+                  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{}.png",
+                  id
+              );
+      
+              #[cfg(not(target_arch = "wasm32"))]
+              {
+                  let bytes = reqwest::get(&url).await?.bytes().await?;
+      
+                  Ok(image::Handle::from_memory(bytes.as_ref().to_vec()))
+              }
+      
+              #[cfg(target_arch = "wasm32")]
+              Ok(image::Handle::from_path(url))
+          }
+      ````
+
+  * Perhaps I should look for an easier way...
+
+  * The `svg` sample project draws an `.svg` graphic like this:
+
+    * ````
+              let svg = Svg::from_path(format!(
+                  "{}/resources/tiger.svg",
+                  env!("CARGO_MANIFEST_DIR")
+              ))
+              .width(Length::Fill)
+              .height(Length::Fill);
+      
+              Container::new(svg)
+                  .width(Length::Fill)
+                  .height(Length::Fill)
+                  .padding(20)
+                  .center_x()
+                  .center_y()
+                  .into()
+      ````
+
+    * So maybe drawing an image that is located on the disk works in a similar way
+
+  * The `tour` sample project also contains pictures
+
+    * ````
+       [...]
+       .push(Image::new("tour/images/ferris.png"))
+       [...]
+      ````
+
+    * Well, that looks easy
+
+  * Anyway, I now have some ideas on how this should work, so let's see if we can get it to work
+
+  * First of all, I need to add a new field to the `Kigou` that can take an image name
+
+    * I think I'm really just going to use the name, and build the path when calling it
+
+  * For that, I figure it makes sense to first add a sample file that uses an X Part, and then write a test for it to see if the import works
+
+    * Naturally, it fails at first, but that's what I expected
+    * 
+
+
+
 NEXT:
 
 * Implement X-Parts

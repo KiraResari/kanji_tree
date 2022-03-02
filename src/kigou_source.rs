@@ -4,14 +4,14 @@ use std::{io::ErrorKind};
 use super::value_objects::*;
 
 pub struct KigouSource {
-    pub kanji: Vec<Kigou>,
+    pub kigou: Vec<Kigou>,
 }
 
 impl KigouSource{
 
     pub fn get_children(&self, identifier: &String)
          -> Vec<Kigou>{
-        self.kanji.iter()
+        self.kigou.iter()
             .filter(
                 |element| element.parent_names.contains(
                     identifier
@@ -22,14 +22,14 @@ impl KigouSource{
 
     pub fn get_parents(&self, identifier: &str)
         -> Vec<Kigou>{
-        let query_element_option = self.kanji.iter()
+        let query_element_option = self.kigou.iter()
             .find(|element| element.name == identifier);
         let query_element: &Kigou;
         match query_element_option{
             Some(v) => query_element = v,
             None => return vec![]
         }
-        let parents: Vec<Kigou> = self.kanji.iter()
+        let parents: Vec<Kigou> = self.kigou.iter()
         .filter(
             |element| query_element.parent_names.contains(&element.name)
         ).cloned()
@@ -39,7 +39,7 @@ impl KigouSource{
 
     pub fn get_element(&self, identifier: &str)
         -> Result<&Kigou, std::io::Error>{
-        let query_element_option = self.kanji.iter()
+        let query_element_option = self.kigou.iter()
             .find(|element| element.name == identifier);
         match query_element_option{
             Some(v) => Ok(v),
@@ -59,7 +59,7 @@ impl KigouSource{
 
     pub fn get_first_element(&self)
         -> Result<Kigou, std::io::Error>{
-        let first_element_option = self.kanji.first();
+        let first_element_option = self.kigou.first();
         match first_element_option{
             Some(v) => Ok(v.clone()),
             None =>{

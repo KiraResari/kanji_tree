@@ -44,7 +44,7 @@ mod tests {
         let kanji_source: KigouSource
              = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
 
-        assert_eq!(3, kanji_source.kanji.len());
+        assert_eq!(3, kanji_source.kigou.len());
     }
 
     #[test]
@@ -81,7 +81,7 @@ mod tests {
             }
         ];
 
-        assert_eq!(expected_parsed_kanji_json_elements, kanji_source.kanji);
+        assert_eq!(expected_parsed_kanji_json_elements, kanji_source.kigou);
     }
 
     #[test]
@@ -105,7 +105,19 @@ mod tests {
                  "kanji_test_with_separate_kanji_and_radical.json"
             ).unwrap();
 
-        assert_eq!(3, kanji_source.kanji.len());
+        assert_eq!(3, kanji_source.kigou.len());
+    }
+
+    #[test]
+    fn parse_kanji_json_with_x_part_should_return_correct_count_of_kigou(){
+        let mut kigou_parser = KigouParser::new();
+
+        let kanji_source: KigouSource
+             = kigou_parser.parse_kanji_json(
+                 "kanji_test_with_x_part.json"
+            ).unwrap();
+
+        assert_eq!(1, kanji_source.kigou.len());
     }
 
 }

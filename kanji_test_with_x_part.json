@@ -1,0 +1,11 @@
+{
+	"x_part":[
+		{
+			"name": "XP1-1_RDot",
+			"node_type": "XPart",
+			"image_name": "1-1_R_Dot",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 1
+		}
+	]
+}
