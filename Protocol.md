@@ -1340,7 +1340,7 @@
     * A Kanji that is not used in any words
     * Example: 斿
       * This is used in 遊, but doesn't appear in any words on its own
-  * 
+  * That now works
 
 
 

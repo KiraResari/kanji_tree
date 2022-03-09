@@ -2,7 +2,7 @@ use serde::Deserialize;
 
 use crate::kigou_source::KigouSource;
 
-use super::{Kanji, Radical, Kigou, XPart, Kana};
+use super::{Kanji, Radical, Kigou, XPart, Kana, DeadKanji};
 
 #[derive(Deserialize)]
 pub struct KanjiJson{
@@ -14,6 +14,8 @@ pub struct KanjiJson{
     pub x_part: Vec<XPart>,
     #[serde(default)]
     pub kana: Vec<Kana>,
+    #[serde(default)]
+    pub dead: Vec<DeadKanji>,
 }
 
 impl Into<KigouSource> for KanjiJson{
@@ -30,6 +32,9 @@ impl Into<KigouSource> for KanjiJson{
         );
         kigou.extend(
             self.kana.iter().map(|v| v.into())
+        );
+        kigou.extend(
+            self.dead.iter().map(|v| v.into())
         );
         KigouSource{kigou}
     }

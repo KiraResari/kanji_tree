@@ -135,4 +135,16 @@ mod tests {
         assert_eq!(1, kanji_source.kigou.len());
     }
 
+    #[test]
+    fn parse_kanji_json_with_dead_kanji_should_return_correct_count_of_kigou(){
+        let mut kigou_parser = KigouParser::new();
+
+        let kanji_source: KigouSource
+             = kigou_parser.parse_kanji_json(
+                 "kanji_test_with_dead_kanji.json"
+            ).unwrap();
+
+        assert_eq!(1, kanji_source.kigou.len());
+    }
+
 }
