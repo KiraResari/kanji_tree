@@ -1434,7 +1434,14 @@
 
       * That may mean that I might need another `Message` type, but let's see
 
-      * 
+    * Okay, so searching by character works now, but the font is not yet displaying Kanji
+
+      * I now got the font for the Kanji to work, but the font for the "🔍" is yet still eluding me
+      * Segoe UI Symbol should work for that
+
+    * Now the fonts in the search bar look good too
+
+    * 
 
 
 

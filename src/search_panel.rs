@@ -1,4 +1,4 @@
-use iced::{Button, Text, Row, TextInput, text_input, button};
+use iced::{Button, Text, Row, TextInput, text_input, button, Font};
 
 use crate::{message::Message};
 
@@ -26,19 +26,33 @@ impl SearchPanel{
                 &self.search_string,
                 Message::SearchBoxInputChanged,
             )
+            .font(
+                Font::External{
+                    name: "msgothic",
+                    bytes: include_bytes!("../fonts/msgothic.ttc")
+                }
+            )
+            .padding(15)
+            .size(32)
             .on_submit(Message::SearchForKigou(self.search_string.clone()))
         )
         .push(
             Button::new(
                 &mut self.button_state, 
                 Text::new("🔍")
-            ).on_press(Message::SearchForKigou(self.search_string.clone()))
+                    .font(
+                        Font::External{
+                            name: "Segoe UI Symbol",
+                            bytes: include_bytes!("../fonts/seguisym.ttf")
+                        }
+                    )
+                    .size(52)
+            )
+            .on_press(Message::SearchForKigou(self.search_string.clone()))
         )
     }
 
     pub fn update(&mut self, input: String){
         self.search_string = input;
     }
-
-
 }

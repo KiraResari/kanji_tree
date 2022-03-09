@@ -56,13 +56,13 @@ impl KanjiTreeApp{
         Column::new()
             .padding(20)
             .push(self.reload_button.view())
+            .push(self.search_panel.view())
             .align_items(Align::Center)
             .push(KanjiTreeApp::build_kanji_button_row(&mut self.parent_kigou_buttons))
             .push(Text::new( "↓".to_string()))
             .push(KigouPanel::from(&self.active_kigou))
             .push(Text::new( "↓".to_string()))
             .push(KanjiTreeApp::build_kanji_button_row(&mut self.child_kigou_buttons))
-            .push(self.search_panel.view())
     }
 
     fn build_kanji_button_row<'a>(kanji_buttons: &'a mut Vec<KigouButton>) -> Row<'a, Message> {
