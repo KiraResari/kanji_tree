@@ -1325,15 +1325,21 @@
 # 9-Mar-2022
 
 * So, I've now worked with what I have for a week, and found that it generally works
+
 * However, there are a few functionalities that I'm really missing, so I'll try to implement these today
+
 * Those are, in order of importance:
+
   * Dead Kanji
   * Reload Button
   * Search
   * Executable
   * Validations on import
+
 * I'll try to take care of as many of those as possible today
+
 * Starting with the Dead Kanji
+
   * Those are pretty straightforward, since they are pretty much just another color-scheme of Kigou
   * I'll have to adjust the .json import for that again, however
   * Definition of Dead:
@@ -1341,6 +1347,45 @@
     * Example: 斿
       * This is used in 遊, but doesn't appear in any words on its own
   * That now works
+
+* Next, the reload button
+
+  * The use case for this is:
+
+    * When I make changes to the `kanji.json`, I want to be able to press a key or button to reload the `kanji.json` so that I can see my changes without having to restart the entire program
+
+  * Basically, I think that means I'll have to re-create the `KigouSource` and reload the view
+
+  * To do that, I think I need to add another type of `Message`
+
+  * It all worked fine until I tried adding the button to the form, at which point I got this error:
+
+    * ````
+      error[E0515]: cannot return value referencing temporary value
+        --> src\app.rs:54:9
+         |
+      54 | /         Column::new()
+      55 | |             .padding(20)
+      56 | |             .push(ReloadButton::new().view())
+         | |                   ------------------- temporary value created here
+      57 | |             .align_items(Align::Center)
+      ...  |
+      61 | |             .push(Text::new( "↓".to_string()))
+      62 | |             .push(KanjiTreeApp::build_kanji_button_row(&mut self.child_kigou_buttons))
+         | |______________________________________________________________________________________^ returns a value referencing data owned by the current function
+      ````
+
+    * I more or less understand the error, but I don't know what to do about it
+
+    * After some thought, I managed to fix this by creating a `reload_button: ReloadButton,`-field in the `KanjiTreeApp`, populating that during the startup, and then just using that value here
+
+    * That fixed this issue
+
+  * Now the Reload button exists and seems to work, but I still need to put it to the test
+
+  * SUCCESS: That now works as intended!
+
+  * 
 
 
 
@@ -1353,7 +1398,6 @@ Wanted Features:
   * No duplicates
   * No dead parents
   * Image could not be found
-* Reload button
 
 
 

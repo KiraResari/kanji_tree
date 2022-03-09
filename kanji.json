@@ -216,6 +216,13 @@
 			"stroke_arrangement": "2V",
 			"stroke_count": 15,
 			"parent_names":["Moon", "Plug Up"]	
+		},
+		{
+			"name": "Or",
+			"character": "又",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 2,
+			"parent_names":["Katakana Fu", "X1-2 Reverse No"]	
 		}
 	],
 	"radical":[
@@ -336,6 +343,12 @@
 		{
 			"name": "Hiragana Ku",
 			"character": "く",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 1
+		},
+		{
+			"name": "Katakana Fu",
+			"character": "フ",
 			"stroke_arrangement": "Whole",
 			"stroke_count": 1
 		},
