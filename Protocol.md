@@ -1445,6 +1445,11 @@
 
     * Okay, that works now too
 
+  * Next, I'll implement the fuzzy name search
+
+    * That now works too!
+    * 
+
 
 
 Wanted Features:

@@ -43,6 +43,15 @@ impl KigouSource{
             .find(|element| element.name.to_lowercase() == name.to_lowercase())
     }
 
+    pub fn get_kigou_by_name_fuzzy(&self, name: &str) -> Option<&Kigou>{
+        self.kigou
+            .iter()
+            .find(
+                |element|
+                element.name.to_lowercase().contains(&name.to_lowercase())
+            )
+    }
+
     pub fn get_kigou_by_character(&self, character: &str) -> Option<&Kigou>{
         self.kigou.iter().find(|element| element.character == character)
     }
@@ -228,6 +237,27 @@ mod tests {
              = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
 
         let element = kanji_source.get_kigou_by_name("two").unwrap();
+
+        let kanji_two = Kigou{
+                name: String::from("Two"),
+                kigou_type: KigouType::Kanji,
+                character: String::from("二"),
+                stroke_arrangement: String::from("2H"),
+                stroke_count: 2,
+                parent_names: vec![String::from("One")],
+                image_name: "".to_string(),
+            };
+
+        assert_eq!(element, &kanji_two);
+    }
+
+    #[test]
+    fn get_kigou_by_name_fuzzy_should_return_correct_kigou(){
+        let mut kanji_parser = KigouParser::new();
+        let kanji_source: KigouSource
+             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+
+        let element = kanji_source.get_kigou_by_name_fuzzy("tw").unwrap();
 
         let kanji_two = Kigou{
                 name: String::from("Two"),

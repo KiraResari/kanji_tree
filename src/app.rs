@@ -138,6 +138,20 @@ impl KanjiTreeApp{
                 self.update_kigou_buttons();
             }
             None => {
+                self.search_for_kigou_by_fuzzy_name(query);
+            }
+        }
+    }
+
+    fn search_for_kigou_by_fuzzy_name(&mut self, query: String){
+        let character_search_result
+            = self.kigou_source.get_kigou_by_name_fuzzy(&query);
+        match character_search_result{
+            Some(matched_kigou ) =>{
+                self.active_kigou = matched_kigou.clone();
+                self.update_kigou_buttons();
+            }
+            None => {
 
             }
         }
