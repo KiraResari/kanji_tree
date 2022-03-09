@@ -1448,7 +1448,14 @@
   * Next, I'll implement the fuzzy name search
 
     * That now works too!
-    * 
+
+  * And finally, I want to implement a display message
+
+    * I managed to get this to work too!
+
+  * With that, this part is now complete too
+
+* 
 
 
 

@@ -31,3 +31,12 @@ impl Kigou{
         self.image_name != ""
     }
 }
+
+impl ToString for Kigou{
+    fn to_string(&self) -> String{
+        if self.character == "" {
+            return self.name.clone()
+        }
+        self.character.clone()
+    }
+}

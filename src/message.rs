@@ -2,7 +2,7 @@ use crate::value_objects::Kigou;
 
 #[derive(Debug, Clone)]
 pub enum Message {
-    LoadKanji(Kigou),
+    LoadKigou(Kigou),
     ReloadKigouSource(),
     SearchForKigou(String),
     SearchBoxInputChanged(String),

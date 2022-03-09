@@ -1,4 +1,4 @@
-use iced::{Sandbox, Column, Element, Text, Container, Length, Row, Align};
+use iced::{Sandbox, Column, Element, Text, Container, Length, Row, Align, Font};
 
 use crate::{kigou_parser::KigouParser, kigou_source::KigouSource, value_objects::Kigou, message::Message, kigou_button::KigouButton, kigou_panel::KigouPanel, reload_button::ReloadButton, search_panel::SearchPanel};
 
@@ -11,6 +11,7 @@ pub struct KanjiTreeApp{
     parent_kigou_buttons: Vec<KigouButton>,
     reload_button: ReloadButton,
     search_panel: SearchPanel,
+    display_message: String,
 }
 
 impl KanjiTreeApp{
@@ -55,6 +56,7 @@ impl KanjiTreeApp{
 
         Column::new()
             .padding(20)
+            .push(self.build_display_message())
             .push(self.reload_button.view())
             .push(self.search_panel.view())
             .align_items(Align::Center)
@@ -63,6 +65,16 @@ impl KanjiTreeApp{
             .push(KigouPanel::from(&self.active_kigou))
             .push(Text::new( "↓".to_string()))
             .push(KanjiTreeApp::build_kanji_button_row(&mut self.child_kigou_buttons))
+    }
+
+    fn build_display_message(&mut self) -> Text {
+        Text::new(&self.display_message)
+            .font(
+                Font::External{
+                    name: "msgothic",
+                    bytes: include_bytes!("../fonts/msgothic.ttc")
+                }
+            )
     }
 
     fn build_kanji_button_row<'a>(kanji_buttons: &'a mut Vec<KigouButton>) -> Row<'a, Message> {
@@ -75,7 +87,20 @@ impl KanjiTreeApp{
         children_row
     }
 
-    fn update_kigou_buttons(&mut self){
+    fn load_kigou(&mut self, kigou: Kigou){
+        self.active_kigou = kigou;
+        self.update_kigou_buttons_and_message();
+    }
+
+    fn update_kigou_buttons_and_message(&mut self){
+        self.update_kigou_buttons();
+        self.display_message = format!(
+            "Loaded {}",
+            self.active_kigou.to_string()
+        );
+    }
+
+    fn update_kigou_buttons(&mut self) {
         self.child_kigou_buttons 
             = KanjiTreeApp::build_child_kanji_buttons(
                 &self.active_kigou, 
@@ -89,6 +114,7 @@ impl KanjiTreeApp{
     }
 
     fn reload_kigou_source(&mut self){
+        self.display_message = "Reloading kanji.json...".to_string();
         let mut kigou_parser = KigouParser::new();
         self.kigou_source 
             = kigou_parser.parse_kanji_json(
@@ -96,6 +122,7 @@ impl KanjiTreeApp{
             ).unwrap();
         self.reload_active_kigou_or_load_first();
         self.update_kigou_buttons();
+        self.display_message = "Finished reloading kanji.json!".to_string();
     }
 
     fn reload_active_kigou_or_load_first(&mut self){
@@ -121,7 +148,7 @@ impl KanjiTreeApp{
         match character_search_result{
             Some(matched_kigou ) =>{
                 self.active_kigou = matched_kigou.clone();
-                self.update_kigou_buttons();
+                self.update_kigou_buttons_and_message();
             }
             None => {
                 self.search_for_kigou_by_exact_name(query);
@@ -135,7 +162,7 @@ impl KanjiTreeApp{
         match character_search_result{
             Some(matched_kigou ) =>{
                 self.active_kigou = matched_kigou.clone();
-                self.update_kigou_buttons();
+                self.update_kigou_buttons_and_message();
             }
             None => {
                 self.search_for_kigou_by_fuzzy_name(query);
@@ -149,10 +176,13 @@ impl KanjiTreeApp{
         match character_search_result{
             Some(matched_kigou ) =>{
                 self.active_kigou = matched_kigou.clone();
-                self.update_kigou_buttons();
+                self.update_kigou_buttons_and_message();
             }
             None => {
-
+                self.display_message = format!(
+                    "Could not find a Kigou for search string: {}",
+                    query
+                );
             }
         }
     }
@@ -185,6 +215,7 @@ impl Sandbox for KanjiTreeApp {
             parent_kigou_buttons: parent_kanji_buttons,
             reload_button: ReloadButton::new(),
             search_panel: SearchPanel::new(),
+            display_message: "Welcome to the Kanji Tree!".to_string()
         }
     }
 
@@ -194,9 +225,8 @@ impl Sandbox for KanjiTreeApp {
 
     fn update(&mut self, message: Message) {
         match message {
-            Message::LoadKanji(kigou) => {
-                self.active_kigou = kigou;
-                self.update_kigou_buttons();
+            Message::LoadKigou(kigou) => {
+                self.load_kigou(kigou);
             }
             Message::ReloadKigouSource() => {
                 self.reload_kigou_source();

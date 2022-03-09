@@ -16,7 +16,7 @@ impl KigouButton{
         Button::new(
             &mut self.state, 
             KigouDisplayBuilder::build_kigou_display(&self.kigou, 32)
-        ).on_press(Message::LoadKanji(self.kigou.clone()))
+        ).on_press(Message::LoadKigou(self.kigou.clone()))
         .style(self.kigou.clone().kigou_type)
     }
 }
