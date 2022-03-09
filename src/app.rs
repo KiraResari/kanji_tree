@@ -1,6 +1,6 @@
 use iced::{Sandbox, Column, Element, Text, Container, Length, Row, Align};
 
-use crate::{kigou_parser::KigouParser, kigou_source::KigouSource, value_objects::Kigou, message::Message, kigou_button::KigouButton, kigou_panel::KigouPanel, reload_button::ReloadButton};
+use crate::{kigou_parser::KigouParser, kigou_source::KigouSource, value_objects::Kigou, message::Message, kigou_button::KigouButton, kigou_panel::KigouPanel, reload_button::ReloadButton, search_panel::SearchPanel};
 
 static KANJI_JSON_PATH: &str = "kanji.json";
 
@@ -10,6 +10,7 @@ pub struct KanjiTreeApp{
     child_kigou_buttons: Vec<KigouButton>,
     parent_kigou_buttons: Vec<KigouButton>,
     reload_button: ReloadButton,
+    search_panel: SearchPanel,
 }
 
 impl KanjiTreeApp{
@@ -61,6 +62,7 @@ impl KanjiTreeApp{
             .push(KigouPanel::from(&self.active_kigou))
             .push(Text::new( "↓".to_string()))
             .push(KanjiTreeApp::build_kanji_button_row(&mut self.child_kigou_buttons))
+            .push(self.search_panel.view())
     }
 
     fn build_kanji_button_row<'a>(kanji_buttons: &'a mut Vec<KigouButton>) -> Row<'a, Message> {
@@ -98,7 +100,9 @@ impl KanjiTreeApp{
 
     fn reload_active_kigou_or_load_first(&mut self){
         let active_kigou_equivalent 
-            = self.kigou_source.get_element(&self.active_kigou.name);
+            = self.kigou_source.get_kigou_by_name(
+                &self.active_kigou.name
+            );
         match active_kigou_equivalent{
             Some(newly_loaded_kigou) => {
                 self.active_kigou = newly_loaded_kigou.clone();
@@ -109,7 +113,21 @@ impl KanjiTreeApp{
                 );
             }
         }
-  }
+    }
+
+    fn search_for_kigou(&mut self, query: String){
+        let character_search_result
+            = self.kigou_source.get_kigou_by_character(&query);
+        match character_search_result{
+            Some(matched_kigou ) =>{
+                self.active_kigou = matched_kigou.clone();
+                self.update_kigou_buttons();
+            }
+            None => {
+
+            }
+        }
+    }
 }
 
 impl Sandbox for KanjiTreeApp {
@@ -138,6 +156,7 @@ impl Sandbox for KanjiTreeApp {
             child_kigou_buttons: child_kanji_buttons,
             parent_kigou_buttons: parent_kanji_buttons,
             reload_button: ReloadButton::new(),
+            search_panel: SearchPanel::new(),
         }
     }
 
@@ -153,6 +172,12 @@ impl Sandbox for KanjiTreeApp {
             }
             Message::ReloadKigouSource() => {
                 self.reload_kigou_source();
+            }
+            Message::SearchForKigou(query) => {
+                self.search_for_kigou(query);
+            }
+            Message::SearchBoxInputChanged(input) => {
+                self.search_panel.update(input);
             }
         }
     }

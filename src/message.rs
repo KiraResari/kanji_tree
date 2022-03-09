@@ -4,4 +4,6 @@ use crate::value_objects::Kigou;
 pub enum Message {
     LoadKanji(Kigou),
     ReloadKigouSource(),
+    SearchForKigou(String),
+    SearchBoxInputChanged(String),
 }

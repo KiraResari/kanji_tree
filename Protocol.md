@@ -1393,6 +1393,49 @@
 
   * SUCCESS: That now works too!
 
+  * With that, I think I'm satisfied enough with the Reload functionality that I can move on to the next issue
+
+* The Search
+
+  * I want to be have a search box that I can use to jump to any Kigou, either by character or name
+
+    * If no such Kigou exists, a message should be displayed
+    * The characters should be searched fist, and then the name
+    * The name search should first do an absolute search, and then a fuzzy search
+      * If the fuzzy search returns multiple results, it's okay for a random one of those to be displayed
+
+  * So, from the way I defined these requirements, I think there should be a text input field, a button, as well as a display field for the message
+
+  * It probably makes sense for the message field to be a separate component so I can use it for other things I want to display too
+
+  * But one step at a time
+
+  * First, I'll implement the basic search functionality for characters
+
+    * For that, I'll definitely need a new type of  `Message`
+
+    * Now, how do you do a text entry field?
+
+      * Fortunately, there's plenty of examples for this
+
+      * I think this is the logic I'm searching for:
+
+        * ````
+                          let input = TextInput::new(
+                              input,
+                              "What needs to be done?",
+                              input_value,
+                              Message::InputChanged,
+                          )
+                          .padding(15)
+                          .size(30)
+                          .on_submit(Message::CreateTask);
+          ````
+
+      * That may mean that I might need another `Message` type, but let's see
+
+      * 
+
 
 
 Wanted Features:

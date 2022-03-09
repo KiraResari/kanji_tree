@@ -8,3 +8,4 @@ mod kigou_button;
 mod kigou_panel;
 mod kigou_display_builder;
 mod reload_button;
+mod search_panel;

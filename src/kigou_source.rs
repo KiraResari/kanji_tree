@@ -37,8 +37,12 @@ impl KigouSource{
         parents
     }
 
-    pub fn get_element(&self, name: &str) -> Option<&Kigou>{
+    pub fn get_kigou_by_name(&self, name: &str) -> Option<&Kigou>{
         self.kigou.iter().find(|element| element.name == name)
+    }
+
+    pub fn get_kigou_by_character(&self, character: &str) -> Option<&Kigou>{
+        self.kigou.iter().find(|element| element.character == character)
     }
 
     pub fn get_first_element(&self)
@@ -105,7 +109,7 @@ mod tests {
         let kanji_source: KigouSource
              = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
 
-        let element = kanji_source.get_element("Two").unwrap();
+        let element = kanji_source.get_kigou_by_name("Two").unwrap();
 
         let kanji_two = Kigou{
                 name: String::from("Two"),
@@ -126,7 +130,7 @@ mod tests {
         let kanji_source: KigouSource
              = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
 
-        let result = kanji_source.get_element("Does Not Exist");
+        let result = kanji_source.get_kigou_by_name("Does Not Exist");
 
         assert_eq!(result, None);
     }
@@ -192,6 +196,27 @@ mod tests {
              = kanji_parser.parse_kanji_json("kanji_test_empty.json").unwrap();
 
         kanji_source.get_first_element().unwrap();
+    }
+
+    #[test]
+    fn get_kigou_by_chracter_should_return_correct_kigou(){
+        let mut kanji_parser = KigouParser::new();
+        let kanji_source: KigouSource
+             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+
+        let element = kanji_source.get_kigou_by_character("二").unwrap();
+
+        let kanji_two = Kigou{
+                name: String::from("Two"),
+                kigou_type: KigouType::Kanji,
+                character: String::from("二"),
+                stroke_arrangement: String::from("2H"),
+                stroke_count: 2,
+                parent_names: vec![String::from("One")],
+                image_name: "".to_string(),
+            };
+
+        assert_eq!(element, &kanji_two);
     }
 
 }
