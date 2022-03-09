@@ -9,21 +9,26 @@ pub struct KigouSource {
 
 impl KigouSource{
 
-    pub fn get_children(&self, identifier: &String)
+    pub fn get_children(&self, name: &String)
          -> Vec<Kigou>{
         self.kigou.iter()
             .filter(
                 |element| element.parent_names.contains(
-                    identifier
+                    name
                 )
             ).cloned()
             .collect()
     }
 
-    pub fn get_parents(&self, identifier: &str)
+    pub fn has_children(&self, name: &String) -> bool{
+        let children = self.get_children(name);
+        children.len() > 0
+    }
+
+    pub fn get_parents(&self, name: &str)
         -> Vec<Kigou>{
         let query_element_option = self.kigou.iter()
-            .find(|element| element.name == identifier);
+            .find(|element| element.name == name);
         let query_element: &Kigou;
         match query_element_option{
             Some(v) => query_element = v,
@@ -270,6 +275,28 @@ mod tests {
             };
 
         assert_eq!(element, &kanji_two);
+    }
+
+    #[test]
+    fn has_children_should_return_true_for_one(){
+        let mut kanji_parser = KigouParser::new();
+        let kanji_source: KigouSource
+             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+
+        let result = kanji_source.has_children(&"One".to_string());
+
+        assert_eq!(result, true);
+    }
+
+    #[test]
+    fn has_children_should_return_false_for_three(){
+        let mut kanji_parser = KigouParser::new();
+        let kanji_source: KigouSource
+             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+
+        let result = kanji_source.has_children(&"Three".to_string());
+
+        assert_eq!(result, false);
     }
 
 }

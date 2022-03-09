@@ -30,6 +30,10 @@ impl Kigou{
     pub fn uses_image(&self) -> bool{
         self.image_name != ""
     }
+
+    pub fn has_parents(&self) -> bool{
+        self.parent_names.len() > 0
+    }
 }
 
 impl ToString for Kigou{

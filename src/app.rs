@@ -60,14 +60,23 @@ impl KanjiTreeApp{
             .push(self.reload_button.view())
             .push(self.search_panel.view())
             .align_items(Align::Center)
-            .push(KanjiTreeApp::build_kanji_button_row(&mut self.parent_kigou_buttons))
-            .push(Text::new( "↓".to_string()))
+            .push(KanjiTreeApp::build_kanji_button_row(
+                &mut self.parent_kigou_buttons)
+            )
+            .push(KanjiTreeApp::build_arrow_if_necessary(
+                self.active_kigou.has_parents())
+            )
             .push(KigouPanel::from(&self.active_kigou))
-            .push(Text::new( "↓".to_string()))
+            .push(KanjiTreeApp::build_arrow_if_necessary(
+                self.kigou_source.has_children(
+                    &self.active_kigou.name
+                )
+            )
+            )
             .push(KanjiTreeApp::build_kanji_button_row(&mut self.child_kigou_buttons))
     }
 
-    fn build_display_message(&mut self) -> Text {
+    fn build_display_message(&self) -> Text {
         Text::new(&self.display_message)
             .font(
                 Font::External{
@@ -75,6 +84,14 @@ impl KanjiTreeApp{
                     bytes: include_bytes!("../fonts/msgothic.ttc")
                 }
             )
+    }
+
+    fn build_arrow_if_necessary(arrow_should_be_displayed: bool) -> Text {
+        if arrow_should_be_displayed {
+            return Text::new( "↓".to_string())
+                .size(32)
+        }
+        Text::new( "".to_string())
     }
 
     fn build_kanji_button_row<'a>(kanji_buttons: &'a mut Vec<KigouButton>) -> Row<'a, Message> {

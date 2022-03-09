@@ -1455,15 +1455,26 @@
 
   * With that, this part is now complete too
 
-* 
+* With the new message bar, the app now is starting to look really, really cool
+
+* At this point, the only two improvements on my immediate wishlist are "not displaying the arrows if now children/parents are present" and the validations on import
+
+* The validations are probably the more important things, but since those are probably more complex (since I need to decide on which behavior I want the app to display in case of an error), and I have only a little time left today, I'll instead do the arrows thing, where I already have a pretty good idea of how it might work
+
+* So, now trying the display arrows
+
+  * Basically, I want the app to onl< display the arrow above the Kigou if the Kigou has parents, and only display it below it it has children
+  * My initial attempt failed on account of Rust being a borrowing-nazi again
+  * I now got it to work, but I'm not fully happy with it, since the borrowing rules of rust force me to keep several things in one function that I would rather have in separate functions
+  * The main problem being that it won't let me borrow `self` multiple times again, even though that seemingly already happens, I really don't know why
+  * Anyway, it works for now, and it doesn't look _too_ bad, so I'll leave it at that for now
+
+* This is as far as I'm getting today
 
 
 
 Wanted Features:
 
-* Search: Jump to any Kigou by name or character
-* Don't display arrow above if Kigou has no parents
-* Don't display arrow below if Kigou has no children
 * Validations on import:
   * No duplicates
   * No dead parents
