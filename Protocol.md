@@ -1136,7 +1136,7 @@
               ))
               .width(Length::Fill)
               .height(Length::Fill);
-      
+            
               Container::new(svg)
                   .width(Length::Fill)
                   .height(Length::Fill)
@@ -1322,6 +1322,28 @@
 
 
 
+# 9-Mar-2022
+
+* So, I've now worked with what I have for a week, and found that it generally works
+* However, there are a few functionalities that I'm really missing, so I'll try to implement these today
+* Those are, in order of importance:
+  * Dead Kanji
+  * Reload Button
+  * Search
+  * Executable
+  * Validations on import
+* I'll try to take care of as many of those as possible today
+* Starting with the Dead Kanji
+  * Those are pretty straightforward, since they are pretty much just another color-scheme of Kigou
+  * I'll have to adjust the .json import for that again, however
+  * Definition of Dead:
+    * A Kanji that is not used in any words
+    * Example: 斿
+      * This is used in 遊, but doesn't appear in any words on its own
+  * 
+
+
+
 Wanted Features:
 
 * Search: Jump to any Kigou by name or character
@@ -1331,6 +1353,7 @@ Wanted Features:
   * No duplicates
   * No dead parents
   * Image could not be found
+* Reload button
 
 
 
