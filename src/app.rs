@@ -124,6 +124,20 @@ impl KanjiTreeApp{
                 self.update_kigou_buttons();
             }
             None => {
+                self.search_for_kigou_by_exact_name(query);
+            }
+        }
+    }
+
+    fn search_for_kigou_by_exact_name(&mut self, query: String){
+        let character_search_result
+            = self.kigou_source.get_kigou_by_name(&query);
+        match character_search_result{
+            Some(matched_kigou ) =>{
+                self.active_kigou = matched_kigou.clone();
+                self.update_kigou_buttons();
+            }
+            None => {
 
             }
         }

@@ -1441,7 +1441,9 @@
 
     * Now the fonts in the search bar look good too
 
-    * 
+  * Next, I'll implement the exact name search
+
+    * Okay, that works now too
 
 
 
