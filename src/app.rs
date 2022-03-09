@@ -13,7 +13,7 @@ pub struct KanjiTreeApp{
 }
 
 impl KanjiTreeApp{
-    fn load_first_kanji(kanji_source: &KigouSource) -> Kigou{
+    fn load_first_kigou(kanji_source: &KigouSource) -> Kigou{
         let first_kanji_result
              = kanji_source.get_first_element();
         match first_kanji_result{
@@ -87,14 +87,29 @@ impl KanjiTreeApp{
     }
 
     fn reload_kigou_source(&mut self){
-        let mut kanji_parser = KigouParser::new();
+        let mut kigou_parser = KigouParser::new();
         self.kigou_source 
-            = kanji_parser.parse_kanji_json(KANJI_JSON_PATH)
-                .unwrap();
-        self.active_kigou
-            = KanjiTreeApp::load_first_kanji(&self.kigou_source);
+            = kigou_parser.parse_kanji_json(
+                KANJI_JSON_PATH
+            ).unwrap();
+        self.reload_active_kigou_or_load_first();
         self.update_kigou_buttons();
     }
+
+    fn reload_active_kigou_or_load_first(&mut self){
+        let active_kigou_equivalent 
+            = self.kigou_source.get_element(&self.active_kigou.name);
+        match active_kigou_equivalent{
+            Some(newly_loaded_kigou) => {
+                self.active_kigou = newly_loaded_kigou.clone();
+            },
+            None => {
+                self.active_kigou = KanjiTreeApp::load_first_kigou(
+                    &self.kigou_source
+                );
+            }
+        }
+  }
 }
 
 impl Sandbox for KanjiTreeApp {
@@ -106,7 +121,7 @@ impl Sandbox for KanjiTreeApp {
             = kanji_parser.parse_kanji_json(KANJI_JSON_PATH)
                 .unwrap();
         let active_kanji
-            = KanjiTreeApp::load_first_kanji(&kanji_source);
+            = KanjiTreeApp::load_first_kigou(&kanji_source);
         let child_kanji_buttons 
             = KanjiTreeApp::build_child_kanji_buttons(
                 &active_kanji,

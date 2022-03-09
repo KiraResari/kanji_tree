@@ -37,24 +37,8 @@ impl KigouSource{
         parents
     }
 
-    pub fn get_element(&self, identifier: &str)
-        -> Result<&Kigou, std::io::Error>{
-        let query_element_option = self.kigou.iter()
-            .find(|element| element.name == identifier);
-        match query_element_option{
-            Some(v) => Ok(v),
-            None =>{
-                Err(
-                    std::io::Error::new(
-                        ErrorKind::Other,
-                        format!(
-                            "No Kanji with name '{}' could be found.",
-                            identifier
-                        )
-                    )
-                )
-            }
-        }
+    pub fn get_element(&self, name: &str) -> Option<&Kigou>{
+        self.kigou.iter().find(|element| element.name == name)
     }
 
     pub fn get_first_element(&self)
@@ -137,13 +121,14 @@ mod tests {
     }
 
     #[test]
-    #[should_panic(expected = "No Kanji with name")]
-    fn get_element_should_return_error_if_element_does_not_exist(){
+    fn get_element_should_return_none_if_element_does_not_exist(){
         let mut kanji_parser = KigouParser::new();
         let kanji_source: KigouSource
              = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
 
-        kanji_source.get_element("Does Not Exist").unwrap();
+        let result = kanji_source.get_element("Does Not Exist");
+
+        assert_eq!(result, None);
     }
 
     #[test]

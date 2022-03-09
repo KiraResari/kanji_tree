@@ -1385,7 +1385,13 @@
 
   * SUCCESS: That now works as intended!
 
-  * 
+  * Now, it would be great if I could figure out how to add a hotkey for that too, but I wasn't able to find out how, and I can't recall seeing anything like that in any of the examples, so since this is not essential, and I have no idea how to do it, I'll just let it be for now
+
+  * However, it would also be great if the app could stay on the current Kigou (if it still exists) instead of skipping back to the beginning on a reload
+
+    * And here, I now _do_ have a pretty good idea of how to achieve that, so I'll do that now
+
+  * SUCCESS: That now works too!
 
 
 
