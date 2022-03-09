@@ -1471,6 +1471,12 @@
 
 * This is as far as I'm getting today
 
+* So, I've done quite a few things today, and the Kanji Tree looks that much better for it
+
+* I think this is deserving of a new version number
+
+* So, let this be Version 2-1-0
+
 
 
 Wanted Features:
