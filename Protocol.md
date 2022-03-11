@@ -1603,6 +1603,14 @@
 
 * I think this is as far as I'm getting development-wise for today
 
+* ...I'm genuinely disappointed that the `exe` is 19.2 MB big though. That's approximately 19 MB more than I would have expected
+
+  * I looked into that, and it would seem that it's the msgothic font files that make it so big
+  * I suppose I can't do without those if I want to use Kanji
+  * I also did a quick compare with the Arial Unicode, and that one is even bigger, featuring a whopping 22MB, so not an option
+
+* For the rest of today, I simply added a few more Kanji
+
 
 
 Wanted Features:

@@ -106,11 +106,18 @@
 			"parent_names":["X1-3 Top Right Corner", "One", "R2 Line"]	
 		},
 		{
+			"name": "Day",
+			"character": "日",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 4,
+			"parent_names":["Mouth", "One"]	
+		},
+		{
 			"name": "Rice Field",
 			"character": "田",
 			"stroke_arrangement": "Whole",
 			"stroke_count": 5,
-			"parent_names":["Mouth", "Ten"]	
+			"parent_names":["Day", "Line"]	
 		},
 		{
 			"name": "Farm",
@@ -223,6 +230,97 @@
 			"stroke_arrangement": "Whole",
 			"stroke_count": 2,
 			"parent_names":["Katakana Fu", "X1-2 Reverse No"]	
+		},
+		{
+			"name": "Piling",
+			"character": "弋",
+			"stroke_arrangement": "Comp",
+			"stroke_count": 3,
+			"parent_names":["One", "X1-6 Ceremony Hook", "R3 Dot"]	
+		},
+		{
+			"name": "Craft",
+			"character": "工",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 3,
+			"parent_names":["Two", "R2 Line"]	
+		},
+		{
+			"name": "Ceremony",
+			"character": "式",
+			"stroke_arrangement": "TRC",
+			"stroke_count": 6,
+			"parent_names":["Piling", "Craft"]	
+		},
+		{
+			"name": "Say",
+			"character": "言",
+			"stroke_arrangement": "5HU",
+			"stroke_count": 7,
+			"parent_names":["One", "Mouth"]	
+		},
+		{
+			"name": "Test",
+			"character": "試",
+			"stroke_arrangement": "2V",
+			"stroke_count": 13,
+			"parent_names":["Say", "Ceremony"]	
+		},
+		{
+			"name": "Car",
+			"character": "車",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 7,
+			"parent_names":["Two", "R2 Line", "Day"]	
+		},
+		{
+			"name": "Middle",
+			"character": "中",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 4,
+			"parent_names":["R2 Line", "Mouth"]	
+		},
+		{
+			"name": "Down",
+			"character": "下",
+			"stroke_arrangement": "Comp",
+			"stroke_count": 3,
+			"parent_names":["One", "R2 Line", "R3 Dot"]	
+		},
+		{
+			"name": "Bright",
+			"character": "明",
+			"stroke_arrangement": "2V",
+			"stroke_count": 8,
+			"parent_names":["Day", "Moon"]	
+		},
+		{
+			"name": "Tree",
+			"character": "木",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 4,
+			"parent_names":["Ten", "Katakana No", "X1-2 Reverse No"]	
+		},
+		{
+			"name": "Grove",
+			"character": "林",
+			"stroke_arrangement": "2V",
+			"stroke_count": 8,
+			"parent_names":["Tree"]	
+		},
+		{
+			"name": "Forest",
+			"character": "森",
+			"stroke_arrangement": "2H",
+			"stroke_count": 12,
+			"parent_names":["Tree", "Grove"]	
+		},
+		{
+			"name": "Rice",
+			"character": "米",
+			"stroke_arrangement": "Comp",
+			"stroke_count": 6,
+			"parent_names":["Tree", "R3 Dot", "X1-1 Reverse Dot"]	
 		}
 	],
 	"radical":[
@@ -314,6 +412,12 @@
 		{
 			"name": "X1-5 Corner Hook",
 			"image_name": "1-5 Corner Hook.png",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 1
+		},
+		{
+			"name": "X1-6 Ceremony Hook",
+			"image_name": "1-6 Ceremony Hook.png",
 			"stroke_arrangement": "Whole",
 			"stroke_count": 1
 		},
