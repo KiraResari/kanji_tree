@@ -5,10 +5,10 @@ pub fn main() -> iced::Result {
     let mut settings = Settings::default();
     settings.window.icon =  Icon::from_rgba(
         include_bytes!(
-            "../resources/images/Kanji Tree R Icon 32.bmp"
+            "../resources/images/Kanji Tree R Icon.ico"
         ).to_vec(),
-        32,
-        32
+        512,
+        512
     ).ok();
     kanji_tree::KanjiTreeApp::run(settings)
 }

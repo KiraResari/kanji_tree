@@ -1590,19 +1590,24 @@
 
     * Okay, so I'm obviously not getting this to run on my own. Time to ask for help
 
-    * 
+    * I have now created this help request about this:
 
-NOTE:
+      * https://github.com/iced-rs/iced/discussions/1281
 
-* Put Fonts in Resources too
+    * In the meantime, I'll just leave this in since it's not breaking anything
 
+  * I also remembered that I still need to put the resources in the font folder
 
+    * And while I'm at it, I should probably also unify the font access somehow, because right now, it's in several places all over the code
+    * I now did that, and the code looks so much nicer for it
+
+* I think this is as far as I'm getting development-wise for today
 
 
 
 Wanted Features:
 
-* Upload .exe with icon
+* Application Icon
 * Validations on import:
   * No duplicates
   * No dead parents

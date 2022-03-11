@@ -1,6 +1,6 @@
-use iced::{Element, Text, Font, Container, Image, Length};
+use iced::{Element, Text, Container, Image, Length};
 
-use crate::{value_objects::Kigou, message::Message};
+use crate::{value_objects::Kigou, message::Message, fonts::Fonts};
 
 pub struct KigouDisplayBuilder{
 }
@@ -23,10 +23,7 @@ impl KigouDisplayBuilder{
     fn build_kigou_character(character: String, size: u16) -> Text {
         Text::new(character)
             .size(size)
-            .font(Font::External{
-                name: "msgothic",
-                bytes: include_bytes!("../fonts/msgothic.ttc")
-            })
+            .font(Fonts::ms_gothic())
     }
 
     fn build_kigou_image<'a>(kigou: &Kigou, size: u16) -> Container<'a, Message> {
