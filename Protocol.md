@@ -1482,15 +1482,121 @@
 # 10-Mar-2022
 
 * Now continuing with this
+
 * Today, I want to try and work with the produced .`exe` file and deployment in general for a bit
+
   * For one, it would be great if the deployment worked in such a way that the .`exe` would work where it is deployed to
+
     * For that, I think I need to clean up the project file structure a bit
     * But first, let's see what is possible
     * Right now, what ends up in the `\target\release` folder is the `kanji_tree.exe`, which crashes when run there because it can't find the `kanji.json`
     * However, when I copy that  `kanji_tree.exe` into the project's base directory, where the `kanji.json` is located, it works just fine
     * I've been looking, but wasn't able to find a straightforward way for this
     * However, as bottom line, I should probably gather everything I need into the `resources` folder
+    * I now did that
+
+  * Now, let's have a look at how to give the `exe` an icon
+
+    * This looks promising:
+
+      * https://stackoverflow.com/questions/30291757/attaching-an-icon-resource-to-a-rust-application
+
+    * Success: Now the `.exe` bears the Kanji Tree R Icon
+
+    * However, the app still misses this while running
+
+    * Very fortunately, the thread also has an iced-specific answer to that problem:
+
+      * https://docs.rs/iced/latest/iced/window/struct.Settings.html#structfield.icon
+
+      * However, that doesn't actually tell me how to do that
+
+      * I now tried this, but that doesn't seem to work:
+
+        * ````
+          pub fn main() -> iced::Result {
+              let mut settings = Settings::default();
+              settings.window.icon =  Icon::from_rgba(
+                  include_bytes!(
+                      "../resources/images/Kanji Tree R Icon.ico"
+                  ).to_vec(),
+                  512,
+                  512
+              ).ok();
+              kanji_tree::KanjiTreeApp::run(settings)
+          }
+          ````
+
+      * And the iced samples don't seem to feature app icons either
+
+      * Debugging this, I now found that the `from_rgba` function returns this error:
+
+        * ````
+          DimensionsMismatch
+          * width: 512
+          * height: 512
+          * pixel_count: 34359
+          ````
+
+      * If I change the "512"s above to "32"s, the error changes to:
+
+        * ````
+          DimensionsMismatch
+          * width: 32
+          * height: 32
+          * pixel_count: 34359
+          ````
+
+      * 34359 is not a value that amounts to a squared image though...
+
+      * But just out of interest, I'll try making the icon smaller and see what happens
+
+      * That now changes the error to:
+
+        * ````
+          InvalidData
+          * byte_count: 4286
+          * [raw]
+          ** variant0:
+          *** byte_count: 4286
+          ** variant1:
+          *** width: 385
+          *** height: 4286
+          *** pixel_count: 1653562408960
+          ````
+
+      * Okay, that makes even less sense
+
+      * Maybe I should try giving it a .png instead?
+
+      * That returns a DimensionMismatch again
+
+        * ````
+          DimensionsMismatch
+          * width: 32
+          * height: 32
+          * pixel_count: 49700
+          ````
+
+      * Last try: Bitmap 32x32
+
+      * That returns the InvalidData error again, this time with:
+
+        * width: 463
+        * height: 3126
+        * pixel_count: 1988569858048
+
+    * Seriously, WTF?
+
+    * Okay, so I'm obviously not getting this to run on my own. Time to ask for help
+
     * 
+
+NOTE:
+
+* Put Fonts in Resources too
+
+
 
 
 
@@ -1501,6 +1607,7 @@ Wanted Features:
   * No duplicates
   * No dead parents
   * Image could not be found
+* Display Version Number
 
 
 

@@ -87,7 +87,7 @@ mod tests {
 
     #[test]
     fn parse_kanji_json_with_separate_sections_should_not_return_error(){
-        let kanji_source = get_kigou_source_from_test_file(
+        get_kigou_source_from_test_file(
             "kanji_test_with_separate_kanji_and_radical.json"
         );
     }
