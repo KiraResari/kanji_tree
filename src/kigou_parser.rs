@@ -31,7 +31,7 @@ mod tests {
     fn parse_kanji_json_should_not_return_error(){
         let mut kanji_parser = KigouParser::new();
 
-        match kanji_parser.parse_kanji_json("kanji.json"){
+        match kanji_parser.parse_kanji_json("resources/kanji.json"){
             Ok(_) => println!("Test Passed"),
             Err(error) => panic!("{}", error),
         }
@@ -39,21 +39,15 @@ mod tests {
 
     #[test]
     fn parse_kanji_json_should_return_correct_count_of_kanji(){
-        let mut kanji_parser = KigouParser::new();
-
-        let kanji_source: KigouSource
-             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_with_three_kanji.json"
+        );
 
         assert_eq!(3, kanji_source.kigou.len());
     }
 
     #[test]
     fn parse_kanji_json_should_return_expected_result(){
-        let mut kanji_parser = KigouParser::new();
-
-        let kanji_source: KigouSource
-             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
-
         let expected_parsed_kanji_json_elements = vec![
             Kigou{
                 name: String::from("One"),
@@ -84,67 +78,63 @@ mod tests {
             }
         ];
 
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_with_three_kanji.json"
+        );
+
         assert_eq!(expected_parsed_kanji_json_elements, kanji_source.kigou);
     }
 
     #[test]
     fn parse_kanji_json_with_separate_sections_should_not_return_error(){
-        let mut kanji_parser = KigouParser::new();
-
-        match kanji_parser.parse_kanji_json(
+        let kanji_source = get_kigou_source_from_test_file(
             "kanji_test_with_separate_kanji_and_radical.json"
-        ){
-            Ok(_) => println!("Test Passed"),
-            Err(error) => panic!("{}", error),
-        }
+        );
     }
 
     #[test]
     fn parse_kanji_json_with_separate_sections_should_return_correct_count_of_kanji(){
-        let mut kanji_parser = KigouParser::new();
-
-        let kanji_source: KigouSource
-             = kanji_parser.parse_kanji_json(
-                 "kanji_test_with_separate_kanji_and_radical.json"
-            ).unwrap();
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_with_separate_kanji_and_radical.json"
+        );
 
         assert_eq!(3, kanji_source.kigou.len());
     }
 
     #[test]
     fn parse_kanji_json_with_x_part_should_return_correct_count_of_kigou(){
-        let mut kigou_parser = KigouParser::new();
-
-        let kanji_source: KigouSource
-             = kigou_parser.parse_kanji_json(
-                 "kanji_test_with_x_part.json"
-            ).unwrap();
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_with_x_part.json"
+        );
 
         assert_eq!(1, kanji_source.kigou.len());
     }
 
     #[test]
     fn parse_kanji_json_with_kana_should_return_correct_count_of_kigou(){
-        let mut kigou_parser = KigouParser::new();
-
-        let kanji_source: KigouSource
-             = kigou_parser.parse_kanji_json(
-                 "kanji_test_with_kana.json"
-            ).unwrap();
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_with_kana.json"
+        );
 
         assert_eq!(1, kanji_source.kigou.len());
     }
 
     #[test]
     fn parse_kanji_json_with_dead_kanji_should_return_correct_count_of_kigou(){
-        let mut kigou_parser = KigouParser::new();
-
-        let kanji_source: KigouSource
-             = kigou_parser.parse_kanji_json(
-                 "kanji_test_with_dead_kanji.json"
-            ).unwrap();
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_with_dead_kanji.json"
+        );
 
         assert_eq!(1, kanji_source.kigou.len());
+    }
+
+    fn get_kigou_source_from_test_file(file_name: &str) -> KigouSource {
+        let mut kigou_parser = KigouParser::new();
+        let kanji_source: KigouSource
+             = kigou_parser.parse_kanji_json(
+                 &format!("{}{}", "resources/test/", file_name)
+            ).unwrap();
+        kanji_source
     }
 
 }

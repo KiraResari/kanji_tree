@@ -2,7 +2,7 @@ use iced::{Sandbox, Column, Element, Text, Container, Length, Row, Align, Font};
 
 use crate::{kigou_parser::KigouParser, kigou_source::KigouSource, value_objects::Kigou, message::Message, kigou_button::KigouButton, kigou_panel::KigouPanel, reload_button::ReloadButton, search_panel::SearchPanel};
 
-static KANJI_JSON_PATH: &str = "kanji.json";
+static KANJI_JSON_PATH: &str = "resources/kanji.json";
 
 pub struct KanjiTreeApp{
     kigou_source: KigouSource,

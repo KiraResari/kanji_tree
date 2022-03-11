@@ -1479,8 +1479,24 @@
 
 
 
+# 10-Mar-2022
+
+* Now continuing with this
+* Today, I want to try and work with the produced .`exe` file and deployment in general for a bit
+  * For one, it would be great if the deployment worked in such a way that the .`exe` would work where it is deployed to
+    * For that, I think I need to clean up the project file structure a bit
+    * But first, let's see what is possible
+    * Right now, what ends up in the `\target\release` folder is the `kanji_tree.exe`, which crashes when run there because it can't find the `kanji.json`
+    * However, when I copy that  `kanji_tree.exe` into the project's base directory, where the `kanji.json` is located, it works just fine
+    * I've been looking, but wasn't able to find a straightforward way for this
+    * However, as bottom line, I should probably gather everything I need into the `resources` folder
+    * 
+
+
+
 Wanted Features:
 
+* Upload .exe with icon
 * Validations on import:
   * No duplicates
   * No dead parents

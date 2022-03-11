@@ -86,11 +86,9 @@ mod tests {
 
     #[test]
     fn get_children_should_return_children(){
-        let mut kanji_parser = KigouParser::new();
-        let kanji_source: KigouSource
-             = kanji_parser.parse_kanji_json(
-                 "kanji_test_with_three_kanji.json"
-            ).unwrap();
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_with_three_kanji.json"
+        );
 
         let children = kanji_source.get_children(
             &"One".to_string()
@@ -119,11 +117,20 @@ mod tests {
         assert_eq!(children, expected_children);
     }
 
+    fn get_kigou_source_from_test_file(file_name: &str) -> KigouSource {
+        let mut kigou_parser = KigouParser::new();
+        let kanji_source: KigouSource
+             = kigou_parser.parse_kanji_json(
+                 &format!("{}{}", "resources/test/", file_name)
+            ).unwrap();
+        kanji_source
+    }
+
     #[test]
     fn get_element_should_return_element(){
-        let mut kanji_parser = KigouParser::new();
-        let kanji_source: KigouSource
-             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_with_three_kanji.json"
+        );
 
         let element = kanji_source.get_kigou_by_name("Two").unwrap();
 
@@ -142,9 +149,9 @@ mod tests {
 
     #[test]
     fn get_element_should_return_none_if_element_does_not_exist(){
-        let mut kanji_parser = KigouParser::new();
-        let kanji_source: KigouSource
-             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_with_three_kanji.json"
+        );
 
         let result = kanji_source.get_kigou_by_name("Does Not Exist");
 
@@ -153,9 +160,9 @@ mod tests {
 
     #[test]
     fn get_parents_should_return_parents(){
-        let mut kanji_parser = KigouParser::new();
-        let kanji_source: KigouSource
-             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_with_three_kanji.json"
+        );
 
         let parents = kanji_source.get_parents("Three");
 
@@ -185,9 +192,9 @@ mod tests {
 
     #[test]
     fn get_first_element_should_return_first_element(){
-        let mut kanji_parser = KigouParser::new();
-        let kanji_source: KigouSource
-             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_with_three_kanji.json"
+        );
 
         let element = kanji_source.get_first_element().unwrap();
 
@@ -207,18 +214,18 @@ mod tests {
     #[test]
     #[should_panic(expected = "Kanji list contains no elements")]
     fn get_first_element_should_return_error_if_kanji_list_is_empty(){
-        let mut kanji_parser = KigouParser::new();
-        let kanji_source: KigouSource
-             = kanji_parser.parse_kanji_json("kanji_test_empty.json").unwrap();
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_empty.json"
+        );
 
         kanji_source.get_first_element().unwrap();
     }
 
     #[test]
     fn get_kigou_by_chracter_should_return_correct_kigou(){
-        let mut kanji_parser = KigouParser::new();
-        let kanji_source: KigouSource
-             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_with_three_kanji.json"
+        );
 
         let element = kanji_source.get_kigou_by_character("二").unwrap();
 
@@ -237,9 +244,9 @@ mod tests {
 
     #[test]
     fn get_kigou_by_name_should_be_case_insensitive(){
-        let mut kanji_parser = KigouParser::new();
-        let kanji_source: KigouSource
-             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_with_three_kanji.json"
+        );
 
         let element = kanji_source.get_kigou_by_name("two").unwrap();
 
@@ -258,9 +265,9 @@ mod tests {
 
     #[test]
     fn get_kigou_by_name_fuzzy_should_return_correct_kigou(){
-        let mut kanji_parser = KigouParser::new();
-        let kanji_source: KigouSource
-             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_with_three_kanji.json"
+        );
 
         let element = kanji_source.get_kigou_by_name_fuzzy("tw").unwrap();
 
@@ -279,9 +286,9 @@ mod tests {
 
     #[test]
     fn has_children_should_return_true_for_one(){
-        let mut kanji_parser = KigouParser::new();
-        let kanji_source: KigouSource
-             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_with_three_kanji.json"
+        );
 
         let result = kanji_source.has_children(&"One".to_string());
 
@@ -290,9 +297,9 @@ mod tests {
 
     #[test]
     fn has_children_should_return_false_for_three(){
-        let mut kanji_parser = KigouParser::new();
-        let kanji_source: KigouSource
-             = kanji_parser.parse_kanji_json("kanji_test_with_three_kanji.json").unwrap();
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_with_three_kanji.json"
+        );
 
         let result = kanji_source.has_children(&"Three".to_string());
 
