@@ -797,20 +797,7 @@
     * But which one is correct?
     * I need a definition for that which I can adhere to for this project
     * I'll come up with the definition now
-
-## Definition of how to determine parents of a Kanji
-
-* A Kanji's parents **must** contain all the strokes in the Kanji
-* A Kanji should have as few parents as possible
-  * If there are multiple options to write a Kanji with equally few parents, then the option that combines the most complex parent with one or more simple parents should be used
-* A Kanji that consists of two of the same parent should only list that parent once 
-  * e.g.: 林 has just one parent: 木
-  * In case of double->triple Kanji, the triple Kanji should be assigned the single and double parents if the arrangement fits
-    * e.g.: 
-      * 森 has the parents 木 and 林
-      * But 晶 has only one parent: 日, because the double of 日 (昌 has one parent: 日) is vertical in arrangement, but 晶 has the two lower 日 (which form a unit) next to each other, and there is no kanji that features two 日 next to each other which could server as a component
-
-
+      * See under Rules at the very bottom
 
 * Anyway, I now added a bunch of Kanji to the `kanji.json`, and the Kanji Tree still works nicely
 
@@ -1613,14 +1600,42 @@
 
 
 
-Wanted Features:
+# Wanted Features
 
-* Application Icon
+* !! Multi-Line Display for children
+* ! Kanji Tree crashed on a reload (probably because the parsing of the .json failed)
+  * I want an error message if that happens
+* ! Implement font that can display ⺮
 * Validations on import:
   * No duplicates
   * No dead parents
   * Image could not be found
 * Display Version Number
+
+
+
+# Rules for adding Kanji
+
+## How to determine parents of a Kanji
+
+* A Kanji's parents **must** contain all the strokes in the Kanji
+* A Kanji should have as few parents as possible
+  * If there are multiple options to write a Kanji with equally few parents, then the option that combines the most complex parent with one or more simple parents should be used
+    * e.g: 夫 = 大 + 一 and not 人 + 二
+* A Kanji that consists of two of the same parent should only list that parent once 
+  * e.g.: 林 has just one parent: 木
+  * In case of double->triple Kanji, the triple Kanji should be assigned the single and double parents if the arrangement fits
+    * e.g.: 
+      * 森 has the parents 木 and 林
+      * But 晶 has only one parent: 日, because the double of 日 (昌 has one parent: 日) is vertical in arrangement, but 晶 has the two lower 日 (which form a unit) next to each other, and there is no kanji that features two 日 next to each other which could server as a component
+
+## Determining the name of a Kanji
+
+* If you know for a fact that the Kanji goes by a certain name, and that if you say that name people are going to think of that Kanji and not another, use that name
+* If two Kanji go by the same name, pull up https://jisho.org and search for <name>#kanji and give the name to the Kanji that comes up first, while trying to find another name for the other Kanji where that one comes up first:
+  * e.g.:
+    * 試: Test
+    * 験: Verification
 
 
 
