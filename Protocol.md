@@ -1,6 +1,7 @@
 # Legend
 
 * Phun: pronounced "fun"; meaning: "not fun"
+* PSP: PaintShopPro
 
 
 
@@ -1599,6 +1600,96 @@
 * For the rest of today, I simply added a few more Kanji
 
 
+
+# 26-Mar-2022
+
+* Now continuing with this
+
+* While adding more Kanji, I noticed that the font that I'm using can't display the Kigou ⺮
+
+  * That's a kinda critical issue, so even though I don't have any development time now, I am still interrupting my other projects to take care of that
+
+  * I'm currently using the MS Gothic font to display Kigou
+
+  * That font has two files, but I am currently only including one of them, so that may be the issue
+
+  * I don't know how to include both files in the same font object, however
+
+  * But let's first make sure that the font can even display this character
+
+  * I tried writing this character with MS Gothic in PSP, and it worked
+
+    * Notably, writing it in Arial Unicode there _didn't_ work
+
+  * Let's see if I can figure out how to add the extra file to the font
+
+  * Fonts require a byte array, so maybe I can just add up two byte arrays?
+
+  * This doesn't seem to work:
+
+    * ````
+              let complete_bytes 
+                  = [
+                      include_bytes!("../resources/fonts/msgothic.ttc"),
+                      include_bytes!("../resources/fonts/msgothic_0.ttc")
+                  ].concat();
+      ````
+
+    * It gives this error:
+
+      * ````
+        12 |                 include_bytes!("../resources/fonts/msgothic_0.ttc")
+           |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ expected an array with a fixed size of 9176636 elements, found one with 9165480 elements
+        ````
+
+  * Maybe this will help?
+
+    * https://docs.rs/byte-strings/0.1.3/byte_strings/macro.concat_bytes.html
+    * Nope, that doesn't seem to work
+
+  * After a LONG session of trial and error, I finally got it to work like this:
+
+    * `cargo.toml`
+
+    * ```
+      [dependencies]
+      [...]
+      array-concat = "0.5.1"
+      ```
+
+    * ```
+      use array_concat::*;
+      
+      const MS_GOTHIC_PART_1: [u8; 9176636] = *include_bytes!("../resources/fonts/msgothic.ttc");
+      const MS_GOTHIC_PART_2: [u8; 9165480] = *include_bytes!("../resources/fonts/msgothic_0.ttc");
+      const MS_GOTHIC: [u8; concat_arrays_size!(MS_GOTHIC_PART_1, MS_GOTHIC_PART_2)]
+       = concat_arrays!(MS_GOTHIC_PART_1, MS_GOTHIC_PART_2);
+      ```
+
+  * HOWEVER, the Kigou ⺮ is still not displayed
+
+  * That sucks
+
+  * THAT SUCKS!!!
+
+  * I now wrote an issue for that here:
+
+    * https://github.com/iced-rs/iced/issues/1295
+
+  * Anyway, change of plans
+
+  * Maybe I need a different font
+
+  * When trying to ascertain if the font supported that character, I noticed that Microsoft Word always replaced the font without asking, so maybe I can use the font it replaced it to?
+
+  * That font is SimSun
+
+    * That is also a multi-file font, but let's try
+    * Okay, but that seems to work! Yay!
+    * The Kigou are "serif"-styled now, which is not what I'd prefer, but oh well
+    * I now found another font "Noto Sans Mono CJK JP Regular" that displays the Kigou the way I prefer them, and can also display ⺮
+
+  * Also, a nice side effect of this is that I now know how to load the fonts as constants
 
 # Wanted Features
 
