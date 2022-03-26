@@ -1,6 +1,6 @@
 use iced::{Button, Text, Row, TextInput, text_input, button};
 
-use crate::{message::Message, fonts::Fonts};
+use crate::{message::Message, fonts};
 
 pub struct SearchPanel{
     button_state: button::State,
@@ -26,7 +26,7 @@ impl SearchPanel{
                 &self.search_string,
                 Message::SearchBoxInputChanged,
             )
-            .font(Fonts::ms_gothic())
+            .font(fonts::KANJI)
             .padding(15)
             .size(32)
             .on_submit(Message::SearchForKigou(self.search_string.clone()))
@@ -35,7 +35,7 @@ impl SearchPanel{
             Button::new(
                 &mut self.button_state, 
                 Text::new("🔍")
-                    .font(Fonts::segoe_ui_symbol())
+                    .font(fonts::SYMBOL)
                     .size(52)
             )
             .on_press(Message::SearchForKigou(self.search_string.clone()))

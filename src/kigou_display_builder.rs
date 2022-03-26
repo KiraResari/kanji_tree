@@ -1,6 +1,6 @@
 use iced::{Element, Text, Container, Image, Length};
 
-use crate::{value_objects::Kigou, message::Message, fonts::{Fonts, self}};
+use crate::{value_objects::Kigou, message::Message, fonts};
 
 pub struct KigouDisplayBuilder{
 }

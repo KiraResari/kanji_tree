@@ -1,6 +1,6 @@
 use iced::{Sandbox, Column, Element, Text, Container, Length, Row, Align};
 
-use crate::{kigou_parser::KigouParser, kigou_source::KigouSource, value_objects::Kigou, message::Message, kigou_button::KigouButton, kigou_panel::KigouPanel, reload_button::ReloadButton, search_panel::SearchPanel, fonts::Fonts};
+use crate::{kigou_parser::KigouParser, kigou_source::KigouSource, value_objects::Kigou, message::Message, kigou_button::KigouButton, kigou_panel::KigouPanel, reload_button::ReloadButton, search_panel::SearchPanel, fonts};
 
 static KANJI_JSON_PATH: &str = "resources/kanji.json";
 
@@ -78,7 +78,7 @@ impl KanjiTreeApp{
 
     fn build_display_message(&self) -> Text {
         Text::new(&self.display_message)
-            .font(Fonts::ms_gothic())
+            .font(fonts::KANJI)
     }
 
     fn build_arrow_if_necessary(arrow_should_be_displayed: bool) -> Text {
