@@ -1368,7 +1368,7 @@ dependencies = [
 
 [[package]]
 name = "kanji_tree"
-version = "2.1.0"
+version = "2.2.0"
 dependencies = [
  "iced",
  "iced_wgpu",

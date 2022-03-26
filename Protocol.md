@@ -1689,14 +1689,19 @@
     * The Kigou are "serif"-styled now, which is not what I'd prefer, but oh well
     * I now found another font "Noto Sans Mono CJK JP Regular" that displays the Kigou the way I prefer them, and can also display ⺮
 
-  * Also, a nice side effect of this is that I now know how to load the fonts as constants
+  * Also, a nice side effect of this is that I now know how to load the fonts as constants, and cleaned up the `Fonts` class accordingly
+
+* This is as far as I'm getting today
+
+* Let this be V2-2-0
+
+
 
 # Wanted Features
 
 * !! Multi-Line Display for children
 * ! Kanji Tree crashed on a reload (probably because the parsing of the .json failed)
   * I want an error message if that happens
-* ! Implement font that can display ⺮
 * Validations on import:
   * No duplicates
   * No dead parents
