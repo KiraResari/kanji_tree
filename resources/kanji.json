@@ -454,6 +454,41 @@
 			"stroke_arrangement": "2HU",
 			"stroke_count": 10,
 			"parent_names":["R118 Bamboo", "Heavens"]	
+		},
+		{
+			"name": "Four",
+			"character": "四",
+			"stroke_arrangement": "Box",
+			"stroke_count": 5,
+			"parent_names":["Mouth", "R9 Legs"]	
+		},
+		{
+			"name": "Five",
+			"character": "五",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 4,
+			"parent_names":["Two", "R2 Line", "X1-3 Top Right Corner"]	
+		},
+		{
+			"name": "Six",
+			"character": "六",
+			"stroke_arrangement": "2H",
+			"stroke_count": 4,
+			"parent_names":["R8 Lid", "Eight"]	
+		},
+		{
+			"name": "Seven",
+			"character": "七",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 2,
+			"parent_names":["One", "R5 Fishhook"]	
+		},
+		{
+			"name": "Nine",
+			"character": "九",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 2,
+			"parent_names":["Katakana No", "R5 Corner Fishhook"]	
 		}
 	],
 	"radical":[
@@ -482,6 +517,12 @@
 			"stroke_count": 1
 		},
 		{
+			"name": "R5 Corner Fishhook",
+			"character": "⺄",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 1
+		},
+		{
 			"name": "R8 Lid",
 			"character": "亠",
 			"stroke_arrangement": "Whole",
@@ -494,6 +535,13 @@
 			"stroke_arrangement": "Whole",
 			"stroke_count": 2,
 			"parent_names":["X1-1 Reverse Dot", "R2 Line"]	
+		},
+		{
+			"name": "R9 Legs",
+			"character": "儿",
+			"stroke_arrangement": "2V",
+			"stroke_count": 2,
+			"parent_names":["Katakana No", "R5 Fishhook"]	
 		},
 		{
 			"name": "R14 Wa Shaped Crown",
