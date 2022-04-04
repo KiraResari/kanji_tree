@@ -3,9 +3,9 @@ use iced::{
 };
 
 static ICON: &[u8]
-     = include_bytes!("../resources/images/Kanji Tree R Icon.png");
-const ICON_HEIGHT: u32 = 512;
-const ICON_WIDTH: u32 = 512;
+     = include_bytes!("../resources/images/Kanji Tree R Icon.ico");
+const ICON_HEIGHT: u32 = 256;
+const ICON_WIDTH: u32 = 256;
 
 pub fn main() -> iced::Result {
     let settings = build_settings();
