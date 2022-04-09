@@ -1707,6 +1707,7 @@
   * No dead parents
   * Image could not be found
 * Display Version Number
+* Tooltip when hovering over Kigou Buttons
 
 
 
@@ -1717,7 +1718,9 @@
 * A Kanji's parents **must** contain all the strokes in the Kanji
 * A Kanji should have as few parents as possible
   * If there are multiple options to write a Kanji with equally few parents, then the option that combines the most complex parent with one or more simple parents should be used
-    * e.g: 夫 = 大 + 一 and not 人 + 二
+    * e.g.: 夫 = 大 + 一 and not 人 + 二
+    * An exception to this rule may be made when two similar-looking Kanji (that should be siblings) would be split apart through that
+      * e.g.: 章 and 草 look a lot alike, so they should be siblings; however, following above rule, 章 would have to be written as 音+十 instead of 早+立, while 草 is written as  早+艹; in this case, 章 should be written as 早+立 so that it remains a sibling to 草
 * A Kanji that consists of two of the same parent should only list that parent once 
   * e.g.: 林 has just one parent: 木
   * In case of double->triple Kanji, the triple Kanji should be assigned the single and double parents if the arrangement fits
