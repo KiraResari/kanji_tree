@@ -208,7 +208,7 @@
 			"character": "穴",
 			"stroke_arrangement": "2HU",
 			"stroke_count": 5,
-			"parent_names":["R40 Shaped Crown", "Katakana Ha"]	
+			"parent_names":["R40 Roof", "Katakana Ha"]	
 		},
 		{
 			"name": "Plug Up",
@@ -601,6 +601,62 @@
 			"stroke_arrangement": "3V",
 			"stroke_count": 3,
 			"parent_names":["R4 Slash", "R2 Line"]	
+		},
+		{
+			"name": "Heart",
+			"character": "心",
+			"stroke_arrangement": "Comp",
+			"stroke_count": 4,
+			"parent_names":["R5 Fishhook", "R3 Dot", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "Certain",
+			"character": "必",
+			"stroke_arrangement": "Comp",
+			"stroke_count": 5,
+			"parent_names":["Heart", "Katakana No"]	
+		},
+		{
+			"name": "Secret",
+			"character": "秘",
+			"stroke_arrangement": "2V",
+			"stroke_count": 10,
+			"parent_names":["R115 Grain", "Certain"]	
+		},
+		{
+			"name": "Secrecy",
+			"character": "密",
+			"stroke_arrangement": "3H",
+			"stroke_count": 11,
+			"parent_names":["R40 Roof", "Certain", "Mountain"]	
+		},
+		{
+			"name": "Must Not",
+			"character": "勿",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 4,
+			"parent_names":["R20 Wrap", "Katakana No"]	
+		},
+		{
+			"name": "Sunshine",
+			"character": "陽",
+			"stroke_arrangement": "2V",
+			"stroke_count": 12,
+			"parent_names":["R170 Village", "D Open"]	
+		},
+		{
+			"name": "Chase",
+			"character": "追",
+			"stroke_arrangement": "BLC",
+			"stroke_count": 12,
+			"parent_names":["R162 Walk", "D Store Up"]	
+		},
+		{
+			"name": "Pursue",
+			"character": "辿",
+			"stroke_arrangement": "BLC",
+			"stroke_count": 6,
+			"parent_names":["R162 Walk", "Mountain"]	
 		}
 	],
 	"radical":[
@@ -683,6 +739,13 @@
 			"parent_names":["X1-7 Bottom Left Corner", "R2 Line"]	
 		},
 		{
+			"name": "R20 Wrap",
+			"character": "勹",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 2,
+			"parent_names":["X1-1 Reverse Dot", "X1-5 Corner Hook"]	
+		},
+		{
 			"name": "R22 Box On Side",
 			"character": "匚",
 			"stroke_arrangement": "Whole",
@@ -697,7 +760,7 @@
 			"parent_names":["X1-4 Bottom Left Angle", "R3 Dot"]	
 		},
 		{
-			"name": "R40 Shaped Crown",
+			"name": "R40 Roof",
 			"character": "宀",
 			"stroke_arrangement": "Whole",
 			"stroke_count": 3,
@@ -744,6 +807,20 @@
 			"stroke_arrangement": "4V",
 			"stroke_count": 6,
 			"parent_names":["X1-1 Reverse Dot", "One", "R3 Dot"]	
+		},
+		{
+			"name": "R162 Walk",
+			"character": "⻌",
+			"stroke_arrangement": "Comp",
+			"stroke_count": 3,
+			"parent_names":["R3 Dot", "X1-9 Three", "X1-10 Wave"]	
+		},
+		{
+			"name": "R170 Village",
+			"character": "阝",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 3,
+			"parent_names":["R2 Line", "Katakana Fu", "R6 Hook"]	
 		}
 	],
 	"x_part":[
@@ -792,6 +869,18 @@
 		{
 			"name": "X1-8 Shallow No",
 			"image_name": "1-8 Shallow No.png",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 1
+		},
+		{
+			"name": "X1-9 Three",
+			"image_name": "1-9 Three.png",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 1
+		},
+		{
+			"name": "X1-10 Wave",
+			"image_name": "1-10 Wave.png",
 			"stroke_arrangement": "Whole",
 			"stroke_count": 1
 		},
@@ -877,6 +966,22 @@
 			"stroke_arrangement": "2V",
 			"stroke_count": 2,
 			"parent_names":["R2 Line", "Katakana No"]	
+		}
+	],
+	"dead":[
+		{
+			"name": "D Open",
+			"character": "昜",
+			"stroke_arrangement": "3H",
+			"stroke_count": 9,
+			"parent_names":["Day", "One", "Must Not"]	
+		},		
+		{
+			"name": "D Store Up",
+			"character": "𠂤",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 6,
+			"parent_names":["X1-3 Top Right Corner", "X1-1 Reverse Dot", "R2 Line", "One"]	
 		}
 	]
 }
