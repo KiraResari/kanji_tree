@@ -292,7 +292,7 @@
 			"character": "下",
 			"stroke_arrangement": "Comp",
 			"stroke_count": 3,
-			"parent_names":["One", "R2 Line", "R3 Dot"]	
+			"parent_names":["Romaji T", "R3 Dot"]	
 		},
 		{
 			"name": "Bright",
@@ -657,6 +657,48 @@
 			"stroke_arrangement": "BLC",
 			"stroke_count": 6,
 			"parent_names":["R162 Walk", "Mountain"]	
+		},
+		{
+			"name": "Rain",
+			"character": "雨",
+			"stroke_arrangement": "Comp",
+			"stroke_count": 8,
+			"parent_names":["Romaji T", "R13 Upside-Down Box", "R3 Dot"]	
+		},
+		{
+			"name": "Left",
+			"character": "左",
+			"stroke_arrangement": "TLC",
+			"stroke_count": 5,
+			"parent_names":["Katakana Na", "Craft"]	
+		},
+		{
+			"name": "Right",
+			"character": "右",
+			"stroke_arrangement": "TLC",
+			"stroke_count": 5,
+			"parent_names":["Katakana Na", "Mouth"]	
+		},
+		{
+			"name": "Rest",
+			"character": "休",
+			"stroke_arrangement": "2VL",
+			"stroke_count": 6,
+			"parent_names":["R9 Person", "Tree"]	
+		},
+		{
+			"name": "Like",
+			"character": "好",
+			"stroke_arrangement": "2V",
+			"stroke_count": 6,
+			"parent_names":["Woman", "Child"]	
+		},
+		{
+			"name": "Leg",
+			"character": "足",
+			"stroke_arrangement": "2V",
+			"stroke_count": 7,
+			"parent_names":["X4-4 Leg", "Mouth"]	
 		}
 	],
 	"radical":[
@@ -713,6 +755,13 @@
 		{
 			"name": "R9 Legs",
 			"character": "儿",
+			"stroke_arrangement": "2V",
+			"stroke_count": 2,
+			"parent_names":["Katakana No", "R5 Fishhook"]	
+		},
+		{
+			"name": "R13 Upside-Down Box",
+			"character": "冂",
 			"stroke_arrangement": "2V",
 			"stroke_count": 2,
 			"parent_names":["Katakana No", "R5 Fishhook"]	
@@ -918,6 +967,13 @@
 			"stroke_arrangement": "Whole",
 			"stroke_count": 4,
 			"parent_names":["Two", "Katakana No", "R5 Fishhook"]	
+		},
+		{
+			"name": "X4-4 Leg",
+			"image_name": "4-4 Leg.png",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 4,
+			"parent_names":["Person", "R2 Line", "One"]	
 		}
 	],
 	"kana":[
@@ -955,6 +1011,13 @@
 			"parent_names":["X1-4 Bottom Left Angle", "R3 Dot"]	
 		},
 		{
+			"name": "Katakana Na",
+			"character": "ナ",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 2,
+			"parent_names":["R4 Slash", "One"]	
+		},
+		{
 			"name": "Katakana No",
 			"character": "ノ",
 			"stroke_arrangement": "Whole",
@@ -966,6 +1029,13 @@
 			"stroke_arrangement": "2V",
 			"stroke_count": 2,
 			"parent_names":["R2 Line", "Katakana No"]	
+		},
+		{
+			"name": "Romaji T",
+			"character": "T",
+			"stroke_arrangement": "2V",
+			"stroke_count": 2,
+			"parent_names":["R2 Line", "One"]	
 		}
 	],
 	"dead":[
