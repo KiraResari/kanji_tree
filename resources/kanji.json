@@ -699,6 +699,83 @@
 			"stroke_arrangement": "2V",
 			"stroke_count": 7,
 			"parent_names":["X4-4 Leg", "Mouth"]	
+		},
+		{
+			"name": "Selling",
+			"character": "商",
+			"stroke_arrangement": "2HU",
+			"stroke_count": 11,
+			"parent_names":["X6-1 Stand Box", "R9 Legs", "Mouth"]	
+		},
+		{
+			"name": "Old",
+			"character": "古",
+			"stroke_arrangement": "2H",
+			"stroke_count": 5,
+			"parent_names":["Ten", "Mouth"]	
+		},
+		{
+			"name": "Enemy",
+			"character": "敵",
+			"stroke_arrangement": "TrR",
+			"stroke_count": 15,
+			"parent_names":["X6-1 Stand Box", "Old", "R66 Strike"]	
+		},
+		{
+			"name": "Tome",
+			"character": "冊",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 5,
+			"parent_names":["R13 Upside-Down Box", "R2 Line", "One"]	
+		},
+		{
+			"name": "Argument",
+			"character": "論",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 15,
+			"parent_names":["Say", "D Think"]	
+		},
+		{
+			"name": "Towel",
+			"character": "巾",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 3,
+			"parent_names":["R13 Upside-Down Box", "R2 Line"]	
+		},
+		{
+			"name": "Linen",
+			"character": "布",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 5,
+			"parent_names":["Katakana Na", "Towel"]	
+		},
+		{
+			"name": "Dreadful",
+			"character": "怖",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 8,
+			"parent_names":["Linen", "R61 Heart"]	
+		},
+		{
+			"name": "Curriculum",
+			"character": "歴",
+			"stroke_arrangement": "TLC",
+			"stroke_count": 8,
+			"parent_names":["R27 Trailing Cliff", "Grove", "Stop"]	
+		},
+		{
+			"name": "White",
+			"character": "白",
+			"stroke_arrangement": "2HU",
+			"stroke_count": 5,
+			"parent_names":["Day", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "Hundred",
+			"character": "百",
+			"stroke_arrangement": "2HU",
+			"stroke_count": 6,
+			"parent_names":["White", "One"]	
 		}
 	],
 	"radical":[
@@ -802,6 +879,13 @@
 			"parent_names":["One", "X1-7 Bottom Left Corner"]	
 		},
 		{
+			"name": "R27 Trailing Cliff",
+			"character": "厂",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 2,
+			"parent_names":["One", "R4 Slash"]	
+		},
+		{
 			"name": "R28 I",
 			"character": "厶",
 			"stroke_arrangement": "Whole",
@@ -821,6 +905,20 @@
 			"stroke_arrangement": "Whole",
 			"stroke_count": 3,
 			"parent_names":["Hiragana Ku", "Katakana Mu"]	
+		},
+		{
+			"name": "R61 Heart",
+			"character": "忄",
+			"stroke_arrangement": "3V",
+			"stroke_count": 3,
+			"parent_names":["R2 Line", "R3 Dot", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "R66 Strike",
+			"character": "攵",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 3,
+			"parent_names":["Katakana No", "One", "Romaji X"]	
 		},
 		{
 			"name": "R85 Water",
@@ -941,6 +1039,13 @@
 			"parent_names":["X1-5 Corner Hook", "R4 Slash"]	
 		},
 		{
+			"name": "X2-2 Roof",
+			"image_name": "2-2 Roof.png",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 2,
+			"parent_names":["Katakana No", "X1-2 Reverse No"]	
+		},
+		{
 			"name": "X3-1 Double Lid",
 			"image_name": "3-1 Double Lid.png",
 			"stroke_arrangement": "Whole",
@@ -962,11 +1067,18 @@
 			"parent_names":["One", "R28 I"]	
 		},
 		{
+			"name": "X3-10 Triangle Roof",
+			"image_name": "3-10 Triangle Roof.png",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 2,
+			"parent_names":["X2-2 Roof", "One"]	
+		},
+		{
 			"name": "X4-1 Torii",
 			"image_name": "4-1 Torii.png",
 			"stroke_arrangement": "Whole",
 			"stroke_count": 4,
-			"parent_names":["Two", "Katakana No", "R5 Fishhook"]	
+			"parent_names":["Two", "Katakana No", "One"]	
 		},
 		{
 			"name": "X4-4 Leg",
@@ -974,6 +1086,13 @@
 			"stroke_arrangement": "Whole",
 			"stroke_count": 4,
 			"parent_names":["Person", "R2 Line", "One"]	
+		},
+		{
+			"name": "X6-1 Stand Box",
+			"image_name": "6-1 Stand Box.png",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 6,
+			"parent_names":["R8 Lid", "X1-1 Reverse Dot", "R3 Dot", "R13 Upside-Down Box"]	
 		}
 	],
 	"kana":[
@@ -1036,6 +1155,13 @@
 			"stroke_arrangement": "2V",
 			"stroke_count": 2,
 			"parent_names":["R2 Line", "One"]	
+		},
+		{
+			"name": "Romaji X",
+			"character": "X",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 2,
+			"parent_names":["Katakana No", "X1-2 Reverse No"]	
 		}
 	],
 	"dead":[
@@ -1052,6 +1178,13 @@
 			"stroke_arrangement": "Whole",
 			"stroke_count": 6,
 			"parent_names":["X1-3 Top Right Corner", "X1-1 Reverse Dot", "R2 Line", "One"]	
+		},		
+		{
+			"name": "D Think",
+			"character": "侖",
+			"stroke_arrangement": "2HU",
+			"stroke_count": 8,
+			"parent_names":["X3-10 Triangle Roof", "Tome"]	
 		}
 	]
 }
