@@ -1708,6 +1708,7 @@
   * Image could not be found
 * Display Version Number
 * Tooltip when hovering over Kigou Buttons
+* Toggle buttons for limiting searches to Kanji, Kana, X-Parts, Radicals, etc...
 
 
 

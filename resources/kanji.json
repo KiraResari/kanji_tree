@@ -117,7 +117,7 @@
 			"character": "田",
 			"stroke_arrangement": "Whole",
 			"stroke_count": 5,
-			"parent_names":["Day", "Line"]	
+			"parent_names":["Day", "R2 Line"]	
 		},
 		{
 			"name": "Farm",
@@ -776,6 +776,90 @@
 			"stroke_arrangement": "2HU",
 			"stroke_count": 6,
 			"parent_names":["White", "One"]	
+		},
+		{
+			"name": "History",
+			"character": "史",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 5,
+			"parent_names":["Mouth", "X2-3 Skewed Cross"]	
+		},
+		{
+			"name": "Element",
+			"character": "素",
+			"stroke_arrangement": "2H",
+			"stroke_count": 10,
+			"parent_names":["X4-5 Double Cross", "Thread"]	
+		},
+		{
+			"name": "Valve",
+			"character": "弁",
+			"stroke_arrangement": "2HU",
+			"stroke_count": 5,
+			"parent_names":["Katakana Mu", "R55 Twenty"]	
+		},
+		{
+			"name": "Fruit",
+			"character": "果",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 8,
+			"parent_names":["Day", "Tree"]	
+		},
+		{
+			"name": "Naked",
+			"character": "裸",
+			"stroke_arrangement": "2H",
+			"stroke_count": 13,
+			"parent_names":["R145 Clothes", "Fruit"]	
+		},
+		{
+			"name": "Bow",
+			"character": "弓",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 3,
+			"parent_names":["X1-3 Top Right Corner", "One", "X1-11 Zig-Zag"]	
+		},
+		{
+			"name": "Condolences",
+			"character": "弔",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 4,
+			"parent_names":["Bow", "R2 Line"]	
+		},
+		{
+			"name": "Thousand",
+			"character": "千",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 3,
+			"parent_names":["X1-8 Shallow No", "Ten"]	
+		},
+		{
+			"name": "Ten Thousand",
+			"character": "万",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 3,
+			"parent_names":["One", "R4 Slash", "X1-5 Corner Hook"]	
+		},
+		{
+			"name": "Yen",
+			"character": "円",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 3,
+			"parent_names":["R13 Upside-Down Box", "One", "R2 Line"]	
+		},
+		{
+			"name": "Tomoe",
+			"character": "巴",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 4,
+			"parent_names":["R5 Fishhook", "X1-3 Top Right Corner", "One", "R2 Line"]	
+		},
+		{
+			"name": "Color",
+			"character": "色",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 6,
+			"parent_names":["X2-4 Wrap Hat", "Tomoe"]	
 		}
 	],
 	"radical":[
@@ -907,6 +991,13 @@
 			"parent_names":["Hiragana Ku", "Katakana Mu"]	
 		},
 		{
+			"name": "R55 Twenty",
+			"character": "廾",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 3,
+			"parent_names":["One", "R4 Slash", "R2 Line"]	
+		},
+		{
 			"name": "R61 Heart",
 			"character": "忄",
 			"stroke_arrangement": "3V",
@@ -954,6 +1045,13 @@
 			"stroke_arrangement": "4V",
 			"stroke_count": 6,
 			"parent_names":["X1-1 Reverse Dot", "One", "R3 Dot"]	
+		},
+		{
+			"name": "R145 Clothes",
+			"character": "衤",
+			"stroke_arrangement": "4V",
+			"stroke_count": 6,
+			"parent_names":["Katakana Ne", "X1-1 Reverse Dot"]	
 		},
 		{
 			"name": "R162 Walk",
@@ -1032,6 +1130,12 @@
 			"stroke_count": 1
 		},
 		{
+			"name": "X1-11 Zig-Zag",
+			"image_name": "1-11 Zig-Zag.png",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 1
+		},
+		{
 			"name": "X2-1 Moon Box",
 			"image_name": "2-1 Moon Box.png",
 			"stroke_arrangement": "Whole",
@@ -1044,6 +1148,20 @@
 			"stroke_arrangement": "Whole",
 			"stroke_count": 2,
 			"parent_names":["Katakana No", "X1-2 Reverse No"]	
+		},
+		{
+			"name": "X2-3 Skewed Cross",
+			"image_name": "2-3 Skewed Cross.png",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 2,
+			"parent_names":["Katakana No", "X1-2 Reverse No"]	
+		},
+		{
+			"name": "X2-4 Wrap Hat",
+			"image_name": "2-4 Wrap Hat.png",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 2,
+			"parent_names":["X1-1 Reverse Dot", "Katakana Fu"]	
 		},
 		{
 			"name": "X3-1 Double Lid",
@@ -1086,6 +1204,13 @@
 			"stroke_arrangement": "Whole",
 			"stroke_count": 4,
 			"parent_names":["Person", "R2 Line", "One"]	
+		},
+		{
+			"name": "X4-5 Double Cross",
+			"image_name": "4-5 Double Cross.png",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 4,
+			"parent_names":["Three", "R2 Line"]	
 		},
 		{
 			"name": "X6-1 Stand Box",
@@ -1137,6 +1262,13 @@
 			"parent_names":["R4 Slash", "One"]	
 		},
 		{
+			"name": "Katakana Ne",
+			"character": "ネ",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 4,
+			"parent_names":["Katakana Fu", "R3 Dot", "R2 Line"]	
+		},
+		{
 			"name": "Katakana No",
 			"character": "ノ",
 			"stroke_arrangement": "Whole",
@@ -1148,6 +1280,13 @@
 			"stroke_arrangement": "2V",
 			"stroke_count": 2,
 			"parent_names":["R2 Line", "Katakana No"]	
+		},
+		{
+			"name": "Katakana Su",
+			"character": "ス",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 2,
+			"parent_names":["Katakana Fu", "R3 Dot"]	
 		},
 		{
 			"name": "Romaji T",
