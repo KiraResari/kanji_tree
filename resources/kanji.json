@@ -860,6 +860,118 @@
 			"stroke_arrangement": "Whole",
 			"stroke_count": 6,
 			"parent_names":["X2-4 Wrap Hat", "Tomoe"]	
+		},
+		{
+			"name": "Residence",
+			"character": "第",
+			"stroke_arrangement": "2HU",
+			"stroke_count": 11,
+			"parent_names":["R118 Bamboo", "X5-1 Little Brother"]	
+		},
+		{
+			"name": "Writing Brush",
+			"character": "筆",
+			"stroke_arrangement": "2HU",
+			"stroke_count": 12,
+			"parent_names":["R118 Bamboo", "R129 Brush"]	
+		},
+		{
+			"name": "Measurement",
+			"character": "寸",
+			"stroke_arrangement": "TRC",
+			"stroke_count": 3,
+			"parent_names":["One", "R6 Hook", "R3 Dot"]	
+		},
+		{
+			"name": "Temple",
+			"character": "寺",
+			"stroke_arrangement": "2H",
+			"stroke_count": 6,
+			"parent_names":["Soil", "Measurement"]	
+		},
+		{
+			"name": "etc.",
+			"character": "等",
+			"stroke_arrangement": "2H",
+			"stroke_count": 12,
+			"parent_names":["R118 Bamboo", "Temple"]	
+		},
+		{
+			"name": "Heavy",
+			"character": "重",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 9,
+			"parent_names":["Car", "One", "X1-8 Shallow No"]	
+		},
+		{
+			"name": "Seed",
+			"character": "種",
+			"stroke_arrangement": "2V",
+			"stroke_count": 14,
+			"parent_names":["R115 Grain", "Heavy"]	
+		},
+		{
+			"name": "All",
+			"character": "全",
+			"stroke_arrangement": "2HU",
+			"stroke_count": 6,
+			"parent_names":["X2-2 Roof", "King"]	
+		},
+		{
+			"name": "Gold",
+			"character": "金",
+			"stroke_arrangement": "Comp",
+			"stroke_count": 8,
+			"parent_names":["All", "R3 Dot", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "Big Brother",
+			"character": "兄",
+			"stroke_arrangement": "2H",
+			"stroke_count": 5,
+			"parent_names":["Mouth", "R9 Legs"]	
+		},
+		{
+			"name": "Finally",
+			"character": "竟",
+			"stroke_arrangement": "2HU",
+			"stroke_count": 11,
+			"parent_names":["Stand", "Big Brother", "One"]	
+		},
+		{
+			"name": "Little Brother",
+			"character": "弟",
+			"stroke_arrangement": "2HU",
+			"stroke_count": 7,
+			"parent_names":["X5-1 Little Brother", "R3 Dot", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "Carapace",
+			"character": "甲",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 5,
+			"parent_names":["Day", "R2 Line"]	
+		},
+		{
+			"name": "Home Village",
+			"character": "里",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 7,
+			"parent_names":["Carapace", "Two"]	
+		},
+		{
+			"name": "Black",
+			"character": "黒",
+			"stroke_arrangement": "2HL",
+			"stroke_count": 11,
+			"parent_names":["Home Village", "R86 Legs"]	
+		},
+		{
+			"name": "Red",
+			"character": "赤",
+			"stroke_arrangement": "2H",
+			"stroke_count": 7,
+			"parent_names":["Soil", "X4-2 Red Legs"]	
 		}
 	],
 	"radical":[
@@ -1042,9 +1154,16 @@
 		{
 			"name": "R118 Bamboo",
 			"character": "⺮",
-			"stroke_arrangement": "4V",
+			"stroke_arrangement": "2V",
 			"stroke_count": 6,
 			"parent_names":["X1-1 Reverse Dot", "One", "R3 Dot"]	
+		},
+		{
+			"name": "R129 Brush",
+			"character": "聿",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 6,
+			"parent_names":["X3-2 Strikethrough Ko", "Two", "R2 Line"]	
 		},
 		{
 			"name": "R145 Clothes",
@@ -1199,6 +1318,13 @@
 			"parent_names":["Two", "Katakana No", "One"]	
 		},
 		{
+			"name": "X4-2 Red Legs",
+			"image_name": "4-2 Red Legs.png",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 4,
+			"parent_names":["Katakana Ha", "Katakana No", "R6 Hook"]	
+		},
+		{
 			"name": "X4-4 Leg",
 			"image_name": "4-4 Leg.png",
 			"stroke_arrangement": "Whole",
@@ -1211,6 +1337,13 @@
 			"stroke_arrangement": "Whole",
 			"stroke_count": 4,
 			"parent_names":["Three", "R2 Line"]	
+		},
+		{
+			"name": "X5-1 Little Brother",
+			"image_name": "5-1 Little Brother.png",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 5,
+			"parent_names":["Condolences", "Katakana No"]	
 		},
 		{
 			"name": "X6-1 Stand Box",
