@@ -3,20 +3,20 @@
 		{
 			"name": "One",
 			"character": "一",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "Two",
 			"character": "二",
-			"stroke_arrangement": "2H",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 2,
 			"parent_names":["One"]	
 		},
 		{
 			"name": "Three",
 			"character": "三",
-			"stroke_arrangement": "3H",
+			"stroke_arrangement": "⿳",
 			"stroke_count": 3,
 			"parent_names":["One", "Two"]	
 		},
@@ -24,1109 +24,1193 @@
 			"name": "Ten",
 			"node_type": "Kanji",
 			"character": "十",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["One", "R2 Line"]	
 		},
 		{
 			"name": "Up",
 			"character": "上",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["One", "R2 Line"]	
 		},
 		{
 			"name": "Soil",
 			"character": "土",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["Two", "R2 Line"]	
 		},
 		{
 			"name": "King",
 			"character": "王",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["Three", "R2 Line"]	
 		},
 		{
 			"name": "Stop",
 			"character": "止",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["Up", "R2 Line"]	
 		},
 		{
 			"name": "Correct",
 			"character": "正",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["One", "Stop"]	
 		},
 		{
 			"name": "Master",
 			"character": "主",
-			"stroke_arrangement": "2HU",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 6,
 			"parent_names":["R3 Dot", "King"]	
 		},
 		{
 			"name": "Eight",
 			"character": "八",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 2,
 			"parent_names":["X1-1 Reverse Dot", "R3 Dot"]	
 		},
 		{
 			"name": "Woman",
 			"character": "女",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["One", "Hiragana Ku", "Katakana No"]	
 		},
 		{
 			"name": "Person",
 			"character": "人",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["Katakana No", "X1-2 Reverse No"]	
 		},
 		{
 			"name": "Fire",
 			"character": "火",
-			"stroke_arrangement": "Comp",
+			"stroke_arrangement": "⿻",
 			"stroke_count": 4,
 			"parent_names":["Person", "X1-1 Reverse Dot"]	
 		},
 		{
 			"name": "Mouth",
 			"character": "口",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["X1-3 Top Right Corner", "One", "R2 Line"]	
 		},
 		{
 			"name": "Day",
 			"character": "日",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["Mouth", "One"]	
 		},
 		{
 			"name": "Rice Field",
 			"character": "田",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["Day", "R2 Line"]	
 		},
 		{
 			"name": "Farm",
 			"character": "畑",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 9,
 			"parent_names":["Fire", "Rice Field"]	
 		},
 		{
 			"name": "Punish",
 			"character": "刑",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 6,
 			"parent_names":["X4-1 Torii", "Katakana Ri"]	
 		},
 		{
 			"name": "Type",
 			"character": "型",
-			"stroke_arrangement": "2H",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
 			"parent_names":["Punish", "Soil"]	
 		},
 		{
 			"name": "Stand",
 			"character": "立",
-			"stroke_arrangement": "2H",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 5,
 			"parent_names":["R8 Lid", "X3-1 Double Lid"]	
 		},
 		{
 			"name": "Spicy",
 			"character": "辛",
-			"stroke_arrangement": "2H",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 7,
 			"parent_names":["Stand", "Ten"]	
 		},
 		{
 			"name": "Happiness",
 			"character": "幸",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 8,
 			"parent_names":["Spicy", "One"]	
 		},
 		{
 			"name": "Dish",
 			"character": "皿",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["X1-3 Top Right Corner", "One", "R2 Line"]	
 		},
 		{
 			"name": "Blood",
 			"character": "血",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["Dish", "X1-1 Reverse Dot"]	
 		},
 		{
 			"name": "Testicles",
 			"character": "睾",
-			"stroke_arrangement": "2HU",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 15,
 			"parent_names":["Blood", "Happiness"]	
 		},
 		{
 			"name": "Crow",
 			"character": "烏",
-			"stroke_arrangement": "Comp",
+			"stroke_arrangement": "⿻",
 			"stroke_count": 10,
 			"parent_names":["X1-1 Reverse Dot", "X1-3 Top Right Corner", "Line", "One", "R86 Legs"]	
 		},
 		{
 			"name": "Bird",
 			"character": "鳥",
-			"stroke_arrangement": "Comp",
+			"stroke_arrangement": "⿻",
 			"stroke_count": 11,
 			"parent_names":["Crow", "One"]	
 		},
 		{
 			"name": "Climax",
 			"character": "至",
-			"stroke_arrangement": "2H",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 11,
 			"parent_names":["X3-6 Overscore I", "Soil"]	
 		},
 		{
 			"name": "Cave",
 			"character": "穴",
-			"stroke_arrangement": "2HU",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 5,
 			"parent_names":["R40 Roof", "Katakana Ha"]	
 		},
 		{
 			"name": "Plug Up",
 			"character": "窒",
-			"stroke_arrangement": "2HU",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 11,
 			"parent_names":["Cave", "Climax"]	
 		},
 		{
 			"name": "Moon",
 			"character": "月",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["X2-1 Moon Box", "Two"]	
 		},
 		{
 			"name": "Vagina",
 			"character": "膣",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 15,
 			"parent_names":["Moon", "Plug Up"]	
 		},
 		{
 			"name": "Or",
 			"character": "又",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["Katakana Fu", "X1-2 Reverse No"]	
 		},
 		{
 			"name": "Piling",
 			"character": "弋",
-			"stroke_arrangement": "Comp",
+			"stroke_arrangement": "⿻",
 			"stroke_count": 3,
 			"parent_names":["One", "X1-6 Ceremony Hook", "R3 Dot"]	
 		},
 		{
 			"name": "Craft",
 			"character": "工",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["Two", "R2 Line"]	
 		},
 		{
 			"name": "Ceremony",
 			"character": "式",
-			"stroke_arrangement": "TRC",
+			"stroke_arrangement": "⿹",
 			"stroke_count": 6,
 			"parent_names":["Piling", "Craft"]	
 		},
 		{
 			"name": "Say",
 			"character": "言",
-			"stroke_arrangement": "5HU",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 7,
 			"parent_names":["One", "Mouth"]	
 		},
 		{
 			"name": "Test",
 			"character": "試",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 13,
 			"parent_names":["Say", "Ceremony"]	
 		},
 		{
 			"name": "Car",
 			"character": "車",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 7,
 			"parent_names":["Two", "R2 Line", "Day"]	
 		},
 		{
 			"name": "Middle",
 			"character": "中",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["R2 Line", "Mouth"]	
 		},
 		{
 			"name": "Down",
 			"character": "下",
-			"stroke_arrangement": "Comp",
+			"stroke_arrangement": "⿻",
 			"stroke_count": 3,
 			"parent_names":["Romaji T", "R3 Dot"]	
 		},
 		{
 			"name": "Bright",
 			"character": "明",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 8,
 			"parent_names":["Day", "Moon"]	
 		},
 		{
 			"name": "Tree",
 			"character": "木",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["Ten", "Katakana No", "X1-2 Reverse No"]	
 		},
 		{
 			"name": "Grove",
 			"character": "林",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 8,
 			"parent_names":["Tree"]	
 		},
 		{
 			"name": "Forest",
 			"character": "森",
-			"stroke_arrangement": "2H",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 12,
 			"parent_names":["Tree", "Grove"]	
 		},
 		{
 			"name": "Rice",
 			"character": "米",
-			"stroke_arrangement": "Comp",
+			"stroke_arrangement": "⿻",
 			"stroke_count": 6,
 			"parent_names":["Tree", "R3 Dot", "X1-1 Reverse Dot"]	
 		},
 		{
 			"name": "Horse",
 			"character": "馬",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 10,
 			"parent_names":["R2 Line", "One", "X1-5 Corner Hook", "R86 Legs"]	
 		},
 		{
 			"name": "Stop-Over",
 			"character": "駐",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 15,
 			"parent_names":["Horse", "Master"]	
 		},
 		{
 			"name": "Big",
 			"character": "大",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["Person", "One"]	
 		},
 		{
 			"name": "Husband",
 			"character": "夫",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["Big", "One"]	
 		},
 		{
 			"name": "Exchange",
 			"character": "替",
-			"stroke_arrangement": "TrB",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 12,
 			"parent_names":["Husband", "Day"]	
 		},
 		{
 			"name": "Submerge",
 			"character": "潜",
-			"stroke_arrangement": "2HL",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 15,
 			"parent_names":["R85 Water", "Exchange"]	
 		},
 		{
 			"name": "Wife",
 			"character": "妻",
-			"stroke_arrangement": "Comp",
+			"stroke_arrangement": "⿻",
 			"stroke_count": 8,
 			"parent_names":["One", "R2 Line", "X3-2 Strikethrough Ko", "Woman"]	
 		},
 		{
 			"name": "Uncanny",
 			"character": "凄",
-			"stroke_arrangement": "2HL",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 10,
 			"parent_names":["R15 Ice", "Wife"]	
 		},
 		{
 			"name": "Captured",
 			"character": "囚",
-			"stroke_arrangement": "Box",
+			"stroke_arrangement": "⿴",
 			"stroke_count": 5,
 			"parent_names":["Mouth", "Person"]	
 		},
 		{
 			"name": "Boat",
 			"character": "舟",
-			"stroke_arrangement": "Comp",
+			"stroke_arrangement": "⿻",
 			"stroke_count": 5,
 			"parent_names":["X2-1 Moon Box", "X1-1 Reverse Dot", "R3 Dot", "One", "R2 Line"]	
 		},
 		{
 			"name": "Retainer",
 			"character": "臣",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 7,
 			"parent_names":["R22 Box On Side", "R2 Line", "Katakana Ko"]	
 		},
 		{
 			"name": "Oversee",
 			"character": "監",
-			"stroke_arrangement": "TrB",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 15,
 			"parent_names":["Retainer", "X1-1 Reverse Dot", "Two", "Dish"]	
 		},
 		{
 			"name": "Warship",
 			"character": "艦",
-			"stroke_arrangement": "2VL",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 21,
 			"parent_names":["Boat", "Oversee"]	
 		},
 		{
 			"name": "Dog",
 			"character": "犬",
-			"stroke_arrangement": "Comp",
+			"stroke_arrangement": "⿻",
 			"stroke_count": 3,
 			"parent_names":["Big", "R3 Dot"]	
 		},
 		{
 			"name": "Thick",
 			"character": "太",
-			"stroke_arrangement": "Comp",
+			"stroke_arrangement": "⿻",
 			"stroke_count": 3,
 			"parent_names":["Big", "R3 Dot"]	
 		},
 		{
 			"name": "Prostrated",
 			"character": "伏",
-			"stroke_arrangement": "2VL",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 5,
 			"parent_names":["R9 Person", "Dog"]	
 		},
 		{
 			"name": "Heavens",
 			"character": "天",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["Big", "One"]	
 		},
 		{
 			"name": "Laugh",
 			"character": "笑",
-			"stroke_arrangement": "2HU",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 10,
 			"parent_names":["R118 Bamboo", "Heavens"]	
 		},
 		{
 			"name": "Four",
 			"character": "四",
-			"stroke_arrangement": "Box",
+			"stroke_arrangement": "⿴",
 			"stroke_count": 5,
 			"parent_names":["Mouth", "R9 Legs"]	
 		},
 		{
 			"name": "Five",
 			"character": "五",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["Two", "R2 Line", "X1-3 Top Right Corner"]	
 		},
 		{
 			"name": "Six",
 			"character": "六",
-			"stroke_arrangement": "2H",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 4,
 			"parent_names":["R8 Lid", "Katakana Ha"]	
 		},
 		{
 			"name": "Seven",
 			"character": "七",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["One", "R5 Fishhook"]	
 		},
 		{
 			"name": "Nine",
 			"character": "九",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["Katakana No", "R5 Corner Fishhook"]	
 		},
 		{
 			"name": "Small",
 			"character": "小",
-			"stroke_arrangement": "3V",
+			"stroke_arrangement": "⿲",
 			"stroke_count": 3,
 			"parent_names":["Katakana Ha", "R6 Hook"]	
 		},
 		{
 			"name": "Thread",
 			"character": "糸",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 6,
 			"parent_names":["R52 Short Thread", "Small"]	
 		},
 		{
 			"name": "Someone",
 			"character": "者",
-			"stroke_arrangement": "Comp",
+			"stroke_arrangement": "⿻",
 			"stroke_count": 8,
 			"parent_names":["Soil", "Katakana No", "Day"]	
 		},
 		{
 			"name": "Inception",
 			"character": "緒",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 14,
 			"parent_names":["Thread", "Someone"]	
 		},
 		{
 			"name": "Beans",
 			"character": "豆",
-			"stroke_arrangement": "3H",
+			"stroke_arrangement": "⿳",
 			"stroke_count": 7,
 			"parent_names":["One", "Mouth", "X3-1 Double Lid"]	
 		},
 		{
 			"name": "Ascend",
 			"character": "登",
-			"stroke_arrangement": "2H",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 12,
 			"parent_names":["R105 Footsteps", "Beans"]	
 		},
 		{
 			"name": "Few",
 			"character": "少",
-			"stroke_arrangement": "2HL",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 12,
 			"parent_names":["Small", "Katakana No"]	
 		},
 		{
 			"name": "Second",
 			"character": "秒",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 9,
 			"parent_names":["R115 Grain", "Few"]	
 		},
 		{
 			"name": "Early",
 			"character": "早",
-			"stroke_arrangement": "2H",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 6,
 			"parent_names":["Day", "Ten"]	
 		},
 		{
 			"name": "Chapter",
 			"character": "章",
-			"stroke_arrangement": "2H",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 11,
 			"parent_names":["Stand", "Early"]	
 		},
 		{
 			"name": "Wherefore",
 			"character": "由",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["Day", "Line"]	
 		},
 		{
 			"name": "Flute",
 			"character": "笛",
-			"stroke_arrangement": "2HU",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 11,
 			"parent_names":["R118 Bamboo", "Wherefore"]	
 		},
 		{
 			"name": "Finish",
 			"character": "了",
-			"stroke_arrangement": "2H",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 2,
 			"parent_names":["Katakana Fu", "R6 Hook"]	
 		},
 		{
 			"name": "Child",
 			"character": "子",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["Finish", "One"]	
 		},
 		{
 			"name": "Mountain",
 			"character": "山",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["R17 Receptacle", "R2 Line"]	
 		},
 		{
 			"name": "River",
 			"character": "川",
-			"stroke_arrangement": "3V",
+			"stroke_arrangement": "⿲",
 			"stroke_count": 3,
 			"parent_names":["R4 Slash", "R2 Line"]	
 		},
 		{
 			"name": "Heart",
 			"character": "心",
-			"stroke_arrangement": "Comp",
+			"stroke_arrangement": "⿻",
 			"stroke_count": 4,
 			"parent_names":["R5 Fishhook", "R3 Dot", "X1-1 Reverse Dot"]	
 		},
 		{
 			"name": "Certain",
 			"character": "必",
-			"stroke_arrangement": "Comp",
+			"stroke_arrangement": "⿻",
 			"stroke_count": 5,
 			"parent_names":["Heart", "Katakana No"]	
 		},
 		{
 			"name": "Secret",
 			"character": "秘",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 10,
 			"parent_names":["R115 Grain", "Certain"]	
 		},
 		{
 			"name": "Secrecy",
 			"character": "密",
-			"stroke_arrangement": "3H",
+			"stroke_arrangement": "⿳",
 			"stroke_count": 11,
 			"parent_names":["R40 Roof", "Certain", "Mountain"]	
 		},
 		{
 			"name": "Must Not",
 			"character": "勿",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["R20 Wrap", "Katakana No"]	
 		},
 		{
 			"name": "Sunshine",
 			"character": "陽",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 12,
 			"parent_names":["R170 Village", "D Open"]	
 		},
 		{
 			"name": "Chase",
 			"character": "追",
-			"stroke_arrangement": "BLC",
+			"stroke_arrangement": "⿺",
 			"stroke_count": 12,
 			"parent_names":["R162 Walk", "D Store Up"]	
 		},
 		{
 			"name": "Pursue",
 			"character": "辿",
-			"stroke_arrangement": "BLC",
+			"stroke_arrangement": "⿺",
 			"stroke_count": 6,
 			"parent_names":["R162 Walk", "Mountain"]	
 		},
 		{
 			"name": "Rain",
 			"character": "雨",
-			"stroke_arrangement": "Comp",
+			"stroke_arrangement": "⿻",
 			"stroke_count": 8,
 			"parent_names":["Romaji T", "R13 Upside-Down Box", "R3 Dot"]	
 		},
 		{
 			"name": "Left",
 			"character": "左",
-			"stroke_arrangement": "TLC",
+			"stroke_arrangement": "⿸",
 			"stroke_count": 5,
 			"parent_names":["Katakana Na", "Craft"]	
 		},
 		{
 			"name": "Right",
 			"character": "右",
-			"stroke_arrangement": "TLC",
+			"stroke_arrangement": "⿸",
 			"stroke_count": 5,
 			"parent_names":["Katakana Na", "Mouth"]	
 		},
 		{
 			"name": "Rest",
 			"character": "休",
-			"stroke_arrangement": "2VL",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 6,
 			"parent_names":["R9 Person", "Tree"]	
 		},
 		{
 			"name": "Like",
 			"character": "好",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 6,
 			"parent_names":["Woman", "Child"]	
 		},
 		{
 			"name": "Leg",
 			"character": "足",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 7,
 			"parent_names":["X4-4 Leg", "Mouth"]	
 		},
 		{
 			"name": "Selling",
 			"character": "商",
-			"stroke_arrangement": "2HU",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 11,
 			"parent_names":["X6-1 Stand Box", "R9 Legs", "Mouth"]	
 		},
 		{
 			"name": "Old",
 			"character": "古",
-			"stroke_arrangement": "2H",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 5,
 			"parent_names":["Ten", "Mouth"]	
 		},
 		{
 			"name": "Enemy",
 			"character": "敵",
-			"stroke_arrangement": "TrR",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 15,
 			"parent_names":["X6-1 Stand Box", "Old", "R66 Strike"]	
 		},
 		{
 			"name": "Tome",
 			"character": "冊",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["R13 Upside-Down Box", "R2 Line", "One"]	
 		},
 		{
 			"name": "Argument",
 			"character": "論",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 15,
 			"parent_names":["Say", "D Think"]	
 		},
 		{
 			"name": "Towel",
 			"character": "巾",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["R13 Upside-Down Box", "R2 Line"]	
 		},
 		{
 			"name": "Linen",
 			"character": "布",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⿸",
 			"stroke_count": 5,
 			"parent_names":["Katakana Na", "Towel"]	
 		},
 		{
 			"name": "Dreadful",
 			"character": "怖",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 8,
 			"parent_names":["Linen", "R61 Heart"]	
 		},
 		{
 			"name": "Curriculum",
 			"character": "歴",
-			"stroke_arrangement": "TLC",
+			"stroke_arrangement": "⿸",
 			"stroke_count": 8,
 			"parent_names":["R27 Trailing Cliff", "Grove", "Stop"]	
 		},
 		{
 			"name": "White",
 			"character": "白",
-			"stroke_arrangement": "2HU",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 5,
 			"parent_names":["Day", "X1-1 Reverse Dot"]	
 		},
 		{
 			"name": "Hundred",
 			"character": "百",
-			"stroke_arrangement": "2HU",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 6,
 			"parent_names":["White", "One"]	
 		},
 		{
 			"name": "History",
 			"character": "史",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["Mouth", "X2-3 Skewed Cross"]	
 		},
 		{
 			"name": "Element",
 			"character": "素",
-			"stroke_arrangement": "2H",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 10,
 			"parent_names":["X4-5 Double Cross", "Thread"]	
 		},
 		{
 			"name": "Valve",
 			"character": "弁",
-			"stroke_arrangement": "2HU",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 5,
 			"parent_names":["Katakana Mu", "R55 Twenty"]	
 		},
 		{
 			"name": "Fruit",
 			"character": "果",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 8,
 			"parent_names":["Day", "Tree"]	
 		},
 		{
 			"name": "Naked",
 			"character": "裸",
-			"stroke_arrangement": "2H",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 13,
 			"parent_names":["R145 Clothes", "Fruit"]	
 		},
 		{
 			"name": "Bow",
 			"character": "弓",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["X1-3 Top Right Corner", "One", "X1-11 Zig-Zag"]	
 		},
 		{
 			"name": "Condolences",
 			"character": "弔",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["Bow", "R2 Line"]	
 		},
 		{
 			"name": "Thousand",
 			"character": "千",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["X1-8 Shallow No", "Ten"]	
 		},
 		{
 			"name": "Ten Thousand",
 			"character": "万",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["One", "R4 Slash", "X1-5 Corner Hook"]	
 		},
 		{
 			"name": "Yen",
 			"character": "円",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["R13 Upside-Down Box", "One", "R2 Line"]	
 		},
 		{
 			"name": "Tomoe",
 			"character": "巴",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["R5 Fishhook", "X1-3 Top Right Corner", "One", "R2 Line"]	
 		},
 		{
 			"name": "Color",
 			"character": "色",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
 			"parent_names":["X2-4 Wrap Hat", "Tomoe"]	
 		},
 		{
 			"name": "Residence",
 			"character": "第",
-			"stroke_arrangement": "2HU",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 11,
 			"parent_names":["R118 Bamboo", "X5-1 Little Brother"]	
 		},
 		{
 			"name": "Writing Brush",
 			"character": "筆",
-			"stroke_arrangement": "2HU",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 12,
 			"parent_names":["R118 Bamboo", "R129 Brush"]	
 		},
 		{
 			"name": "Measurement",
 			"character": "寸",
-			"stroke_arrangement": "TRC",
+			"stroke_arrangement": "⿹",
 			"stroke_count": 3,
 			"parent_names":["One", "R6 Hook", "R3 Dot"]	
 		},
 		{
 			"name": "Temple",
 			"character": "寺",
-			"stroke_arrangement": "2H",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 6,
 			"parent_names":["Soil", "Measurement"]	
 		},
 		{
 			"name": "etc.",
 			"character": "等",
-			"stroke_arrangement": "2H",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 12,
 			"parent_names":["R118 Bamboo", "Temple"]	
 		},
 		{
 			"name": "Heavy",
 			"character": "重",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 9,
 			"parent_names":["Car", "One", "X1-8 Shallow No"]	
 		},
 		{
 			"name": "Seed",
 			"character": "種",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 14,
 			"parent_names":["R115 Grain", "Heavy"]	
 		},
 		{
 			"name": "All",
 			"character": "全",
-			"stroke_arrangement": "2HU",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 6,
 			"parent_names":["X2-2 Roof", "King"]	
 		},
 		{
 			"name": "Gold",
 			"character": "金",
-			"stroke_arrangement": "Comp",
+			"stroke_arrangement": "⿻",
 			"stroke_count": 8,
 			"parent_names":["All", "R3 Dot", "X1-1 Reverse Dot"]	
 		},
 		{
 			"name": "Big Brother",
 			"character": "兄",
-			"stroke_arrangement": "2H",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 5,
 			"parent_names":["Mouth", "R9 Legs"]	
 		},
 		{
 			"name": "Finally",
 			"character": "竟",
-			"stroke_arrangement": "2HU",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 11,
 			"parent_names":["Stand", "Big Brother", "One"]	
 		},
 		{
 			"name": "Little Brother",
 			"character": "弟",
-			"stroke_arrangement": "2HU",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 7,
 			"parent_names":["X5-1 Little Brother", "R3 Dot", "X1-1 Reverse Dot"]	
 		},
 		{
 			"name": "Carapace",
 			"character": "甲",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["Day", "R2 Line"]	
 		},
 		{
 			"name": "Home Village",
 			"character": "里",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 7,
 			"parent_names":["Carapace", "Two"]	
 		},
 		{
 			"name": "Black",
 			"character": "黒",
-			"stroke_arrangement": "2HL",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 11,
 			"parent_names":["Home Village", "R86 Legs"]	
 		},
 		{
 			"name": "Red",
 			"character": "赤",
-			"stroke_arrangement": "2H",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 7,
 			"parent_names":["Soil", "X4-2 Red Legs"]	
+		},
+		{
+			"name": "Mirror",
+			"character": "鏡",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 19,
+			"parent_names":["Gold", "Finally"]	
+		},
+		{
+			"name": "Lead (metal)",
+			"character": "鉛",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 19,
+			"parent_names":["Gold", "X5-2 Ship"]	
+		},
+		{
+			"name": "Ship",
+			"character": "船",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Boat", "X5-2 Ship"]	
+		},
+		{
+			"name": "Eye",
+			"character": "目",
+			"stroke_arrangement": "⿴",
+			"stroke_count": 5,
+			"parent_names":["Mouth", "Two"]	
+		},
+		{
+			"name": "Shellfish",
+			"character": "貝",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["Eye", "Katakana Ha"]	
+		},
+		{
+			"name": "Page",
+			"character": "頁",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 7,
+			"parent_names":["One", "X1-1 Reverse Dot", "Shellfish"]	
+		},
+		{
+			"name": "Genus",
+			"character": "類",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 18,
+			"parent_names":["Rice", "Big", "Page"]	
+		},
+		{
+			"name": "Also",
+			"character": "亦",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["R8 Lid", "X4-2 Red Legs"]	
+		},
+		{
+			"name": "Oni",
+			"character": "鬼",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 10,
+			"parent_names":["X1-1 Reverse Dot", "Rice Field", "R9 Legs", "Katakana Mu"]	
+		},
+		{
+			"name": "Not yet",
+			"character": "未",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["Tree", "One"]	
+		},
+		{
+			"name": "Tip",
+			"character": "末",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["Tree", "One"]	
+		},
+		{
+			"name": "Charm",
+			"character": "魅",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 15,
+			"parent_names":["Oni", "Not yet"]	
 		}
 	],
 	"radical":[
 		{
 			"name": "R2 Line",
 			"character": "丨",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "R3 Dot",
 			"character": "丶",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "R4 Slash",
 			"character": "丿",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "R5 Fishhook",
 			"character": "乚",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "R5 Corner Fishhook",
 			"character": "⺄",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "R6 Hook",
 			"character": "亅",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "R8 Lid",
 			"character": "亠",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["R3 Dot", "One"]	
 		},
 		{
 			"name": "R9 Person",
 			"character": "亻",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["X1-1 Reverse Dot", "R2 Line"]	
 		},
 		{
 			"name": "R9 Legs",
 			"character": "儿",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 2,
 			"parent_names":["Katakana No", "R5 Fishhook"]	
 		},
 		{
 			"name": "R13 Upside-Down Box",
 			"character": "冂",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 2,
 			"parent_names":["Katakana No", "R5 Fishhook"]	
 		},
 		{
 			"name": "R14 Wa Shaped Crown",
 			"character": "冖",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["R2 Line", "X1-3 Top Right Corner"]	
 		},
 		{
 			"name": "R15 Ice",
 			"character": "冫",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 2,
 			"parent_names":["R3 Dot", "X1-1 Reverse Dot"]	
 		},
 		{
 			"name": "R17 Receptacle",
 			"character": "凵",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["X1-7 Bottom Left Corner", "R2 Line"]	
 		},
 		{
 			"name": "R20 Wrap",
 			"character": "勹",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["X1-1 Reverse Dot", "X1-5 Corner Hook"]	
 		},
 		{
 			"name": "R22 Box On Side",
 			"character": "匚",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["One", "X1-7 Bottom Left Corner"]	
 		},
 		{
 			"name": "R27 Trailing Cliff",
 			"character": "厂",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["One", "R4 Slash"]	
 		},
 		{
 			"name": "R28 I",
 			"character": "厶",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["X1-4 Bottom Left Angle", "R3 Dot"]	
 		},
 		{
 			"name": "R40 Roof",
 			"character": "宀",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["R3 Dot", "R2 Line", "X1-3 Top Right Corner"]	
 		},
 		{
 			"name": "R52 Short Thread",
 			"character": "幺",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["Hiragana Ku", "Katakana Mu"]	
 		},
 		{
 			"name": "R55 Twenty",
 			"character": "廾",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["One", "R4 Slash", "R2 Line"]	
 		},
 		{
 			"name": "R61 Heart",
 			"character": "忄",
-			"stroke_arrangement": "3V",
+			"stroke_arrangement": "⿲",
 			"stroke_count": 3,
 			"parent_names":["R2 Line", "R3 Dot", "X1-1 Reverse Dot"]	
 		},
 		{
 			"name": "R66 Strike",
 			"character": "攵",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["Katakana No", "One", "Romaji X"]	
 		},
 		{
 			"name": "R85 Water",
 			"character": "氵",
-			"stroke_arrangement": "2HU",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 3,
 			"parent_names":["R3 Dot", "R15 Ice"]	
 		},
@@ -1140,28 +1224,28 @@
 		{
 			"name": "R105 Footsteps",
 			"character": "癶",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["Katakana Fu", "R3 Dot", "X1-1 Reverse Dot", "X1-2 Reverse No"]	
 		},
 		{
 			"name": "R115 Grain",
 			"character": "禾",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["Tree", "X1-8 Shallow No"]	
 		},
 		{
 			"name": "R118 Bamboo",
 			"character": "⺮",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 6,
 			"parent_names":["X1-1 Reverse Dot", "One", "R3 Dot"]	
 		},
 		{
 			"name": "R129 Brush",
 			"character": "聿",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
 			"parent_names":["X3-2 Strikethrough Ko", "Two", "R2 Line"]	
 		},
@@ -1175,14 +1259,14 @@
 		{
 			"name": "R162 Walk",
 			"character": "⻌",
-			"stroke_arrangement": "Comp",
+			"stroke_arrangement": "⿻",
 			"stroke_count": 3,
 			"parent_names":["R3 Dot", "X1-9 Three", "X1-10 Wave"]	
 		},
 		{
 			"name": "R170 Village",
 			"character": "阝",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["R2 Line", "Katakana Fu", "R6 Hook"]	
 		}
@@ -1191,164 +1275,171 @@
 		{
 			"name": "X1-1 Reverse Dot",
 			"image_name": "1-1 Reverse Dot.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "X1-2 Reverse No",
 			"image_name": "1-2 Reverse No.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "X1-3 Top Right Corner",
 			"image_name": "1-3 Top Right Corner.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "X1-4 Bottom Left Angle",
 			"image_name": "1-4 Bottom Left Angle.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "X1-5 Corner Hook",
 			"image_name": "1-5 Corner Hook.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "X1-6 Ceremony Hook",
 			"image_name": "1-6 Ceremony Hook.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "X1-7 Bottom Left Corner",
 			"image_name": "1-7 Bottom Left Corner.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "X1-8 Shallow No",
 			"image_name": "1-8 Shallow No.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "X1-9 Three",
 			"image_name": "1-9 Three.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "X1-10 Wave",
 			"image_name": "1-10 Wave.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "X1-11 Zig-Zag",
 			"image_name": "1-11 Zig-Zag.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "X2-1 Moon Box",
 			"image_name": "2-1 Moon Box.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["X1-5 Corner Hook", "R4 Slash"]	
 		},
 		{
 			"name": "X2-2 Roof",
 			"image_name": "2-2 Roof.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["Katakana No", "X1-2 Reverse No"]	
 		},
 		{
 			"name": "X2-3 Skewed Cross",
 			"image_name": "2-3 Skewed Cross.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["Katakana No", "X1-2 Reverse No"]	
 		},
 		{
 			"name": "X2-4 Wrap Hat",
 			"image_name": "2-4 Wrap Hat.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["X1-1 Reverse Dot", "Katakana Fu"]	
 		},
 		{
 			"name": "X3-1 Double Lid",
 			"image_name": "3-1 Double Lid.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["R3 Dot", "X1-1 Reverse Dot", "One"]	
 		},
 		{
 			"name": "X3-2 Strikethrough Ko",
 			"image_name": "3-2 Strikethrough Ko.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["Katakana Ko", "One"]	
 		},
 		{
 			"name": "X3-6 Overscore I",
 			"image_name": "3-6 Overscore I.png",
-			"stroke_arrangement": "2H",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 3,
 			"parent_names":["One", "R28 I"]	
 		},
 		{
 			"name": "X3-10 Triangle Roof",
 			"image_name": "3-10 Triangle Roof.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["X2-2 Roof", "One"]	
 		},
 		{
 			"name": "X4-1 Torii",
 			"image_name": "4-1 Torii.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["Two", "Katakana No", "One"]	
 		},
 		{
 			"name": "X4-2 Red Legs",
 			"image_name": "4-2 Red Legs.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⿻",
 			"stroke_count": 4,
 			"parent_names":["Katakana Ha", "Katakana No", "R6 Hook"]	
 		},
 		{
 			"name": "X4-4 Leg",
 			"image_name": "4-4 Leg.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["Person", "R2 Line", "One"]	
 		},
 		{
 			"name": "X4-5 Double Cross",
 			"image_name": "4-5 Double Cross.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["Three", "R2 Line"]	
 		},
 		{
 			"name": "X5-1 Little Brother",
 			"image_name": "5-1 Little Brother.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["Condolences", "Katakana No"]	
 		},
 		{
+			"name": "X5-2 Ship",
+			"image_name": "5-2 Ship.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["Eight", "Mouth"]	
+		},
+		{
 			"name": "X6-1 Stand Box",
 			"image_name": "6-1 Stand Box.png",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
 			"parent_names":["R8 Lid", "X1-1 Reverse Dot", "R3 Dot", "R13 Upside-Down Box"]	
 		}
@@ -1357,81 +1448,81 @@
 		{
 			"name": "Hiragana Ku",
 			"character": "く",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "Katakana Fu",
 			"character": "フ",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "Katakana Ha",
 			"character": "ハ",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 2,
 			"parent_names":["X1-1 Reverse Dot", "R3 Dot"]	
 		},
 		{
 			"name": "Katakana Ko",
 			"character": "コ",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["One", "X1-3 Top Right Corner"]	
 		},
 		{
 			"name": "Katakana Mu",
 			"character": "ム",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["X1-4 Bottom Left Angle", "R3 Dot"]	
 		},
 		{
 			"name": "Katakana Na",
 			"character": "ナ",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["R4 Slash", "One"]	
 		},
 		{
 			"name": "Katakana Ne",
 			"character": "ネ",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["Katakana Fu", "R3 Dot", "R2 Line"]	
 		},
 		{
 			"name": "Katakana No",
 			"character": "ノ",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
 		{
 			"name": "Katakana Ri",
 			"character": "リ",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 2,
 			"parent_names":["R2 Line", "Katakana No"]	
 		},
 		{
 			"name": "Katakana Su",
 			"character": "ス",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["Katakana Fu", "R3 Dot"]	
 		},
 		{
 			"name": "Romaji T",
 			"character": "T",
-			"stroke_arrangement": "2V",
+			"stroke_arrangement": "⿰",
 			"stroke_count": 2,
 			"parent_names":["R2 Line", "One"]	
 		},
 		{
 			"name": "Romaji X",
 			"character": "X",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["Katakana No", "X1-2 Reverse No"]	
 		}
@@ -1440,21 +1531,21 @@
 		{
 			"name": "D Open",
 			"character": "昜",
-			"stroke_arrangement": "3H",
+			"stroke_arrangement": "⿳",
 			"stroke_count": 9,
 			"parent_names":["Day", "One", "Must Not"]	
 		},		
 		{
 			"name": "D Store Up",
 			"character": "𠂤",
-			"stroke_arrangement": "Whole",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
 			"parent_names":["X1-3 Top Right Corner", "X1-1 Reverse Dot", "R2 Line", "One"]	
 		},		
 		{
 			"name": "D Think",
 			"character": "侖",
-			"stroke_arrangement": "2HU",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 8,
 			"parent_names":["X3-10 Triangle Roof", "Tome"]	
 		}

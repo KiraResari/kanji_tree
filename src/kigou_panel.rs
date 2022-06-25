@@ -1,6 +1,6 @@
 use iced::{Text, Column, Align, Row, Container};
 
-use crate::{value_objects::Kigou, message::Message, kigou_display_builder::KigouDisplayBuilder};
+use crate::{value_objects::Kigou, message::Message, fonts, kigou_display_builder::KigouDisplayBuilder};
 
 pub struct KigouPanel{
 }
@@ -14,7 +14,12 @@ impl KigouPanel{
                 .align_items(Align::Center)
                 .push(Text::new(kigou.stroke_count.to_string()))
                 .push(KigouPanel::build_kigou_column(kigou))
-                .push(Text::new(kigou.stroke_arrangement.to_string()))
+                .push(
+                    Text::new(kigou.stroke_arrangement.to_string())
+                    .font(fonts::KANJI)
+                    .size(48)
+                )
+                    
         ).style(kigou.clone().kigou_type)
     }
 
