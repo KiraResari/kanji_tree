@@ -1056,6 +1056,76 @@
 			"stroke_arrangement": "⿺",
 			"stroke_count": 15,
 			"parent_names":["Oni", "Not yet"]	
+		},
+		{
+			"name": "Northeast",
+			"character": "艮",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 6,
+			"parent_names":["X4-10 Re Divided Flag", "X2-5 Spur"]	
+		},
+		{
+			"name": "Eyeball",
+			"character": "眼",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Eye", "Northeast"]	
+		},
+		{
+			"name": "Arrival",
+			"character": "到",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Climax", "Katakana Ri"]	
+		},
+		{
+			"name": "Overthrow",
+			"character": "倒",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Arrival", "R9 Person"]	
+		},
+		{
+			"name": "Reach out",
+			"character": "及",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["Person", "X1-9 Three"]	
+		},
+		{
+			"name": "Grade",
+			"character": "級",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Thread", "Reach out"]	
+		},
+		{
+			"name": "Blue",
+			"character": "青",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["X4-5 Double Cross", "Moon"]	
+		},
+		{
+			"name": "Yellow",
+			"character": "黄",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 11,
+			"parent_names":["X4-6 Twin Cross", "Wherefore", "Katakana Ha"]	
+		},
+		{
+			"name": "Water",
+			"character": "水",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 4,
+			"parent_names":["Katakana Fu", "R6 Hook", "X2-5 Spur"]	
+		},
+		{
+			"name": "Father",
+			"character": "父",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["Katakana Ha", "Romaji X"]	
 		}
 	],
 	"radical":[
@@ -1367,6 +1437,13 @@
 			"parent_names":["X1-1 Reverse Dot", "Katakana Fu"]	
 		},
 		{
+			"name": "X2-5 Spur",
+			"image_name": "2-5 Spur.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["X1-1 Reverse Dot", "X1-2 Reverse No"]	
+		},
+		{
 			"name": "X3-1 Double Lid",
 			"image_name": "3-1 Double Lid.png",
 			"stroke_arrangement": "⬚",
@@ -1421,6 +1498,20 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["Three", "R2 Line"]	
+		},
+		{
+			"name": "X4-6 Twin Cross",
+			"image_name": "4-6 Twin Cross.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["Two", "R2 Line"]	
+		},
+		{
+			"name": "X4-10 Re Divided Flag",
+			"image_name": "4-10 Re Divided Flag.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["X1-3 Top Right Corner", "One", "Katakana Re"]	
 		},
 		{
 			"name": "X5-1 Little Brother",
@@ -1495,6 +1586,12 @@
 		{
 			"name": "Katakana No",
 			"character": "ノ",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 1
+		},
+		{
+			"name": "Katakana Re",
+			"character": "レ",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
