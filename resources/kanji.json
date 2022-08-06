@@ -1126,6 +1126,76 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 4,
 			"parent_names":["Katakana Ha", "Romaji X"]	
+		},
+		{
+			"name": "Green",
+			"character": "緑",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Thread", "Katakana Yo", "R85 Water Variant"]	
+		},
+		{
+			"name": "Sheep",
+			"character": "羊",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["Three", "R2 Line", "R3 Dot", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "Beauty",
+			"character": "美",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["X6-5 Tailless Sheep", "Big"]	
+		},
+		{
+			"name": "Suffering",
+			"character": "苦",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R140 Grass", "Old"]	
+		},
+		{
+			"name": "Each",
+			"character": "各",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R34 Winter", "Mouth"]	
+		},
+		{
+			"name": "Kyoto, the capital",
+			"character": "洛",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R85 Water", "Each"]	
+		},
+		{
+			"name": "Fall",
+			"character": "落",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["R140 Grass", "Kyoto, the capital"]	
+		},
+		{
+			"name": "Weekday",
+			"character": "曜",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 18,
+			"parent_names":["Day", "Katakana Yo", "R172 Bird"]	
+		},
+		{
+			"name": "Every",
+			"character": "毎",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["X2-6 Slash Dash", "R80 Mother"]	
+		},
+		{
+			"name": "Inside",
+			"character": "内",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["Person", "R13 Upside-Down Box"]	
 		}
 	],
 	"radical":[
@@ -1191,7 +1261,7 @@
 			"character": "冂",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 2,
-			"parent_names":["Katakana No", "R5 Fishhook"]	
+			"parent_names":["R2 Line", "X1-5 Corner Hook"]	
 		},
 		{
 			"name": "R14 Wa Shaped Crown",
@@ -1243,6 +1313,13 @@
 			"parent_names":["X1-4 Bottom Left Angle", "R3 Dot"]	
 		},
 		{
+			"name": "R34 Winter",
+			"character": "夂",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["Katakana Ku", "X1-2 Reverse No"]	
+		},
+		{
 			"name": "R40 Roof",
 			"character": "宀",
 			"stroke_arrangement": "⬚",
@@ -1278,11 +1355,25 @@
 			"parent_names":["Katakana No", "One", "Romaji X"]	
 		},
 		{
+			"name": "R80 Mother",
+			"character": "毋",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["Ten", "X1-7 Bottom Left Corner", "X1-5 Corner Hook"]	
+		},
+		{
 			"name": "R85 Water",
 			"character": "氵",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 3,
 			"parent_names":["R3 Dot", "R15 Ice"]	
+		},
+		{
+			"name": "R85 Water Variant",
+			"character": "氺",
+			"stroke_arrangement": "⿲",
+			"stroke_count": 5,
+			"parent_names":["R3 Dot", "R6 Hook", "X1-1 Reverse Dot"]	
 		},
 		{
 			"name": "R86 Legs",
@@ -1320,6 +1411,13 @@
 			"parent_names":["X3-2 Strikethrough Ko", "Two", "R2 Line"]	
 		},
 		{
+			"name": "R140 Grass",
+			"character": "艹",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["One", "R2 Line"]	
+		},
+		{
 			"name": "R145 Clothes",
 			"character": "衤",
 			"stroke_arrangement": "4V",
@@ -1339,6 +1437,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["R2 Line", "Katakana Fu", "R6 Hook"]	
+		},
+		{
+			"name": "R172 Bird",
+			"character": "隹",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 8,
+			"parent_names":["R9 Person", "X1-1 Reverse Dot", "One", "R2 Line"]	
 		}
 	],
 	"x_part":[
@@ -1444,6 +1549,13 @@
 			"parent_names":["X1-1 Reverse Dot", "X1-2 Reverse No"]	
 		},
 		{
+			"name": "X2-6 Slash Dash",
+			"image_name": "2-6 Slash Dash.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["X1-1 Reverse Dot", "One"]	
+		},
+		{
 			"name": "X3-1 Double Lid",
 			"image_name": "3-1 Double Lid.png",
 			"stroke_arrangement": "⬚",
@@ -1533,6 +1645,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
 			"parent_names":["R8 Lid", "X1-1 Reverse Dot", "R3 Dot", "R13 Upside-Down Box"]	
+		},
+		{
+			"name": "X6-5 Tailless Sheep",
+			"image_name": "6-5 Tailless Sheep.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["Three", "R2 Line", "R3 Dot", "X1-1 Reverse Dot"]	
 		}
 	],
 	"kana":[
@@ -1561,6 +1680,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["One", "X1-3 Top Right Corner"]	
+		},
+		{
+			"name": "Katakana Ku",
+			"character": "ク",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["Katakana No", "Katakana Fu"]	
 		},
 		{
 			"name": "Katakana Mu",
@@ -1606,8 +1732,15 @@
 			"name": "Katakana Su",
 			"character": "ス",
 			"stroke_arrangement": "⬚",
-			"stroke_count": 2,
+			"stroke_count": 3,
 			"parent_names":["Katakana Fu", "R3 Dot"]	
+		},
+		{
+			"name": "Katakana Yo",
+			"character": "ヨ",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["X1-3 Top Right Corner", "Two"]	
 		},
 		{
 			"name": "Romaji T",

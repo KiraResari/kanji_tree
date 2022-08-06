@@ -1710,6 +1710,7 @@
 * Tooltip when hovering over Kigou Buttons
 * Toggle buttons for limiting searches to Kanji, Kana, X-Parts, Radicals, etc...
 * Search also displays non-primary results
+* Make Kigou Name Copy-Able
 
 
 
