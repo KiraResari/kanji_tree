@@ -460,7 +460,7 @@
 			"character": "四",
 			"stroke_arrangement": "⿴",
 			"stroke_count": 5,
-			"parent_names":["Mouth", "R9 Legs"]	
+			"parent_names":["Mouth", "R10 Legs"]	
 		},
 		{
 			"name": "Five",
@@ -705,7 +705,7 @@
 			"character": "商",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 11,
-			"parent_names":["X6-1 Stand Box", "R9 Legs", "Mouth"]	
+			"parent_names":["X6-1 Stand Box", "R10 Legs", "Mouth"]	
 		},
 		{
 			"name": "Old",
@@ -929,7 +929,7 @@
 			"character": "兄",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 5,
-			"parent_names":["Mouth", "R9 Legs"]	
+			"parent_names":["Mouth", "R10 Legs"]	
 		},
 		{
 			"name": "Finally",
@@ -1034,7 +1034,7 @@
 			"character": "鬼",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 10,
-			"parent_names":["X1-1 Reverse Dot", "Rice Field", "R9 Legs", "Katakana Mu"]	
+			"parent_names":["X1-1 Reverse Dot", "Rice Field", "R10 Legs", "Katakana Mu"]	
 		},
 		{
 			"name": "Not yet",
@@ -1196,6 +1196,146 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["Person", "R13 Upside-Down Box"]	
+		},
+		{
+			"name": "Luck",
+			"character": "吉",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["Gentleman", "Mouth"]	
+		},
+		{
+			"name": "Gentleman",
+			"character": "士",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 3,
+			"parent_names":["Ten", "One"]	
+		},
+		{
+			"name": "Tongue",
+			"character": "舌",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["Thousand", "Mouth"]	
+		},
+		{
+			"name": "District",
+			"character": "丁",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 2,
+			"parent_names":["One", "R6 Hook"]	
+		},
+		{
+			"name": "Go",
+			"character": "行",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["R60 Going Man", "One", "District"]	
+		},
+		{
+			"name": "Come",
+			"character": "来",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 6,
+			"parent_names":["Not yet", "R3 Dot", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "Pedestal",
+			"character": "台",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["Katakana Mu", "Mouth"]	
+		},
+		{
+			"name": "Begin",
+			"character": "始",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Woman", "Pedestal"]	
+		},
+		{
+			"name": "Winter",
+			"character": "冬",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 5,
+			"parent_names":["R34 Winter", "R3 Dot"]	
+		},
+		{
+			"name": "End",
+			"character": "終",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Thread", "Winter"]	
+		},
+		{
+			"name": "Run",
+			"character": "走",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["Soil", "Person", "R2 Line", "One"]	
+		},
+		{
+			"name": "Self",
+			"character": "己",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["Katakana Ko", "R5 Fishhook"]	
+		},
+		{
+			"name": "Halt",
+			"character": "已",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["Katakana Ko", "R5 Fishhook"]	
+		},
+		{
+			"name": "Get up",
+			"character": "起",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 10,
+			"parent_names":["Run", "Self"]	
+		},
+		{
+			"name": "Sleep",
+			"character": "寝",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 13,
+			"parent_names":["R40 Roof", "R15 Ice", "R2 Line", "Katakana Yo", "R14 Wa Shaped Crown", "Or"]	
+		},
+		{
+			"name": "Strength",
+			"character": "力",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["R4 Slash", "X1-5 Corner Hook"]	
+		},
+		{
+			"name": "Move",
+			"character": "動",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Heavy", "Strength"]	
+		},
+		{
+			"name": "Work",
+			"character": "働",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["R9 Person", "Move"]	
+		},
+		{
+			"name": "I",
+			"character": "私",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R115 Grain", "Katakana Mu"]	
+		},
+		{
+			"name": "Younger sister",
+			"character": "妹",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Woman", "Not yet"]	
 		}
 	],
 	"radical":[
@@ -1250,7 +1390,7 @@
 			"parent_names":["X1-1 Reverse Dot", "R2 Line"]	
 		},
 		{
-			"name": "R9 Legs",
+			"name": "R10 Legs",
 			"character": "儿",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 2,
@@ -1324,7 +1464,7 @@
 			"character": "宀",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
-			"parent_names":["R3 Dot", "R2 Line", "X1-3 Top Right Corner"]	
+			"parent_names":["R3 Dot", "R14 Wa Shaped Crown"]	
 		},
 		{
 			"name": "R52 Short Thread",
@@ -1339,6 +1479,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["One", "R4 Slash", "R2 Line"]	
+		},
+		{
+			"name": "R60 Going Man",
+			"character": "彳",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 3,
+			"parent_names":["R9 Person", "X1-1 Reverse Dot"]	
 		},
 		{
 			"name": "R61 Heart",
