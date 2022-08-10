@@ -1783,13 +1783,16 @@
 
     * Now it basically works, but is still in need of some cleanup
 
-    * 
+    * I now did that
+
+  * With that, this task is now complete
+
+* That took pretty long, so I'm afraid that this is already as far as I'm getting with this today
 
 
 
 # Wanted Features
 
-* !! Multi-Line Display for children
 * ! Kanji Tree crashed on a reload (probably because the parsing of the .json failed)
   * I want an error message if that happens
 * Validations on import:

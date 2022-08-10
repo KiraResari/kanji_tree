@@ -3,7 +3,7 @@ use iced::{Sandbox, Column, Element, Text, Container, Length, Row, Align};
 use crate::{kigou_parser::KigouParser, kigou_source::KigouSource, value_objects::Kigou, message::Message, kigou_button::KigouButton, kigou_panel::KigouPanel, reload_button::ReloadButton, search_panel::SearchPanel, fonts};
 
 static KANJI_JSON_PATH: &str = "resources/kanji.json";
-static KIGOU_PER_ROW: i32 = 20;
+static KIGOU_PER_ROW: usize = 20;
 
 pub struct KanjiTreeApp{
     kigou_source: KigouSource,
@@ -90,35 +90,15 @@ impl KanjiTreeApp{
         Text::new( "".to_string())
     }
 
-    fn build_kigou_button_row<'a>(kigou_buttons: &'a mut Vec<KigouButton>) -> Row<'a, Message> {
-        let mut kigou_button_row: Row<'a, Message> = Row::new().padding(20);
-        for kigou_button in kigou_buttons {
-            kigou_button_row = kigou_button_row.push( 
-                kigou_button.view()
-            );
-        }
-        kigou_button_row
-    }
-
     fn build_kigou_button_block<'a>(kigou_buttons: &'a mut Vec<KigouButton>) -> Column<'a, Message> {
-        let mut kigou_button_column: Column<'a, Message> = Column::new().padding(20);
-        let mut kigou_button_rows: Vec<Row<'a, Message>> = Vec::new();
-        let mut active_kigou_button_row: Row<'a, Message>= Row::new().padding(20);
-        let mut kigou_in_row = 0;
-        for kigou_button in kigou_buttons {
-            active_kigou_button_row = active_kigou_button_row.push( 
-                kigou_button.view()
-            );
-            kigou_in_row += 1;
-            if kigou_in_row >= KIGOU_PER_ROW{
-                kigou_button_rows.push(active_kigou_button_row);
-                active_kigou_button_row = Row::new().padding(20);
-                kigou_in_row = 0;
+        let mut kigou_button_column: Column<'a, Message> = Column::new().align_items(Align::Center);
+        for chunk in kigou_buttons.chunks_mut(KIGOU_PER_ROW) {
+            let mut row = Row::new().padding(1);
+            for kigou_button in chunk {
+              row = row.push(kigou_button.view());
             }
-        }
-        for kigou_button_row in kigou_button_rows{
-            kigou_button_column = kigou_button_column.push(kigou_button_row);
-        }
+            kigou_button_column = kigou_button_column.push(row);
+          }
         kigou_button_column
     }
 
