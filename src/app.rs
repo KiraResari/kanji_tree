@@ -3,6 +3,7 @@ use iced::{Sandbox, Column, Element, Text, Container, Length, Row, Align};
 use crate::{kigou_parser::KigouParser, kigou_source::KigouSource, value_objects::Kigou, message::Message, kigou_button::KigouButton, kigou_panel::KigouPanel, reload_button::ReloadButton, search_panel::SearchPanel, fonts};
 
 static KANJI_JSON_PATH: &str = "resources/kanji.json";
+static KIGOU_PER_ROW: i32 = 20;
 
 pub struct KanjiTreeApp{
     kigou_source: KigouSource,
@@ -24,32 +25,32 @@ impl KanjiTreeApp{
         }
     }
 
-    fn build_child_kanji_buttons(
-        active_kanji: &Kigou,
-        kanji_source: &KigouSource
+    fn build_child_kigou_buttons(
+        active_kigou: &Kigou,
+        kigou_source: &KigouSource
     ) -> Vec<KigouButton>{
-        let mut child_kanji_buttons: Vec<KigouButton> =  Vec::new();
+        let mut child_kigou_buttons: Vec<KigouButton> =  Vec::new();
         let children 
-            = kanji_source.get_children(&active_kanji.name);
+            = kigou_source.get_children(&active_kigou.name);
         for child in children {
             let kanji_button = KigouButton::new(child);
-            child_kanji_buttons.push(kanji_button);
+            child_kigou_buttons.push(kanji_button);
         }
-        child_kanji_buttons
+        child_kigou_buttons
     }
 
-    fn build_parent_kanji_buttons(
-        active_kanji: &Kigou,
-        kanji_source: &KigouSource
+    fn build_parent_kigou_buttons(
+        active_kigou: &Kigou,
+        kigou_source: &KigouSource
     ) -> Vec<KigouButton>{
-        let mut parent_kanji_buttons: Vec<KigouButton> =  Vec::new();
+        let mut parent_kigou_buttons: Vec<KigouButton> =  Vec::new();
         let parents 
-            = kanji_source.get_parents(&active_kanji.name);
+            = kigou_source.get_parents(&active_kigou.name);
         for parent in parents {
             let kanji_button = KigouButton::new(parent);
-            parent_kanji_buttons.push(kanji_button);
+            parent_kigou_buttons.push(kanji_button);
         }
-        parent_kanji_buttons
+        parent_kigou_buttons
     }
 
     fn build_main_column(&mut self) -> Column<Message> {
@@ -60,7 +61,7 @@ impl KanjiTreeApp{
             .push(self.reload_button.view())
             .push(self.search_panel.view())
             .align_items(Align::Center)
-            .push(KanjiTreeApp::build_kanji_button_row(
+            .push(KanjiTreeApp::build_kigou_button_block(
                 &mut self.parent_kigou_buttons)
             )
             .push(KanjiTreeApp::build_arrow_if_necessary(
@@ -73,7 +74,7 @@ impl KanjiTreeApp{
                 )
             )
             )
-            .push(KanjiTreeApp::build_kanji_button_row(&mut self.child_kigou_buttons))
+            .push(KanjiTreeApp::build_kigou_button_block(&mut self.child_kigou_buttons))
     }
 
     fn build_display_message(&self) -> Text {
@@ -89,14 +90,36 @@ impl KanjiTreeApp{
         Text::new( "".to_string())
     }
 
-    fn build_kanji_button_row<'a>(kanji_buttons: &'a mut Vec<KigouButton>) -> Row<'a, Message> {
-        let mut children_row: Row<'a, Message> = Row::new().padding(20);
-        for kanji_button in kanji_buttons {
-            children_row = children_row.push( 
-                kanji_button.view()
+    fn build_kigou_button_row<'a>(kigou_buttons: &'a mut Vec<KigouButton>) -> Row<'a, Message> {
+        let mut kigou_button_row: Row<'a, Message> = Row::new().padding(20);
+        for kigou_button in kigou_buttons {
+            kigou_button_row = kigou_button_row.push( 
+                kigou_button.view()
             );
         }
-        children_row
+        kigou_button_row
+    }
+
+    fn build_kigou_button_block<'a>(kigou_buttons: &'a mut Vec<KigouButton>) -> Column<'a, Message> {
+        let mut kigou_button_column: Column<'a, Message> = Column::new().padding(20);
+        let mut kigou_button_rows: Vec<Row<'a, Message>> = Vec::new();
+        let mut active_kigou_button_row: Row<'a, Message>= Row::new().padding(20);
+        let mut kigou_in_row = 0;
+        for kigou_button in kigou_buttons {
+            active_kigou_button_row = active_kigou_button_row.push( 
+                kigou_button.view()
+            );
+            kigou_in_row += 1;
+            if kigou_in_row >= KIGOU_PER_ROW{
+                kigou_button_rows.push(active_kigou_button_row);
+                active_kigou_button_row = Row::new().padding(20);
+                kigou_in_row = 0;
+            }
+        }
+        for kigou_button_row in kigou_button_rows{
+            kigou_button_column = kigou_button_column.push(kigou_button_row);
+        }
+        kigou_button_column
     }
 
     fn load_kigou(&mut self, kigou: Kigou){
@@ -114,12 +137,12 @@ impl KanjiTreeApp{
 
     fn update_kigou_buttons(&mut self) {
         self.child_kigou_buttons 
-            = KanjiTreeApp::build_child_kanji_buttons(
+            = KanjiTreeApp::build_child_kigou_buttons(
                 &self.active_kigou, 
                 &self.kigou_source
             );
         self.parent_kigou_buttons 
-            = KanjiTreeApp::build_parent_kanji_buttons(
+            = KanjiTreeApp::build_parent_kigou_buttons(
                 &self.active_kigou, 
                 &self.kigou_source
             );
@@ -211,12 +234,12 @@ impl Sandbox for KanjiTreeApp {
         let active_kanji
             = KanjiTreeApp::load_first_kigou(&kanji_source);
         let child_kanji_buttons 
-            = KanjiTreeApp::build_child_kanji_buttons(
+            = KanjiTreeApp::build_child_kigou_buttons(
                 &active_kanji,
                 &kanji_source
             );
         let parent_kanji_buttons 
-            = KanjiTreeApp::build_parent_kanji_buttons(
+            = KanjiTreeApp::build_parent_kigou_buttons(
                 &active_kanji,
                 &kanji_source
             );

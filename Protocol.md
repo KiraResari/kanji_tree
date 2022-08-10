@@ -1700,7 +1700,90 @@
 # 10-Aug-2022
 
 * Now continuing with this
-* 
+
+* I've got a list of improvements I want to implement
+
+* Most important of those is the support for a multi-line display for children, because especially with the "一"-Kigou, there's already so many children that the display breaks
+
+  * Now, the easiest way would be if there was an implicit line break feature in `Row`
+
+  * Doesn't look like it
+
+  * So I have to implement something like this myself
+
+  * Which means I'll have to hard-code the maximum number of Kigou to display
+
+  * On default resolution, the window can display about 30, though the boxes are sometimes of varying width, and default resolution is a little wider than half the screen
+
+    * So I think a sensible count would be around 20 a row
+
+  * Now, how do I do this, considering that this is rust an all?
+
+  * I need to think about this carefully
+
+  * Basically, what I _want_ is for the function to create a column, then iterate through all the child kigou and if the [index of current child mod 20]=0 add a new row and add it to the column, then add kigou to it
+
+    * I am reasonably sure that this won't work in rust
+    * Can I abstract it in some other way?
+    * I *can* determine the number of rows that I need from the beginning through `ceil(kigou_count/20)` (or whatever the rust equivalent is)
+    * Then, I can put all those rows in a vector
+    * Then, I can iterate over all the kigou by index, and add them to the row at index `kigou_index div 20` 
+
+  * Trying to implement this, I am running into the weirdest problems right away
+
+    * First, I simply tried simply packaging the row in a column, but that caused the following error:
+
+      * ````
+        error[E0382]: use of moved value: `kigou_button_column`                                                                                                                        
+           --> src\app.rs:101:9
+            |
+        93  |         let kigou_button_column: Column<'a, Message> = Column::new().padding(20);
+            |             ------------------- move occurs because `kigou_button_column` has type `iced_native::widget::column::Column<'_, Message, iced_graphics::renderer::Renderer<iced_wgpu::backend::Backend>>`, which does not implement the `Copy` trait
+        ...
+        100 |         kigou_button_column.push(kigou_button_row);
+            |                             ---------------------- `kigou_button_column` moved due to this method call
+        101 |         kigou_button_column
+            |         ^^^^^^^^^^^^^^^^^^^ value used here after move
+            |
+        note: this function takes ownership of the receiver `self`, which moves `kigou_button_column`
+           --> C:\Users\Kira Recover\.cargo\registry\src\github.com-1ecc6299db9ec823\iced_native-0.4.0\src\widget\column.rs:95:24
+            |
+        95  |     pub fn push<E>(mut self, child: E) -> Self
+            |                        ^^^^
+        ````
+
+    * I now managed to get that to run by changing this:
+
+      * ````
+        kigou_button_column.push(kigou_button_row);
+        kigou_button_column
+        ````
+
+    * ...to this:
+
+      * ````
+        kigou_button_column.push(kigou_button_row);
+        ````
+
+    * That now results in the same result as before, but I have no idea if it will work for multiple rows
+
+      * Nope, doesn't
+
+    * What's weird is that this exact same logic seems to work just fine for rows
+
+    * Are they not symmetric?
+
+    * Strangely, just turning it around does not cause this issue
+
+    * Then what's the problem here?
+
+    * Problem followed problem here, and frankly, I don't have any fun at all doing this
+
+    * However, with some inspiration from the rust community, I was now able to figure out a working solution
+
+    * Now it basically works, but is still in need of some cleanup
+
+    * 
 
 
 
