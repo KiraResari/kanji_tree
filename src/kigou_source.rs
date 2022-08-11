@@ -1,5 +1,6 @@
 
 use std::{io::ErrorKind};
+use std::error::Error;
 
 use super::value_objects::*;
 
@@ -76,6 +77,16 @@ impl KigouSource{
             }
         }
     }
+
+    pub fn create_kigou_source_for_invalid_json(error: Box<dyn Error>)
+     -> KigouSource{
+        let error_message = error.to_string();
+        let error_kigou = Kigou::create_error_kigou(&error_message);
+        KigouSource{
+            kigou: vec![error_kigou],
+        }
+    }
+
 }
 
 #[cfg(test)]

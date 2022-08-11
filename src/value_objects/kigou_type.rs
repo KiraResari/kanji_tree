@@ -34,7 +34,7 @@ impl From<KigouType> for Box<dyn container::StyleSheet> {
             KigouType::XPart => x_part_theme::Container.into(),
             KigouType::Kana => kana_theme::Container.into(),
             KigouType::Dead => dead_theme::Container.into(),
-            KigouType::Error => kanji_theme::Container.into(),
+            KigouType::Error => error_theme::Container.into(),
         }
     }
 }
@@ -252,6 +252,48 @@ mod dead_theme {
         fn hovered(&self) -> button::Style {
             button::Style {
                 background: Color::from_rgb8(191, 191, 191).into(),
+                text_color: Color::BLACK,
+                border_color: Color::BLACK,
+                border_width: 2.0,
+                border_radius: 8.0,
+                ..button::Style::default()
+            }
+        }
+    }
+}
+
+mod error_theme {
+    use iced::{container, Color, button};
+
+    pub struct Container;
+
+    impl container::StyleSheet for Container {
+        fn style(&self) -> container::Style {
+            container::Style {
+                text_color: Some(Color::BLACK),
+                background: Color::from_rgb8(255, 0, 0).into(),
+                border_color: Color::BLACK,
+                border_width: 2.0,
+                border_radius: 8.0,
+            }
+        }
+    }
+    pub struct Button;
+
+    impl button::StyleSheet for Button {
+        fn active(&self) -> button::Style {
+            button::Style {
+                background: Color::from_rgb8(255, 0, 0).into(),
+                text_color: Color::BLACK,
+                border_color: Color::BLACK,
+                border_width: 2.0,
+                border_radius: 8.0,
+                ..button::Style::default()
+            }
+        }
+        fn hovered(&self) -> button::Style {
+            button::Style {
+                background: Color::from_rgb8(255, 127, 127).into(),
                 text_color: Color::BLACK,
                 border_color: Color::BLACK,
                 border_width: 2.0,

@@ -1791,10 +1791,22 @@
 
 
 
+# 11-Aug-2022
+
+* Now continuing with this
+* The next feature I want to add is that the Kanji Tree no longer crashes when an invalid `kanji.json` is loaded
+  * Instead, an error message should be displayed, detailing where the problem is
+  * I tried writing a test for that in the `kigou_parser`, but then realized that this doesn't make much sense because the unwrapping logic there is located in the test utility function
+  * But anyway, thanks to that I was able to notice that the `kigou_parser` behaves correctly and returns a result, which may be an error
+  * So, where is the unwrapping operation that causes this to fail in actual use?
+  * Okay, so it would appear that this is in `app.rs` under `new()`, which doesn't really make it testable...
+    * Anyway, I figure I can just manually test this one, even if that's not as nice
+  * Also, another occurrence is at `reload_kigou_source`
+  * I was now able to implement this relatively straightforwardly with surprisingly few problems, and none of them really held me up or slowed me down
+* With that, this feature is now implemented
+
 # Wanted Features
 
-* ! Kanji Tree crashed on a reload (probably because the parsing of the .json failed)
-  * I want an error message if that happens
 * Validations on import:
   * No duplicates
   * No dead parents

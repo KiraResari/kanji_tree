@@ -131,13 +131,23 @@ impl KanjiTreeApp{
     fn reload_kigou_source(&mut self){
         self.display_message = "Reloading kanji.json...".to_string();
         let mut kigou_parser = KigouParser::new();
-        self.kigou_source 
-            = kigou_parser.parse_kanji_json(
-                KANJI_JSON_PATH
-            ).unwrap();
-        self.reload_active_kigou_or_load_first();
-        self.update_kigou_buttons();
-        self.display_message = "Finished reloading kanji.json!".to_string();
+
+
+        let kigou_parse_result = kigou_parser.parse_kanji_json(
+            KANJI_JSON_PATH
+        );
+        match kigou_parse_result{
+            Ok(v) => {
+                self.kigou_source = v; 
+                self.reload_active_kigou_or_load_first();
+                self.update_kigou_buttons();
+                self.display_message = "Finished reloading kanji.json!".to_string();
+            },
+            Err(e) => {
+                self.display_message = format!("Failed to reload kanji.json because of error: {}", e.to_string());
+            }
+        }
+
     }
 
     fn reload_active_kigou_or_load_first(&mut self){
@@ -208,29 +218,42 @@ impl Sandbox for KanjiTreeApp {
 
     fn new() -> KanjiTreeApp {
         let mut kanji_parser = KigouParser::new();
-        let kanji_source 
-            = kanji_parser.parse_kanji_json(KANJI_JSON_PATH)
-                .unwrap();
+        let kigou_parse_result 
+            = kanji_parser.parse_kanji_json(KANJI_JSON_PATH);
+
+        let kigou_source;
+        let display_message;
+        match kigou_parse_result{
+            Ok(v) => {
+                kigou_source = v;
+                display_message = "Welcome to the Kanji Tree!".to_string();
+            },
+            Err(e) => {
+                display_message = format!("Error loading kanji.json: {}", e.to_string());
+                kigou_source = KigouSource::create_kigou_source_for_invalid_json(e);
+            }
+        }
+
         let active_kanji
-            = KanjiTreeApp::load_first_kigou(&kanji_source);
+            = KanjiTreeApp::load_first_kigou(&kigou_source);
         let child_kanji_buttons 
             = KanjiTreeApp::build_child_kigou_buttons(
                 &active_kanji,
-                &kanji_source
+                &kigou_source
             );
         let parent_kanji_buttons 
             = KanjiTreeApp::build_parent_kigou_buttons(
                 &active_kanji,
-                &kanji_source
+                &kigou_source
             );
         KanjiTreeApp{
-            kigou_source: kanji_source,
+            kigou_source,
             active_kigou: active_kanji,
             child_kigou_buttons: child_kanji_buttons,
             parent_kigou_buttons: parent_kanji_buttons,
             reload_button: ReloadButton::new(),
             search_panel: SearchPanel::new(),
-            display_message: "Welcome to the Kanji Tree!".to_string()
+            display_message
         }
     }
 

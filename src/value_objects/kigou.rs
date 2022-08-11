@@ -19,7 +19,7 @@ impl Kigou{
         Kigou { 
             name: error_message.to_string(),
             kigou_type: KigouType::Error,
-            character: error_message.to_string(), 
+            character: "Error".to_string(), 
             stroke_arrangement: "".to_string(), 
             stroke_count: 0, 
             parent_names: Vec::new(),
