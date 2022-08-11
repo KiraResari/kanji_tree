@@ -1336,6 +1336,76 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 8,
 			"parent_names":["Woman", "Not yet"]	
+		},
+		{
+			"name": "Dismissal",
+			"character": "免",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 8,
+			"parent_names":["X2-4 Wrap Hat", "X4-7 Lying Day", "R10 Legs"]	
+		},
+		{
+			"name": "Exertion",
+			"character": "勉",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 10,
+			"parent_names":["Dismissal", "Strength"]	
+		},
+		{
+			"name": "Insect",
+			"character": "虫",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["Middle", "X1-8 Shallow No", "R3 Dot"]	
+		},
+		{
+			"name": "Strong",
+			"character": "強",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Bow", "Katakana Mu", "Insect"]	
+		},
+		{
+			"name": "Home",
+			"character": "家",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["R40 Roof", "R152 Pig"]	
+		},
+		{
+			"name": "Direction",
+			"character": "方",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["Ten Thousand", "R3 Dot"]	
+		},
+		{
+			"name": "Arrow",
+			"character": "矢",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["X1-1 Reverse Dot", "Heavens"]	
+		},
+		{
+			"name": "Family",
+			"character": "族",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Direction", "X2-6 Slash Dash", "Arrow"]	
+		},
+		{
+			"name": "Mother",
+			"character": "母",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 5,
+			"parent_names":["X1-5 Corner Hook", "X1-7 Bottom Left Corner", "One", "R3 Dot"]	
+		},
+		{
+			"name": "City",
+			"character": "市",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["R8 Lid", "Towel"]	
 		}
 	],
 	"radical":[
@@ -1481,6 +1551,13 @@
 			"parent_names":["One", "R4 Slash", "R2 Line"]	
 		},
 		{
+			"name": "R59 Bristle",
+			"character": "彡",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 3,
+			"parent_names":["Katakana No"]	
+		},
+		{
 			"name": "R60 Going Man",
 			"character": "彳",
 			"stroke_arrangement": "⿱",
@@ -1567,9 +1644,16 @@
 		{
 			"name": "R145 Clothes",
 			"character": "衤",
-			"stroke_arrangement": "4V",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
 			"parent_names":["Katakana Ne", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "R152 Pig",
+			"character": "豕",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 7,
+			"parent_names":["One", "R59 Bristle", "X1-12 Round Hook", "X2-5 Spur"]	
 		},
 		{
 			"name": "R162 Walk",
@@ -1657,6 +1741,12 @@
 		{
 			"name": "X1-11 Zig-Zag",
 			"image_name": "1-11 Zig-Zag.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 1
+		},
+		{
+			"name": "X1-12 Round Hook",
+			"image_name": "1-12 Round Hook.png",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
@@ -1764,6 +1854,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["Two", "R2 Line"]	
+		},
+		{
+			"name": "X4-7 Lying Day",
+			"image_name": "4-7 Lying Day.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["Mouth", "R2 Line"]	
 		},
 		{
 			"name": "X4-10 Re Divided Flag",
