@@ -1406,6 +1406,76 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 5,
 			"parent_names":["R8 Lid", "Towel"]	
+		},
+		{
+			"name": "Elder Sister",
+			"character": "姉",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Woman", "City"]	
+		},
+		{
+			"name": "Interior",
+			"character": "奥",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["Rice", "R13 Upside-Down Box", "X1-1 Reverse Dot", "Big"]	
+		},
+		{
+			"name": "Attend",
+			"character": "仕",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["R9 Person", "Gentleman"]	
+		},
+		{
+			"name": "Thing",
+			"character": "事",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 8,
+			"parent_names":["One", "R6 Hook", "Mouth", "X3-2 Strikethrough Ko"]	
+		},
+		{
+			"name": "Life",
+			"character": "生",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["X4-5 Double Cross", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "Ahead",
+			"character": "先",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["Soil", "X1-1 Reverse Dot", "R10 Legs"]	
+		},
+		{
+			"name": "Study",
+			"character": "学",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["X5-3 Three Dot Roof", "Child"]	
+		},
+		{
+			"name": "Meeting",
+			"character": "会",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["X3-10 Triangle Roof", "X3-6 Overscore I"]	
+		},
+		{
+			"name": "Company",
+			"character": "社",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R113 Cult", "Soil"]	
+		},
+		{
+			"name": "Employee",
+			"character": "員",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["Mouth", "Shellfish"]	
 		}
 	],
 	"radical":[
@@ -1612,6 +1682,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["Katakana Fu", "R3 Dot", "X1-1 Reverse Dot", "X1-2 Reverse No"]	
+		},
+		{
+			"name": "R113 Cult",
+			"character": "礻",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["Katakana Su", "R3 Dot", "R2 Line"]	
 		},
 		{
 			"name": "R115 Grain",
@@ -1882,6 +1959,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 5,
 			"parent_names":["Eight", "Mouth"]	
+		},
+		{
+			"name": "X5-3 Three Dot Roof",
+			"image_name": "5-3 Three Dot Roof.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["R14 Wa Shaped Crown", "R3 Dot", "X1-1 Reverse Dot"]	
 		},
 		{
 			"name": "X6-1 Stand Box",

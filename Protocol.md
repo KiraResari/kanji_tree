@@ -1807,6 +1807,7 @@
 
 # Wanted Features
 
+* ! Make Kigou Name Copy-Able
 * Validations on import:
   * No duplicates
   * No dead parents
@@ -1815,7 +1816,6 @@
 * Tooltip when hovering over Kigou Buttons
 * Toggle buttons for limiting searches to Kanji, Kana, X-Parts, Radicals, etc...
 * Search also displays non-primary results
-* Make Kigou Name Copy-Able
 
 
 
