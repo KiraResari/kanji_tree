@@ -796,7 +796,7 @@
 			"character": "弁",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 5,
-			"parent_names":["Katakana Mu", "R55 Twenty"]	
+			"parent_names":["R28 I", "R55 Twenty"]	
 		},
 		{
 			"name": "Fruit",
@@ -1034,7 +1034,7 @@
 			"character": "鬼",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 10,
-			"parent_names":["X1-1 Reverse Dot", "Rice Field", "R10 Legs", "Katakana Mu"]	
+			"parent_names":["X1-1 Reverse Dot", "Rice Field", "R10 Legs", "R28 I"]	
 		},
 		{
 			"name": "Not yet",
@@ -1244,7 +1244,7 @@
 			"character": "台",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 5,
-			"parent_names":["Katakana Mu", "Mouth"]	
+			"parent_names":["R28 I", "Mouth"]	
 		},
 		{
 			"name": "Begin",
@@ -1328,7 +1328,7 @@
 			"character": "私",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 7,
-			"parent_names":["R115 Grain", "Katakana Mu"]	
+			"parent_names":["R115 Grain", "R28 I"]	
 		},
 		{
 			"name": "Younger sister",
@@ -1363,7 +1363,7 @@
 			"character": "強",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 11,
-			"parent_names":["Bow", "Katakana Mu", "Insect"]	
+			"parent_names":["Bow", "R28 I", "Insect"]	
 		},
 		{
 			"name": "Home",
@@ -1476,6 +1476,216 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 10,
 			"parent_names":["Mouth", "Shellfish"]	
+		},
+		{
+			"name": "Time",
+			"character": "時",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Day", "Temple"]	
+		},
+		{
+			"name": "Sword",
+			"character": "刀",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["R4 Slash", "X1-5 Corner Hook"]	
+		},
+		{
+			"name": "Minute",
+			"character": "分",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["Katakana Ha", "Sword"]	
+		},
+		{
+			"name": "Dry",
+			"character": "干",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["One", "Ten"]	
+		},
+		{
+			"name": "Noon",
+			"character": "午",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["X1-1 Reverse Dot", "Dry"]	
+		},
+		{
+			"name": "Before",
+			"character": "前",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["X3-1 Double Lid", "Moon", "Katakana Ri"]	
+		},
+		{
+			"name": "Behind",
+			"character": "後",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R60 Going Man", "R52 Short Thread", "R34 Winter"]	
+		},
+		{
+			"name": "Gate",
+			"character": "門",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R2 Line", "X1-3 Top Right Corner", "Two", "X1-5 Corner Hook"]	
+		},
+		{
+			"name": "Interval",
+			"character": "間",
+			"stroke_arrangement": "⿵",
+			"stroke_count": 12,
+			"parent_names":["Gate", "Day"]	
+		},
+		{
+			"name": "Half",
+			"character": "半",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 5,
+			"parent_names":["Two", "R2 Line", "R3 Dot", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "Morning",
+			"character": "朝",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Ten", "Early", "Moon"]	
+		},
+		{
+			"name": "Shaku",
+			"character": "尺",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 9,
+			"parent_names":["R44 Flag", "X1-2 Reverse No"]	
+		},
+		{
+			"name": "Daytime",
+			"character": "昼",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 9,
+			"parent_names":["Shaku", "Day", "One"]	
+		},
+		{
+			"name": "Nightfall",
+			"character": "晩",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Day", "Dismissal"]	
+		},
+		{
+			"name": "Now",
+			"character": "今",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["X3-10 Triangle Roof", "Katakana Fu"]	
+		},
+		{
+			"name": "Past",
+			"character": "去",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["Soil", "R28 I"]	
+		},
+		{
+			"name": "Year",
+			"character": "年",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["Noon", "One", "R2 Line"]	
+		},
+		{
+			"name": "Evening",
+			"character": "夕",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["Katakana Ku", "R3 Dot"]	
+		},
+		{
+			"name": "Oneself",
+			"character": "自",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["X1-1 Reverse Dot", "Eye"]	
+		},
+		{
+			"name": "Spring",
+			"character": "春",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Three", "Katakana No", "X1-2 Reverse No", "Day"]	
+		},
+		{
+			"name": "Summer",
+			"character": "夏",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["X7-1 Roofed Self", "R34 Winter"]	
+		},
+		{
+			"name": "Autumn",
+			"character": "秋",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R115 Grain", "Fire"]	
+		},
+		{
+			"name": "Night",
+			"character": "夜",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R8 Lid", "R9 Person", "R34 Winter", "R3 Dot"]	
+		},
+		{
+			"name": "Good",
+			"character": "良",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["Northeast", "R3 Dot"]	
+		},
+		{
+			"name": "Eat",
+			"character": "食",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["X2-2 Roof", "Good"]	
+		},
+		{
+			"name": "Lack",
+			"character": "欠",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["X1-1 Reverse Dot", "X1-13 Top Right Angle", "Person"]	
+		},
+		{
+			"name": "Drink",
+			"character": "飲",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["X2-2 Roof", "X4-10 Re Divided Flag", "R3 Dot", "Lack"]	
+		},
+		{
+			"name": "Buy",
+			"character": "買",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["X5-4 Lying Eye", "Shellfish"]	
+		},
+		{
+			"name": "See",
+			"character": "見",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["Eye", "R10 Legs"]	
+		},
+		{
+			"name": "Ear",
+			"character": "耳",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["One", "X2-7 Dipper Cross", "R2 Line"]	
 		}
 	],
 	"radical":[
@@ -1607,11 +1817,18 @@
 			"parent_names":["R3 Dot", "R14 Wa Shaped Crown"]	
 		},
 		{
+			"name": "R44 Flag",
+			"character": "尸",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["R4 Slash", "X1-3 Top Right Corner", "One"]	
+		},
+		{
 			"name": "R52 Short Thread",
 			"character": "幺",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
-			"parent_names":["Hiragana Ku", "Katakana Mu"]	
+			"parent_names":["Hiragana Ku", "R28 I"]	
 		},
 		{
 			"name": "R55 Twenty",
@@ -1828,6 +2045,12 @@
 			"stroke_count": 1
 		},
 		{
+			"name": "X1-13 Top Right Angle",
+			"image_name": "1-13 Top Right Angle.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 1
+		},
+		{
 			"name": "X2-1 Moon Box",
 			"image_name": "2-1 Moon Box.png",
 			"stroke_arrangement": "⬚",
@@ -1867,8 +2090,15 @@
 			"image_name": "2-6 Slash Dash.png",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
-			"parent_names":["X1-1 Reverse Dot", "One"]	
+			"parent_names":["X1-1 Reverse Dot", "One"]
 		},
+		{
+			"name": "X2-7 Dipper Cross",
+			"image_name": "2-7 Dipper Cross.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["X1-8 Shallow No", "R2 Line"]	
+		},	
 		{
 			"name": "X3-1 Double Lid",
 			"image_name": "3-1 Double Lid.png",
@@ -1968,6 +2198,13 @@
 			"parent_names":["R14 Wa Shaped Crown", "R3 Dot", "X1-1 Reverse Dot"]	
 		},
 		{
+			"name": "X5-4 Lying Eye",
+			"image_name": "5-4 Lying Eye.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["Mouth", "R2 Line"]	
+		},
+		{
 			"name": "X6-1 Stand Box",
 			"image_name": "6-1 Stand Box.png",
 			"stroke_arrangement": "⬚",
@@ -1980,6 +2217,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
 			"parent_names":["Three", "R2 Line", "R3 Dot", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "X7-1 Roofed Self",
+			"image_name": "7-1 Roofed Self.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["One", "Oneself"]	
 		}
 	],
 	"kana":[
@@ -2015,13 +2259,6 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["Katakana No", "Katakana Fu"]	
-		},
-		{
-			"name": "Katakana Mu",
-			"character": "ム",
-			"stroke_arrangement": "⬚",
-			"stroke_count": 2,
-			"parent_names":["X1-4 Bottom Left Angle", "R3 Dot"]	
 		},
 		{
 			"name": "Katakana Na",
