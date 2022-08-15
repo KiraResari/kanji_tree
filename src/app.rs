@@ -1,4 +1,4 @@
-use iced::{Sandbox, Column, Element, Text, Container, Length, Row, Align};
+use iced::{Sandbox, Column, Element, Text, Container, Length, Row, Align, Color};
 use arboard::Clipboard;
 
 use crate::{
@@ -89,6 +89,7 @@ impl KanjiTreeApp{
             )
             )
             .push(KanjiTreeApp::build_kigou_button_block(&mut self.child_kigou_buttons))
+            .push(KanjiTreeApp::build_version_row())
     }
 
     fn build_display_message(&self) -> Text {
@@ -122,6 +123,15 @@ impl KanjiTreeApp{
             .push(copy_button.view())
             .align_items(Align::Center);
         kigou_button_row
+    }
+
+    fn build_version_row<'a>() -> Row<'a, Message>{
+        let version_button_row: Row<'a, Message> = Row::new()
+            .push(
+                Text::new( format!("Kanji Tree R version {}", env!("CARGO_PKG_VERSION")))
+                    .size(16).color(Color::from_rgb8(127, 127, 127))
+            );
+        version_button_row
     }
 
     fn load_kigou(&mut self, kigou: Kigou){

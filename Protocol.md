@@ -1900,6 +1900,77 @@
 
   * With that, the clipboard functionality now works!
 
+  * Not sure if I need it, but as an added bonus, I want to check if I can also somehow assign a `Ctrl`+`C` key combination for copying
+
+    * I now tried finding something for some time now, but without any success, and there wasn't a sample for this in the sample projects either, so yeah, probably not then
+
+* Just out of curiosity, I am going to try and update to the latest iced version now and see what happens
+
+  * Yeah, no, that causes the following errors:
+
+    * ````
+      error[E0432]: unresolved import `iced::Align`
+       --> src\app.rs:1:68
+        |
+      1 | use iced::{Sandbox, Column, Element, Text, Container, Length, Row, Align};
+        |                                                                    ^^^^^ no `Align` in the root
+      
+      error[E0432]: unresolved import `iced::Align`
+       --> src\kigou_panel.rs:1:26
+        |
+      1 | use iced::{Text, Column, Align, Row, Container};
+        |                          ^^^^^ no `Align` in the root
+      
+      error[E0759]: `self` has an anonymous lifetime `'_` but it needs to satisfy a `'static` lifetime requirement
+        --> src\kigou_button.rs:17:13
+         |
+      15 |     pub fn view(&mut self) -> Button<Message> {
+         |                 --------- this data with an anonymous lifetime `'_`...
+      16 |         Button::new(
+      17 |             &mut self.state, 
+         |             ^^^^^^^^^^^^^^^ ...is captured here...
+      ...
+      20 |         .style(self.kigou.clone().kigou_type)
+         |          ----- ...and is required to live as long as `'static` here
+      ````
+
+  * I'll give it a quick try if I can resolve these, otherwise I'll return to the old versions again
+
+  * Well, I did manage to get rid of the Align.issues with relative ease, which leaves just the lifetime issues again...
+
+    * ````
+      error[E0759]: `self` has an anonymous lifetime `'_` but it needs to satisfy a `'static` lifetime requirement
+        --> src\kigou_button.rs:17:13
+         |
+      15 |     pub fn view(&mut self) -> Button<Message> {
+         |                 --------- this data with an anonymous lifetime `'_`...
+      16 |         Button::new(
+      17 |             &mut self.state, 
+         |             ^^^^^^^^^^^^^^^ ...is captured here...
+      ...
+      20 |         .style(self.kigou.clone().kigou_type)
+         |          ----- ...and is required to live as long as `'static` here
+      
+      error[E0621]: explicit lifetime required in the type of `kigou`
+        --> src\kigou_panel.rs:23:11
+         |
+      23 |         ).style(kigou.clone().kigou_type)
+         |           ^^^^^ lifetime `'static` required
+      
+      ````
+
+  * Looks like something in the underlying structures from which I inherit has changed, which now requires me to adjust my structures in a way that I don't know, and which has the potential to cascade all through the program in a horrible, horrible avalanche that might tear everything to pieces
+
+  * Yeah, no, I don't think I want to deal with that, so I'll revert
+
+* Instead, I'll now focus on implementing more features with what I have
+
+* For relaxation, let's add the version number
+
+  * I now did this, and while I was unable to get it displayed at the bottom right like I wanted, at the very least it works now
+
+
+
 
 
 # Wanted Features
@@ -1908,7 +1979,6 @@
   * No duplicates
   * No dead parents
   * Image could not be found
-* Display Version Number
 * Tooltip when hovering over Kigou Buttons
 * Toggle buttons for limiting searches to Kanji, Kana, X-Parts, Radicals, etc...
 * Search also displays non-primary results
