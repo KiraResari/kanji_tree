@@ -14,7 +14,7 @@ impl CopyButton{
     pub fn view(&mut self) -> Button<Message> {
         Button::new(
             &mut self.state, 
-            Text::new("🗐")
+            Text::new("⎘")
             .font(fonts::SYMBOL)
             .size(52)
         ).on_press(Message::CopyActiveKigouName())

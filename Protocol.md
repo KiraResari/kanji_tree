@@ -1888,7 +1888,7 @@
                    at C:\Users\Kira Recover\.cargo\registry\src\github.com-1ecc6299db9ec823\druid-shell-0.7.0\src\application.rs:112
       ````
 
-  * 
+  * This could be a synergy thing between Druid and iced...
 
 # Wanted Features
 

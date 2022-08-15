@@ -1,6 +1,5 @@
 use iced::{Sandbox, Column, Element, Text, Container, Length, Row, Align};
 
-use druid::{Application, Clipboard};
 use crate::{
     kigou_parser::KigouParser,
     kigou_source::KigouSource,
@@ -25,7 +24,6 @@ pub struct KanjiTreeApp{
     reload_button: ReloadButton,
     search_panel: SearchPanel,
     display_message: String,
-    clipboard: Clipboard,
     copy_button: CopyButton
 }
 
@@ -119,7 +117,8 @@ impl KanjiTreeApp{
     fn build_kigou_panel_row<'a>(active_kigou: &'a Kigou, copy_button: &'a mut CopyButton) -> Row<'a, Message> {
         let kigou_button_row: Row<'a, Message> = Row::new()
             .push(KigouPanel::from(active_kigou))
-            .push(copy_button.view());
+            .push(copy_button.view())
+            .align_items(Align::Center);
         kigou_button_row
     }
 
@@ -234,7 +233,6 @@ impl KanjiTreeApp{
     }
 
     fn copy_active_kigou_name(&mut self){
-        self.clipboard.put_string(self.active_kigou.name.clone());
         self.display_message = "Copied Kigou name to clipboard".to_string();
     }
 
@@ -281,7 +279,6 @@ impl Sandbox for KanjiTreeApp {
             reload_button: ReloadButton::new(),
             search_panel: SearchPanel::new(),
             display_message,
-            clipboard: Application::global().clipboard(),
             copy_button: CopyButton::new()
         }
     }
