@@ -262,9 +262,9 @@ impl Sandbox for KanjiTreeApp {
     type Message = Message;
 
     fn new() -> KanjiTreeApp {
-        let mut kanji_parser = KigouParser::new();
+        let mut kigou_parser = KigouParser::new();
         let kigou_parse_result 
-            = kanji_parser.parse_kanji_json(KANJI_JSON_PATH);
+            = kigou_parser.parse_kanji_json(KANJI_JSON_PATH);
 
         let kigou_source;
         let display_message;

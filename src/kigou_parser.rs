@@ -13,11 +13,16 @@ impl KigouParser{
     -> Result<KigouSource, Box<dyn Error>>{
         let contents = fs::read_to_string(kanji_file_path)?;
         let kanji_json:KanjiJson = serde_json::from_str(&contents)?;
-        Ok(kanji_json.into())
+        let kigou_source:KigouSource = kanji_json.into();
+        KigouParser::validate(kigou_source)
     }
 
     pub fn new() -> KigouParser{
         KigouParser{ }
+    }
+
+    fn validate(kigou_source: KigouSource) -> Result<KigouSource, Box<dyn Error>>{
+        Ok(kigou_source)
     }
 }
 
@@ -128,13 +133,23 @@ mod tests {
         assert_eq!(1, kanji_source.kigou.len());
     }
 
+    #[test]
+    fn parse_kanji_json_with_duplicate_name_should_return_error(){
+        let result 
+            = get_kigou_source_result_from_test_file("kanji_test_with_duplicate_name.json");
+
+        assert!(matches!(result, Err(_)));
+    }
+
     fn get_kigou_source_from_test_file(file_name: &str) -> KigouSource {
+        get_kigou_source_result_from_test_file(file_name).unwrap()
+    }
+
+    fn get_kigou_source_result_from_test_file(file_name: &str) -> Result<KigouSource, Box<dyn Error>> {
         let mut kigou_parser = KigouParser::new();
-        let kanji_source: KigouSource
-             = kigou_parser.parse_kanji_json(
-                 &format!("{}{}", "resources/test/", file_name)
-            ).unwrap();
-        kanji_source
+        kigou_parser.parse_kanji_json(
+            &format!("{}{}", "resources/test/", file_name)
+        )
     }
 
 }

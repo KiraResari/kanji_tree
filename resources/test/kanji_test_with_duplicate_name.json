@@ -1,0 +1,19 @@
+{
+	"kanji":[
+		{
+			"name": "One",
+			"node_type": "Kanji",
+			"character": "一",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 1
+		},
+		{
+			"name": "One",
+			"node_type": "Kanji",
+			"character": "二",
+			"stroke_arrangement": "2H",
+			"stroke_count": 2,
+			"parent_names":["One"]	
+		}
+	]
+}
