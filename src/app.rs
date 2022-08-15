@@ -1,6 +1,18 @@
 use iced::{Sandbox, Column, Element, Text, Container, Length, Row, Align};
 
-use crate::{kigou_parser::KigouParser, kigou_source::KigouSource, value_objects::Kigou, message::Message, kigou_button::KigouButton, kigou_panel::KigouPanel, reload_button::ReloadButton, search_panel::SearchPanel, fonts};
+use druid::{Application, Clipboard};
+use crate::{
+    kigou_parser::KigouParser,
+    kigou_source::KigouSource,
+    value_objects::Kigou,
+    message::Message,
+    kigou_button::KigouButton,
+    kigou_panel::KigouPanel,
+    reload_button::ReloadButton,
+    search_panel::SearchPanel,
+    copy_button::CopyButton,
+    fonts
+};
 
 static KANJI_JSON_PATH: &str = "resources/kanji.json";
 static KIGOU_PER_ROW: usize = 20;
@@ -13,6 +25,8 @@ pub struct KanjiTreeApp{
     reload_button: ReloadButton,
     search_panel: SearchPanel,
     display_message: String,
+    clipboard: Clipboard,
+    copy_button: CopyButton
 }
 
 impl KanjiTreeApp{
@@ -67,7 +81,7 @@ impl KanjiTreeApp{
             .push(KanjiTreeApp::build_arrow_if_necessary(
                 self.active_kigou.has_parents())
             )
-            .push(KigouPanel::from(&self.active_kigou))
+            .push(KanjiTreeApp::build_kigou_panel_row(&self.active_kigou, &mut self.copy_button))
             .push(KanjiTreeApp::build_arrow_if_necessary(
                 self.kigou_source.has_children(
                     &self.active_kigou.name
@@ -100,6 +114,13 @@ impl KanjiTreeApp{
             kigou_button_column = kigou_button_column.push(row);
           }
         kigou_button_column
+    }
+
+    fn build_kigou_panel_row<'a>(active_kigou: &'a Kigou, copy_button: &'a mut CopyButton) -> Row<'a, Message> {
+        let kigou_button_row: Row<'a, Message> = Row::new()
+            .push(KigouPanel::from(active_kigou))
+            .push(copy_button.view());
+        kigou_button_row
     }
 
     fn load_kigou(&mut self, kigou: Kigou){
@@ -211,6 +232,12 @@ impl KanjiTreeApp{
             }
         }
     }
+
+    fn copy_active_kigou_name(&mut self){
+        self.clipboard.put_string(self.active_kigou.name.clone());
+        self.display_message = "Copied Kigou name to clipboard".to_string();
+    }
+
 }
 
 impl Sandbox for KanjiTreeApp {
@@ -253,7 +280,9 @@ impl Sandbox for KanjiTreeApp {
             parent_kigou_buttons: parent_kanji_buttons,
             reload_button: ReloadButton::new(),
             search_panel: SearchPanel::new(),
-            display_message
+            display_message,
+            clipboard: Application::global().clipboard(),
+            copy_button: CopyButton::new()
         }
     }
 
@@ -274,6 +303,9 @@ impl Sandbox for KanjiTreeApp {
             }
             Message::SearchBoxInputChanged(input) => {
                 self.search_panel.update(input);
+            }
+            Message::CopyActiveKigouName() => {
+                self.copy_active_kigou_name();
             }
         }
     }

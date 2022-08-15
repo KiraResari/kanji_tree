@@ -1,5 +1,6 @@
 mod app;
 mod value_objects;
+mod copy_button;
 pub use app::KanjiTreeApp;
 mod kigou_source; 
 mod kigou_parser; 

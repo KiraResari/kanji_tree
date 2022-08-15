@@ -1805,6 +1805,91 @@
   * I was now able to implement this relatively straightforwardly with surprisingly few problems, and none of them really held me up or slowed me down
 * With that, this feature is now implemented
 
+
+
+# 15-Aug-2022
+
+* Now continuing with this
+
+* Next, I want to make the Kigou name copy-able, because that is something I miss a *lot* while adding new kanji
+
+  * The easiest way would be to make the name field mark- and editable, but I wonder if there's a way that would allow me to copy the name straight to the clipboard?
+
+  *  Maybe this will work?
+
+    * https://docs.rs/druid/latest/druid/struct.Clipboard.html
+
+    * I tried importing that, but I got this error:
+
+      * ````
+           Compiling anyhow v1.0.61
+           Compiling druid-shell v0.7.0
+           Compiling druid v0.7.0
+           Compiling kanji_tree v2.4.0 (E:\projects\rust\kanji_tree)
+        error[E0432]: unresolved import `druid_shell`
+         --> src\app.rs:2:5
+          |
+        2 | use druid_shell::{Application, Clipboard};
+          |     ^^^^^^^^^^^ use of undeclared crate or module `druid_shell`
+        ````
+
+    * I now managed to get it to work using `druid::{Application, Clipboard};` instead
+
+    * However, now I have another of those nasty lifetime issues when trying to create a button
+
+      * ````
+                let kigou_button_row: Row<'a, Message> = Row::new()
+                    .push(KigouPanel::from(active_kigou))
+                    .push(
+                        CopyButton::new().view());
+        ````
+
+      * This gives me the error:
+
+        * ````
+          error[E0716]: temporary value dropped while borrowed
+             --> src\app.rs:122:17
+              |
+          118 |     fn build_kigou_panel_row<'a>(active_kigou: &'a Kigou) -> Row<'a, Message> {
+              |                              -- lifetime `'a` defined here
+          119 |         let kigou_button_row: Row<'a, Message> = Row::new()
+              |                               ---------------- type annotation requires that borrow lasts for `'a`
+          ...
+          122 |                 CopyButton::new().view());
+              |                 ^^^^^^^^^^^^^^^^^        - temporary value is freed at the end of this statement  
+              |                 |
+              |                 creates a temporary which is freed while still in use
+          ````
+
+      * I tried a couple of things to fix this, but none of them worked
+
+      * But then why does it work for the `KigouButton`?
+
+      * Hmm, I think I put those into class variables, so maybe I have to do that for this button too?
+
+      * Okay, so I think this works now
+
+  * I now managed to get rid of all the compile errors and run the whole thing
+
+  * ...however now the Kanji Tree R panics on startup with a weird error from Druid:
+
+    * ````
+      thread 'main' panicked at 'Main thread assertion failed 1 != 0', C:\Users\Kira Recover\.cargo\registry\src\github.com-1ecc6299db9ec823\druid-shell-0.7.0\src\util.rs:39:9
+      stack backtrace:
+         0: std::panicking::begin_panic_handler
+                   at /rustc/f1edd0429582dd29cccacaf50fd134b05593bd9c\/library\std\src\panicking.rs:517
+         1: std::panicking::begin_panic_fmt
+                   at /rustc/f1edd0429582dd29cccacaf50fd134b05593bd9c\/library\std\src\panicking.rs:460
+         2: druid_shell::util::assert_main_thread
+                   at C:\Users\Kira Recover\.cargo\registry\src\github.com-1ecc6299db9ec823\druid-shell-0.7.0\src\util.rs:39        
+         3: druid_shell::application::Application::try_global
+                   at C:\Users\Kira Recover\.cargo\registry\src\github.com-1ecc6299db9ec823\druid-shell-0.7.0\src\application.rs:127
+         4: druid_shell::application::Application::global
+                   at C:\Users\Kira Recover\.cargo\registry\src\github.com-1ecc6299db9ec823\druid-shell-0.7.0\src\application.rs:112
+      ````
+
+  * 
+
 # Wanted Features
 
 * ! Make Kigou Name Copy-Able
