@@ -59,6 +59,25 @@ dependencies = [
 ]
 
 [[package]]
+name = "arboard"
+version = "2.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "dc120354d1b5ec6d7aaf4876b602def75595937b5e15d356eb554ab5177e08bb"
+dependencies = [
+ "clipboard-win",
+ "core-graphics 0.22.3",
+ "image 0.23.14",
+ "log",
+ "objc",
+ "objc-foundation",
+ "objc_id",
+ "parking_lot 0.12.1",
+ "thiserror",
+ "winapi 0.3.9",
+ "x11rb 0.9.0",
+]
+
+[[package]]
 name = "arrayvec"
 version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -225,7 +244,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "64240d63f1883d87e5637bfcaf9d77e5c8bd24e30fd440ea2dff5c48c0bf0b7a"
 dependencies = [
  "thiserror",
- "x11rb",
+ "x11rb 0.8.1",
 ]
 
 [[package]]
@@ -934,7 +953,7 @@ dependencies = [
  "gfx-hal",
  "libloading 0.6.7",
  "log",
- "parking_lot",
+ "parking_lot 0.11.2",
  "range-alloc",
  "raw-window-handle 0.3.4",
  "smallvec",
@@ -957,7 +976,7 @@ dependencies = [
  "gfx-auxil",
  "gfx-hal",
  "log",
- "parking_lot",
+ "parking_lot 0.11.2",
  "range-alloc",
  "raw-window-handle 0.3.4",
  "smallvec",
@@ -993,7 +1012,7 @@ dependencies = [
  "libloading 0.6.7",
  "log",
  "naga",
- "parking_lot",
+ "parking_lot 0.11.2",
  "raw-window-handle 0.3.4",
  "spirv_cross",
  "wasm-bindgen",
@@ -1018,7 +1037,7 @@ dependencies = [
  "metal",
  "naga",
  "objc",
- "parking_lot",
+ "parking_lot 0.11.2",
  "range-alloc",
  "raw-window-handle 0.3.4",
  "spirv_cross",
@@ -1040,7 +1059,7 @@ dependencies = [
  "log",
  "naga",
  "objc",
- "parking_lot",
+ "parking_lot 0.11.2",
  "raw-window-handle 0.3.4",
  "smallvec",
  "winapi 0.3.9",
@@ -1361,6 +1380,7 @@ dependencies = [
  "num-rational 0.3.2",
  "num-traits",
  "png 0.16.8",
+ "tiff 0.6.1",
 ]
 
 [[package]]
@@ -1380,7 +1400,7 @@ dependencies = [
  "num-traits",
  "png 0.17.5",
  "scoped_threadpool",
- "tiff",
+ "tiff 0.7.1",
 ]
 
 [[package]]
@@ -1478,6 +1498,7 @@ dependencies = [
 name = "kanji_tree"
 version = "2.4.0"
 dependencies = [
+ "arboard",
  "iced",
  "iced_wgpu",
  "image 0.24.1",
@@ -2013,7 +2034,17 @@ checksum = "7d17b78036a60663b797adeaee46f5c9dfebb86948d1255007a1d6be0271ff99"
 dependencies = [
  "instant",
  "lock_api",
- "parking_lot_core",
+ "parking_lot_core 0.8.5",
+]
+
+[[package]]
+name = "parking_lot"
+version = "0.12.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3742b2c103b9f06bc9fff0a37ff4912935851bee6d36f3c02bcc755bcfec228f"
+dependencies = [
+ "lock_api",
+ "parking_lot_core 0.9.3",
 ]
 
 [[package]]
@@ -2028,6 +2059,19 @@ dependencies = [
  "redox_syscall",
  "smallvec",
  "winapi 0.3.9",
+]
+
+[[package]]
+name = "parking_lot_core"
+version = "0.9.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "09a279cbf25cb0757810394fbc1e359949b59e348145c643a939a525692e6929"
+dependencies = [
+ "cfg-if 1.0.0",
+ "libc",
+ "redox_syscall",
+ "smallvec",
+ "windows-sys",
 ]
 
 [[package]]
@@ -2572,6 +2616,17 @@ checksum = "7572415bd688d401c52f6e36f4c8e805b9ae1622619303b9fa835d531db0acae"
 
 [[package]]
 name = "tiff"
+version = "0.6.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9a53f4706d65497df0c4349241deddf35f84cee19c87ed86ea8ca590f4464437"
+dependencies = [
+ "jpeg-decoder 0.1.22",
+ "miniz_oxide 0.4.4",
+ "weezl",
+]
+
+[[package]]
+name = "tiff"
 version = "0.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0247608e998cb6ce39dfc8f4a16c50361ce71e5b52e6d24ea1227ea8ea8ee0b2"
@@ -2965,7 +3020,7 @@ dependencies = [
  "arrayvec",
  "js-sys",
  "naga",
- "parking_lot",
+ "parking_lot 0.11.2",
  "raw-window-handle 0.3.4",
  "smallvec",
  "syn",
@@ -2998,7 +3053,7 @@ dependencies = [
  "gpu-alloc",
  "gpu-descriptor",
  "naga",
- "parking_lot",
+ "parking_lot 0.11.2",
  "raw-window-handle 0.3.4",
  "smallvec",
  "thiserror",
@@ -3094,6 +3149,49 @@ dependencies = [
 ]
 
 [[package]]
+name = "windows-sys"
+version = "0.36.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ea04155a16a59f9eab786fe12a4a450e75cdb175f9e0d80da1e17db09f55b8d2"
+dependencies = [
+ "windows_aarch64_msvc",
+ "windows_i686_gnu",
+ "windows_i686_msvc",
+ "windows_x86_64_gnu",
+ "windows_x86_64_msvc",
+]
+
+[[package]]
+name = "windows_aarch64_msvc"
+version = "0.36.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9bb8c3fd39ade2d67e9874ac4f3db21f0d710bee00fe7cab16949ec184eeaa47"
+
+[[package]]
+name = "windows_i686_gnu"
+version = "0.36.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "180e6ccf01daf4c426b846dfc66db1fc518f074baa793aa7d9b9aaeffad6a3b6"
+
+[[package]]
+name = "windows_i686_msvc"
+version = "0.36.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e2e7917148b2812d1eeafaeb22a97e4813dfa60a3f8f78ebe204bcc88f12f024"
+
+[[package]]
+name = "windows_x86_64_gnu"
+version = "0.36.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4dcd171b8776c41b97521e5da127a2d86ad280114807d0b2ab1e462bc764d9e1"
+
+[[package]]
+name = "windows_x86_64_msvc"
+version = "0.36.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c811ca4a8c853ef420abd8592ba53ddbbac90410fab6903b3e79972a631f7680"
+
+[[package]]
 name = "winit"
 version = "0.24.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3115,7 +3213,7 @@ dependencies = [
  "ndk-glue",
  "ndk-sys",
  "objc",
- "parking_lot",
+ "parking_lot 0.11.2",
  "percent-encoding",
  "raw-window-handle 0.3.4",
  "smithay-client-toolkit 0.12.3",
@@ -3171,6 +3269,18 @@ checksum = "6ffb080b3f2f616242a4eb8e7d325035312127901025b0052bc3154a282d0f19"
 dependencies = [
  "gethostname",
  "nix 0.20.2",
+ "winapi 0.3.9",
+ "winapi-wsapoll",
+]
+
+[[package]]
+name = "x11rb"
+version = "0.9.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6e99be55648b3ae2a52342f9a870c0e138709a3493261ce9b469afe6e4df6d8a"
+dependencies = [
+ "gethostname",
+ "nix 0.22.3",
  "winapi 0.3.9",
  "winapi-wsapoll",
 ]

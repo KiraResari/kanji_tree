@@ -1,4 +1,5 @@
 use iced::{Sandbox, Column, Element, Text, Container, Length, Row, Align};
+use arboard::Clipboard;
 
 use crate::{
     kigou_parser::KigouParser,
@@ -24,7 +25,8 @@ pub struct KanjiTreeApp{
     reload_button: ReloadButton,
     search_panel: SearchPanel,
     display_message: String,
-    copy_button: CopyButton
+    copy_button: CopyButton,
+    clipboard: Clipboard,
 }
 
 impl KanjiTreeApp{
@@ -233,7 +235,15 @@ impl KanjiTreeApp{
     }
 
     fn copy_active_kigou_name(&mut self){
-        self.display_message = "Copied Kigou name to clipboard".to_string();
+        let result = self.clipboard.set_text(self.active_kigou.name.clone());
+        match result{
+            Ok(_) => {
+                self.display_message = "Copied Kigou name to clipboard".to_string();
+            }
+            Err(e) => {
+                self.display_message = format!("Failed to copy Kigou to clipboard because of error: {}", e.to_string());
+            }
+        }
     }
 
 }
@@ -279,7 +289,8 @@ impl Sandbox for KanjiTreeApp {
             reload_button: ReloadButton::new(),
             search_panel: SearchPanel::new(),
             display_message,
-            copy_button: CopyButton::new()
+            copy_button: CopyButton::new(),
+            clipboard: Clipboard::new().unwrap()
         }
     }
 

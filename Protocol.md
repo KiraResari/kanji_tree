@@ -1890,9 +1890,20 @@
 
   * This could be a synergy thing between Druid and iced...
 
+    * I tried a fix that I could think of, but it didn't work
+
+  * So, let us just assume for the moment that Druid doesn't work with iced, and pursue different approaches
+
+  * Based on a suggestion from the rust beginner's chat, I tried out `arboard` instead
+
+    * That worked like a charm!
+
+  * With that, the clipboard functionality now works!
+
+
+
 # Wanted Features
 
-* ! Make Kigou Name Copy-Able
 * Validations on import:
   * No duplicates
   * No dead parents
