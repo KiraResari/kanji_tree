@@ -1974,7 +1974,13 @@
   * This should be something testable again
   * What I want here is that if the kanji.json has some sort of non-structural content problem (like two Kigou with the same name), that `kigou_parser.parse_kanji_json` returns an `Err` that is then handled by the error handling which I already put in place to catch parsing errors
   * By that reasoning, I think the tests for this should go into the `KigouParser`, even if the validation logic will probably end up in the `KigouSource`
-  * **SUCCESS:** I now managed to write a validator that detects duplicate names and displays an error just as intended
+  * The first validation that I want to implement is checking for duplicate names
+    * That took a bit, and in the end, the validation logic ended up in the `KigouParser`, but now it works
+    * **SUCCESS:** I now managed to write a validator that detects duplicate names and displays an error just as intended
+  * The next validation that I want to write is for Kigou with dead parents
+    * That is to say, I want to validate that all the parents referenced by a Kigou really exist
+    * I now managed to do that, and was able to ascertain that it works in an amazing life-example, because the validation successfully detected a pair of dead parents in my `kanji.json` right away
+    * With that, this validation is now working too
 
 
 
@@ -1983,7 +1989,6 @@
 # Wanted Features
 
 * Validations on import:
-  * No dead parents
   * Image could not be found
 * Tooltip when hovering over Kigou Buttons
 * Toggle buttons for limiting searches to Kanji, Kana, X-Parts, Radicals, etc...

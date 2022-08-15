@@ -35,6 +35,18 @@ impl KigouParser{
                     )
                 )
         }
+        let dead_parents= KigouParser::find_dead_parents(kigou_source.clone());
+        if dead_parents.len() > 0{
+            return Err(
+                Box::new(
+                    ValidationError::new(
+                        format!(
+                            "kanji.json contains dead parents: {:?}",
+                            dead_parents)
+                        )
+                    )
+                )
+        }
         Ok(kigou_source)
     }
 
@@ -50,6 +62,24 @@ impl KigouParser{
         }
         duplicate_names
     }
+
+    fn find_dead_parents(kigou_source: KigouSource) -> Vec<String>{
+        let mut dead_parents: Vec<String> = Vec::new();
+        let all_kigou = kigou_source.clone().kigou;
+        for kigou in all_kigou{
+            for parent_name in kigou.parent_names{
+                let parent_option = kigou_source.get_kigou_by_name(&parent_name);
+                match parent_option{
+                    Some(_) => {},
+                    None => {
+                        dead_parents.push(format!("Kigou '{}' is missing parent '{}'", kigou.name, parent_name));
+                    }
+                }
+            }
+        }
+        dead_parents
+    }
+
 }
 
 #[cfg(test)]
@@ -163,6 +193,14 @@ mod tests {
     fn parse_kanji_json_with_duplicate_name_should_return_error(){
         let result 
             = get_kigou_source_result_from_test_file("kanji_test_with_duplicate_name.json");
+
+        assert!(matches!(result, Err(_)));
+    }
+
+    #[test]
+    fn parse_kanji_json_with_dead_parent_should_return_error(){
+        let result 
+            = get_kigou_source_result_from_test_file("kanji_test_with_dead_parent.json");
 
         assert!(matches!(result, Err(_)));
     }

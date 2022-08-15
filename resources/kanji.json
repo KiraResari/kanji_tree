@@ -187,7 +187,7 @@
 			"character": "烏",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 10,
-			"parent_names":["X1-1 Reverse Dot", "X1-3 Top Right Corner", "Line", "One", "R86 Legs"]	
+			"parent_names":["X1-1 Reverse Dot", "X1-3 Top Right Corner", "R2 Line", "One", "R86 Legs"]	
 		},
 		{
 			"name": "Bird",
@@ -565,7 +565,7 @@
 			"character": "由",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
-			"parent_names":["Day", "Line"]	
+			"parent_names":["Day", "R2 Line"]	
 		},
 		{
 			"name": "Flute",
