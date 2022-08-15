@@ -1,6 +1,7 @@
 
 use std::error::Error;
 use std::fs;
+use std::path::Path;
 use crate::kigou_source::KigouSource;
 use crate::value_objects::KanjiJson;
 use crate::validation_error::ValidationError;
@@ -47,6 +48,18 @@ impl KigouParser{
                     )
                 )
         }
+        let missing_images= KigouParser::find_missing_images(kigou_source.clone());
+        if missing_images.len() > 0{
+            return Err(
+                Box::new(
+                    ValidationError::new(
+                        format!(
+                            "kanji.json contains missing images: {:?}",
+                            missing_images)
+                        )
+                    )
+                )
+        }
         Ok(kigou_source)
     }
 
@@ -78,6 +91,20 @@ impl KigouParser{
             }
         }
         dead_parents
+    }
+
+    fn find_missing_images(kigou_source: KigouSource) -> Vec<String>{
+        let mut missing_images: Vec<String> = Vec::new();
+        let all_kigou = kigou_source.kigou;
+        for kigou in all_kigou{
+            if kigou.image_name == ""{
+                continue;
+            }
+            if !Path::new(&format!("resources/images/{}", kigou.image_name)).exists(){
+                missing_images.push(format!("Kigou '{}' can't find image '{}'", kigou.name, kigou.image_name)); 
+            }
+        }
+        missing_images
     }
 
 }
@@ -201,6 +228,14 @@ mod tests {
     fn parse_kanji_json_with_dead_parent_should_return_error(){
         let result 
             = get_kigou_source_result_from_test_file("kanji_test_with_dead_parent.json");
+
+        assert!(matches!(result, Err(_)));
+    }
+
+    #[test]
+    fn parse_kanji_json_with_missing_image_should_return_error(){
+        let result 
+            = get_kigou_source_result_from_test_file("kanji_test_with_missing_image.json");
 
         assert!(matches!(result, Err(_)));
     }

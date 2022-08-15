@@ -1981,6 +1981,10 @@
     * That is to say, I want to validate that all the parents referenced by a Kigou really exist
     * I now managed to do that, and was able to ascertain that it works in an amazing life-example, because the validation successfully detected a pair of dead parents in my `kanji.json` right away
     * With that, this validation is now working too
+  * The final validation that I have on my list is the "image could not be found", which goes for X-Parts
+    * Now this one might be a bit more interesting, but let's see...
+    * Now I managed to do that too
+  * With that, all the validation logic is implemented
 
 
 
@@ -1988,8 +1992,6 @@
 
 # Wanted Features
 
-* Validations on import:
-  * Image could not be found
 * Tooltip when hovering over Kigou Buttons
 * Toggle buttons for limiting searches to Kanji, Kana, X-Parts, Radicals, etc...
 * Search also displays non-primary results
