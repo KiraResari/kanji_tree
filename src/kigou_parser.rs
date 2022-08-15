@@ -3,6 +3,7 @@ use std::error::Error;
 use std::fs;
 use crate::kigou_source::KigouSource;
 use crate::value_objects::KanjiJson;
+use crate::validation_error::ValidationError;
 
 pub struct KigouParser {
 }
@@ -22,7 +23,32 @@ impl KigouParser{
     }
 
     fn validate(kigou_source: KigouSource) -> Result<KigouSource, Box<dyn Error>>{
+        let duplicate_names = KigouParser::find_duplicate_names(kigou_source.clone());
+        if duplicate_names.len() > 0{
+            return Err(
+                Box::new(
+                    ValidationError::new(
+                        format!(
+                            "kanji.json contains duplicate names: {:?}",
+                            duplicate_names)
+                        )
+                    )
+                )
+        }
         Ok(kigou_source)
+    }
+
+    fn find_duplicate_names(kigou_source: KigouSource) -> Vec<String>{
+        let mut duplicate_names: Vec<String> = Vec::new();
+        let mut scanned_names: Vec<String> = Vec::new();
+        let all_kigou = kigou_source.kigou;
+        for kigou in all_kigou{
+            if scanned_names.contains(&kigou.name){
+                duplicate_names.push(kigou.name.clone());  
+            }
+            scanned_names.push(kigou.name);
+        }
+        duplicate_names
     }
 }
 

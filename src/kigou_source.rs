@@ -4,6 +4,7 @@ use std::error::Error;
 
 use super::value_objects::*;
 
+#[derive(Clone)]
 pub struct KigouSource {
     pub kigou: Vec<Kigou>,
 }
