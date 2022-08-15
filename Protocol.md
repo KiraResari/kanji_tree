@@ -1986,6 +1986,10 @@
     * Now I managed to do that too
   * With that, all the validation logic is implemented
 
+* This is as far as I'm getting with this today
+
+* Let this be version 2-5-0
+
 
 
 
