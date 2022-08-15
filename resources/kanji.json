@@ -1111,7 +1111,7 @@
 			"character": "黄",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 11,
-			"parent_names":["X4-6 Twin Cross", "Wherefore", "Katakana Ha"]	
+			"parent_names":["R140 Grass", "X6-6 Roofed Wherefore", "Katakana Ha"]	
 		},
 		{
 			"name": "Water",
@@ -1545,7 +1545,7 @@
 			"character": "半",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 5,
-			"parent_names":["Two", "R2 Line", "R3 Dot", "X1-1 Reverse Dot"]	
+			"parent_names":["X3-7 Vertical Ki", "R3 Dot", "X1-1 Reverse Dot"]	
 		},
 		{
 			"name": "Morning",
@@ -1686,6 +1686,223 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
 			"parent_names":["One", "X2-7 Dipper Cross", "R2 Line"]	
+		},
+		{
+			"name": "Hear",
+			"character": "聞",
+			"stroke_arrangement": "⿵",
+			"stroke_count": 14,
+			"parent_names":["Ear", "Gate"]	
+		},
+		{
+			"name": "Can",
+			"character": "可",
+			"stroke_arrangement": "⿹",
+			"stroke_count": 5,
+			"parent_names":["One", "R6 Hook"]	
+		},
+		{
+			"name": "What",
+			"character": "何",
+			"stroke_arrangement": "⿵",
+			"stroke_count": 7,
+			"parent_names":["R9 Person", "Can"]	
+		},
+		{
+			"name": "Tea",
+			"character": "茶",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 9,
+			"parent_names":["R140 Grass", "X2-2 Roof", "Katakana Ho"]	
+		},
+		{
+			"name": "Lofty",
+			"character": "兀",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["One", "R10 Legs"]	
+		},
+		{
+			"name": "West",
+			"character": "西",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["Lofty", "Mouth"]	
+		},
+		{
+			"name": "Sign of the Bird",
+			"character": "酉",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 7,
+			"parent_names":["West", "One"]	
+		},
+		{
+			"name": "Alcohol",
+			"character": "酒",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R85 Water", "Sign of the Bird"]	
+		},
+		{
+			"name": "Meat",
+			"character": "肉",
+			"stroke_arrangement": "⿵",
+			"stroke_count": 6,
+			"parent_names":["Inside", "Person"]	
+		},
+		{
+			"name": "Cow",
+			"character": "牛",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 4,
+			"parent_names":["X3-7 Vertical Ki", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "Fish",
+			"character": "魚",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 11,
+			"parent_names":["X2-4 Wrap Hat", "Rice Field", "R86 Legs"]	
+		},
+		{
+			"name": "Sound",
+			"character": "音",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Stand", "Day"]	
+		},
+		{
+			"name": "Music",
+			"character": "楽",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["R3 Dot", "X1-1 Reverse Dot", "White", "Tree"]	
+		},
+		{
+			"name": "Spoon",
+			"character": "匕",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["R5 Fishhook", "X1-8 Shallow No"]	
+		},
+		{
+			"name": "Change",
+			"character": "化",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 4,
+			"parent_names":["R9 Person", "Spoon"]	
+		},
+		{
+			"name": "Flower",
+			"character": "花",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["R140 Grass", "Change"]	
+		},
+		{
+			"name": "Center",
+			"character": "央",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["Big", "R2 Line", "X1-3 Top Right Corner"]	
+		},
+		{
+			"name": "Reflect",
+			"character": "映",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Day", "Center"]	
+		},
+		{
+			"name": "Brush Stroke",
+			"character": "画",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 8,
+			"parent_names":["X6-6 Roofed Wherefore", "R17 Receptacle"]	
+		},
+		{
+			"name": "Bestow",
+			"character": "与",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["X1-11 Zig-Zag", "Two"]	
+		},
+		{
+			"name": "Copy",
+			"character": "写",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["R14 Wa Shaped Crown", "Bestow"]	
+		},
+		{
+			"name": "Tool",
+			"character": "具",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 8,
+			"parent_names":["Eye", "One", "Katakana Ha"]	
+		},
+		{
+			"name": "True",
+			"character": "真",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["Ten", "Tool"]	
+		},
+		{
+			"name": "Fit",
+			"character": "合",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["X3-10 Triangle Roof", "Mouth"]	
+		},
+		{
+			"name": "Solution",
+			"character": "答",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["R118 Bamboo", "Fit"]	
+		},
+		{
+			"name": "Sell",
+			"character": "売",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 7,
+			"parent_names":["Soil", "R14 Wa Shaped Crown", "R10 Legs"]	
+		},
+		{
+			"name": "Read",
+			"character": "読",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Say", "Sell"]	
+		},
+		{
+			"name": "Write",
+			"character": "書",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["X3-2 Strikethrough Ko", "R2 Line", "Two", "Day"]	
+		},
+		{
+			"name": "Wait",
+			"character": "待",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R60 Going Man", "Temple"]	
+		},
+		{
+			"name": "Occurrence",
+			"character": "度",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 9,
+			"parent_names":["R53 Dotted Cliff", "R140 Grass", "One", "Or"]	
+		},
+		{
+			"name": "Talk",
+			"character": "話",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Say", "Tongue"]	
 		}
 	],
 	"radical":[
@@ -1831,6 +2048,13 @@
 			"parent_names":["Hiragana Ku", "R28 I"]	
 		},
 		{
+			"name": "R53 Dotted Cliff",
+			"character": "广",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["R27 Trailing Cliff", "R3 Dot"]	
+		},
+		{
 			"name": "R55 Twenty",
 			"character": "廾",
 			"stroke_arrangement": "⬚",
@@ -1889,7 +2113,7 @@
 		{
 			"name": "R86 Legs",
 			"character": "灬",
-			"stroke_arrangement": "4V",
+			"stroke_arrangement": "⿻",
 			"stroke_count": 4,
 			"parent_names":["X1-1 Reverse Dot", "R3 Dot"]	
 		},
@@ -2121,6 +2345,13 @@
 			"parent_names":["One", "R28 I"]	
 		},
 		{
+			"name": "X3-7 Vertical Ki",
+			"image_name": "3-7 Vertical Ki.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["Two", "R2 Line"]	
+		},
+		{
 			"name": "X3-10 Triangle Roof",
 			"image_name": "3-10 Triangle Roof.png",
 			"stroke_arrangement": "⬚",
@@ -2219,6 +2450,13 @@
 			"parent_names":["Three", "R2 Line", "R3 Dot", "X1-1 Reverse Dot"]	
 		},
 		{
+			"name": "X6-6 Roofed Wherefore",
+			"image_name": "6-6 Roofed Wherefore.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["One", "Wherefore"]	
+		},
+		{
 			"name": "X7-1 Roofed Self",
 			"image_name": "7-1 Roofed Self.png",
 			"stroke_arrangement": "⿱",
@@ -2245,6 +2483,13 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 2,
 			"parent_names":["X1-1 Reverse Dot", "R3 Dot"]	
+		},
+		{
+			"name": "Katakana Ho",
+			"character": "ホ",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 4,
+			"parent_names":["Ten", "Katakana Ha"]	
 		},
 		{
 			"name": "Katakana Ko",

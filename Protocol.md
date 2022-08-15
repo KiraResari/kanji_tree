@@ -1996,10 +1996,12 @@
 
 # Wanted Features
 
+* ! Toggle buttons for limiting searches to Kanji, Kana, X-Parts, Radicals, etc...
 * Tooltip when hovering over Kigou Buttons
-* Toggle buttons for limiting searches to Kanji, Kana, X-Parts, Radicals, etc...
 * Search also displays non-primary results
 * Sort children by stroke count
+* Sort parents in same order as in kanji.json
+* Place copy button next to Kigou name
 
 
 
