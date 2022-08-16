@@ -243,7 +243,7 @@
 			"character": "弋",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 3,
-			"parent_names":["One", "X1-6 Ceremony Hook", "R3 Dot"]	
+			"parent_names":["X2-8 Piling Cross", "R3 Dot"]	
 		},
 		{
 			"name": "Craft",
@@ -1300,7 +1300,7 @@
 			"character": "寝",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 13,
-			"parent_names":["R40 Roof", "R15 Ice", "R2 Line", "Katakana Yo", "R14 Wa Shaped Crown", "Or"]	
+			"parent_names":["R40 Roof", "RX Half Tree Trunk", "Katakana Yo", "R14 Wa Shaped Crown", "Or"]	
 		},
 		{
 			"name": "Strength",
@@ -1903,6 +1903,146 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 13,
 			"parent_names":["Say", "Tongue"]	
+		},
+		{
+			"name": "My",
+			"character": "吾",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["Five", "Mouth"]	
+		},
+		{
+			"name": "Language",
+			"character": "語",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Say", "My"]	
+		},
+		{
+			"name": "England",
+			"character": "英",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R140 Grass", "Center"]	
+		},
+		{
+			"name": "Feathers",
+			"character": "羽",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["X1-5 Corner Hook", "R15 Ice"]	
+		},
+		{
+			"name": "Learn",
+			"character": "習",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["Feathers", "White"]	
+		},
+		{
+			"name": "Substitute",
+			"character": "代",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["R9 Person", "Piling"]	
+		},
+		{
+			"name": "Lend",
+			"character": "貸",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["Substitute", "Shellfish"]	
+		},
+		{
+			"name": "Once upon a time",
+			"character": "昔",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["X4-6 Twin Cross", "Day"]	
+		},
+		{
+			"name": "Borrow",
+			"character": "借",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R9 Person", "Once upon a time"]	
+		},
+		{
+			"name": "Escort",
+			"character": "送",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 9,
+			"parent_names":["R162 Walk", "D Frontier Pass"]	
+		},
+		{
+			"name": "Book",
+			"character": "本",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["Tree", "One"]	
+		},
+		{
+			"name": "China",
+			"character": "漢",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["R85 Water", "R140 Grass", "Mouth", "Husband"]	
+		},
+		{
+			"name": "Letter",
+			"character": "字",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["R40 Roof", "Child"]	
+		},
+		{
+			"name": "Departure",
+			"character": "発",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["R105 Footsteps", "X4-1 Torii"]	
+		},
+		{
+			"name": "Friend",
+			"character": "友",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 4,
+			"parent_names":["Katakana Na", "Or"]	
+		},
+		{
+			"name": "Tall",
+			"character": "高",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 10,
+			"parent_names":["R8 Lid", "Mouth", "X5-7 Box in Box"]	
+		},
+		{
+			"name": "Family Name",
+			"character": "氏",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 4,
+			"parent_names":["X2-9 Re Cliff", "X2-8 Piling Cross"]	
+		},
+		{
+			"name": "Lower",
+			"character": "低",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 7,
+			"parent_names":["R9 Person", "Family Name", "One"]	
+		},
+		{
+			"name": "Cheap",
+			"character": "安",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["R40 Roof", "Woman"]	
+		},
+		{
+			"name": "Axe",
+			"character": "斤",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 4,
+			"parent_names":["R27 Trailing Cliff", "Romaji T"]	
 		}
 	],
 	"radical":[
@@ -2193,6 +2333,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 8,
 			"parent_names":["R9 Person", "X1-1 Reverse Dot", "One", "R2 Line"]	
+		},
+		{
+			"name": "RX Half Tree Trunk",
+			"character": "⺦",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 3,
+			"parent_names":["R15 Ice", "R2 Line"]	
 		}
 	],
 	"x_part":[
@@ -2324,6 +2471,20 @@
 			"parent_names":["X1-8 Shallow No", "R2 Line"]	
 		},	
 		{
+			"name": "X2-8 Piling Cross",
+			"image_name": "2-8 Piling Cross.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["One", "X1-6 Ceremony Hook"]	
+		},	
+		{
+			"name": "X2-9 Re Cliff",
+			"image_name": "2-9 Re Cliff.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["X1-8 Shallow No", "Katakana Re"]	
+		},	
+		{
 			"name": "X3-1 Double Lid",
 			"image_name": "3-1 Double Lid.png",
 			"stroke_arrangement": "⬚",
@@ -2436,6 +2597,13 @@
 			"parent_names":["Mouth", "R2 Line"]	
 		},
 		{
+			"name": "X5-7 Box in Box",
+			"image_name": "5-7 Box in Box.png",
+			"stroke_arrangement": "⿵",
+			"stroke_count": 5,
+			"parent_names":["R13 Upside-Down Box", "Mouth"]	
+		},
+		{
 			"name": "X6-1 Stand Box",
 			"image_name": "6-1 Stand Box.png",
 			"stroke_arrangement": "⬚",
@@ -2462,6 +2630,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 7,
 			"parent_names":["One", "Oneself"]	
+		},
+		{
+			"name": "X9-2 Standing Tree",
+			"image_name": "9-2 Standing Tree.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Stand", "Tree"]	
 		}
 	],
 	"kana":[
@@ -2588,6 +2763,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 8,
 			"parent_names":["X3-10 Triangle Roof", "Tome"]	
+		},		
+		{
+			"name": "D Frontier Pass",
+			"character": "关",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["R3 Dot", "X1-1 Reverse Dot", "Heavens"]	
 		}
 	]
 }
