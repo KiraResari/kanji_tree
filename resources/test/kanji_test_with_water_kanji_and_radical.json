@@ -1,0 +1,18 @@
+{
+	"kanji":[
+		{
+			"name": "Water",
+			"character": "水",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 4
+		}
+	],
+	"radical":[
+		{
+			"name": "R85 Water",
+			"character": "氵",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 3
+		}
+	]
+}

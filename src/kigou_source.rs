@@ -44,18 +44,35 @@ impl KigouSource{
         parents
     }
 
-    pub fn get_kigou_by_name(&self, name: &str, _kigou_type_option: &Option<KigouType>) -> Option<&Kigou>{
-        self.kigou
-            .iter()
-            .find(|element| element.name.to_lowercase() == name.to_lowercase())
-    }
-
-    pub fn get_kigou_by_name_fuzzy(&self, name: &str, _kigou_type_option: &Option<KigouType>) -> Option<&Kigou>{
+    pub fn get_kigou_by_name(&self, name: &str, kigou_type_option: &Option<KigouType>) -> Option<&Kigou>{
+        let lowercase_name = name.to_lowercase();
         self.kigou
             .iter()
             .find(
                 |element|
-                element.name.to_lowercase().contains(&name.to_lowercase())
+                element.name.to_lowercase() == lowercase_name
+                    && match kigou_type_option{
+                        Some(kigou_type) =>{
+                            &element.kigou_type == kigou_type
+                        },
+                        None => true
+                    }
+            )
+    }
+
+    pub fn get_kigou_by_name_fuzzy(&self, name: &str, kigou_type_option: &Option<KigouType>) -> Option<&Kigou>{
+        let lowercase_name = name.to_lowercase();
+        self.kigou
+            .iter()
+            .find(
+                |element|
+                element.name.to_lowercase().contains(&lowercase_name)
+                    && match kigou_type_option{
+                        Some(kigou_type) =>{
+                            &element.kigou_type == kigou_type
+                        },
+                        None => true
+                    }
             )
     }
 
@@ -322,6 +339,34 @@ mod tests {
         let result = kanji_source.has_children(&"Three".to_string());
 
         assert_eq!(result, false);
+    }
+
+    #[test]
+    fn get_kigou_by_name_should_return_none_if_searching_for_water_with_radical_filter(){
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_with_water_kanji_and_radical.json"
+        );
+
+        let result = kanji_source.get_kigou_by_name(
+            "water",
+            &Some(KigouType::Radical)
+        );
+
+        assert_eq!(result, None);
+    }
+
+    #[test]
+    fn get_kigou_by_name_fuzzy_should_return_water_radical_if_searching_for_water_with_radical_filter(){
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_with_water_kanji_and_radical.json"
+        );
+
+        let kigou = kanji_source.get_kigou_by_name_fuzzy(
+            "water",
+            &Some(KigouType::Radical)
+        ).unwrap();
+
+        assert_eq!(kigou.name, "R85 Water");
     }
 
 }

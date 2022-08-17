@@ -2013,6 +2013,12 @@
     * Anyway, it looks like it works for now
   * The next thing that I think would make sense is to adjust the `KigouSource` so that the Kigou search function accept the  `Option<KigouType>`
     * This time around, it ended up being a `&Option<KigouType>`, but it looks like it works for now
+  * Now to adjust the `KigouSource` search functions so that they actually use the `KigouType`
+    * First, I am going to write failing tests for that
+      * I now have two tests that fail as expected
+    * Next to make them pass
+      * It took a bit of input from the rust community, but in the end, this worked out reasonably well thanks to the fact that the `Kigou` themselves  have a `kigou_type` field that I was able to compare  against
+    * Now the search functions work with the `KigouType` as expected
   * 
 
 
