@@ -29,7 +29,7 @@ impl SearchPanel{
             .font(fonts::KANJI)
             .padding(15)
             .size(32)
-            .on_submit(Message::SearchForKigou(self.search_string.clone()))
+            .on_submit(Message::SearchForKigou(self.search_string.clone(), None))
         )
         .push(
             Button::new(
@@ -38,7 +38,7 @@ impl SearchPanel{
                     .font(fonts::SYMBOL)
                     .size(52)
             )
-            .on_press(Message::SearchForKigou(self.search_string.clone()))
+            .on_press(Message::SearchForKigou(self.search_string.clone(), None))
         )
     }
 

@@ -44,13 +44,13 @@ impl KigouSource{
         parents
     }
 
-    pub fn get_kigou_by_name(&self, name: &str) -> Option<&Kigou>{
+    pub fn get_kigou_by_name(&self, name: &str, _kigou_type_option: &Option<KigouType>) -> Option<&Kigou>{
         self.kigou
             .iter()
             .find(|element| element.name.to_lowercase() == name.to_lowercase())
     }
 
-    pub fn get_kigou_by_name_fuzzy(&self, name: &str) -> Option<&Kigou>{
+    pub fn get_kigou_by_name_fuzzy(&self, name: &str, _kigou_type_option: &Option<KigouType>) -> Option<&Kigou>{
         self.kigou
             .iter()
             .find(
@@ -144,7 +144,7 @@ mod tests {
             "kanji_test_with_three_kanji.json"
         );
 
-        let element = kanji_source.get_kigou_by_name("Two").unwrap();
+        let element = kanji_source.get_kigou_by_name("Two", &None).unwrap();
 
         let kanji_two = Kigou{
                 name: String::from("Two"),
@@ -165,7 +165,10 @@ mod tests {
             "kanji_test_with_three_kanji.json"
         );
 
-        let result = kanji_source.get_kigou_by_name("Does Not Exist");
+        let result = kanji_source.get_kigou_by_name(
+            "Does Not Exist",
+            &None
+        );
 
         assert_eq!(result, None);
     }
@@ -239,7 +242,7 @@ mod tests {
             "kanji_test_with_three_kanji.json"
         );
 
-        let element = kanji_source.get_kigou_by_character("二").unwrap();
+        let element = kanji_source.get_kigou_by_character("二",).unwrap();
 
         let kanji_two = Kigou{
                 name: String::from("Two"),
@@ -260,7 +263,10 @@ mod tests {
             "kanji_test_with_three_kanji.json"
         );
 
-        let element = kanji_source.get_kigou_by_name("two").unwrap();
+        let element = kanji_source.get_kigou_by_name(
+            "two",
+            &None
+        ).unwrap();
 
         let kanji_two = Kigou{
                 name: String::from("Two"),
@@ -281,7 +287,7 @@ mod tests {
             "kanji_test_with_three_kanji.json"
         );
 
-        let element = kanji_source.get_kigou_by_name_fuzzy("tw").unwrap();
+        let element = kanji_source.get_kigou_by_name_fuzzy("tw", &None).unwrap();
 
         let kanji_two = Kigou{
                 name: String::from("Two"),

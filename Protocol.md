@@ -1992,6 +1992,29 @@
 
 
 
+# 17-Aug-2022
+
+* Now continuing with this
+* Next, I want to  work on the capability to search for only specific types of Kigou
+  * My most common use case is that I want to quickly get the name of the Water-Radical, but my current search algorithm finds the Water Kanji instead
+  * My original idea was to use toggle-buttons to limit searches for certain types of Kigou, but thinking about it and looking at how the code is structured (plus the Rust factor), I think it will be easier to just add additional search buttons for each Kigou type
+  * That will satisfy my use case too
+  * Now, how to do that?
+  * Currently, we have a `SearchPanel` that holds a button firing a `SearchForKigou` event holding the search string)
+    * That is then caught by the `App`, which will iterate through a series of three functions, first searching by character, then by exact name, and then by fuzzy name
+    * These will in turn call respective functions from the `KigouSource`
+  * I think the best way to do that is to add an `Option<&KigouType>` parameter to `Message.SearchForKigou`
+    * If that `Option` is `None`, then the current logic is performed, while if it is a `Some<&KigouType>`, then the search is only executed for that `KigouType`
+  * There is _probably_ a really clever way to do that without having to iterate over all the types, I just have to figure out how to do it
+  * And naturally, first I have to try and see if this works like I want it to at all in the first place
+  * First, to add the  `Option<&KigouType>` to  `Message.SearchForKigou`
+    * I now did that and followed through
+    * I had to use `Option<KigouType>` instead though because of lifetimes, so I hope that works out later
+    * Anyway, it looks like it works for now
+  * The next thing that I think would make sense is to adjust the `KigouSource` so that the Kigou search function accept the  `Option<KigouType>`
+    * This time around, it ended up being a `&Option<KigouType>`, but it looks like it works for now
+  * 
+
 
 
 # Wanted Features

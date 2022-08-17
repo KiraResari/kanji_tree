@@ -1,10 +1,10 @@
-use crate::value_objects::Kigou;
+use crate::value_objects::{Kigou, KigouType};
 
 #[derive(Debug, Clone)]
 pub enum Message {
     LoadKigou(Kigou),
     ReloadKigouSource(),
-    SearchForKigou(String),
+    SearchForKigou(String, Option<KigouType>),
     SearchBoxInputChanged(String),
     CopyActiveKigouName(),
 }

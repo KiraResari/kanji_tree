@@ -81,7 +81,7 @@ impl KigouParser{
         let all_kigou = kigou_source.clone().kigou;
         for kigou in all_kigou{
             for parent_name in kigou.parent_names{
-                let parent_option = kigou_source.get_kigou_by_name(&parent_name);
+                let parent_option = kigou_source.get_kigou_by_name(&parent_name, &None);
                 match parent_option{
                     Some(_) => {},
                     None => {

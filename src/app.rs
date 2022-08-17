@@ -4,7 +4,7 @@ use arboard::Clipboard;
 use crate::{
     kigou_parser::KigouParser,
     kigou_source::KigouSource,
-    value_objects::Kigou,
+    value_objects::{Kigou, KigouType},
     message::Message,
     kigou_button::KigouButton,
     kigou_panel::KigouPanel,
@@ -185,7 +185,8 @@ impl KanjiTreeApp{
     fn reload_active_kigou_or_load_first(&mut self){
         let active_kigou_equivalent 
             = self.kigou_source.get_kigou_by_name(
-                &self.active_kigou.name
+                &self.active_kigou.name,
+                &None
             );
         match active_kigou_equivalent{
             Some(newly_loaded_kigou) => {
@@ -199,7 +200,7 @@ impl KanjiTreeApp{
         }
     }
 
-    fn search_for_kigou(&mut self, query: String){
+    fn search_for_kigou(&mut self, query: String, kigou_type_option: Option<KigouType>){
         let character_search_result
             = self.kigou_source.get_kigou_by_character(&query);
         match character_search_result{
@@ -208,28 +209,28 @@ impl KanjiTreeApp{
                 self.update_kigou_buttons_and_message();
             }
             None => {
-                self.search_for_kigou_by_exact_name(query);
+                self.search_for_kigou_by_exact_name(query, kigou_type_option);
             }
         }
     }
 
-    fn search_for_kigou_by_exact_name(&mut self, query: String){
+    fn search_for_kigou_by_exact_name(&mut self, query: String, kigou_type_option: Option<KigouType>){
         let character_search_result
-            = self.kigou_source.get_kigou_by_name(&query);
+            = self.kigou_source.get_kigou_by_name(&query, &kigou_type_option);
         match character_search_result{
             Some(matched_kigou ) =>{
                 self.active_kigou = matched_kigou.clone();
                 self.update_kigou_buttons_and_message();
             }
             None => {
-                self.search_for_kigou_by_fuzzy_name(query);
+                self.search_for_kigou_by_fuzzy_name(query, kigou_type_option);
             }
         }
     }
 
-    fn search_for_kigou_by_fuzzy_name(&mut self, query: String){
+    fn search_for_kigou_by_fuzzy_name(&mut self, query: String, kigou_type_option: Option<KigouType>){
         let character_search_result
-            = self.kigou_source.get_kigou_by_name_fuzzy(&query);
+            = self.kigou_source.get_kigou_by_name_fuzzy(&query, &kigou_type_option);
         match character_search_result{
             Some(matched_kigou ) =>{
                 self.active_kigou = matched_kigou.clone();
@@ -316,8 +317,8 @@ impl Sandbox for KanjiTreeApp {
             Message::ReloadKigouSource() => {
                 self.reload_kigou_source();
             }
-            Message::SearchForKigou(query) => {
-                self.search_for_kigou(query);
+            Message::SearchForKigou(query, kigou_type_option) => {
+                self.search_for_kigou(query, kigou_type_option);
             }
             Message::SearchBoxInputChanged(input) => {
                 self.search_panel.update(input);
