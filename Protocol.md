@@ -2019,6 +2019,9 @@
     * Next to make them pass
       * It took a bit of input from the rust community, but in the end, this worked out reasonably well thanks to the fact that the `Kigou` themselves  have a `kigou_type` field that I was able to compare  against
     * Now the search functions work with the `KigouType` as expected
+  * The next step will be adding the buttons to the `SearhPanel` and making them dispatch the `SearchForKigou` message with the correct parameters
+    * I was able to do that without any problems
+  * Now this works beautifully!
   * 
 
 
