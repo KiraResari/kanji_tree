@@ -2061,7 +2061,12 @@
     * Actually, that's probably going to be a bit more complicated (again), but let's start from the top
     * First, I'll change the `Message::CopyActiveKigouName` to be a message that copies the string that we pass it
     * Incidentally, I notice now that with my changes today, the performance of the Kanji Tree R has dropped notably, most notably with the "One" Kanji, that now takes several seconds to load
+      * Thankfully, those performance lags only occur when launching the app from Visual Studio Code - the compile app runs just fine
     * Anyway, now we can copy the Kigou characters too
+
+* I think that's as far as I'm getting with this today
+
+* Let this be Version 2-6-0
 
 
 
@@ -2071,7 +2076,6 @@
 * Search also displays non-primary results
 * Sort children by stroke count
 * Sort parents in same order as in kanji.json
-* Place copy button next to Kigou name
 
 
 
