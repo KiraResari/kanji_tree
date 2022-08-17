@@ -2060,6 +2060,8 @@
 
     * Actually, that's probably going to be a bit more complicated (again), but let's start from the top
     * First, I'll change the `Message::CopyActiveKigouName` to be a message that copies the string that we pass it
+    * Incidentally, I notice now that with my changes today, the performance of the Kanji Tree R has dropped notably, most notably with the "One" Kanji, that now takes several seconds to load
+    * Anyway, now we can copy the Kigou characters too
 
 
 

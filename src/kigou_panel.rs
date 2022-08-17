@@ -1,17 +1,19 @@
 use iced::{Text, Column, Align, Row, Container, button::State, Button};
 
-use crate::{value_objects::Kigou, message::Message, fonts, kigou_display_builder::KigouDisplayBuilder};
+use crate::{value_objects::Kigou, message::Message, fonts, kigou_display_active::KigouDisplayActive};
 
 pub struct KigouPanel{
     kigou: Kigou,
-    copy_name_button_state: State
+    copy_name_button_state: State,
+    kigou_display: KigouDisplayActive
 }
 
 impl KigouPanel{
     pub fn new(kigou: &Kigou) -> Self{
         KigouPanel {
             kigou: kigou.clone(),
-            copy_name_button_state: State::new() 
+            copy_name_button_state: State::new() ,
+            kigou_display: KigouDisplayActive::new(&kigou)
         }
     }
 
@@ -33,11 +35,7 @@ impl KigouPanel{
                             .font(fonts::SYMBOL)
                         ).on_press(Message::CopyStringToClipboard(self.kigou.clone().name))
                     )
-                    .push(
-                        KigouDisplayBuilder::build_kigou_display(
-                            &self.kigou, 64
-                        )
-                    )
+                    .push( self.kigou_display.view())
                     .push(Text::new(self.kigou.kigou_type.to_string()))
                 )
                 .push(
