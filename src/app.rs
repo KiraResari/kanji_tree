@@ -23,6 +23,7 @@ pub struct KanjiTreeApp{
     child_kigou_buttons: Vec<KigouButton>,
     parent_kigou_buttons: Vec<KigouButton>,
     reload_button: ReloadButton,
+    kigou_panel: KigouPanel,
     search_panel: SearchPanel,
     display_message: String,
     copy_button: CopyButton,
@@ -81,7 +82,12 @@ impl KanjiTreeApp{
             .push(KanjiTreeApp::build_arrow_if_necessary(
                 self.active_kigou.has_parents())
             )
-            .push(KanjiTreeApp::build_kigou_panel_row(&self.active_kigou, &mut self.copy_button))
+            .push(
+                KanjiTreeApp::build_kigou_panel_row(
+                    &mut self.copy_button,
+                    &mut self.kigou_panel,
+                )
+            )
             .push(KanjiTreeApp::build_arrow_if_necessary(
                 self.kigou_source.has_children(
                     &self.active_kigou.name
@@ -117,9 +123,12 @@ impl KanjiTreeApp{
         kigou_button_column
     }
 
-    fn build_kigou_panel_row<'a>(active_kigou: &'a Kigou, copy_button: &'a mut CopyButton) -> Row<'a, Message> {
+    fn build_kigou_panel_row<'a>(
+        copy_button: &'a mut CopyButton,
+        kigou_panel: &'a mut KigouPanel,
+    ) -> Row<'a, Message> {
         let kigou_button_row: Row<'a, Message> = Row::new()
-            .push(KigouPanel::from(active_kigou))
+            .push(kigou_panel.view())
             .push(copy_button.view())
             .align_items(Align::Center);
         kigou_button_row
@@ -153,6 +162,7 @@ impl KanjiTreeApp{
                 &self.active_kigou, 
                 &self.kigou_source
             );
+        self.kigou_panel = KigouPanel::new(&self.active_kigou);
         self.parent_kigou_buttons 
             = KanjiTreeApp::build_parent_kigou_buttons(
                 &self.active_kigou, 
@@ -198,6 +208,7 @@ impl KanjiTreeApp{
                 );
             }
         }
+        self.kigou_panel = KigouPanel::new(&self.active_kigou);
     }
 
     fn search_for_kigou(&mut self, query: String, kigou_type_option: Option<KigouType>){
@@ -294,10 +305,11 @@ impl Sandbox for KanjiTreeApp {
             );
         KanjiTreeApp{
             kigou_source,
-            active_kigou: active_kanji,
+            active_kigou: active_kanji.clone(),
             child_kigou_buttons: child_kanji_buttons,
             parent_kigou_buttons: parent_kanji_buttons,
             reload_button: ReloadButton::new(),
+            kigou_panel: KigouPanel::new(&active_kanji),
             search_panel: SearchPanel::new(),
             display_message,
             copy_button: CopyButton::new(),

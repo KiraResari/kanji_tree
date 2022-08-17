@@ -8,8 +8,8 @@ pub struct KigouButton{
 }
 
 impl KigouButton{
-    pub fn new(kanji: Kigou) -> Self{
-        KigouButton { kigou: kanji, state: State::new() }
+    pub fn new(kigou: Kigou) -> Self{
+        KigouButton { kigou, state: State::new() }
     }
 
     pub fn view(&mut self) -> Button<Message> {

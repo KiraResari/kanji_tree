@@ -2022,13 +2022,18 @@
   * The next step will be adding the buttons to the `SearhPanel` and making them dispatch the `SearchForKigou` message with the correct parameters
     * I was able to do that without any problems
   * Now this works beautifully!
+  * Now just out of curiosity I want to check if I can also add tooltips to those buttons
+    * I think there was a sample project for that in the iced repository...
+    * Okay, so it looks needlessly convoluted, so let's not do that
+  * With that, this feature is now also implemented
+* One thing that should be relatively simple is to place the copy button next to the Kigou name
+  * Or maybe even better, I can make the Kigou Name field into a button that has that function to begin with!
   * 
 
 
 
 # Wanted Features
 
-* ! Toggle buttons for limiting searches to Kanji, Kana, X-Parts, Radicals, etc...
 * Tooltip when hovering over Kigou Buttons
 * Search also displays non-primary results
 * Sort children by stroke count
