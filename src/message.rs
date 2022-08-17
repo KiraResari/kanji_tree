@@ -6,5 +6,5 @@ pub enum Message {
     ReloadKigouSource(),
     SearchForKigou(String, Option<KigouType>),
     SearchBoxInputChanged(String),
-    CopyActiveKigouName(),
+    CopyStringToClipboard(String),
 }

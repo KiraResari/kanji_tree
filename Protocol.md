@@ -2056,7 +2056,10 @@
 
     * But at least now it works
 
-  * 
+  * Now that we have this logic in place, I figure we can also use it to copy other stuff, like the Kigou itself (if it is an unicode character) 
+
+    * Actually, that's probably going to be a bit more complicated (again), but let's start from the top
+    * First, I'll change the `Message::CopyActiveKigouName` to be a message that copies the string that we pass it
 
 
 

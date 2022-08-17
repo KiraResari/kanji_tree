@@ -31,9 +31,13 @@ impl KigouPanel{
                             &mut self.copy_name_button_state, 
                             Text::new(self.kigou.clone().name)
                             .font(fonts::SYMBOL)
-                        ).on_press(Message::CopyActiveKigouName())
+                        ).on_press(Message::CopyStringToClipboard(self.kigou.clone().name))
                     )
-                    .push(KigouDisplayBuilder::build_kigou_display(&self.kigou, 64))
+                    .push(
+                        KigouDisplayBuilder::build_kigou_display(
+                            &self.kigou, 64
+                        )
+                    )
                     .push(Text::new(self.kigou.kigou_type.to_string()))
                 )
                 .push(
@@ -41,7 +45,6 @@ impl KigouPanel{
                     .font(fonts::KANJI)
                     .size(48)
                 )
-                    
         ).style(self.kigou.clone().kigou_type)
     }
 

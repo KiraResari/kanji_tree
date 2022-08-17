@@ -251,11 +251,11 @@ impl KanjiTreeApp{
         }
     }
 
-    fn copy_active_kigou_name(&mut self){
-        let result = self.clipboard.set_text(self.active_kigou.name.clone());
+    fn copy_string_to_clipboard(&mut self, string: String){
+        let result = self.clipboard.set_text(string.clone());
         match result{
             Ok(_) => {
-                self.display_message = "Copied Kigou name to clipboard".to_string();
+                self.display_message = format!("Copied '{}' to clipboard", string.to_string());
             }
             Err(e) => {
                 self.display_message = format!("Failed to copy Kigou to clipboard because of error: {}", e.to_string());
@@ -329,8 +329,8 @@ impl Sandbox for KanjiTreeApp {
             Message::SearchBoxInputChanged(input) => {
                 self.search_panel.update(input);
             }
-            Message::CopyActiveKigouName() => {
-                self.copy_active_kigou_name();
+            Message::CopyStringToClipboard(string) => {
+                self.copy_string_to_clipboard(string);
             }
         }
     }
