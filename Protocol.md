@@ -1995,7 +1995,9 @@
 # 17-Aug-2022
 
 * Now continuing with this
+
 * Next, I want to  work on the capability to search for only specific types of Kigou
+
   * My most common use case is that I want to quickly get the name of the Water-Radical, but my current search algorithm finds the Water Kanji instead
   * My original idea was to use toggle-buttons to limit searches for certain types of Kigou, but thinking about it and looking at how the code is structured (plus the Rust factor), I think it will be easier to just add additional search buttons for each Kigou type
   * That will satisfy my use case too
@@ -2026,8 +2028,34 @@
     * I think there was a sample project for that in the iced repository...
     * Okay, so it looks needlessly convoluted, so let's not do that
   * With that, this feature is now also implemented
+
 * One thing that should be relatively simple is to place the copy button next to the Kigou name
+
   * Or maybe even better, I can make the Kigou Name field into a button that has that function to begin with!
+
+  * Turns out that this is more difficult than expected, since I have to turn the `KigouPanel`, which turned out to be a static class, into a prober instantiable class so I can give it a state so I can give it a button
+
+  * And now it creates more horrible, horrible errors
+
+    * ````
+      error[E0515]: cannot return value referencing temporary value
+        --> src\kigou_panel.rs:44:9
+         |
+      44 | /         Column::new()
+      45 | |             .padding(20)
+      46 | |             .align_items(Align::Center)
+      47 | |             .push(
+      ...  |
+      55 | |             .push(KigouDisplayBuilder::build_kigou_display(&kigou.clone(), 64))
+         | |                                                             ------------- temporary value created here
+      56 | |             .push(Text::new(kigou.clone().kigou_type.to_string()))
+         | |__________________________________________________________________^ returns a value referencing data owned by the current function
+      ````
+
+    * I now managed to fix that by giving up on separating this into separate functions, and cramming it all into one function
+
+    * But at least now it works
+
   * 
 
 

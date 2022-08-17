@@ -10,7 +10,6 @@ use crate::{
     kigou_panel::KigouPanel,
     reload_button::ReloadButton,
     search_panel::SearchPanel,
-    copy_button::CopyButton,
     fonts
 };
 
@@ -26,7 +25,6 @@ pub struct KanjiTreeApp{
     kigou_panel: KigouPanel,
     search_panel: SearchPanel,
     display_message: String,
-    copy_button: CopyButton,
     clipboard: Clipboard,
 }
 
@@ -84,7 +82,6 @@ impl KanjiTreeApp{
             )
             .push(
                 KanjiTreeApp::build_kigou_panel_row(
-                    &mut self.copy_button,
                     &mut self.kigou_panel,
                 )
             )
@@ -124,12 +121,10 @@ impl KanjiTreeApp{
     }
 
     fn build_kigou_panel_row<'a>(
-        copy_button: &'a mut CopyButton,
         kigou_panel: &'a mut KigouPanel,
     ) -> Row<'a, Message> {
         let kigou_button_row: Row<'a, Message> = Row::new()
             .push(kigou_panel.view())
-            .push(copy_button.view())
             .align_items(Align::Center);
         kigou_button_row
     }
@@ -312,7 +307,6 @@ impl Sandbox for KanjiTreeApp {
             kigou_panel: KigouPanel::new(&active_kanji),
             search_panel: SearchPanel::new(),
             display_message,
-            copy_button: CopyButton::new(),
             clipboard: Clipboard::new().unwrap()
         }
     }
