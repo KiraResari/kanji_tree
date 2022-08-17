@@ -1258,7 +1258,7 @@
 			"character": "冬",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 5,
-			"parent_names":["R34 Winter", "R3 Dot"]	
+			"parent_names":["R34 Winter", "X2-10 Double Dot"]	
 		},
 		{
 			"name": "End",
@@ -2043,6 +2043,146 @@
 			"stroke_arrangement": "⿸",
 			"stroke_count": 4,
 			"parent_names":["R27 Trailing Cliff", "Romaji T"]	
+		},
+		{
+			"name": "New",
+			"character": "新",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["X9-2 Standing Tree", "Axe"]	
+		},
+		{
+			"name": "Many",
+			"character": "多",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["Evening"]	
+		},
+		{
+			"name": "Long",
+			"character": "長",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["X5-8 Long Top", "Katakana Re", "X2-5 Spur"]	
+		},
+		{
+			"name": "Short",
+			"character": "短",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Arrow", "Beans"]	
+		},
+		{
+			"name": "Weak",
+			"character": "弱",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Bow", "R15 Ice"]	
+		},
+		{
+			"name": "Hot",
+			"character": "暑",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["Day", "Someone"]	
+		},
+		{
+			"name": "Well",
+			"character": "井",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["Two", "R2 Line", "R4 Slash"]	
+		},
+		{
+			"name": "Cold",
+			"character": "寒",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 12,
+			"parent_names":["R40 Roof", "Well", "One", "Katakana Ha", "X2-10 Double Dot"]	
+		},
+		{
+			"name": "Darkness",
+			"character": "暗",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Day", "Sound"]	
+		},
+		{
+			"name": "Origin",
+			"character": "元",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["One", "Lofty"]	
+		},
+		{
+			"name": "Spirit",
+			"character": "気",
+			"stroke_arrangement": "⿹",
+			"stroke_count": 6,
+			"parent_names":["R84 Steam", "Romaji X"]	
+		},
+		{
+			"name": "Possess",
+			"character": "有",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 6,
+			"parent_names":["Katakana Na", "Moon"]	
+		},
+		{
+			"name": "Name",
+			"character": "名",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["Evening", "Mouth"]	
+		},
+		{
+			"name": "Same",
+			"character": "同",
+			"stroke_arrangement": "⿵",
+			"stroke_count": 6,
+			"parent_names":["X5-7 Box in Box", "One"]	
+		},
+		{
+			"name": "Parent",
+			"character": "親",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["X9-2 Standing Tree", "See"]	
+		},
+		{
+			"name": "Cut",
+			"character": "切",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 4,
+			"parent_names":["Seven", "Sword"]	
+		},
+		{
+			"name": "Profit",
+			"character": "利",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R115 Grain", "Katakana Ri"]	
+		},
+		{
+			"name": "Negative",
+			"character": "不",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 7,
+			"parent_names":["One", "Katakana No", "R2 Line", "R3 Dot"]	
+		},
+		{
+			"name": "Stone",
+			"character": "石",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 5,
+			"parent_names":["One", "Katakana No", "Mouth"]	
+		},
+		{
+			"name": "Polish",
+			"character": "研",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Stone", "X4-1 Torii"]	
 		}
 	],
 	"radical":[
@@ -2235,6 +2375,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["Ten", "X1-7 Bottom Left Corner", "X1-5 Corner Hook"]	
+		},
+		{
+			"name": "R84 Steam",
+			"character": "气",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 4,
+			"parent_names":["X1-1 Reverse Dot", "One", "R5 Corner Fishhook"]	
 		},
 		{
 			"name": "R85 Water",
@@ -2485,6 +2632,13 @@
 			"parent_names":["X1-8 Shallow No", "Katakana Re"]	
 		},	
 		{
+			"name": "X2-10 Double Dot",
+			"image_name": "2-10 Double Dot.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 2,
+			"parent_names":["R3 Dot"]	
+		},	
+		{
 			"name": "X3-1 Double Lid",
 			"image_name": "3-1 Double Lid.png",
 			"stroke_arrangement": "⬚",
@@ -2602,6 +2756,13 @@
 			"stroke_arrangement": "⿵",
 			"stroke_count": 5,
 			"parent_names":["R13 Upside-Down Box", "Mouth"]	
+		},
+		{
+			"name": "X5-8 Long Top",
+			"image_name": "5-8 Long Top.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["One", "R2 Line"]	
 		},
 		{
 			"name": "X6-1 Stand Box",
