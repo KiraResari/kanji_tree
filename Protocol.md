@@ -2076,12 +2076,12 @@
 * Next, I want to add a list of the last few Kigou viewed
   * Since we already established 20 as the number of Kigou that can be displayed in one row, I figure it makes sense to apply that number here too
   * I was now able to make this work with relative ease
+* Next, I want to try displaying the parents in the order in which they appear in the `kanji.json`
 
 
 
 # Wanted Features
 
-* ! List of last Kigou viewed
 * Tooltip when hovering over Kigou Buttons
 * Search also displays non-primary results
 * Sort children by stroke count

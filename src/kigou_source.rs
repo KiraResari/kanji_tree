@@ -218,8 +218,8 @@ mod tests {
         };
 
 
-    let expected_children = vec![kanji_one, kanji_two];
-    assert_eq!(parents, expected_children);
+        let expected_children = vec![kanji_one, kanji_two];
+        assert_eq!(parents, expected_children);
     }
 
     #[test]
@@ -367,6 +367,18 @@ mod tests {
         ).unwrap();
 
         assert_eq!(kigou.name, "R85 Water");
+    }
+
+    #[test]
+    fn get_parents_should_return_parents_in_correct_order(){
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_for_parent_order.json"
+        );
+
+        let mut parents = kanji_source.get_parents("X2-6 Slash Dash");
+
+        let first_parent = parents.remove(0);
+        assert_eq!(first_parent.name, "X1-1 Reverse Dot");
     }
 
 }

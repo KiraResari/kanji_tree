@@ -1,0 +1,25 @@
+{
+	"kanji":[
+	{
+		"name": "One",
+		"node_type": "Kanji",
+		"character": "一",
+		"stroke_arrangement": "Whole",
+		"stroke_count": 1
+	},
+	"x_part":[
+		{
+			"name": "X1-1 Reverse Dot",
+			"image_name": "1-1 Reverse Dot.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 1
+		},
+		{
+			"name": "X2-6 Slash Dash",
+			"image_name": "2-6 Slash Dash.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["X1-1 Reverse Dot", "One"]	
+		}
+	]
+}
