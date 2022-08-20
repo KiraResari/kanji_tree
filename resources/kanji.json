@@ -507,9 +507,9 @@
 		{
 			"name": "Someone",
 			"character": "者",
-			"stroke_arrangement": "⿻",
+			"stroke_arrangement": "⿱",
 			"stroke_count": 8,
-			"parent_names":["Soil", "Katakana No", "Day"]	
+			"parent_names":["X4-11 Soil No", "Day"]	
 		},
 		{
 			"name": "Inception",
@@ -2183,6 +2183,76 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 9,
 			"parent_names":["Stone", "X4-1 Torii"]	
+		},
+		{
+			"name": "Circumference",
+			"character": "周",
+			"stroke_arrangement": "⿵",
+			"stroke_count": 8,
+			"parent_names":["Luck", "R13 Upside-Down Box"]	
+		},
+		{
+			"name": "Anti",
+			"character": "反",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 4,
+			"parent_names":["R27 Trailing Cliff", "Or"]	
+		},
+		{
+			"name": "Sham",
+			"character": "仮",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["R9 Person", "Anti"]	
+		},
+		{
+			"name": "Sit",
+			"character": "坐",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 6,
+			"parent_names":["Soil", "Person"]	
+		},
+		{
+			"name": "Filial Piety",
+			"character": "孝",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["X4-11 Soil No", "Child"]	
+		},
+		{
+			"name": "Asia",
+			"character": "亜",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 7,
+			"parent_names":["Two", "R2 Line", "Mouth"]	
+		},
+		{
+			"name": "Week",
+			"character": "週",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 7,
+			"parent_names":["R162 Walk", "Circumference"]	
+		},
+		{
+			"name": "Return",
+			"character": "帰",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Katakana Ri", "D Broom"]	
+		},
+		{
+			"name": "Sit down",
+			"character": "座",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 10,
+			"parent_names":["R53 Dotted Cliff", "Sit"]	
+		},
+		{
+			"name": "Teach",
+			"character": "教",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Filial Piety", "R66 Strike"]	
 		}
 	],
 	"radical":[
@@ -2723,6 +2793,13 @@
 			"parent_names":["X1-3 Top Right Corner", "One", "Katakana Re"]	
 		},
 		{
+			"name": "X4-11 Soil No",
+			"image_name": "4-11 Soil No.png",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 4,
+			"parent_names":["Soil", "Katakana No"]	
+		},
+		{
 			"name": "X5-1 Little Brother",
 			"image_name": "5-1 Little Brother.png",
 			"stroke_arrangement": "⬚",
@@ -2763,6 +2840,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["One", "R2 Line"]	
+		},
+		{
+			"name": "X5-9 Roofed Towel",
+			"image_name": "5-9 Roofed Towel.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["R40 Roof", "Towel"]	
 		},
 		{
 			"name": "X6-1 Stand Box",
@@ -2931,6 +3015,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 6,
 			"parent_names":["R3 Dot", "X1-1 Reverse Dot", "Heavens"]	
+		},		
+		{
+			"name": "D Broom",
+			"character": "帚",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["X3-2 Strikethrough Ko", "X5-9 Roofed Towel"]	
 		}
 	]
 }

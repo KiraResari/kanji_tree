@@ -2072,6 +2072,7 @@
 
 # Wanted Features
 
+* ! List of last Kigou viewed
 * Tooltip when hovering over Kigou Buttons
 * Search also displays non-primary results
 * Sort children by stroke count
