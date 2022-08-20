@@ -10,7 +10,8 @@ use crate::{
     kigou_panel::KigouPanel,
     reload_button::ReloadButton,
     search_panel::SearchPanel,
-    fonts
+    fonts, 
+    recent_panel::RecentPanel
 };
 
 static KANJI_JSON_PATH: &str = "resources/kanji.json";
@@ -24,6 +25,7 @@ pub struct KanjiTreeApp{
     reload_button: ReloadButton,
     kigou_panel: KigouPanel,
     search_panel: SearchPanel,
+    recent_panel: RecentPanel,
     display_message: String,
     clipboard: Clipboard,
 }
@@ -92,6 +94,7 @@ impl KanjiTreeApp{
             )
             )
             .push(KanjiTreeApp::build_kigou_button_block(&mut self.child_kigou_buttons))
+            .push(self.recent_panel.view())
             .push(KanjiTreeApp::build_version_row())
     }
 
@@ -139,6 +142,7 @@ impl KanjiTreeApp{
     }
 
     fn load_kigou(&mut self, kigou: Kigou){
+        self.recent_panel.add(&self.active_kigou);
         self.active_kigou = kigou;
         self.update_kigou_buttons_and_message();
     }
@@ -211,6 +215,7 @@ impl KanjiTreeApp{
             = self.kigou_source.get_kigou_by_character(&query);
         match character_search_result{
             Some(matched_kigou ) =>{
+                self.recent_panel.add(&self.active_kigou);
                 self.active_kigou = matched_kigou.clone();
                 self.update_kigou_buttons_and_message();
             }
@@ -225,6 +230,7 @@ impl KanjiTreeApp{
             = self.kigou_source.get_kigou_by_name(&query, &kigou_type_option);
         match character_search_result{
             Some(matched_kigou ) =>{
+                self.recent_panel.add(&self.active_kigou);
                 self.active_kigou = matched_kigou.clone();
                 self.update_kigou_buttons_and_message();
             }
@@ -239,6 +245,7 @@ impl KanjiTreeApp{
             = self.kigou_source.get_kigou_by_name_fuzzy(&query, &kigou_type_option);
         match character_search_result{
             Some(matched_kigou ) =>{
+                self.recent_panel.add(&self.active_kigou);
                 self.active_kigou = matched_kigou.clone();
                 self.update_kigou_buttons_and_message();
             }
@@ -306,6 +313,7 @@ impl Sandbox for KanjiTreeApp {
             reload_button: ReloadButton::new(),
             kigou_panel: KigouPanel::new(&active_kanji),
             search_panel: SearchPanel::new(),
+            recent_panel: RecentPanel::new(),
             display_message,
             clipboard: Clipboard::new().unwrap()
         }

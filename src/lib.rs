@@ -1,3 +1,4 @@
+mod recent_panel;
 mod app;
 mod value_objects;
 pub use app::KanjiTreeApp;

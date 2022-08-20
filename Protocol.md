@@ -2070,6 +2070,15 @@
 
 
 
+# 20-Aug-2022
+
+* Now continuing with this
+* Next, I want to add a list of the last few Kigou viewed
+  * Since we already established 20 as the number of Kigou that can be displayed in one row, I figure it makes sense to apply that number here too
+  * I was now able to make this work with relative ease
+
+
+
 # Wanted Features
 
 * ! List of last Kigou viewed
