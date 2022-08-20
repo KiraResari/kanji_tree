@@ -1181,7 +1181,7 @@
 			"character": "曜",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 18,
-			"parent_names":["Day", "Katakana Yo", "R172 Bird"]	
+			"parent_names":["Day", "X14-1 Weekday"]	
 		},
 		{
 			"name": "Every",
@@ -1867,7 +1867,7 @@
 			"character": "売",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 7,
-			"parent_names":["Soil", "R14 Wa Shaped Crown", "R10 Legs"]	
+			"parent_names":["Gentleman", "R112 Net"]	
 		},
 		{
 			"name": "Read",
@@ -2253,6 +2253,76 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 11,
 			"parent_names":["Filial Piety", "R66 Strike"]	
+		},
+		{
+			"name": "Lightly",
+			"character": "軽",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Car", "D Holy"]	
+		},
+		{
+			"name": "Bad",
+			"character": "悪",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["Asia", "Heart"]	
+		},
+		{
+			"name": "Research",
+			"character": "究",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["X5-10 Roofed Legs", "Nine"]	
+		},
+		{
+			"name": "Substance",
+			"character": "質",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 15,
+			"parent_names":["Axe", "Shellfish"]	
+		},
+		{
+			"name": "Question",
+			"character": "問",
+			"stroke_arrangement": "⿵",
+			"stroke_count": 11,
+			"parent_names":["Gate", "Mouth"]	
+		},
+		{
+			"name": "Sentence",
+			"character": "文",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["R8 Lid", "Romaji X"]	
+		},
+		{
+			"name": "Wash",
+			"character": "洗",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R85 Water", "Ahead"]	
+		},
+		{
+			"name": "Laundry",
+			"character": "濯",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 17,
+			"parent_names":["R85 Water", "X14-1 Weekday"]	
+		},
+		{
+			"name": "Pour",
+			"character": "注",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R85 Water", "Master"]	
+		},
+		{
+			"name": "Idea",
+			"character": "意",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Sound", "Heart"]	
 		}
 	],
 	"radical":[
@@ -2480,6 +2550,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["Katakana Fu", "R3 Dot", "X1-1 Reverse Dot", "X1-2 Reverse No"]	
+		},
+		{
+			"name": "R112 Net",
+			"character": "㓁",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["R14 Wa Shaped Crown", "R10 Legs"]	
 		},
 		{
 			"name": "R113 Cult",
@@ -2849,6 +2926,13 @@
 			"parent_names":["R40 Roof", "Towel"]	
 		},
 		{
+			"name": "X5-10 Roofed Legs",
+			"image_name": "5-10 Roofed Legs.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["R3 Dot", "R112 Net"]	
+		},
+		{
 			"name": "X6-1 Stand Box",
 			"image_name": "6-1 Stand Box.png",
 			"stroke_arrangement": "⬚",
@@ -2882,6 +2966,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
 			"parent_names":["Stand", "Tree"]	
+		},
+		{
+			"name": "X14-1 Weekday",
+			"image_name": "14-1 Weekday.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 14,
+			"parent_names":["Katakana Yo", "R172 Bird"]	
 		}
 	],
 	"kana":[
@@ -3022,6 +3113,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 6,
 			"parent_names":["X3-2 Strikethrough Ko", "X5-9 Roofed Towel"]	
+		},		
+		{
+			"name": "D Holy",
+			"character": "圣",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["Or", "Soil"]	
 		}
 	]
 }
