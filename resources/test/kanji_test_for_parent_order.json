@@ -1,12 +1,13 @@
 {
 	"kanji":[
-	{
-		"name": "One",
-		"node_type": "Kanji",
-		"character": "一",
-		"stroke_arrangement": "Whole",
-		"stroke_count": 1
-	},
+		{
+			"name": "One",
+			"node_type": "Kanji",
+			"character": "一",
+			"stroke_arrangement": "Whole",
+			"stroke_count": 1
+		}
+	],
 	"x_part":[
 		{
 			"name": "X1-1 Reverse Dot",

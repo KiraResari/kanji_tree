@@ -1083,7 +1083,7 @@
 			"character": "倒",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 10,
-			"parent_names":["Arrival", "R9 Person"]	
+			"parent_names":["R9 Person", "Arrival"]	
 		},
 		{
 			"name": "Reach out",

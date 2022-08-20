@@ -36,11 +36,14 @@ impl KigouSource{
             Some(v) => query_element = v,
             None => return vec![]
         }
-        let parents: Vec<Kigou> = self.kigou.iter()
-        .filter(
-            |element| query_element.parent_names.contains(&element.name)
-        ).cloned()
-        .collect();
+        let mut parents = Vec::new();
+        for parent_name in &query_element.parent_names{
+            for kigou in &self.kigou{
+                if parent_name == &kigou.name {
+                    parents.push(kigou.clone());
+                }
+            }
+        }
         parents
     }
 
