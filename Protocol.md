@@ -2089,13 +2089,31 @@
     * Okay, so it was a little bit more complicated since I had to work around comparing an enum, but I got it to work in the end
   * Now the result looks nice
   * With that, this task is complete
+* So, now, the only wanted features left are:
+  * Tooltip when hovering over Kigou Buttons
+    * ...after looking at how tooltips are implemented in iced earlier, I _really_ do not want to do that
+    * And since I haven't really missed this thus far, I think I'm removing it from the backlog now
+  * Search also displays non-primary results
+    * Looking at how the search is implemented right now, that would be a major rework, and the benefit - especially now that we have the type specific search - would be negligible
+    * Also, I haven't really missed this feature either while working with the Kanji Tree R recently, so I'm also removing it from the backlog
+* With that, the backlog is now empty
+* I am making this Version 2-7-0
+* This might be the last version to be released for some time, possibly even ever (apart from `kanji.json` updates as new Kanji are added, of course)
+* As such, I am going to write a short retrospective regarding my experience programming with Rust here
+  * It was definitely an interesting experience, but not an enjoyable one, what with me constantly running into obscure ownership and lifetime errors that I was unable to wrap my head around
+  * That created a negative feedback loop where I actively avoided rust for  several months, focusing on other projects, and only returned when I had literally no more excuses to put it off any longer
+  * I think it might be more bearable if you work on it with a team, or maybe you need to be smarter than me
+  * As a result, I have become more tolerant of such things as `NullPointerExceptions`, since I figure the risk that they pose is worth the added programming comfort  that they bring
+  * Bottom line: If I am starting another project, unless it is something where failure has lethal consequences, I am *not* gonna do it in rust, because I am absolutely certain that if I had done this in any other modern programming language, I would have been *so much* faster in achieving the same (or potentially even better) result, and it would have been much more fun too
+  * However, that might also have partly been my fault for choosing rust to write a GUI app
+  * It has to be mentioned, though, that the community was really helpful, and I definitely wouldn't have been able to do it without their help
+  * Anyway, so long, and no thanks for all the `error[E0499]: cannot borrow '*self' as mutable more than once at a time` (<- my absolute favorite error, torpedoing class-design left and right, like, WTF???)
 
 
 
 # Wanted Features
 
-* Tooltip when hovering over Kigou Buttons
-* Search also displays non-primary results
+* [Empty]
 
 
 

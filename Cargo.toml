@@ -1,6 +1,6 @@
 [package]
 name = "kanji_tree"
-version = "2.6.0"
+version = "2.7.0"
 edition = "2021"
 authors = ["Kira Resari <kira.resari@tri-tail.com>"]
 description = "A GUI app for a Kanji Tree"
