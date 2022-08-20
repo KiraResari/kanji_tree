@@ -131,7 +131,7 @@
 			"character": "刑",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 6,
-			"parent_names":["X4-1 Torii", "Katakana Ri"]	
+			"parent_names":["X4-12 Straight Torii", "Katakana Ri"]	
 		},
 		{
 			"name": "Type",
@@ -946,7 +946,7 @@
 			"parent_names":["X5-1 Little Brother", "R3 Dot", "X1-1 Reverse Dot"]	
 		},
 		{
-			"name": "Carapace",
+			"name": "Armor",
 			"character": "甲",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
@@ -957,7 +957,7 @@
 			"character": "里",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 7,
-			"parent_names":["Carapace", "Two"]	
+			"parent_names":["Armor", "Two"]	
 		},
 		{
 			"name": "Black",
@@ -1429,7 +1429,7 @@
 			"parent_names":["R9 Person", "Gentleman"]	
 		},
 		{
-			"name": "Thing",
+			"name": "Matter",
 			"character": "事",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 8,
@@ -2168,7 +2168,7 @@
 			"character": "不",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 7,
-			"parent_names":["One", "Katakana No", "R2 Line", "R3 Dot"]	
+			"parent_names":["One", "X3-8 Upward Arrow"]	
 		},
 		{
 			"name": "Stone",
@@ -2182,7 +2182,7 @@
 			"character": "研",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 9,
-			"parent_names":["Stone", "X4-1 Torii"]	
+			"parent_names":["Stone", "X4-12 Straight Torii"]	
 		},
 		{
 			"name": "Circumference",
@@ -2323,6 +2323,216 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 13,
 			"parent_names":["Sound", "Heart"]	
+		},
+		{
+			"name": "Travel",
+			"character": "旅",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Direction", "X2-6 Slash Dash", "X1-8 Shallow No", "R2 Line", "X2-5 Spur"]	
+		},
+		{
+			"name": "Plan",
+			"character": "計",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Say", "Ten"]	
+		},
+		{
+			"name": "To be",
+			"character": "也",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["R5 Fishhook", "X1-5 Corner Hook", "R2 Line"]	
+		},
+		{
+			"name": "Pond",
+			"character": "池",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["R85 Water", "To be"]	
+		},
+		{
+			"name": "Ocean",
+			"character": "洋",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R85 Water", "Sheep"]	
+		},
+		{
+			"name": "Peace",
+			"character": "和",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R115 Grain", "Mouth"]	
+		},
+		{
+			"name": "Hold",
+			"character": "持",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R64 Hand", "Temple"]	
+		},
+		{
+			"name": "Push",
+			"character": "押",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R64 Hand", "Armor"]	
+		},
+		{
+			"name": "Pull",
+			"character": "引",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 4,
+			"parent_names":["Bow", "R2 Line"]	
+		},
+		{
+			"name": "Paper",
+			"character": "紙",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Thread", "Family Name"]	
+		},
+		{
+			"name": "Clothing",
+			"character": "服",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Moon", "X4-3 Clothes"]	
+		},
+		{
+			"name": "Take",
+			"character": "取",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Ear", "Or"]	
+		},
+		{
+			"name": "Special",
+			"character": "特",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R93 Cow", "Temple"]	
+		},
+		{
+			"name": "Separate",
+			"character": "別",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["Mouth", "R4 Slash", "X1-5 Corner Hook", "Katakana Ri"]	
+		},
+		{
+			"name": "Gather",
+			"character": "集",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["R172 Bird", "Tree"]	
+		},
+		{
+			"name": "Open",
+			"character": "開",
+			"stroke_arrangement": "⿵",
+			"stroke_count": 12,
+			"parent_names":["Gate", "X4-12 Straight Torii"]	
+		},
+		{
+			"name": "Closed",
+			"character": "閉",
+			"stroke_arrangement": "⿵",
+			"stroke_count": 11,
+			"parent_names":["Gate", "Katakana O"]	
+		},
+		{
+			"name": "Station",
+			"character": "駅",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Horse", "Shaku"]	
+		},
+		{
+			"name": "Silver",
+			"character": "銀",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Gold", "Northeast"]	
+		},
+		{
+			"name": "Third",
+			"character": "丙",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["One", "Inside"]	
+		},
+		{
+			"name": "Ill",
+			"character": "病",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 10,
+			"parent_names":["R104 Sickness", "Third"]	
+		},
+		{
+			"name": "Perfect",
+			"character": "完",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 7,
+			"parent_names":["Origin", "R40 Roof"]	
+		},
+		{
+			"name": "Institution",
+			"character": "院",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R170 Village", "Perfect"]	
+		},
+		{
+			"name": "Fortune-Telling",
+			"character": "占",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["X2-11 Sideways T", "Mouth"]	
+		},
+		{
+			"name": "Store",
+			"character": "店",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 8,
+			"parent_names":["R53 Dotted Cliff", "Fortune-Telling"]	
+		},
+		{
+			"name": "Far",
+			"character": "遠",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 13,
+			"parent_names":["R162 Walk", "X10-2 Far"]	
+		},
+		{
+			"name": "Build",
+			"character": "建",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 9,
+			"parent_names":["R54 Long Stride", "R129 Brush"]	
+		},
+		{
+			"name": "Thing",
+			"character": "物",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R93 Cow", "Must Not"]	
+		},
+		{
+			"name": "Location",
+			"character": "場",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Soil", "D Open"]	
+		},
+		{
+			"name": "Mingle",
+			"character": "交",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["R8 Lid", "Father"]	
 		}
 	],
 	"radical":[
@@ -2426,6 +2636,13 @@
 			"parent_names":["One", "X1-7 Bottom Left Corner"]	
 		},
 		{
+			"name": "R26 Seal",
+			"character": "卩",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["R2 Line", "X1-5 Corner Hook"]	
+		},
+		{
 			"name": "R27 Trailing Cliff",
 			"character": "厂",
 			"stroke_arrangement": "⬚",
@@ -2475,6 +2692,13 @@
 			"parent_names":["R27 Trailing Cliff", "R3 Dot"]	
 		},
 		{
+			"name": "R54 Long Stride",
+			"character": "廴",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["X1-13 Top Right Angle", "Katakana Fu", "X1-2 Reverse No"]	
+		},
+		{
 			"name": "R55 Twenty",
 			"character": "廾",
 			"stroke_arrangement": "⬚",
@@ -2501,6 +2725,13 @@
 			"stroke_arrangement": "⿲",
 			"stroke_count": 3,
 			"parent_names":["R2 Line", "R3 Dot", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "R64 Hand",
+			"character": "扌",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["R2 Line", "One", "X1-8 Shallow No"]	
 		},
 		{
 			"name": "R66 Strike",
@@ -2543,6 +2774,20 @@
 			"stroke_arrangement": "⿻",
 			"stroke_count": 4,
 			"parent_names":["X1-1 Reverse Dot", "R3 Dot"]	
+		},
+		{
+			"name": "R93 Cow",
+			"character": "牜",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["X1-1 Reverse Dot", "R64 Hand"]	
+		},
+		{
+			"name": "R104 Sickness",
+			"character": "疒",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["R15 Ice", "R53 Dotted Cliff"]	
 		},
 		{
 			"name": "R105 Footsteps",
@@ -2786,6 +3031,13 @@
 			"parent_names":["R3 Dot"]	
 		},	
 		{
+			"name": "X2-11 Sideways T",
+			"image_name": "2-11 Sideways T.png",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 2,
+			"parent_names":["R2 Line", "One"]	
+		},
+		{
 			"name": "X3-1 Double Lid",
 			"image_name": "3-1 Double Lid.png",
 			"stroke_arrangement": "⬚",
@@ -2814,6 +3066,13 @@
 			"parent_names":["Two", "R2 Line"]	
 		},
 		{
+			"name": "X3-8 Upward Arrow",
+			"image_name": "3-8 Upward Arrow.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["Katakana No", "R2 Line", "R3 Dot"]	
+		},
+		{
 			"name": "X3-10 Triangle Roof",
 			"image_name": "3-10 Triangle Roof.png",
 			"stroke_arrangement": "⬚",
@@ -2825,7 +3084,7 @@
 			"image_name": "4-1 Torii.png",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
-			"parent_names":["Two", "Katakana No", "One"]	
+			"parent_names":["Two", "R4 Slash", "R5 Fishhook"]	
 		},
 		{
 			"name": "X4-2 Red Legs",
@@ -2833,6 +3092,13 @@
 			"stroke_arrangement": "⿻",
 			"stroke_count": 4,
 			"parent_names":["Katakana Ha", "Katakana No", "R6 Hook"]	
+		},
+		{
+			"name": "X4-3 Clothes",
+			"image_name": "4-3 Clothes.png",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 4,
+			"parent_names":["R26 Seal", "Or"]	
 		},
 		{
 			"name": "X4-4 Leg",
@@ -2875,6 +3141,13 @@
 			"stroke_arrangement": "⿻",
 			"stroke_count": 4,
 			"parent_names":["Soil", "Katakana No"]	
+		},
+		{
+			"name": "X4-12 Straight Torii",
+			"image_name": "4-12 Straight Torii.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["Two", "R4 Slash", "R2 Line"]	
 		},
 		{
 			"name": "X5-1 Little Brother",
@@ -2968,6 +3241,13 @@
 			"parent_names":["Stand", "Tree"]	
 		},
 		{
+			"name": "X10-2 Far",
+			"image_name": "10-2 Far.png",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 10,
+			"parent_names":["Soil", "Mouth", "X3-8 Upward Arrow", "X1-1 Reverse Dot"]	
+		},
+		{
 			"name": "X14-1 Weekday",
 			"image_name": "14-1 Weekday.png",
 			"stroke_arrangement": "⿱",
@@ -3035,6 +3315,13 @@
 			"character": "ノ",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 1
+		},
+		{
+			"name": "Katakana O",
+			"character": "オ",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["One", "R6 Hook", "Katakana No"]	
 		},
 		{
 			"name": "Katakana Re",
