@@ -2078,7 +2078,14 @@
   * I was now able to make this work with relative ease
 * Next, I want to try displaying the parents in the order in which they appear in the `kanji.json`
   * I had to replace Robert's sleek iterator logic with a for-loop there, but now it works
-  * 
+* Finally, I want to display the children sorted by stroke count
+  * I wonder if there's a clever way to do that...
+  * I think this here answers my question:
+    * https://rust-lang-nursery.github.io/rust-cookbook/algorithms/sorting.html
+  * If I understand that logic correctly, I can also use it to sort them by type
+  * Looks like this worked, and they are now sorted by count
+  * I already expected this, but looking at the result, I figure what I really want after all is them to be sorted primarily by type and then by stroke count
+  * Fortunately, as I said before, if I understand the logic correctly, I should be able to do that too
 
 
 
@@ -2087,7 +2094,6 @@
 * Tooltip when hovering over Kigou Buttons
 * Search also displays non-primary results
 * Sort children by stroke count
-* Sort parents in same order as in kanji.json
 
 
 

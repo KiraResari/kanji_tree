@@ -13,13 +13,17 @@ impl KigouSource{
 
     pub fn get_children(&self, name: &String)
          -> Vec<Kigou>{
-        self.kigou.iter()
+        let mut children: Vec<Kigou> = self.kigou.iter()
             .filter(
                 |element| element.parent_names.contains(
                     name
                 )
             ).cloned()
-            .collect()
+            .collect();
+        children.sort_by(
+            |a, b| a.stroke_count.cmp(&b.stroke_count)
+        );
+        children
     }
 
     pub fn has_children(&self, name: &String) -> bool{
@@ -373,7 +377,7 @@ mod tests {
     }
 
     #[test]
-    fn get_parents_should_return_parents_in_correct_order(){
+    fn get_parents_should_return_parents_in_same_order_as_in_file(){
         let kanji_source = get_kigou_source_from_test_file(
             "kanji_test_for_parent_order.json"
         );
@@ -382,6 +386,18 @@ mod tests {
 
         let first_parent = parents.remove(0);
         assert_eq!(first_parent.name, "X1-1 Reverse Dot");
+    }
+
+    #[test]
+    fn get_children_should_return_children_in_sorted_by_stroke_count(){
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_for_child_order.json"
+        );
+
+        let mut children = kanji_source.get_children(&"One".to_string());
+
+        let first_child = children.remove(0);
+        assert_eq!(first_child.name, "Two");
     }
 
 }
