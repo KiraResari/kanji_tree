@@ -2086,6 +2086,9 @@
   * Looks like this worked, and they are now sorted by count
   * I already expected this, but looking at the result, I figure what I really want after all is them to be sorted primarily by type and then by stroke count
   * Fortunately, as I said before, if I understand the logic correctly, I should be able to do that too
+    * Okay, so it was a little bit more complicated since I had to work around comparing an enum, but I got it to work in the end
+  * Now the result looks nice
+  * With that, this task is complete
 
 
 
@@ -2093,7 +2096,6 @@
 
 * Tooltip when hovering over Kigou Buttons
 * Search also displays non-primary results
-* Sort children by stroke count
 
 
 

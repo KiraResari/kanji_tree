@@ -5,12 +5,12 @@ use serde::Deserialize;
 
 #[derive(Deserialize, Debug, PartialEq, Clone)]
 pub enum KigouType {
-    Kanji,
-    Radical,
-    XPart,
-    Kana,
-    Dead,
-    Error,
+    Kanji = 0,
+    Radical = 1,
+    XPart = 2,
+    Kana = 3,
+    Dead = 4,
+    Error = 5,
 }
 
 impl fmt::Display for KigouType{

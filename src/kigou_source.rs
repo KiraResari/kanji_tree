@@ -23,6 +23,10 @@ impl KigouSource{
         children.sort_by(
             |a, b| a.stroke_count.cmp(&b.stroke_count)
         );
+        children.sort_by(
+            |a, b|
+            (a.clone().kigou_type as u8).cmp(&(b.clone().kigou_type as u8))
+        );
         children
     }
 
@@ -389,7 +393,7 @@ mod tests {
     }
 
     #[test]
-    fn get_children_should_return_children_in_sorted_by_stroke_count(){
+    fn get_children_should_return_children_sorted_by_stroke_count(){
         let kanji_source = get_kigou_source_from_test_file(
             "kanji_test_for_child_order.json"
         );
@@ -398,6 +402,18 @@ mod tests {
 
         let first_child = children.remove(0);
         assert_eq!(first_child.name, "Two");
+    }
+
+    #[test]
+    fn get_children_should_return_children_sorted_by_type_before_stroke_count(){
+        let kanji_source = get_kigou_source_from_test_file(
+            "kanji_test_for_typed_child_order.json"
+        );
+
+        let mut children = kanji_source.get_children(&"One".to_string());
+
+        let first_child = children.remove(0);
+        assert_eq!(first_child.name, "Three");
     }
 
 }

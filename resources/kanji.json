@@ -166,7 +166,7 @@
 			"character": "皿",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
-			"parent_names":["X1-3 Top Right Corner", "One", "R2 Line"]	
+			"parent_names":["X1-3 Top Right Corner", "R2 Line", "One"]	
 		},
 		{
 			"name": "Blood",
