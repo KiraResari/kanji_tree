@@ -936,7 +936,7 @@
 			"character": "竟",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 11,
-			"parent_names":["Stand", "Big Brother", "One"]	
+			"parent_names":["Sound", "R10 Legs"]	
 		},
 		{
 			"name": "Little Brother",
@@ -1664,7 +1664,7 @@
 			"character": "飲",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 12,
-			"parent_names":["X2-2 Roof", "X4-10 Re Divided Flag", "R3 Dot", "Lack"]	
+			"parent_names":["X5-12 Drink", "Lack"]	
 		},
 		{
 			"name": "Buy",
@@ -2230,7 +2230,7 @@
 			"name": "Week",
 			"character": "週",
 			"stroke_arrangement": "⿺",
-			"stroke_count": 7,
+			"stroke_count": 11,
 			"parent_names":["R162 Walk", "Circumference"]	
 		},
 		{
@@ -2533,6 +2533,76 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 6,
 			"parent_names":["R8 Lid", "Father"]	
+		},
+		{
+			"name": "School",
+			"character": "校",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Tree", "Mingle"]	
+		},
+		{
+			"name": "Room",
+			"character": "室",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["Climax", "R40 Roof"]	
+		},
+		{
+			"name": "Esteem",
+			"character": "尚",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R3 Dot", "R2 Line", "X1-1 Reverse Dot", "X5-7 Box in Box"]	
+		},
+		{
+			"name": "Hall",
+			"character": "堂",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["Esteem", "Soil"]	
+		},
+		{
+			"name": "Map",
+			"character": "図",
+			"stroke_arrangement": "⿴",
+			"stroke_count": 7,
+			"parent_names":["Mouth", "Romaji X", "R3 Dot"]	
+		},
+		{
+			"name": "Bureaucrat",
+			"character": "官",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R40 Roof", "X5-11 Bureaucrat"]	
+		},
+		{
+			"name": "Building",
+			"character": "館",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["X5-12 Drink", "Bureaucrat"]	
+		},
+		{
+			"name": "Near",
+			"character": "近",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 7,
+			"parent_names":["R162 Walk", "Axe"]	
+		},
+		{
+			"name": "Section",
+			"character": "部",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["X8-2 Standing Mouth", "R170 Village"]	
+		},
+		{
+			"name": "Roof",
+			"character": "屋",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 9,
+			"parent_names":["R44 Flag", "Climax"]	
 		}
 	],
 	"radical":[
@@ -3204,7 +3274,21 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 5,
 			"parent_names":["R3 Dot", "R112 Net"]	
-		},
+		},	
+		{
+			"name": "X5-11 Bureaucrat",
+			"image_name": "5-11 Bureaucrat.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["R2 Line", "X1-3 Top Right Corner", "One"]	
+		},	
+		{
+			"name": "X5-12 Drink",
+			"image_name": "5-12 Drink.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["X2-2 Roof", "X4-10 Re Divided Flag", "R3 Dot"]	
+		},	
 		{
 			"name": "X6-1 Stand Box",
 			"image_name": "6-1 Stand Box.png",
@@ -3232,6 +3316,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 7,
 			"parent_names":["One", "Oneself"]	
+		},
+		{
+			"name": "X8-2 Standing Mouth",
+			"image_name": "8-2 Standing Mouth.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["Stand", "Mouth"]	
 		},
 		{
 			"name": "X9-2 Standing Tree",
@@ -3378,7 +3469,7 @@
 			"character": "𠂤",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
-			"parent_names":["X1-3 Top Right Corner", "X1-1 Reverse Dot", "R2 Line", "One"]	
+			"parent_names":["X1-1 Reverse Dot", "X5-11 Bureaucrat"]	
 		},		
 		{
 			"name": "D Think",
