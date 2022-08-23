@@ -404,7 +404,7 @@
 			"character": "臣",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 7,
-			"parent_names":["R22 Box On Side", "R2 Line", "Katakana Ko"]	
+			"parent_names":["Gigantic", "R2 Line"]	
 		},
 		{
 			"name": "Oversee",
@@ -600,7 +600,7 @@
 			"character": "川",
 			"stroke_arrangement": "⿲",
 			"stroke_count": 3,
-			"parent_names":["R4 Slash", "R2 Line"]	
+			"parent_names":["X2-12 Riverbanks", "R2 Line"]	
 		},
 		{
 			"name": "Heart",
@@ -2014,7 +2014,7 @@
 			"character": "高",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 10,
-			"parent_names":["R8 Lid", "Mouth", "X5-7 Box in Box"]	
+			"parent_names":["X5-13 Roofed Mouth", "X5-7 Box in Box"]	
 		},
 		{
 			"name": "Family Name",
@@ -2603,6 +2603,216 @@
 			"stroke_arrangement": "⿸",
 			"stroke_count": 9,
 			"parent_names":["R44 Flag", "Climax"]	
+		},
+		{
+			"name": "Wide",
+			"character": "広",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 5,
+			"parent_names":["R53 Dotted Cliff", "R28 I"]	
+		},
+		{
+			"name": "Ground",
+			"character": "地",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["Soil", "To be"]	
+		},
+		{
+			"name": "East",
+			"character": "東",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 8,
+			"parent_names":["Tree", "Day"]	
+		},
+		{
+			"name": "South",
+			"character": "南",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 9,
+			"parent_names":["Ten", "R13 Upside-Down Box", "R3 Dot", "X1-1 Reverse Dot", "Dry"]	
+		},
+		{
+			"name": "North",
+			"character": "北",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["R2 Line", "One", "X1-8 Shallow No", "Spoon"]	
+		},
+		{
+			"name": "Capital",
+			"character": "京",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["X5-13 Roofed Mouth", "Small"]	
+		},
+		{
+			"name": "Generation",
+			"character": "世",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["X4-13 Narrow Base Twin Cross", "X1-7 Bottom Left Corner"]	
+		},
+		{
+			"name": "Intervention",
+			"character": "介",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["X2-2 Roof", "X2-12 Riverbanks"]	
+		},
+		{
+			"name": "World",
+			"character": "界",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Rice Field", "Intervention"]	
+		},
+		{
+			"name": "Outside",
+			"character": "外",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["Evening", "Katakana To"]	
+		},
+		{
+			"name": "Jewel",
+			"character": "玉",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 5,
+			"parent_names":["King", "R3 Dot"]	
+		},
+		{
+			"name": "Country",
+			"character": "国",
+			"stroke_arrangement": "⿴",
+			"stroke_count": 8,
+			"parent_names":["Mouth", "Jewel"]	
+		},
+		{
+			"name": "Sea",
+			"character": "海",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R85 Water", "Every"]	
+		},
+		{
+			"name": "Metropolis",
+			"character": "都",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Someone", "R170 Village"]	
+		},
+		{
+			"name": "Neck",
+			"character": "首",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["X3-1 Double Lid", "Oneself"]	
+		},
+		{
+			"name": "Road",
+			"character": "道",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 12,
+			"parent_names":["R162 Walk", "Neck"]	
+		},
+		{
+			"name": "Adhere",
+			"character": "付",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["R9 Person", "Measurement"]	
+		},
+		{
+			"name": "Borough",
+			"character": "府",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 8,
+			"parent_names":["R53 Dotted Cliff", "Adhere"]	
+		},
+		{
+			"name": "Prefecture",
+			"character": "県",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 9,
+			"parent_names":["X1-7 Bottom Left Corner", "Eye", "Small"]	
+		},
+		{
+			"name": "Ward",
+			"character": "区",
+			"stroke_arrangement": "⿷",
+			"stroke_count": 4,
+			"parent_names":["R22 Box On Side", "Romaji X"]	
+		},
+		{
+			"name": "Gigantic",
+			"character": "巨",
+			"stroke_arrangement": "⿷",
+			"stroke_count": 5,
+			"parent_names":["R22 Box On Side", "Katakana Ko"]	
+		},
+		{
+			"name": "Town",
+			"character": "町",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["Rice Field", "District"]	
+		},
+		{
+			"name": "Village",
+			"character": "村",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["Tree", "Measurement"]	
+		},
+		{
+			"name": "Dwell",
+			"character": "住",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R9 Person", "Master"]	
+		},
+		{
+			"name": "Door",
+			"character": "戸",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["R44 Flag", "One"]	
+		},
+		{
+			"name": "Place",
+			"character": "所",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Door", "Axe"]	
+		},
+		{
+			"name": "Body",
+			"character": "体",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R9 Person", "Book"]	
+		},
+		{
+			"name": "Head",
+			"character": "頭",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["Beans", "Page"]	
+		},
+		{
+			"name": "Hand",
+			"character": "手",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["X1-8 Shallow No", "Two", "R6 Hook"]	
+		},
+		{
+			"name": "Lad",
+			"character": "彦",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 9,
+			"parent_names":["Stand", "R4 Slash", "R59 Bristle"]	
 		}
 	],
 	"radical":[
@@ -3108,6 +3318,13 @@
 			"parent_names":["R2 Line", "One"]	
 		},
 		{
+			"name": "X2-12 Riverbanks",
+			"image_name": "2-12 Riverbanks.png",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 2,
+			"parent_names":["R4 Slash", "R2 Line"]	
+		},
+		{
 			"name": "X3-1 Double Lid",
 			"image_name": "3-1 Double Lid.png",
 			"stroke_arrangement": "⬚",
@@ -3220,6 +3437,13 @@
 			"parent_names":["Two", "R4 Slash", "R2 Line"]	
 		},
 		{
+			"name": "X4-13 Narrow Base Twin Cross",
+			"image_name": "4-13 Narrow Base Twin Cross.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["One", "R2 Line"]	
+		},
+		{
 			"name": "X5-1 Little Brother",
 			"image_name": "5-1 Little Brother.png",
 			"stroke_arrangement": "⬚",
@@ -3288,6 +3512,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["X2-2 Roof", "X4-10 Re Divided Flag", "R3 Dot"]	
+		},	
+		{
+			"name": "X5-13 Roofed Mouth",
+			"image_name": "5-13 Roofed Mouth.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["R8 Lid", "Mouth"]	
 		},	
 		{
 			"name": "X6-1 Stand Box",
@@ -3433,6 +3664,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["Katakana Fu", "R3 Dot"]	
+		},
+		{
+			"name": "Katakana To",
+			"character": "ト",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["R2 Line", "R3 Dot"]	
 		},
 		{
 			"name": "Katakana Yo",
