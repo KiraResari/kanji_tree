@@ -509,7 +509,7 @@
 			"character": "者",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 8,
-			"parent_names":["X4-11 Soil No", "Day"]	
+			"parent_names":["R125 Old", "Day"]	
 		},
 		{
 			"name": "Inception",
@@ -760,7 +760,7 @@
 			"name": "Curriculum",
 			"character": "歴",
 			"stroke_arrangement": "⿸",
-			"stroke_count": 8,
+			"stroke_count": 14,
 			"parent_names":["R27 Trailing Cliff", "Grove", "Stop"]	
 		},
 		{
@@ -1594,7 +1594,7 @@
 			"character": "年",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
-			"parent_names":["Noon", "One", "R2 Line"]	
+			"parent_names":["X2-6 Slash Dash", "X4-11 Year"]	
 		},
 		{
 			"name": "Evening",
@@ -2217,7 +2217,7 @@
 			"character": "孝",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 7,
-			"parent_names":["X4-11 Soil No", "Child"]	
+			"parent_names":["R125 Old", "Child"]	
 		},
 		{
 			"name": "Asia",
@@ -2553,7 +2553,7 @@
 			"character": "尚",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 8,
-			"parent_names":["R3 Dot", "R2 Line", "X1-1 Reverse Dot", "X5-7 Box in Box"]	
+			"parent_names":["R42 Small", "X5-7 Box in Box"]	
 		},
 		{
 			"name": "Hall",
@@ -2813,6 +2813,216 @@
 			"stroke_arrangement": "⿻",
 			"stroke_count": 9,
 			"parent_names":["Stand", "R4 Slash", "R59 Bristle"]	
+		},
+		{
+			"name": "Face",
+			"character": "顔",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 18,
+			"parent_names":["Lad", "Page"]	
+		},
+		{
+			"name": "Table",
+			"character": "几",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["R4 Slash", "R5 Corner Fishhook"]	
+		},
+		{
+			"name": "Wind",
+			"character": "風",
+			"stroke_arrangement": "⿵",
+			"stroke_count": 9,
+			"parent_names":["Table", "X1-8 Shallow No", "Insect"]	
+		},
+		{
+			"name": "Voice",
+			"character": "声",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["Gentleman", "R44 Flag", "R2 Line"]	
+		},
+		{
+			"name": "Doctor",
+			"character": "医",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R22 Box On Side", "Arrow"]	
+		},
+		{
+			"name": "Medicine",
+			"character": "薬",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 19,
+			"parent_names":["R140 Grass", "Music"]	
+		},
+		{
+			"name": "Meal",
+			"character": "飯",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["X5-12 Drink", "Anti"]	
+		},
+		{
+			"name": "Beforehand",
+			"character": "予",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["Katakana Ma", "X1-13 Top Right Angle", "R6 Hook"]	
+		},
+		{
+			"name": "Plains",
+			"character": "野",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Home Village", "Beforehand"]	
+		},
+		{
+			"name": "Dice",
+			"character": "采",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R87 Claw", "Tree"]	
+		},
+		{
+			"name": "Vegetable",
+			"character": "菜",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["Dice", "R140 Grass"]	
+		},
+		{
+			"name": "Death",
+			"character": "死",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["One", "Evening", "Spoon"]	
+		},
+		{
+			"name": "Ride",
+			"character": "乗",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["X7-3 Ride", "Katakana No", "X1-2 Reverse No"]	
+		},
+		{
+			"name": "Descend",
+			"character": "降",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R170 Village", "D Descend"]	
+		},
+		{
+			"name": "Walk",
+			"character": "歩",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["Stop", "Few"]	
+		},
+		{
+			"name": "Electricity",
+			"character": "電",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Rain", "Day", "R5 Fishhook"]	
+		},
+		{
+			"name": "Impoliteness",
+			"character": "失",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["X1-1 Reverse Dot", "Husband"]	
+		},
+		{
+			"name": "Iron",
+			"character": "鉄",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Gold", "Impoliteness"]	
+		},
+		{
+			"name": "Army",
+			"character": "軍",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["R14 Wa Shaped Crown", "Car"]	
+		},
+		{
+			"name": "Carry",
+			"character": "運",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 12,
+			"parent_names":["R162 Walk", "Army"]	
+		},
+		{
+			"name": "Utilize",
+			"character": "用",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["Moon", "R2 Line"]	
+		},
+		{
+			"name": "Traffic",
+			"character": "通",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 10,
+			"parent_names":["R162 Walk", "D Road"]	
+		},
+		{
+			"name": "Enter",
+			"character": "入",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["Katakana No", "X1-2 Reverse No"]	
+		},
+		{
+			"name": "Exit",
+			"character": "出",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["R17 Receptacle", "Mountain"]	
+		},
+		{
+			"name": "Wear",
+			"character": "着",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 12,
+			"parent_names":["X6-5 Tailless Sheep", "Katakana No", "Eye"]	
+		},
+		{
+			"name": "Hurry",
+			"character": "急",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 9,
+			"parent_names":["X2-4 Wrap Hat", "Katakana Yo", "Heart"]	
+		},
+		{
+			"name": "Turn",
+			"character": "番",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["R165 Topped Rice", "Rice Field"]	
+		},
+		{
+			"name": "Sign",
+			"character": "号",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 5,
+			"parent_names":["Mouth", "One", "X1-11 Zig-Zag"]	
+		},
+		{
+			"name": "Revolve",
+			"character": "回",
+			"stroke_arrangement": "⿴",
+			"stroke_count": 6,
+			"parent_names":["Mouth"]	
+		},
+		{
+			"name": "Though",
+			"character": "乍",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["X2-6 Slash Dash", "R2 Line", "Two"]	
 		}
 	],
 	"radical":[
@@ -2951,6 +3161,20 @@
 			"parent_names":["R3 Dot", "R14 Wa Shaped Crown"]	
 		},
 		{
+			"name": "R42 Small",
+			"character": "⺌",
+			"stroke_arrangement": "⿲",
+			"stroke_count": 3,
+			"parent_names":["R3 Dot", "R2 Line", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "R42 Small Variant",
+			"character": "⺍",
+			"stroke_arrangement": "⿲",
+			"stroke_count": 3,
+			"parent_names":["R3 Dot", "X1-1 Reverse Dot"]	
+		},
+		{
 			"name": "R44 Flag",
 			"character": "尸",
 			"stroke_arrangement": "⬚",
@@ -3056,6 +3280,13 @@
 			"parent_names":["X1-1 Reverse Dot", "R3 Dot"]	
 		},
 		{
+			"name": "R87 Claw",
+			"character": "爫",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["X1-8 Shallow No", "X1-1 Reverse Dot", "R3 Dot"]	
+		},
+		{
 			"name": "R93 Cow",
 			"character": "牜",
 			"stroke_arrangement": "⬚",
@@ -3105,6 +3336,13 @@
 			"parent_names":["X1-1 Reverse Dot", "One", "R3 Dot"]	
 		},
 		{
+			"name": "R125 Old",
+			"character": "耂",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 4,
+			"parent_names":["Soil", "Katakana No"]	
+		},
+		{
 			"name": "R129 Brush",
 			"character": "聿",
 			"stroke_arrangement": "⬚",
@@ -3138,6 +3376,13 @@
 			"stroke_arrangement": "⿻",
 			"stroke_count": 3,
 			"parent_names":["R3 Dot", "X1-9 Three", "X1-10 Wave"]	
+		},
+		{
+			"name": "R165 Topped Rice",
+			"character": "釆",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 7,
+			"parent_names":["Rice", "X1-8 Shallow No"]	
 		},
 		{
 			"name": "R170 Village",
@@ -3423,11 +3668,11 @@
 			"parent_names":["X1-3 Top Right Corner", "One", "Katakana Re"]	
 		},
 		{
-			"name": "X4-11 Soil No",
-			"image_name": "4-11 Soil No.png",
-			"stroke_arrangement": "⿻",
+			"name": "X4-11 Year",
+			"image_name": "4-11 Year.png",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
-			"parent_names":["Soil", "Katakana No"]	
+			"parent_names":["Two", "R2 Line"]	
 		},
 		{
 			"name": "X4-12 Straight Torii",
@@ -3462,7 +3707,7 @@
 			"image_name": "5-3 Three Dot Roof.png",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 5,
-			"parent_names":["R14 Wa Shaped Crown", "R3 Dot", "X1-1 Reverse Dot"]	
+			"parent_names":["R14 Wa Shaped Crown", "R42 Small Variant"]	
 		},
 		{
 			"name": "X5-4 Lying Eye",
@@ -3549,6 +3794,13 @@
 			"parent_names":["One", "Oneself"]	
 		},
 		{
+			"name": "X7-3 Ride",
+			"image_name": "7-3 Ride.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 7,
+			"parent_names":["X1-8 Shallow No", "One", "R2 Line"]	
+		},
+		{
 			"name": "X8-2 Standing Mouth",
 			"image_name": "8-2 Standing Mouth.png",
 			"stroke_arrangement": "⿱",
@@ -3617,6 +3869,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["Katakana No", "Katakana Fu"]	
+		},
+		{
+			"name": "Katakana Ma",
+			"character": "マ",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["X1-13 Top Right Angle", "R3 Dot"]	
 		},
 		{
 			"name": "Katakana Na",
@@ -3736,6 +3995,20 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 5,
 			"parent_names":["Or", "Soil"]	
+		},		
+		{
+			"name": "D Descend",
+			"character": "夅",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["R34 Winter", "X4-11 Year"]	
+		},		
+		{
+			"name": "D Road",
+			"character": "甬",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["Katakana Ma", "Utilize"]	
 		}
 	]
 }
