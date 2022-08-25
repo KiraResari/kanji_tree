@@ -327,7 +327,7 @@
 			"character": "米",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 6,
-			"parent_names":["Tree", "R3 Dot", "X1-1 Reverse Dot"]	
+			"parent_names":["Tree", "R12 Eight Variant"]	
 		},
 		{
 			"name": "Horse",
@@ -922,7 +922,7 @@
 			"character": "金",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 8,
-			"parent_names":["All", "R3 Dot", "X1-1 Reverse Dot"]	
+			"parent_names":["All", "R12 Eight Variant"]	
 		},
 		{
 			"name": "Big Brother",
@@ -943,7 +943,7 @@
 			"character": "弟",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 7,
-			"parent_names":["X5-1 Little Brother", "R3 Dot", "X1-1 Reverse Dot"]	
+			"parent_names":["X5-1 Little Brother", "R12 Eight Variant"]	
 		},
 		{
 			"name": "Armor",
@@ -1139,7 +1139,7 @@
 			"character": "羊",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
-			"parent_names":["Three", "R2 Line", "R3 Dot", "X1-1 Reverse Dot"]	
+			"parent_names":["Three", "R2 Line", "R12 Eight Variant"]	
 		},
 		{
 			"name": "Beauty",
@@ -1237,7 +1237,7 @@
 			"character": "来",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 6,
-			"parent_names":["Not yet", "R3 Dot", "X1-1 Reverse Dot"]	
+			"parent_names":["Not yet", "R12 Eight Variant"]	
 		},
 		{
 			"name": "Pedestal",
@@ -1272,7 +1272,7 @@
 			"character": "走",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 7,
-			"parent_names":["Soil", "Person", "R2 Line", "One"]	
+			"parent_names":["Soil", "Person", "X2-11 Sideways T"]	
 		},
 		{
 			"name": "Self",
@@ -1545,7 +1545,7 @@
 			"character": "半",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 5,
-			"parent_names":["X3-7 Vertical Ki", "R3 Dot", "X1-1 Reverse Dot"]	
+			"parent_names":["X3-7 Vertical Ki", "R12 Eight Variant"]	
 		},
 		{
 			"name": "Morning",
@@ -3023,6 +3023,146 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["X2-6 Slash Dash", "R2 Line", "Two"]	
+		},
+		{
+			"name": "Make",
+			"character": "作",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R9 Person", "Though"]	
+		},
+		{
+			"name": "Officer",
+			"character": "吏",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["One", "History"]	
+		},
+		{
+			"name": "Use",
+			"character": "使",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R9 Person", "Officer"]	
+		},
+		{
+			"name": "Consider",
+			"character": "考",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 6,
+			"parent_names":["R125 Old", "X1-8 Shallow No", "X1-11 Zig-Zag"]	
+		},
+		{
+			"name": "Think",
+			"character": "思",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 9,
+			"parent_names":["Rice Field", "Heart"]	
+		},
+		{
+			"name": "Know",
+			"character": "知",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Arrow", "Mouth"]	
+		},
+		{
+			"name": "Business",
+			"character": "業",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 13,
+			"parent_names":["5-14 Four Dot Lid", "Sheep", "Katakana No", "X1-2 Reverse No"]	
+		},
+		{
+			"name": "Topic",
+			"character": "題",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 18,
+			"parent_names":["Day", "D Head", "Page"]	
+		},
+		{
+			"name": "Verification",
+			"character": "験",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 18,
+			"parent_names":["Horse", "X8-3 Sword"]	
+		},
+		{
+			"name": "Dipper",
+			"character": "斗",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 4,
+			"parent_names":["R3 Dot", "R2 Line", "X1-8 Shallow No"]	
+		},
+		{
+			"name": "Fee",
+			"character": "料",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Rice", "Dipper"]	
+		},
+		{
+			"name": "Logic",
+			"character": "理",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["King", "Home Village"]	
+		},
+		{
+			"name": "Goods",
+			"character": "品",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Mouth"]	
+		},
+		{
+			"name": "Flavor",
+			"character": "味",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Mouth", "Not yet"]	
+		},
+		{
+			"name": "Empty",
+			"character": "空",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["X5-10 Roofed Legs", "Craft"]	
+		},
+		{
+			"name": "Because",
+			"character": "以",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 5,
+			"parent_names":["R2 Line", "X1-8 Shallow No", "R3 Dot", "Person"]	
+		},
+		{
+			"name": "Opinion",
+			"character": "説",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Say", "R12 Eight Variant", "Big Brother"]	
+		},
+		{
+			"name": "Yesterday",
+			"character": "昨",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Day", "Though"]	
+		},
+		{
+			"name": "Sign of the Monkey",
+			"character": "申",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["Day", "R2 Line"]	
+		},
+		{
+			"name": "Gods",
+			"character": "神",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Sign of the Monkey", "R113 Cult"]	
 		}
 	],
 	"radical":[
@@ -3082,6 +3222,13 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 2,
 			"parent_names":["Katakana No", "R5 Fishhook"]	
+		},
+		{
+			"name": "R12 Eight Variant",
+			"character": "丷",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 2,
+			"parent_names":["R3 Dot", "X1-1 Reverse Dot"]	
 		},
 		{
 			"name": "R13 Upside-Down Box",
@@ -3165,14 +3312,14 @@
 			"character": "⺌",
 			"stroke_arrangement": "⿲",
 			"stroke_count": 3,
-			"parent_names":["R3 Dot", "R2 Line", "X1-1 Reverse Dot"]	
+			"parent_names":["R12 Eight Variant", "R2 Line"]	
 		},
 		{
 			"name": "R42 Small Variant",
 			"character": "⺍",
 			"stroke_arrangement": "⿲",
 			"stroke_count": 3,
-			"parent_names":["R3 Dot", "X1-1 Reverse Dot"]	
+			"parent_names":["R12 Eight Variant", "R3 Dot"]	
 		},
 		{
 			"name": "R44 Flag",
@@ -3574,7 +3721,7 @@
 			"image_name": "3-1 Double Lid.png",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
-			"parent_names":["R3 Dot", "X1-1 Reverse Dot", "One"]	
+			"parent_names":["R12 Eight Variant", "One"]	
 		},
 		{
 			"name": "X3-2 Strikethrough Ko",
@@ -3766,6 +3913,13 @@
 			"parent_names":["R8 Lid", "Mouth"]	
 		},	
 		{
+			"name": "5-14 Four Dot Lid",
+			"image_name": "5-14 Four Dot Lid.png",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 5,
+			"parent_names":["One", "R12 Eight Variant", "R2 Line"]	
+		},
+		{
 			"name": "X6-1 Stand Box",
 			"image_name": "6-1 Stand Box.png",
 			"stroke_arrangement": "⬚",
@@ -3777,7 +3931,7 @@
 			"image_name": "6-5 Tailless Sheep.png",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
-			"parent_names":["Three", "R2 Line", "R3 Dot", "X1-1 Reverse Dot"]	
+			"parent_names":["R12 Eight Variant", "Three", "R2 Line"]	
 		},
 		{
 			"name": "X6-6 Roofed Wherefore",
@@ -3806,6 +3960,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 8,
 			"parent_names":["Stand", "Mouth"]	
+		},
+		{
+			"name": "X8-3 Sword",
+			"image_name": "8-3 Sword.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["X3-10 Triangle Roof", "Person", "Mouth"]	
 		},
 		{
 			"name": "X9-2 Standing Tree",
@@ -3980,7 +4141,7 @@
 			"character": "关",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 6,
-			"parent_names":["R3 Dot", "X1-1 Reverse Dot", "Heavens"]	
+			"parent_names":["R12 Eight Variant", "Heavens"]	
 		},		
 		{
 			"name": "D Broom",
@@ -4009,6 +4170,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 7,
 			"parent_names":["Katakana Ma", "Utilize"]	
+		},		
+		{
+			"name": "D Head",
+			"character": "疋",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["One", "X2-11 Sideways T", "Person"]	
 		}
 	]
 }
