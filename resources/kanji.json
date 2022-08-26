@@ -187,7 +187,7 @@
 			"character": "烏",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 10,
-			"parent_names":["X1-1 Reverse Dot", "X1-3 Top Right Corner", "R2 Line", "One", "R86 Legs"]	
+			"parent_names":["X1-1 Reverse Dot", "X1-3 Top Right Corner", "R2 Line", "One", "R86 Four Legs"]	
 		},
 		{
 			"name": "Bird",
@@ -334,7 +334,7 @@
 			"character": "馬",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 10,
-			"parent_names":["R2 Line", "One", "X1-5 Corner Hook", "R86 Legs"]	
+			"parent_names":["R2 Line", "One", "X1-5 Corner Hook", "R86 Four Legs"]	
 		},
 		{
 			"name": "Stop-Over",
@@ -964,7 +964,7 @@
 			"character": "黒",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 11,
-			"parent_names":["Home Village", "R86 Legs"]	
+			"parent_names":["Home Village", "R86 Four Legs"]	
 		},
 		{
 			"name": "Red",
@@ -1762,7 +1762,7 @@
 			"character": "魚",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 11,
-			"parent_names":["X2-4 Wrap Hat", "Rice Field", "R86 Legs"]	
+			"parent_names":["X2-4 Wrap Hat", "Rice Field", "R86 Four Legs"]	
 		},
 		{
 			"name": "Sound",
@@ -2924,7 +2924,7 @@
 			"character": "電",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 13,
-			"parent_names":["Rain", "Day", "R5 Fishhook"]	
+			"parent_names":["Rain", "X5-15 Dragon"]	
 		},
 		{
 			"name": "Impoliteness",
@@ -3071,7 +3071,7 @@
 			"character": "業",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 13,
-			"parent_names":["5-14 Four Dot Lid", "Sheep", "Katakana No", "X1-2 Reverse No"]	
+			"parent_names":["X5-14 Four Dot Lid", "Sheep", "Katakana No", "X1-2 Reverse No"]	
 		},
 		{
 			"name": "Topic",
@@ -3163,6 +3163,216 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 9,
 			"parent_names":["Sign of the Monkey", "R113 Cult"]	
+		},
+		{
+			"name": "Claw",
+			"character": "爪",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["X1-8 Shallow No", "R4 Slash", "R2 Line", "X1-14 Reverse Slash"]	
+		},
+		{
+			"name": "Melon",
+			"character": "瓜",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["Claw", "X1-8 Shallow No", "R3 Dot"]	
+		},
+		{
+			"name": "Fox",
+			"character": "狐",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R94 Dog", "Melon"]	
+		},
+		{
+			"name": "Seedling",
+			"character": "苗",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R140 Grass", "Rice Field"]	
+		},
+		{
+			"name": "Cat",
+			"character": "猫",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R94 Dog", "Seedling"]	
+		},
+		{
+			"name": "Tanuki",
+			"character": "狸",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R94 Dog", "Home Village"]	
+		},
+		{
+			"name": "Fabulous Mythical Bird",
+			"character": "鸞",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 30,
+			"parent_names":["Thread", "Say", "Bird"]	
+		},
+		{
+			"name": "Many Horses",
+			"character": "驫",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 30,
+			"parent_names":["Horse"]	
+		},
+		{
+			"name": "Fragrant",
+			"character": "匂",
+			"stroke_arrangement": "⿹",
+			"stroke_count": 4,
+			"parent_names":["R20 Wrap", "Spoon"]	
+		},
+		{
+			"name": "Duck",
+			"character": "鴨",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["Armor", "Bird"]	
+		},
+		{
+			"name": "Chicken",
+			"character": "鶏",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 19,
+			"parent_names":["RX Closed Claw", "Husband", "Bird"]	
+		},
+		{
+			"name": "Pig",
+			"character": "豚",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Moon", "R152 Pig"]	
+		},
+		{
+			"name": "High",
+			"character": "尭",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 8,
+			"parent_names":["Ten","R140 Grass", "Lofty"]	
+		},
+		{
+			"name": "Bake",
+			"character": "焼",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Fire", "High"]	
+		},
+		{
+			"name": "Conceal",
+			"character": "隠",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["R170 Village", "RX Closed Claw", "Katakana Yo", "Heart"]	
+		},
+		{
+			"name": "People",
+			"character": "民",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 4,
+			"parent_names":["X3-11 Re Flag", "X2-8 Piling Cross"]	
+		},
+		{
+			"name": "Hit",
+			"character": "当",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["R42 Small", "Katakana Yo"]	
+		},
+		{
+			"name": "Together",
+			"character": "共",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["X4-6 Twin Cross", "Katakana Ha"]	
+		},
+		{
+			"name": "Submit",
+			"character": "供",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R9 Person", "Together"]	
+		},
+		{
+			"name": "Old Times",
+			"character": "旧",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["R2 Line", "Day"]	
+		},
+		{
+			"name": "Rice Plant",
+			"character": "稲",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["R115 Grain", "RX Closed Claw", "Old Times"]	
+		},
+		{
+			"name": "Baggage",
+			"character": "荷",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["R140 Grass", "What"]	
+		},
+		{
+			"name": "Need",
+			"character": "要",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["R146 West", "Woman"]	
+		},
+		{
+			"name": "Place on the Head",
+			"character": "頂",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["District", "Page"]	
+		},
+		{
+			"name": "Spot",
+			"character": "点",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Fortune-Telling", "R86 Four Legs"]	
+		},
+		{
+			"name": "Limit",
+			"character": "限",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R170 Village", "Northeast"]	
+		},
+		{
+			"name": "Public",
+			"character": "公",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["Eight", "R28 I"]	
+		},
+		{
+			"name": "Pine Tree",
+			"character": "松",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Tree", "Public"]	
+		},
+		{
+			"name": "Bowl",
+			"character": "丼",
+			"stroke_arrangement": "⿴",
+			"stroke_count": 5,
+			"parent_names":["Well", "R3 Dot"]	
+		},
+		{
+			"name": "Convex",
+			"character": "凸",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["X1-3 Top Right Corner", "One", "R2 Line", "R17 Receptacle"]	
 		}
 	],
 	"radical":[
@@ -3420,7 +3630,7 @@
 			"parent_names":["R3 Dot", "R6 Hook", "X1-1 Reverse Dot"]	
 		},
 		{
-			"name": "R86 Legs",
+			"name": "R86 Four Legs",
 			"character": "灬",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 4,
@@ -3439,6 +3649,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["X1-1 Reverse Dot", "R64 Hand"]	
+		},
+		{
+			"name": "R94 Dog",
+			"character": "犭",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["X1-12 Round Hook", "X1-1 Reverse Dot"]	
 		},
 		{
 			"name": "R104 Sickness",
@@ -3511,6 +3728,13 @@
 			"parent_names":["Katakana Ne", "X1-1 Reverse Dot"]	
 		},
 		{
+			"name": "R146 West",
+			"character": "覀",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["One", "R2 Line", "Mouth"]	
+		},
+		{
 			"name": "R152 Pig",
 			"character": "豕",
 			"stroke_arrangement": "⬚",
@@ -3551,6 +3775,13 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 3,
 			"parent_names":["R15 Ice", "R2 Line"]	
+		},
+		{
+			"name": "RX Closed Claw",
+			"character": "⺤",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 3,
+			"parent_names":["X1-8 Shallow No", "R42 Small Variant"]	
 		}
 	],
 	"x_part":[
@@ -3629,6 +3860,12 @@
 		{
 			"name": "X1-13 Top Right Angle",
 			"image_name": "1-13 Top Right Angle.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 1
+		},
+		{
+			"name": "X1-14 Reverse Slash",
+			"image_name": "1-14 Reverse Slash.png",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
@@ -3755,8 +3992,15 @@
 			"name": "X3-10 Triangle Roof",
 			"image_name": "3-10 Triangle Roof.png",
 			"stroke_arrangement": "⬚",
-			"stroke_count": 2,
+			"stroke_count": 3,
 			"parent_names":["X2-2 Roof", "One"]	
+		},
+		{
+			"name": "X3-11 Re Flag",
+			"image_name": "3-11 Re Flag.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["X1-3 Top Right Corner", "One", "Katakana Re"]	
 		},
 		{
 			"name": "X4-1 Torii",
@@ -3812,7 +4056,7 @@
 			"image_name": "4-10 Re Divided Flag.png",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
-			"parent_names":["X1-3 Top Right Corner", "One", "Katakana Re"]	
+			"parent_names":["X3-11 Re Flag", "One"]	
 		},
 		{
 			"name": "X4-11 Year",
@@ -3913,11 +4157,18 @@
 			"parent_names":["R8 Lid", "Mouth"]	
 		},	
 		{
-			"name": "5-14 Four Dot Lid",
+			"name": "X5-14 Four Dot Lid",
 			"image_name": "5-14 Four Dot Lid.png",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 5,
 			"parent_names":["One", "R12 Eight Variant", "R2 Line"]	
+		},
+		{
+			"name": "X5-15 Dragon",
+			"image_name": "5-15 Dragon.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["Day", "R5 Fishhook"]	
 		},
 		{
 			"name": "X6-1 Stand Box",
