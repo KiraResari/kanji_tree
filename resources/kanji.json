@@ -187,7 +187,7 @@
 			"character": "烏",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 10,
-			"parent_names":["X1-1 Reverse Dot", "X1-3 Top Right Corner", "R2 Line", "One", "R86 Four Legs"]	
+			"parent_names":["X6-7 Crow", "R86 Four Legs"]	
 		},
 		{
 			"name": "Bird",
@@ -495,7 +495,7 @@
 			"character": "小",
 			"stroke_arrangement": "⿲",
 			"stroke_count": 3,
-			"parent_names":["Katakana Ha", "R6 Hook"]	
+			"parent_names":["Katakana Ha", "R6 Feathered Stick"]	
 		},
 		{
 			"name": "Thread",
@@ -579,7 +579,7 @@
 			"character": "了",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 2,
-			"parent_names":["Katakana Fu", "R6 Hook"]	
+			"parent_names":["Katakana Fu", "R6 Feathered Stick"]	
 		},
 		{
 			"name": "Child",
@@ -880,7 +880,7 @@
 			"character": "寸",
 			"stroke_arrangement": "⿹",
 			"stroke_count": 3,
-			"parent_names":["One", "R6 Hook", "R3 Dot"]	
+			"parent_names":["One", "R6 Feathered Stick", "R3 Dot"]	
 		},
 		{
 			"name": "Temple",
@@ -911,7 +911,7 @@
 			"parent_names":["R115 Grain", "Heavy"]	
 		},
 		{
-			"name": "All",
+			"name": "Whole",
 			"character": "全",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 6,
@@ -922,7 +922,7 @@
 			"character": "金",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 8,
-			"parent_names":["All", "R12 Eight Variant"]	
+			"parent_names":["Whole", "R12 Eight Variant"]	
 		},
 		{
 			"name": "Big Brother",
@@ -1118,7 +1118,7 @@
 			"character": "水",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 4,
-			"parent_names":["Katakana Fu", "R6 Hook", "X2-5 Spur"]	
+			"parent_names":["Katakana Fu", "R6 Feathered Stick", "X2-5 Spur"]	
 		},
 		{
 			"name": "Father",
@@ -1223,7 +1223,7 @@
 			"character": "丁",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 2,
-			"parent_names":["One", "R6 Hook"]	
+			"parent_names":["One", "R6 Feathered Stick"]	
 		},
 		{
 			"name": "Go",
@@ -1433,7 +1433,7 @@
 			"character": "事",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 8,
-			"parent_names":["One", "R6 Hook", "Mouth", "X3-2 Strikethrough Ko"]	
+			"parent_names":["One", "R6 Feathered Stick", "Mouth", "X3-2 Strikethrough Ko"]	
 		},
 		{
 			"name": "Life",
@@ -1699,7 +1699,7 @@
 			"character": "可",
 			"stroke_arrangement": "⿹",
 			"stroke_count": 5,
-			"parent_names":["One", "R6 Hook"]	
+			"parent_names":["One", "R6 Feathered Stick"]	
 		},
 		{
 			"name": "What",
@@ -2399,7 +2399,7 @@
 			"character": "服",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 8,
-			"parent_names":["Moon", "X4-3 Clothes"]	
+			"parent_names":["Moon", "X4-3 News"]	
 		},
 		{
 			"name": "Take",
@@ -2805,7 +2805,7 @@
 			"character": "手",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
-			"parent_names":["X1-8 Shallow No", "Two", "R6 Hook"]	
+			"parent_names":["X1-8 Shallow No", "Two", "R6 Feathered Stick"]	
 		},
 		{
 			"name": "Lad",
@@ -2868,7 +2868,7 @@
 			"character": "予",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 4,
-			"parent_names":["Katakana Ma", "X1-13 Top Right Angle", "R6 Hook"]	
+			"parent_names":["Katakana Ma", "X1-13 Top Right Angle", "R6 Feathered Stick"]	
 		},
 		{
 			"name": "Plains",
@@ -3373,6 +3373,356 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["X1-3 Top Right Corner", "One", "R2 Line", "R17 Receptacle"]	
+		},
+		{
+			"name": "Concave",
+			"character": "凹",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["X1-3 Top Right Corner", "One", "R2 Line", "R17 Receptacle"]	
+		},
+		{
+			"name": "Bend",
+			"character": "曲",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["Day", "R2 Line"]	
+		},
+		{
+			"name": "Island",
+			"character": "島",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 10,
+			"parent_names":["X6-7 Crow", "One", "Mountain"]	
+		},
+		{
+			"name": "Ray",
+			"character": "光",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["Lofty", "R42 Small"]	
+		},
+		{
+			"name": "Ability",
+			"character": "能",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R28 I", "Moon", "Spoon"]	
+		},
+		{
+			"name": "Sex",
+			"character": "性",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R61 Heart", "Life"]	
+		},
+		{
+			"name": "Moreover",
+			"character": "且",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["R2 Line", "X1-3 Top Right Corner", "Three"]	
+		},
+		{
+			"name": "Help",
+			"character": "助",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["Moreover", "Strength"]	
+		},
+		{
+			"name": "First Time",
+			"character": "初",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R145 Clothes", "Sword"]	
+		},
+		{
+			"name": "Most",
+			"character": "最",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["Day", "Ear", "Or"]	
+		},
+		{
+			"name": "Bring up",
+			"character": "育",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["X4-14 Dotted Overscore I", "Moon"]	
+		},
+		{
+			"name": "Un",
+			"character": "非",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["X2-12 Riverbanks", "One", "X1-8 Shallow No"]	
+		},
+		{
+			"name": "Sad",
+			"character": "悲",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["Un", "Heart"]	
+		},
+		{
+			"name": "Headland",
+			"character": "岬",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Mountain", "Armor"]	
+		},
+		{
+			"name": "Both",
+			"character": "両",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["Romaji T", "R13 Upside-Down Box", "R17 Receptacle"]	
+		},
+		{
+			"name": "Mask",
+			"character": "面",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 9,
+			"parent_names":["One", "X1-1 Reverse Dot", "Mouth", "R2 Line"]	
+		},
+		{
+			"name": "Fate",
+			"character": "命",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["X3-10 Triangle Roof", "Mouth", "R26 Seal"]	
+		},
+		{
+			"name": "Show",
+			"character": "示",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["Two", "Small"]	
+		},
+		{
+			"name": "Festival",
+			"character": "祭",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 11,
+			"parent_names":["X4-15 Double Ta", "X1-2 Reverse No", "X1-13 Top Right Angle", "Show"]	
+		},
+		{
+			"name": "Guess",
+			"character": "察",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 14,
+			"parent_names":["R40 Roof", "Festival"]	
+		},
+		{
+			"name": "Branch",
+			"character": "支",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["Ten", "Or"]	
+		},
+		{
+			"name": "Compare",
+			"character": "比",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 4,
+			"parent_names":["Katakana Re", "One", "Spoon"]	
+		},
+		{
+			"name": "All",
+			"character": "皆",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["White", "Compare"]	
+		},
+		{
+			"name": "Opposite",
+			"character": "対",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R8 Lid", "Romaji X", "Measurement"]	
+		},
+		{
+			"name": "Rank",
+			"character": "位",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R9 Person", "Stand"]	
+		},
+		{
+			"name": "Reality",
+			"character": "実",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R40 Roof", "Person", "Three"]	
+		},
+		{
+			"name": "Determine",
+			"character": "定",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R40 Roof", "D Head"]	
+		},
+		{
+			"name": "Pillow",
+			"character": "枕",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Tree", "R43 Lame"]	
+		},
+		{
+			"name": "Hill",
+			"character": "丘",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["Axe", "One"]	
+		},
+		{
+			"name": "Soldier",
+			"character": "兵",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["Hill", "Katakana Ha"]	
+		},
+		{
+			"name": "Beach",
+			"character": "浜",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R85 Water", "Soldier"]	
+		},
+		{
+			"name": "Politics",
+			"character": "政",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Correct", "R66 Strike"]	
+		},
+		{
+			"name": "Amazed",
+			"character": "呆",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["Mouth", "Tree"]	
+		},
+		{
+			"name": "Protect",
+			"character": "保",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R9 Person", "Amazed"]	
+		},
+		{
+			"name": "Surface",
+			"character": "表",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["X4-5 Double Cross", "X4-16 Clothes"]	
+		},
+		{
+			"name": "Mutual",
+			"character": "相",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Tree", "Eye"]	
+		},
+		{
+			"name": "Deceased",
+			"character": "亡",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 3,
+			"parent_names":["R8 Lid", "X1-15 Bottom Left Curve"]	
+		},
+		{
+			"name": "Pampas Grass",
+			"character": "芒",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["R140 Grass", "Deceased"]	
+		},
+		{
+			"name": "Rough",
+			"character": "荒",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Pampas Grass", "X3-12 Twisting River"]	
+		},
+		{
+			"name": "Flag",
+			"character": "幡",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["Towel", "Turn"]	
+		},
+		{
+			"name": "Carefree",
+			"character": "呑",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["X1-8 Shallow No", "Katakana No", "One", "X1-2 Reverse No", "Mouth"]	
+		},
+		{
+			"name": "Boasting",
+			"character": "喬",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["Carefree", "X5-7 Box in Box"]	
+		},
+		{
+			"name": "Bridge",
+			"character": "橋",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["Tree", "Boasting"]	
+		},
+		{
+			"name": "Bamboo",
+			"character": "竹",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["X2-6 Slash Dash", "R2 Line", "R6 Feathered Stick"]	
+		},
+		{
+			"name": "Orders",
+			"character": "令",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["X3-10 Triangle Roof", "X1-5 Corner Hook", "R2 Line"]	
+		},
+		{
+			"name": "Cool",
+			"character": "冷",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R15 Ice", "Orders"]	
+		},
+		{
+			"name": "Astringent",
+			"character": "渋",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R85 Water", "Stop", "X4-17 Four Dots"]	
+		},
+		{
+			"name": "Recommend",
+			"character": "勧",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["X2-6 Slash Dash", "One", "R172 Bird", "Strength"]	
+		},
+		{
+			"name": "Boulder",
+			"character": "岩",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["Mountain", "Stone"]	
+		},
+		{
+			"name": "Guard",
+			"character": "守",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["R40 Roof", "Measurement"]	
 		}
 	],
 	"radical":[
@@ -3407,7 +3757,7 @@
 			"stroke_count": 1
 		},
 		{
-			"name": "R6 Hook",
+			"name": "R6 Feathered Stick",
 			"character": "亅",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 1
@@ -3532,6 +3882,13 @@
 			"parent_names":["R12 Eight Variant", "R3 Dot"]	
 		},
 		{
+			"name": "R43 Lame",
+			"character": "尢",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["One", "Katakana No", "R5 Fishhook"]	
+		},
+		{
 			"name": "R44 Flag",
 			"character": "尸",
 			"stroke_arrangement": "⬚",
@@ -3627,7 +3984,7 @@
 			"character": "氺",
 			"stroke_arrangement": "⿲",
 			"stroke_count": 5,
-			"parent_names":["R3 Dot", "R6 Hook", "X1-1 Reverse Dot"]	
+			"parent_names":["X4-17 Four Dots", "R6 Feathered Stick"]	
 		},
 		{
 			"name": "R86 Four Legs",
@@ -3760,7 +4117,7 @@
 			"character": "阝",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
-			"parent_names":["R2 Line", "Katakana Fu", "R6 Hook"]	
+			"parent_names":["R2 Line", "Katakana Fu", "R6 Feathered Stick"]	
 		},
 		{
 			"name": "R172 Bird",
@@ -3866,6 +4223,12 @@
 		{
 			"name": "X1-14 Reverse Slash",
 			"image_name": "1-14 Reverse Slash.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 1
+		},
+		{
+			"name": "X1-15 Bottom Left Curve",
+			"image_name": "1-15 Bottom Left Curve.png",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
@@ -4003,6 +4366,13 @@
 			"parent_names":["X1-3 Top Right Corner", "One", "Katakana Re"]	
 		},
 		{
+			"name": "X3-12 Twisting River",
+			"image_name": "3-12 Twisting River.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["R4 Slash", "R2 Line", "R5 Fishhook"]	
+		},
+		{
 			"name": "X4-1 Torii",
 			"image_name": "4-1 Torii.png",
 			"stroke_arrangement": "⬚",
@@ -4014,11 +4384,11 @@
 			"image_name": "4-2 Red Legs.png",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 4,
-			"parent_names":["Katakana Ha", "Katakana No", "R6 Hook"]	
+			"parent_names":["Katakana Ha", "Katakana No", "R6 Feathered Stick"]	
 		},
 		{
-			"name": "X4-3 Clothes",
-			"image_name": "4-3 Clothes.png",
+			"name": "X4-3 News",
+			"image_name": "4-3 News.png",
 			"stroke_arrangement": "⿸",
 			"stroke_count": 4,
 			"parent_names":["R26 Seal", "Or"]	
@@ -4078,6 +4448,34 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["One", "R2 Line"]	
+		},
+		{
+			"name": "X4-14 Dotted Overscore I",
+			"image_name": "4-14 Dotted Overscore I.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["X3-6 Overscore I", "R3 Dot"]	
+		},
+		{
+			"name": "X4-16 Clothes",
+			"image_name": "4-16 Clothes.png",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 4,
+			"parent_names":["Katakana No", "Katakana Re", "X2-5 Spur"]	
+		},
+		{
+			"name": "X4-17 Four Dots",
+			"image_name": "4-17 Four Dots.png",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 4,
+			"parent_names":["R3 Dot", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "X4-15 Double Ta",
+			"image_name": "4-15 Double Ta.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["Evening", "R3 Dot"]	
 		},
 		{
 			"name": "X5-1 Little Brother",
@@ -4190,6 +4588,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
 			"parent_names":["One", "Wherefore"]	
+		},
+		{
+			"name": "X6-7 Crow",
+			"image_name": "6-7 Crow.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["X1-1 Reverse Dot", "X1-3 Top Right Corner", "R2 Line", "One", "X1-5 Corner Hook"]	
 		},
 		{
 			"name": "X7-1 Roofed Self",
@@ -4314,7 +4719,7 @@
 			"character": "オ",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
-			"parent_names":["One", "R6 Hook", "Katakana No"]	
+			"parent_names":["One", "R6 Feathered Stick", "Katakana No"]	
 		},
 		{
 			"name": "Katakana Re",
