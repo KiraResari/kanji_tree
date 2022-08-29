@@ -523,7 +523,7 @@
 			"character": "豆",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 7,
-			"parent_names":["One", "Mouth", "X3-1 Double Lid"]	
+			"parent_names":["X4-19 Overscore Mouth", "X3-1 Double Lid"]	
 		},
 		{
 			"name": "Ascend",
@@ -2224,7 +2224,7 @@
 			"character": "亜",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 7,
-			"parent_names":["Two", "R2 Line", "Mouth"]	
+			"parent_names":["X4-18 Connected Two", "Mouth"]	
 		},
 		{
 			"name": "Week",
@@ -3484,7 +3484,7 @@
 			"character": "面",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 9,
-			"parent_names":["One", "X1-1 Reverse Dot", "Mouth", "R2 Line"]	
+			"parent_names":["X4-19 Overscore Mouth", "X1-1 Reverse Dot", "R2 Line"]	
 		},
 		{
 			"name": "Fate",
@@ -3723,6 +3723,216 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 6,
 			"parent_names":["R40 Roof", "Measurement"]	
+		},
+		{
+			"name": "Party",
+			"character": "党",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["Esteem", "R10 Legs"]	
+		},
+		{
+			"name": "Reign",
+			"character": "治",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R85 Water", "Pedestal"]	
+		},
+		{
+			"name": "Evidence",
+			"character": "証",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Say", "Correct"]	
+		},
+		{
+			"name": "Mutually",
+			"character": "互",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["One", "R58 Pig Head"]	
+		},
+		{
+			"name": "Row",
+			"character": "並",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 8,
+			"parent_names":["R12 Eight Variant", "X4-18 Connected Two"]	
+		},
+		{
+			"name": "Universal",
+			"character": "普",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["Row", "Day"]	
+		},
+		{
+			"name": "Valley",
+			"character": "谷",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 7,
+			"parent_names":["Katakana Ha", "X2-2 Roof", "Mouth"]	
+		},
+		{
+			"name": "File",
+			"character": "列",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["R78 Death", "Katakana Ri"]	
+		},
+		{
+			"name": "Tooth",
+			"character": "歯",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 12,
+			"parent_names":["Stop", "R17 Receptacle", "Rice"]	
+		},
+		{
+			"name": "Next",
+			"character": "次",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["R15 Ice", "Lack"]	
+		},
+		{
+			"name": "Egg",
+			"character": "卵",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 7,
+			"parent_names":["X1-8 Shallow No", "Katakana Re", "R4 Slash", "R3 Dot", "R26 Seal"]	
+		},
+		{
+			"name": "Tower",
+			"character": "塔",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Soil", "D Adzuki Beans"]	
+		},
+		{
+			"name": "Fur",
+			"character": "毛",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["R59 Bristle", "R5 Fishhook"]	
+		},
+		{
+			"name": "Park",
+			"character": "園",
+			"stroke_arrangement": "⿴",
+			"stroke_count": 13,
+			"parent_names":["Mouth", "X10-2 Far"]	
+		},
+		{
+			"name": "Ladle",
+			"character": "勺",
+			"stroke_arrangement": "⿹",
+			"stroke_count": 3,
+			"parent_names":["R20 Wrap", "R3 Dot"]	
+		},
+		{
+			"name": "Fishing",
+			"character": "釣",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Gold", "Ladle"]	
+		},
+		{
+			"name": "Descendants",
+			"character": "昆",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["Day", "Compare"]	
+		},
+		{
+			"name": "Mandala",
+			"character": "曼",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 11,
+			"parent_names":["Day", "X5-4 Lying Eye", "Or"]	
+		},
+		{
+			"name": "Cartoon",
+			"character": "漫",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["R85 Water", "Mandala"]	
+		},
+		{
+			"name": "Leaf",
+			"character": "葉",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 12,
+			"parent_names":["R140 Grass", "Generation", "Tree"]	
+		},
+		{
+			"name": "State",
+			"character": "州",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 6,
+			"parent_names":["River", "Katakana Ha", "R3 Dot"]	
+		},
+		{
+			"name": "Rainbow",
+			"character": "虹",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Insect", "Craft"]	
+		},
+		{
+			"name": "Blessing",
+			"character": "福",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["R113 Cult", "D Fill"]	
+		},
+		{
+			"name": "Mount",
+			"character": "岡",
+			"stroke_arrangement": "⿵",
+			"stroke_count": 8,
+			"parent_names":["R13 Upside-Down Box", "X3-1 Double Lid", "Mountain"]	
+		},
+		{
+			"name": "Storm",
+			"character": "嵐",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["Mountain", "Wind"]	
+		},
+		{
+			"name": "Sign of the Dragon",
+			"character": "辰",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 7,
+			"parent_names":["R27 Trailing Cliff", "Two", "Katakana Re", "X2-5 Spur"]	
+		},
+		{
+			"name": "Quake",
+			"character": "震",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 15,
+			"parent_names":["Rain", "Sign of the Dragon"]	
+		},
+		{
+			"name": "Meadow",
+			"character": "原",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 10,
+			"parent_names":["R27 Trailing Cliff", "White", "Small"]	
+		},
+		{
+			"name": "Petition",
+			"character": "願",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 19,
+			"parent_names":["Meadow", "Page"]	
+		},
+		{
+			"name": "Somebody",
+			"character": "身",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 7,
+			"parent_names":["X1-1 Reverse Dot", "X1-5 Corner Hook", "R2 Line", "One", "X1-8 Shallow No", "Katakana No"]	
 		}
 	],
 	"radical":[
@@ -3924,6 +4134,13 @@
 			"parent_names":["One", "R4 Slash", "R2 Line"]	
 		},
 		{
+			"name": "R58 Pig Head",
+			"character": "彑",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["X1-3 Top Right Corner", "X1-7 Bottom Left Corner", "One"]	
+		},
+		{
 			"name": "R59 Bristle",
 			"character": "彡",
 			"stroke_arrangement": "⿳",
@@ -3957,6 +4174,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["Katakana No", "One", "Romaji X"]	
+		},
+		{
+			"name": "R78 Death",
+			"character": "歹",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["One", "Evening"]	
 		},
 		{
 			"name": "R80 Mother",
@@ -4457,6 +4681,13 @@
 			"parent_names":["X3-6 Overscore I", "R3 Dot"]	
 		},
 		{
+			"name": "X4-15 Double Ta",
+			"image_name": "4-15 Double Ta.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["Evening", "R3 Dot"]	
+		},
+		{
 			"name": "X4-16 Clothes",
 			"image_name": "4-16 Clothes.png",
 			"stroke_arrangement": "⿰",
@@ -4471,11 +4702,18 @@
 			"parent_names":["R3 Dot", "X1-1 Reverse Dot"]	
 		},
 		{
-			"name": "X4-15 Double Ta",
-			"image_name": "4-15 Double Ta.png",
+			"name": "X4-18 Connected Two",
+			"image_name": "4-18 Connected Two.png",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
-			"parent_names":["Evening", "R3 Dot"]	
+			"parent_names":["Two", "R2 Line"]	
+		},
+		{
+			"name": "X4-19 Overscore Mouth",
+			"image_name": "4-19 Overscore Mouth.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["One", "Mouth"]	
 		},
 		{
 			"name": "X5-1 Little Brother",
@@ -4833,6 +5071,20 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["One", "X2-11 Sideways T", "Person"]	
+		},		
+		{
+			"name": "D Adzuki Beans",
+			"character": "荅",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["R140 Grass", "Fit"]	
+		},		
+		{
+			"name": "D Fill",
+			"character": "畐",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["X4-19 Overscore Mouth", "Rice Field"]	
 		}
 	]
 }
