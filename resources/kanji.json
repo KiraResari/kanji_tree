@@ -880,7 +880,7 @@
 			"character": "寸",
 			"stroke_arrangement": "⿹",
 			"stroke_count": 3,
-			"parent_names":["One", "R6 Feathered Stick", "R3 Dot"]	
+			"parent_names":["X2-13 Hooked Cross", "R3 Dot"]	
 		},
 		{
 			"name": "Temple",
@@ -1699,7 +1699,7 @@
 			"character": "可",
 			"stroke_arrangement": "⿹",
 			"stroke_count": 5,
-			"parent_names":["One", "R6 Feathered Stick"]	
+			"parent_names":["One", "R6 Feathered Stick", "Mouth"]	
 		},
 		{
 			"name": "What",
@@ -3933,6 +3933,139 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 7,
 			"parent_names":["X1-1 Reverse Dot", "X1-5 Corner Hook", "R2 Line", "One", "X1-8 Shallow No", "Katakana No"]	
+		},
+		{
+			"name": "Shoot",
+			"character": "射",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Somebody", "Measurement"]	
+		},
+		{
+			"name": "Genius",
+			"character": "才",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["X2-13 Hooked Cross", "X1-8 Shallow No"]	
+		},
+		{
+			"name": "Crimson",
+			"character": "紅",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Thread", "Craft"]	
+		},
+		{
+			"name": "Barbarian",
+			"character": "胡",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Old", "Moon"]	
+		},
+		{
+			"name": "Lake",
+			"character": "湖",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R85 Water", "Barbarian"]	
+		},
+		{
+			"name": "Grass",
+			"character": "草",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["R140 Grass", "Early"]	
+		},
+		{
+			"name": "Shape",
+			"character": "形",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["X4-12 Straight Torii", "R59 Bristle"]	
+		},
+		{
+			"name": "Round",
+			"character": "丸",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["Nine", "R3 Dot"]	
+		},
+		{
+			"name": "Strange",
+			"character": "奇",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["Big", "Can"]	
+		},
+		{
+			"name": "Promontory",
+			"character": "崎",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Mountain", "Strange"]	
+		},
+		{
+			"name": "Busy",
+			"character": "忙",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["R61 Heart", "Deceased"]	
+		},
+		{
+			"name": "Long Time",
+			"character": "久",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["X1-1 Reverse Dot", "Katakana Su"]	
+		},
+		{
+			"name": "Official Rank",
+			"character": "尹",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["R4 Slash", "X3-2 Strikethrough Ko"]	
+		},
+		{
+			"name": "Mister",
+			"character": "君",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 7,
+			"parent_names":["Official Rank", "Mouth"]	
+		},
+		{
+			"name": "Angle",
+			"character": "角",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 7,
+			"parent_names":["X2-4 Wrap Hat", "Moon", "R2 Line"]	
+		},
+		{
+			"name": "Princess",
+			"character": "姫",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Woman", "Retainer"]	
+		},
+		{
+			"name": "Hot Water",
+			"character": "湯",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R85 Water", "D Open"]	
+		},
+		{
+			"name": "Ice",
+			"character": "氷",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 5,
+			"parent_names":["R3 Dot", "Water"]	
+		},
+		{
+			"name": "Square Jewel",
+			"character": "圭",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["Soil"]	
 		}
 	],
 	"radical":[
@@ -4541,6 +4674,13 @@
 			"parent_names":["R4 Slash", "R2 Line"]	
 		},
 		{
+			"name": "X2-13 Hooked Cross",
+			"image_name": "2-13 Hooked Cross.png",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 2,
+			"parent_names":["One", "R6 Feathered Stick"]	
+		},
+		{
 			"name": "X3-1 Double Lid",
 			"image_name": "3-1 Double Lid.png",
 			"stroke_arrangement": "⬚",
@@ -4957,7 +5097,7 @@
 			"character": "オ",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
-			"parent_names":["One", "R6 Feathered Stick", "Katakana No"]	
+			"parent_names":["X2-13 Hooked Cross", "Katakana No"]	
 		},
 		{
 			"name": "Katakana Re",
