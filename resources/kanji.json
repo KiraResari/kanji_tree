@@ -997,7 +997,7 @@
 		{
 			"name": "Eye",
 			"character": "目",
-			"stroke_arrangement": "⿴",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["Mouth", "Two"]	
 		},
@@ -2028,7 +2028,7 @@
 			"character": "低",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 7,
-			"parent_names":["R9 Person", "Family Name", "One"]	
+			"parent_names":["R9 Person", "X5-16 Low"]	
 		},
 		{
 			"name": "Cheap",
@@ -2623,7 +2623,7 @@
 			"character": "東",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 8,
-			"parent_names":["Tree", "Day"]	
+			"parent_names":["Bundle", "One"]	
 		},
 		{
 			"name": "South",
@@ -2735,7 +2735,7 @@
 			"character": "県",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 9,
-			"parent_names":["X1-7 Bottom Left Corner", "Eye", "Small"]	
+			"parent_names":["X6-8 L Eye", "Small"]	
 		},
 		{
 			"name": "Ward",
@@ -4066,6 +4066,426 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 6,
 			"parent_names":["Soil"]	
+		},
+		{
+			"name": "Seal",
+			"character": "封",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Square Jewel", "Measurement"]	
+		},
+		{
+			"name": "Magic",
+			"character": "魔",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 21,
+			"parent_names":["R53 Dotted Cliff", "Tree", "Oni"]	
+		},
+		{
+			"name": "Frozen",
+			"character": "凍",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R15 Ice", "East"]	
+		},
+		{
+			"name": "Tie",
+			"character": "結",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Thread", "Luck"]	
+		},
+		{
+			"name": "Poison",
+			"character": "毒",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["X4-5 Double Cross", "R80 Mother"]	
+		},
+		{
+			"name": "Flame",
+			"character": "炎",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["Fire"]	
+		},
+		{
+			"name": "Wound",
+			"character": "傷",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["R9 Person", "X11-1 Wound"]	
+		},
+		{
+			"name": "Droop",
+			"character": "垂",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 8,
+			"parent_names":["X7-3 Ride", "One"]	
+		},
+		{
+			"name": "Drowsy",
+			"character": "睡",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Eye", "Droop"]	
+		},
+		{
+			"name": "Sleepy",
+			"character": "眠",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Eye", "People"]	
+		},
+		{
+			"name": "Gloom",
+			"character": "闇",
+			"stroke_arrangement": "⿵",
+			"stroke_count": 17,
+			"parent_names":["Gate", "Sound"]	
+		},
+		{
+			"name": "Skill",
+			"character": "技",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R64 Hand", "Branch"]	
+		},
+		{
+			"name": "Transit",
+			"character": "渡",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R85 Water", "Occurrence"]	
+		},
+		{
+			"name": "Spread",
+			"character": "敷",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 15,
+			"parent_names":["One", "Wherefore", "R3 Dot", "Direction", "R66 Strike"]	
+		},
+		{
+			"name": "Harbor",
+			"character": "港",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R85 Water", "Together", "Self"]	
+		},
+		{
+			"name": "Discontinue",
+			"character": "絶",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Thread", "Color"]	
+		},
+		{
+			"name": "Mix",
+			"character": "混",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R85 Water", "Descendants"]	
+		},
+		{
+			"name": "Riot",
+			"character": "乱",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["Tongue", "R5 Fishhook"]	
+		},
+		{
+			"name": "Pain",
+			"character": "痛",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 12,
+			"parent_names":["R104 Sickness", "D Road"]	
+		},
+		{
+			"name": "Bundle",
+			"character": "束",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 7,
+			"parent_names":["One", "Middle", "Katakana No", "X1-2 Reverse No"]	
+		},
+		{
+			"name": "Quick",
+			"character": "速",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 10,
+			"parent_names":["R162 Walk", "Bundle"]	
+		},
+		{
+			"name": "Distress",
+			"character": "困",
+			"stroke_arrangement": "⿴",
+			"stroke_count": 7,
+			"parent_names":["Mouth", "Tree"]	
+		},
+		{
+			"name": "Spine",
+			"character": "呂",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 7,
+			"parent_names":["Mouth", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "River Variant",
+			"character": "河",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R85 Water", "Can"]	
+		},
+		{
+			"name": "Young",
+			"character": "若",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R140 Grass", "Right"]	
+		},
+		{
+			"name": "Oil",
+			"character": "油",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R85 Water", "Wherefore"]	
+		},
+		{
+			"name": "Tail",
+			"character": "尾",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R44 Flag", "Fur"]	
+		},
+		{
+			"name": "Retreat",
+			"character": "退",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 9,
+			"parent_names":["R162 Walk", "Northeast"]	
+		},
+		{
+			"name": "Lumber",
+			"character": "材",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["Tree", "Katakana O"]	
+		},
+		{
+			"name": "Creek",
+			"character": "江",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["R85 Water", "Craft"]	
+		},
+		{
+			"name": "Method",
+			"character": "法",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R85 Water", "Past"]	
+		},
+		{
+			"name": "Resist",
+			"character": "抵",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R64 Hand", "X5-16 Low"]	
+		},
+		{
+			"name": "Buttocks",
+			"character": "尻",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 5,
+			"parent_names":["R44 Flag", "Nine"]	
+		},
+		{
+			"name": "Plum",
+			"character": "梅",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Tree", "Every"]	
+		},
+		{
+			"name": "Seduce",
+			"character": "召",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["Sword", "Mouth"]	
+		},
+		{
+			"name": "Beckon",
+			"character": "招",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R64 Hand", "Seduce"]	
+		},
+		{
+			"name": "Wrap",
+			"character": "包",
+			"stroke_arrangement": "⿹",
+			"stroke_count": 5,
+			"parent_names":["R20 Wrap", "Self"]	
+		},
+		{
+			"name": "Straightaway",
+			"character": "直",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 8,
+			"parent_names":["Ten", "X6-8 L Eye"]	
+		},
+		{
+			"name": "Bear",
+			"character": "熊",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 14,
+			"parent_names":["Ability", "R86 Four Legs"]	
+		},
+		{
+			"name": "Sparkle",
+			"character": "晶",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["Day"]	
+		},
+		{
+			"name": "Esteemed",
+			"character": "様",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Tree", "Sheep", "X4-17 Four Dots"]	
+		},
+		{
+			"name": "Resign",
+			"character": "辞",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Tongue", "Spicy"]	
+		},
+		{
+			"name": "Cause",
+			"character": "因",
+			"stroke_arrangement": "⿴",
+			"stroke_count": 6,
+			"parent_names":["Mouth", "Big"]	
+		},
+		{
+			"name": "Open Sea",
+			"character": "沖",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R85 Water", "Middle"]	
+		},
+		{
+			"name": "Straw Rope",
+			"character": "縄",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["Thread", "X9-3 Turtle"]	
+		},
+		{
+			"name": "Token",
+			"character": "符",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["R118 Bamboo", "Adhere"]	
+		},
+		{
+			"name": "Lamp",
+			"character": "灯",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["Fire", "District"]	
+		},
+		{
+			"name": "Deer",
+			"character": "鹿",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 11,
+			"parent_names":["R53 Dotted Cliff", "X1-3 Top Right Corner", "R2 Line", "One", "Compare"]	
+		},
+		{
+			"name": "Accomplish",
+			"character": "達",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 12,
+			"parent_names":["R162 Walk", "Soil", "Sheep"]	
+		},
+		{
+			"name": "Relationship",
+			"character": "仲",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["R9 Person", "Middle"]	
+		},
+		{
+			"name": "Answer",
+			"character": "返",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 6,
+			"parent_names":["R162 Walk", "Anti"]	
+		},
+		{
+			"name": "Rather",
+			"character": "寧",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 14,
+			"parent_names":["R40 Roof", "Heart", "X5-4 Lying Eye", "District"]	
+		},
+		{
+			"name": "False",
+			"character": "辟",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["R44 Flag", "Spicy"]	
+		},
+		{
+			"name": "Sphere",
+			"character": "璧",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 18,
+			"parent_names":["False", "Jewel"]	
+		},
+		{
+			"name": "Number",
+			"character": "数",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Rice", "Woman", "R66 Strike"]	
+		},
+		{
+			"name": "Thin",
+			"character": "細",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Thread", "Rice Field"]	
+		},
+		{
+			"name": "Fountain",
+			"character": "泉",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["White", "Water"]	
+		},
+		{
+			"name": "Line",
+			"character": "線",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["Thread", "Fountain"]	
+		},
+		{
+			"name": "Dragon Variant",
+			"character": "龍",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["Stand", "Moon", "X1-11 Zig-Zag", "One", "R5 Fishhook"]	
+		},
+		{
+			"name": "Snow",
+			"character": "雪",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["Rain", "Katakana Yo"]	
 		}
 	],
 	"radical":[
@@ -4306,7 +4726,7 @@
 			"character": "攵",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
-			"parent_names":["Katakana No", "One", "Romaji X"]	
+			"parent_names":["X2-6 Slash Dash", "Romaji X"]	
 		},
 		{
 			"name": "R78 Death",
@@ -4947,6 +5367,13 @@
 			"parent_names":["Day", "R5 Fishhook"]	
 		},
 		{
+			"name": "X5-16 Low",
+			"image_name": "5-16 Low.png",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["Family Name", "One"]	
+		},
+		{
 			"name": "X6-1 Stand Box",
 			"image_name": "6-1 Stand Box.png",
 			"stroke_arrangement": "⬚",
@@ -4973,6 +5400,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
 			"parent_names":["X1-1 Reverse Dot", "X1-3 Top Right Corner", "R2 Line", "One", "X1-5 Corner Hook"]	
+		},
+		{
+			"name": "X6-8 L Eye",
+			"image_name": "6-8 L Eye.png",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 6,
+			"parent_names":["X1-7 Bottom Left Corner", "Eye"]	
 		},
 		{
 			"name": "X7-1 Roofed Self",
@@ -5010,11 +5444,25 @@
 			"parent_names":["Stand", "Tree"]	
 		},
 		{
+			"name": "X9-3 Turtle",
+			"image_name": "9-3 Turtle.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 9,
+			"parent_names":["Day", "R5 Fishhook"]	
+		},
+		{
 			"name": "X10-2 Far",
 			"image_name": "10-2 Far.png",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 10,
 			"parent_names":["Soil", "Mouth", "X3-8 Upward Arrow", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "X11-1 Wound",
+			"image_name": "11-1 Wound.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["X2-6 Slash Dash", "D Open"]	
 		},
 		{
 			"name": "X14-1 Weekday",
