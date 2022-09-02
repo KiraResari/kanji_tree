@@ -1517,7 +1517,7 @@
 			"character": "前",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
-			"parent_names":["X3-1 Double Lid", "Moon", "Katakana Ri"]	
+			"parent_names":["X3-1 Double Lid", "X6-10 Before"]	
 		},
 		{
 			"name": "Behind",
@@ -3413,7 +3413,7 @@
 			"name": "Sex",
 			"character": "性",
 			"stroke_arrangement": "⿰",
-			"stroke_count": 10,
+			"stroke_count": 8,
 			"parent_names":["R61 Heart", "Life"]	
 		},
 		{
@@ -3757,7 +3757,7 @@
 			"character": "並",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 8,
-			"parent_names":["R12 Eight Variant", "X4-18 Connected Two"]	
+			"parent_names":["R12 Eight Variant", "X6-9 Normal"]	
 		},
 		{
 			"name": "Universal",
@@ -4486,6 +4486,209 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 11,
 			"parent_names":["Rain", "Katakana Yo"]	
+		},
+		{
+			"name": "Spirits",
+			"character": "霊",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 15,
+			"parent_names":["Rain", "One", "X6-9 Normal"]	
+		},
+		{
+			"name": "Star",
+			"character": "星",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Day", "Life"]	
+		},
+		{
+			"name": "Peak",
+			"character": "嶺",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 17,
+			"parent_names":["Mountain", "D Guide"]	
+		},
+		{
+			"name": "Disaster",
+			"character": "災",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["R47 Curving River", "Fire"]	
+		},
+		{
+			"name": "Scribe",
+			"character": "記",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Say", "Self"]	
+		},
+		{
+			"name": "Picture",
+			"character": "絵",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Thread", "Meeting"]	
+		},
+		{
+			"name": "Clear up",
+			"character": "晴",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Day", "Blue"]	
+		},
+		{
+			"name": "Calculate",
+			"character": "算",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 14,
+			"parent_names":["R118 Bamboo", "Eye", "R55 Twenty"]	
+		},
+		{
+			"name": "Sweet",
+			"character": "甘",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["One", "R2 Line"]	
+		},
+		{
+			"name": "Halberd",
+			"character": "戈",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 4,
+			"parent_names":["Piling", "X1-8 Shallow No"]	
+		},
+		{
+			"name": "Chirp",
+			"character": "鳴",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Mouth", "Bird"]	
+		},
+		{
+			"name": "Barley",
+			"character": "麦",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["X4-5 Double Cross", "R34 Winter"]	
+		},
+		{
+			"name": "Lively",
+			"character": "活",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R85 Water", "Tongue"]	
+		},
+		{
+			"name": "Pelt",
+			"character": "皮",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 5,
+			"parent_names":["R4 Slash", "X1-13 Top Right Angle", "R2 Line", "Or"]	
+		},
+		{
+			"name": "Wave",
+			"character": "波",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R85 Water", "Pelt"]	
+		},
+		{
+			"name": "Cedar",
+			"character": "杉",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["Tree", "R59 Bristle"]	
+		},
+		{
+			"name": "Coloring",
+			"character": "彩",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Dice", "R59 Bristle"]	
+		},
+		{
+			"name": "Full",
+			"character": "満",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R85 Water", "R140 Grass", "Both"]	
+		},
+		{
+			"name": "Steam",
+			"character": "汽",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R85 Water", "R84 Steam"]	
+		},
+		{
+			"name": "Association",
+			"character": "組",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Thread", "Moreover"]	
+		},
+		{
+			"name": "Cascade Variant",
+			"character": "瀧",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 19,
+			"parent_names":["R85 Water", "Dragon Variant"]	
+		},
+		{
+			"name": "Bountiful",
+			"character": "豊",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Bend", "Beans"]	
+		},
+		{
+			"name": "Department",
+			"character": "科",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R115 Grain", "Dipper"]	
+		},
+		{
+			"name": "Length",
+			"character": "丈",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["Katakana Na", "X1-2 Reverse No"]	
+		},
+		{
+			"name": "Marsh",
+			"character": "沼",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R85 Water", "Seduce"]	
+		},
+		{
+			"name": "Haven",
+			"character": "津",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R85 Water", "R129 Brush"]	
+		},
+		{
+			"name": "Love",
+			"character": "愛",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 13,
+			"parent_names":["RX Closed Claw", "R14 Wa Shaped Crown", "Heart", "R34 Winter"]	
+		},
+		{
+			"name": "Transport",
+			"character": "輸",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["Car", "X3-10 Triangle Roof", "X6-10 Before"]	
+		},
+		{
+			"name": "Youth",
+			"character": "叔",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Stop", "Small", "Or"]	
 		}
 	],
 	"radical":[
@@ -4659,6 +4862,13 @@
 			"parent_names":["R4 Slash", "X1-3 Top Right Corner", "One"]	
 		},
 		{
+			"name": "R47 Curving River",
+			"character": "巛",
+			"stroke_arrangement": "⿲",
+			"stroke_count": 3,
+			"parent_names":["Hiragana Ku"]	
+		},
+		{
 			"name": "R52 Short Thread",
 			"character": "幺",
 			"stroke_arrangement": "⬚",
@@ -4698,7 +4908,7 @@
 			"character": "彡",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 3,
-			"parent_names":["Katakana No"]	
+			"parent_names":["X1-8 Shallow No"]	
 		},
 		{
 			"name": "R60 Going Man",
@@ -5409,6 +5619,20 @@
 			"parent_names":["X1-7 Bottom Left Corner", "Eye"]	
 		},
 		{
+			"name": "X6-9 Normal",
+			"image_name": "6-9 Normal.png",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 6,
+			"parent_names":["X4-18 Connected Two", "R12 Eight Variant"]	
+		},
+		{
+			"name": "X6-10 Before",
+			"image_name": "6-10 Before.png",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["Moon", "Katakana Ri"]	
+		},
+		{
 			"name": "X7-1 Roofed Self",
 			"image_name": "7-1 Roofed Self.png",
 			"stroke_arrangement": "⿱",
@@ -5673,6 +5897,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
 			"parent_names":["X4-19 Overscore Mouth", "Rice Field"]	
+		},		
+		{
+			"name": "D Guide",
+			"character": "領",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Orders", "Page"]	
 		}
 	]
 }
