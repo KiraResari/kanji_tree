@@ -3011,7 +3011,7 @@
 			"parent_names":["Mouth", "One", "X1-11 Zig-Zag"]	
 		},
 		{
-			"name": "Revolve",
+			"name": "Occurrences",
 			"character": "回",
 			"stroke_arrangement": "⿴",
 			"stroke_count": 6,
@@ -4689,6 +4689,146 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 8,
 			"parent_names":["Stop", "Small", "Or"]	
+		},
+		{
+			"name": "Grow late",
+			"character": "更",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["One", "History"]	
+		},
+		{
+			"name": "Gross",
+			"character": "哥",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["Can"]	
+		},
+		{
+			"name": "Say Variant",
+			"character": "云",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["One", "X3-6 Overscore I"]	
+		},
+		{
+			"name": "Stinking",
+			"character": "臭",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Oneself", "Big"]	
+		},
+		{
+			"name": "Phrase",
+			"character": "句",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 5,
+			"parent_names":["R20 Wrap", "Mouth"]	
+		},
+		{
+			"name": "Convenience",
+			"character": "便",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R9 Person", "Grow late"]	
+		},
+		{
+			"name": "Song",
+			"character": "歌",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Gross", "Lack"]	
+		},
+		{
+			"name": "Revolve",
+			"character": "転",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Car", "Say Variant"]	
+		},
+		{
+			"name": "Smell",
+			"character": "嗅",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Mouth", "Stinking", "R3 Dot"]	
+		},
+		{
+			"name": "Transmit",
+			"character": "伝",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["R9 Person", "Say Variant"]	
+		},
+		{
+			"name": "Any",
+			"character": "苟",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R140 Grass", "Phrase"]	
+		},
+		{
+			"name": "Admonish",
+			"character": "警",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 19,
+			"parent_names":["Any", "R66 Strike", "Say"]	
+		},
+		{
+			"name": "Pepper tree",
+			"character": "椒",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Tree", "Youth"]	
+		},
+		{
+			"name": "One-sided",
+			"character": "片",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["R4 Slash", "R8 Lid", "X1-3 Top Right Corner"]	
+		},
+		{
+			"name": "Salt",
+			"character": "塩",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Soil", "X2-6 Slash Dash", "Mouth", "Dish"]	
+		},
+		{
+			"name": "Foreign",
+			"character": "唐",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 10,
+			"parent_names":["R53 Dotted Cliff", "R2 Line", "X3-2 Strikethrough Ko", "Mouth"]	
+		},
+		{
+			"name": "Sugar",
+			"character": "糖",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["Rice", "Foreign"]	
+		},
+		{
+			"name": "Refined",
+			"character": "精",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Rice", "Blue"]	
+		},
+		{
+			"name": "Suggestion",
+			"character": "案",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["Cheap", "Tree"]	
+		},
+		{
+			"name": "Sand",
+			"character": "砂",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Stone", "Few"]	
 		}
 	],
 	"radical":[
@@ -4733,7 +4873,7 @@
 			"character": "亠",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
-			"parent_names":["R3 Dot", "One"]	
+			"parent_names":["R2 Line", "One"]	
 		},
 		{
 			"name": "R9 Person",
