@@ -3568,7 +3568,7 @@
 			"character": "枕",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 8,
-			"parent_names":["Tree", "R43 Lame"]	
+			"parent_names":["Tree", "R14 Wa Shaped Crown", "X2-14 Pillow"]	
 		},
 		{
 			"name": "Hill",
@@ -3659,7 +3659,7 @@
 			"character": "呑",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 7,
-			"parent_names":["X1-8 Shallow No", "Katakana No", "One", "X1-2 Reverse No", "Mouth"]	
+			"parent_names":["X1-8 Shallow No", "X3-13 Spread Big", "Mouth"]	
 		},
 		{
 			"name": "Boasting",
@@ -4672,9 +4672,9 @@
 		{
 			"name": "Love",
 			"character": "愛",
-			"stroke_arrangement": "⿻",
+			"stroke_arrangement": "⿳",
 			"stroke_count": 13,
-			"parent_names":["RX Closed Claw", "R14 Wa Shaped Crown", "Heart", "R34 Winter"]	
+			"parent_names":["X6-11 Claw Roof", "Heart", "R34 Winter"]	
 		},
 		{
 			"name": "Transport",
@@ -4721,7 +4721,7 @@
 		{
 			"name": "Phrase",
 			"character": "句",
-			"stroke_arrangement": "⿸",
+			"stroke_arrangement": "⿹",
 			"stroke_count": 5,
 			"parent_names":["R20 Wrap", "Mouth"]	
 		},
@@ -4829,6 +4829,146 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 9,
 			"parent_names":["Stone", "Few"]	
+		},
+		{
+			"name": "Rabbit",
+			"character": "兎",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 8,
+			"parent_names":["X1-8 Shallow No", "X2-14 Pillow", "Mouth", "R3 Dot"]	
+		},
+		{
+			"name": "Dragon",
+			"character": "竜",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["Stand", "X5-15 Dragon"]	
+		},
+		{
+			"name": "Cascade",
+			"character": "滝",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["R85 Water", "Dragon"]	
+		},
+		{
+			"name": "Tortoise",
+			"character": "亀",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["X2-4 Wrap Hat", "X9-3 Turtle"]	
+		},
+		{
+			"name": "Other",
+			"character": "他",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["R9 Person", "To be"]	
+		},
+		{
+			"name": "System",
+			"character": "系",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 7,
+			"parent_names":["X1-8 Shallow No", "Thread"]	
+		},
+		{
+			"name": "Person in charge",
+			"character": "係",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R9 Person", "System"]	
+		},
+		{
+			"name": "Double",
+			"character": "倍",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R9 Person", "Stand", "Mouth"]	
+		},
+		{
+			"name": "Victory",
+			"character": "勝",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Moon", "X6-2 Victory", "Strength"]	
+		},
+		{
+			"name": "Accept",
+			"character": "受",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["X6-11 Claw Roof", "Or"]	
+		},
+		{
+			"name": "Facing",
+			"character": "向",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["X1-1 Reverse Dot", "X5-7 Box in Box"]	
+		},
+		{
+			"name": "Faith",
+			"character": "信",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R9 Person", "Say"]	
+		},
+		{
+			"name": "Shore",
+			"character": "岸",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Mountain", "R27 Trailing Cliff", "Dry"]	
+		},
+		{
+			"name": "Spear",
+			"character": "矛",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["Beforehand", "Katakana No"]	
+		},
+		{
+			"name": "Task",
+			"character": "務",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Spear", "R66 Strike", "Strength"]	
+		},
+		{
+			"name": "Abet",
+			"character": "援",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R64 Hand", "RX Closed Claw", "One", "Friend"]	
+		},
+		{
+			"name": "Lesson",
+			"character": "課",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["Say", "Fruit"]	
+		},
+		{
+			"name": "Garment",
+			"character": "衣",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["R8 Lid", "X4-16 Clothes"]	
+		},
+		{
+			"name": "Slope",
+			"character": "坂",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["Soil", "Anti"]	
+		},
+		{
+			"name": "Defend",
+			"character": "防",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R170 Village", "Direction"]	
 		}
 	],
 	"radical":[
@@ -4992,7 +5132,7 @@
 			"character": "尢",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
-			"parent_names":["One", "Katakana No", "R5 Fishhook"]	
+			"parent_names":["One", "X2-14 Pillow"]	
 		},
 		{
 			"name": "R44 Flag",
@@ -5451,6 +5591,13 @@
 			"parent_names":["One", "R6 Feathered Stick"]	
 		},
 		{
+			"name": "X2-14 Pillow",
+			"image_name": "2-14 Pillow.png",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 2,
+			"parent_names":["Katakana No", "R5 Fishhook"]	
+		},
+		{
 			"name": "X3-1 Double Lid",
 			"image_name": "3-1 Double Lid.png",
 			"stroke_arrangement": "⬚",
@@ -5505,6 +5652,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["R4 Slash", "R2 Line", "R5 Fishhook"]	
+		},
+		{
+			"name": "X3-13 Spread Big",
+			"image_name": "3-13 Spread Big.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["Katakana No", "One","X1-2 Reverse No"]	
 		},
 		{
 			"name": "X4-1 Torii",
@@ -5626,6 +5780,13 @@
 			"parent_names":["One", "Mouth"]	
 		},
 		{
+			"name": "X4-20 Spread Big Two",
+			"image_name": "4-20 Spread Big Two.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["X3-13 Spread Big", "One"]	
+		},
+		{
 			"name": "X5-1 Little Brother",
 			"image_name": "5-1 Little Brother.png",
 			"stroke_arrangement": "⬚",
@@ -5731,6 +5892,13 @@
 			"parent_names":["R8 Lid", "X1-1 Reverse Dot", "R3 Dot", "R13 Upside-Down Box"]	
 		},
 		{
+			"name": "X6-2 Victory",
+			"image_name": "6-2 Victory.png",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 6,
+			"parent_names":["R12 Eight Variant", "X4-20 Spread Big Two"]	
+		},
+		{
 			"name": "X6-5 Tailless Sheep",
 			"image_name": "6-5 Tailless Sheep.png",
 			"stroke_arrangement": "⬚",
@@ -5771,6 +5939,13 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 6,
 			"parent_names":["Moon", "Katakana Ri"]	
+		},
+		{
+			"name": "X6-11 Claw Roof",
+			"image_name": "6-11 Claw Roof.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["X1-8 Shallow No", "X5-3 Three Dot Roof"]	
 		},
 		{
 			"name": "X7-1 Roofed Self",
