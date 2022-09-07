@@ -1230,7 +1230,7 @@
 			"character": "行",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 6,
-			"parent_names":["R60 Going Man", "One", "District"]	
+			"parent_names":["R60 Going Man", "X3-14 Roofed District"]	
 		},
 		{
 			"name": "Come",
@@ -1342,7 +1342,7 @@
 			"character": "免",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 8,
-			"parent_names":["X2-4 Wrap Hat", "X4-7 Lying Day", "R10 Legs"]	
+			"parent_names":["X6-14 Hatted Lying Day", "R10 Legs"]	
 		},
 		{
 			"name": "Exertion",
@@ -1445,9 +1445,9 @@
 		{
 			"name": "Ahead",
 			"character": "先",
-			"stroke_arrangement": "⿱",
+			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
-			"parent_names":["Soil", "X1-1 Reverse Dot", "R10 Legs"]	
+			"parent_names":["X1-1 Reverse Dot", "X4-21 Teacher"]	
 		},
 		{
 			"name": "Study",
@@ -4163,7 +4163,7 @@
 			"character": "敷",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 15,
-			"parent_names":["One", "Wherefore", "R3 Dot", "Direction", "R66 Strike"]	
+			"parent_names":["X6-12 Specialist", "R3 Dot", "Direction", "R66 Strike"]	
 		},
 		{
 			"name": "Harbor",
@@ -4583,7 +4583,7 @@
 			"character": "皮",
 			"stroke_arrangement": "⿸",
 			"stroke_count": 5,
-			"parent_names":["R4 Slash", "X1-13 Top Right Angle", "R2 Line", "Or"]	
+			"parent_names":["X2-15 Hooked Cliff", "R2 Line", "Or"]	
 		},
 		{
 			"name": "Wave",
@@ -4969,6 +4969,286 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 7,
 			"parent_names":["R170 Village", "Direction"]	
+		},
+		{
+			"name": "Wholesale",
+			"character": "卸",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["X2-6 Slash Dash", "One", "Stop", "R26 Seal"]	
+		},
+		{
+			"name": "Honorable",
+			"character": "御",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R60 Going Man", "Wholesale"]	
+		},
+		{
+			"name": "Aggression",
+			"character": "攻",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["Craft", "R66 Strike"]	
+		},
+		{
+			"name": "Beat",
+			"character": "撃",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 15,
+			"parent_names":["Car", "R79 Pike", "Hand"]	
+		},
+		{
+			"name": "Evade",
+			"character": "避",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 16,
+			"parent_names":["R162 Walk", "False"]	
+		},
+		{
+			"name": "Tiger",
+			"character": "虎",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 8,
+			"parent_names":["X2-15 Hooked Cliff", "X2-11 Sideways T", "Seven", "R10 Legs"]	
+		},
+		{
+			"name": "Jewelled Utensil",
+			"character": "琥",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["King", "Tiger"]	
+		},
+		{
+			"name": "Shine",
+			"character": "耀",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 20,
+			"parent_names":["Ray", "X14-1 Weekday"]	
+		},
+		{
+			"name": "Vermilion",
+			"character": "朱",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["Not yet", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "Pearl",
+			"character": "珠",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["King", "Vermilion"]	
+		},
+		{
+			"name": "Blade",
+			"character": "刃",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["Sword", "R3 Dot"]	
+		},
+		{
+			"name": "Committee",
+			"character": "委",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R115 Grain", "Woman"]	
+		},
+		{
+			"name": "Technique",
+			"character": "術",
+			"stroke_arrangement": "⿲",
+			"stroke_count": 11,
+			"parent_names":["R60 Going Man", "Katakana Ho", "R3 Dot", "X3-14 Roofed District"]	
+		},
+		{
+			"name": "Nothingness",
+			"character": "無",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["R9 Person", "Three", "R2 Line", "R86 Four Legs"]	
+		},
+		{
+			"name": "Burdensome",
+			"character": "駄",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Horse", "Thick"]	
+		},
+		{
+			"name": "Godown",
+			"character": "倉",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 10,
+			"parent_names":["X3-10 Triangle Roof", "R44 Flag", "One", "Mouth"]	
+		},
+		{
+			"name": "Pale",
+			"character": "蒼",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Godown", "R140 Grass"]	
+		},
+		{
+			"name": "Small Bell",
+			"character": "鈴",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Gold", "Orders"]	
+		},
+		{
+			"name": "Fang",
+			"character": "牙",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["One", "Katakana O", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "Rend",
+			"character": "破",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Stone", "Pelt"]	
+		},
+		{
+			"name": "Shield",
+			"character": "盾",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 9,
+			"parent_names":["R27 Trailing Cliff", "Ten", "Eye"]	
+		},
+		{
+			"name": "Juvenile",
+			"character": "童",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["Stand", "Home Village"]	
+		},
+		{
+			"name": "Bell",
+			"character": "鐘",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 20,
+			"parent_names":["Gold", "Juvenile"]
+		},
+		{
+			"name": "Sign of the Boar",
+			"character": "亥",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 6,
+			"parent_names":["R8 Lid", "Hiragana Ku", "Katakana No", "Person"]
+		},
+		{
+			"name": "Engrave",
+			"character": "刻",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Sign of the Boar", "Katakana Ri"]
+		},
+		{
+			"name": "Specialty",
+			"character": "専",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["X6-12 Specialist", "Measurement"]
+		},
+		{
+			"name": "Elephant",
+			"character": "象",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["X6-14 Hatted Lying Day", "X6-13 Pig"]
+		},
+		{
+			"name": "Shinto shrine",
+			"character": "宮",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["R40 Roof", "Spine"]
+		},
+		{
+			"name": "Sort of thing",
+			"character": "然",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["X4-15 Double Ta", "Dog", "R86 Four Legs"]
+		},
+		{
+			"name": "Burn",
+			"character": "燃",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["Fire", "Sort of thing"]
+		},
+		{
+			"name": "Phantasm",
+			"character": "幻",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 4,
+			"parent_names":["R52 Short Thread", "X1-5 Corner Hook"]
+		},
+		{
+			"name": "Milk",
+			"character": "乳",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["RX Closed Claw", "Child", "R5 Fishhook"]
+		},
+		{
+			"name": "Heat",
+			"character": "熱",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 15,
+			"parent_names":["D Art", "R86 Four Legs"]
+		},
+		{
+			"name": "Revert",
+			"character": "戻",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 7,
+			"parent_names":["Door", "Big"]
+		},
+		{
+			"name": "Animal",
+			"character": "獣",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["D Fasten", "X4-19 Overscore Mouth", "Dog"]
+		},
+		{
+			"name": "Snake",
+			"character": "蛇",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["Insect", "D Other"]
+		},
+		{
+			"name": "Hawk",
+			"character": "鷹",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 24,
+			"parent_names":["R53 Dotted Cliff", "R9 Person", "R172 Bird", "Bird"]
+		},
+		{
+			"name": "Unusual",
+			"character": "変",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Also", "R34 Winter"]
+		},
+		{
+			"name": "Chrysanthemum",
+			"character": "菊",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 11,
+			"parent_names":["R140 Grass", "R20 Wrap", "Rice"]
+		},
+		{
+			"name": "Guest",
+			"character": "客",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["R40 Roof", "Each"]
 		}
 	],
 	"radical":[
@@ -5226,6 +5506,13 @@
 			"parent_names":["One", "Evening"]	
 		},
 		{
+			"name": "R79 Pike",
+			"character": "殳",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["Table", "Or"]	
+		},
+		{
 			"name": "R80 Mother",
 			"character": "毋",
 			"stroke_arrangement": "⬚",
@@ -5363,7 +5650,7 @@
 			"character": "豕",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 7,
-			"parent_names":["One", "R59 Bristle", "X1-12 Round Hook", "X2-5 Spur"]	
+			"parent_names":["One", "X6-13 Pig"]	
 		},
 		{
 			"name": "R162 Walk",
@@ -5598,6 +5885,13 @@
 			"parent_names":["Katakana No", "R5 Fishhook"]	
 		},
 		{
+			"name": "X2-15 Hooked Cliff",
+			"image_name": "2-15 Hooked Cliff.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["R4 Slash", "X1-13 Top Right Angle"]	
+		},
+		{
 			"name": "X3-1 Double Lid",
 			"image_name": "3-1 Double Lid.png",
 			"stroke_arrangement": "⬚",
@@ -5659,6 +5953,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["Katakana No", "One","X1-2 Reverse No"]	
+		},
+		{
+			"name": "X3-14 Roofed District",
+			"image_name": "3-14 Roofed District.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 3,
+			"parent_names":["One","District"]	
 		},
 		{
 			"name": "X4-1 Torii",
@@ -5785,6 +6086,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["X3-13 Spread Big", "One"]	
+		},
+		{
+			"name": "X4-21 Teacher",
+			"image_name": "4-21 Teacher.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["Soil", "R10 Legs"]	
 		},
 		{
 			"name": "X5-1 Little Brother",
@@ -5946,6 +6254,27 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 6,
 			"parent_names":["X1-8 Shallow No", "X5-3 Three Dot Roof"]	
+		},
+		{
+			"name": "X6-12 Specialist",
+			"image_name": "6-12 Specialist.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["One", "Wherefore"]	
+		},
+		{
+			"name": "X6-13 Pig",
+			"image_name": "6-13 Pig.png",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["R59 Bristle", "X1-12 Round Hook", "X2-5 Spur"]	
+		},
+		{
+			"name": "X6-14 Hatted Lying Day",
+			"image_name": "6-14 Hatted Lying Day.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["X2-4 Wrap Hat", "X4-7 Lying Day"]	
 		},
 		{
 			"name": "X7-1 Roofed Self",
@@ -6219,6 +6548,27 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 14,
 			"parent_names":["Orders", "Page"]	
+		},		
+		{
+			"name": "D Art",
+			"character": "埶",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["X4-21 Teacher", "Soil", "Round"]	
+		},		
+		{
+			"name": "D Fasten",
+			"character": "畄",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["R42 Small Variant", "Rice Field"]	
+		},		
+		{
+			"name": "D Other",
+			"character": "它",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["R40 Roof", "Spoon"]	
 		}
 	]
 }
