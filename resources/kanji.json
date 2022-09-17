@@ -1895,7 +1895,7 @@
 			"character": "度",
 			"stroke_arrangement": "⿸",
 			"stroke_count": 9,
-			"parent_names":["R53 Dotted Cliff", "R140 Grass", "One", "Or"]	
+			"parent_names":["R53 Dotted Cliff", "X4-13 Narrow Base Twin Cross", "Or"]	
 		},
 		{
 			"name": "Talk",
@@ -5249,6 +5249,146 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
 			"parent_names":["R40 Roof", "Each"]
+		},
+		{
+			"name": "Add",
+			"character": "加",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["Strength", "Mouth"]
+		},
+		{
+			"name": "5th Calendar Sign",
+			"character": "戊",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 5,
+			"parent_names":["Halberd", "R4 Slash"]
+		},
+		{
+			"name": "Robust",
+			"character": "壮",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["RX Half Tree Trunk", "Gentleman"]
+		},
+		{
+			"name": "Graduate",
+			"character": "卒",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 8,
+			"parent_names":["R8 Lid", "Person", "Ten"]
+		},
+		{
+			"name": "Poem",
+			"character": "詩",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Say", "Temple"]
+		},
+		{
+			"name": "Applaud",
+			"character": "嘉",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 14,
+			"parent_names":["Ten", "Beans", "Add"]
+		},
+		{
+			"name": "Cloud",
+			"character": "雲",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["Rain", "Say Variant"]
+		},
+		{
+			"name": "Turn into",
+			"character": "成",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["5th Calendar Sign", "X1-5 Corner Hook"]
+		},
+		{
+			"name": "Castle",
+			"character": "城",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Soil", "Turn into"]
+		},
+		{
+			"name": "Surpass",
+			"character": "越",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 12,
+			"parent_names":["Run", "D Ainu"]
+		},
+		{
+			"name": "Attire",
+			"character": "装",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["Robust", "Garment"]
+		},
+		{
+			"name": "Emerald",
+			"character": "翠",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 14,
+			"parent_names":["Feathers", "Graduate"]
+		},
+		{
+			"name": "Inn",
+			"character": "宿",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["R40 Roof", "D Hundred"]
+		},
+		{
+			"name": "Bureau",
+			"character": "局",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 7,
+			"parent_names":["R44 Flag", "X1-5 Corner Hook", "Mouth"]
+		},
+		{
+			"name": "Notebook",
+			"character": "帳",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Towel", "Long"]
+		},
+		{
+			"name": "Daybreak",
+			"character": "旦",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["Day", "One"]
+		},
+		{
+			"name": "Stamp",
+			"character": "印",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["X4-22 Crooked E", "R26 Seal"]
+		},
+		{
+			"name": "Seat",
+			"character": "席",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 10,
+			"parent_names":["R53 Dotted Cliff", "X4-13 Narrow Base Twin Cross", "Towel"]
+		},
+		{
+			"name": "How Many",
+			"character": "幾",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 12,
+			"parent_names":["R52 Short Thread", "Halberd", "Person"]
+		},
+		{
+			"name": "Machine",
+			"character": "機",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["Tree", "How Many"]
 		}
 	],
 	"radical":[
@@ -6001,7 +6141,7 @@
 			"image_name": "4-6 Twin Cross.png",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
-			"parent_names":["Two", "R2 Line"]	
+			"parent_names":["R140 Grass", "One"]	
 		},
 		{
 			"name": "X4-7 Lying Day",
@@ -6036,7 +6176,7 @@
 			"image_name": "4-13 Narrow Base Twin Cross.png",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
-			"parent_names":["One", "R2 Line"]	
+			"parent_names":["R140 Grass", "One"]	
 		},
 		{
 			"name": "X4-14 Dotted Overscore I",
@@ -6093,6 +6233,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["Soil", "R10 Legs"]	
+		},
+		{
+			"name": "X4-22 Crooked E",
+			"image_name": "4-22 Crooked E.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["X1-8 Shallow No", "X2-11 Sideways T", "One"]	
 		},
 		{
 			"name": "X5-1 Little Brother",
@@ -6569,6 +6716,20 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 11,
 			"parent_names":["R40 Roof", "Spoon"]	
+		},		
+		{
+			"name": "D Ainu",
+			"character": "戉",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 5,
+			"parent_names":["Halberd", "Katakana Re"]	
+		},		
+		{
+			"name": "D Hundred",
+			"character": "佰",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R9 Person", "Hundred"]	
 		}
 	]
 }
