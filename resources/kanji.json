@@ -5444,7 +5444,7 @@
 			"character": "魂",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 14,
-			"parent_names":["Say Variant", "Magic"]
+			"parent_names":["Say Variant", "Oni"]
 		},
 		{
 			"name": "Tender",
@@ -5459,6 +5459,146 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 7,
 			"parent_names":["X4-10 Re Divided Flag", "R3 Dot", "R26 Seal"]
+		},
+		{
+			"name": "Fly",
+			"character": "飛",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 9,
+			"parent_names":["R5 Corner Fishhook", "R3 Dot", "X1-1 Reverse Dot", "X1-8 Shallow No", "R4 Slash", "R2 Line"]
+		},
+		{
+			"name": "Connection",
+			"character": "関",
+			"stroke_arrangement": "⿵",
+			"stroke_count": 14,
+			"parent_names":["Gate", "D Frontier Pass"]
+		},
+		{
+			"name": "Marketing",
+			"character": "販",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Shellfish", "Anti"]
+		},
+		{
+			"name": "Mortar",
+			"character": "臼",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["X1-8 Shallow No", "R2 Line", "One", "Katakana Yo"]
+		},
+		{
+			"name": "Mouse",
+			"character": "鼠",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Mortar", "Katakana Re", "R3 Dot", "R5 Fishhook"]
+		},
+		{
+			"name": "Weasel",
+			"character": "鼬",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 18,
+			"parent_names":["Mouse", "Wherefore"]
+		},
+		{
+			"name": "Visit",
+			"character": "訪",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Say", "Direction"]
+		},
+		{
+			"name": "Mysterious",
+			"character": "玄",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["R8 Lid", "R52 Short Thread"]
+		},
+		{
+			"name": "Clump",
+			"character": "塊",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Soil", "Oni"]
+		},
+		{
+			"name": "Flat",
+			"character": "平",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 5,
+			"parent_names":["Dry", "R12 Eight Variant"]
+		},
+		{
+			"name": "Radiance",
+			"character": "輝",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["Ray", "Army"]
+		},
+		{
+			"name": "Scroll",
+			"character": "巻",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["X6-2 Victory", "Self"]
+		},
+		{
+			"name": "Courtyard",
+			"character": "庭",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 10,
+			"parent_names":["R53 Dotted Cliff", "R54 Long Stride", "King"]
+		},
+		{
+			"name": "Occasion",
+			"character": "際",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["R170 Village", "Festival"]
+		},
+		{
+			"name": "Ashes",
+			"character": "灰",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 6,
+			"parent_names":["R27 Trailing Cliff", "Fire"]
+		},
+		{
+			"name": "Sovereign",
+			"character": "帝",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 9,
+			"parent_names":["R8 Lid", "R12 Eight Variant", "X5-9 Roofed Towel"]
+		},
+		{
+			"name": "Beheading",
+			"character": "斬",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Car", "Axe"]
+		},
+		{
+			"name": "Stab",
+			"character": "突",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["X5-10 Roofed Legs", "Big"]
+		},
+		{
+			"name": "Sturdy",
+			"character": "剛",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["Mount", "Katakana Ri"]
+		},
+		{
+			"name": "Cover",
+			"character": "奄",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 8,
+			"parent_names":["Big", "Day", "R5 Fishhook"]
 		}
 	],
 	"radical":[
@@ -6358,7 +6498,7 @@
 			"image_name": "5-9 Roofed Towel.png",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 5,
-			"parent_names":["R40 Roof", "Towel"]	
+			"parent_names":["R14 Wa Shaped Crown", "Towel"]	
 		},
 		{
 			"name": "X5-10 Roofed Legs",
