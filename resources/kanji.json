@@ -5389,6 +5389,76 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 16,
 			"parent_names":["Tree", "How Many"]
+		},
+		{
+			"name": "Tune",
+			"character": "調",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["Say", "Circumference"]
+		},
+		{
+			"name": "Discuss",
+			"character": "談",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["Say", "Flame"]
+		},
+		{
+			"name": "Path",
+			"character": "路",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["X7-4 Trails", "Each"]
+		},
+		{
+			"name": "Example",
+			"character": "例",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R9 Person", "File"]
+		},
+		{
+			"name": "Climate",
+			"character": "候",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 10,
+			"parent_names":["R9 Person", "R2 Line", "Katakana Yu", "Arrow"]
+		},
+		{
+			"name": "Mail",
+			"character": "郵",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Droop", "R170 Village"]
+		},
+		{
+			"name": "On foot",
+			"character": "徒",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R60 Going Man", "Run"]
+		},
+		{
+			"name": "Soul",
+			"character": "魂",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Say Variant", "Magic"]
+		},
+		{
+			"name": "Tender",
+			"character": "柔",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Spear", "Tree"]
+		},
+		{
+			"name": "Instant",
+			"character": "即",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["X4-10 Re Divided Flag", "R3 Dot", "R26 Seal"]
 		}
 	],
 	"radical":[
@@ -6438,6 +6508,13 @@
 			"parent_names":["X1-8 Shallow No", "One", "R2 Line"]	
 		},
 		{
+			"name": "X7-4 Trails",
+			"image_name": "7-4 Trails.png",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["Mouth", "Stop"]	
+		},
+		{
 			"name": "X8-2 Standing Mouth",
 			"image_name": "8-2 Standing Mouth.png",
 			"stroke_arrangement": "⿱",
@@ -6593,8 +6670,15 @@
 			"name": "Katakana Yo",
 			"character": "ヨ",
 			"stroke_arrangement": "⬚",
-			"stroke_count": 2,
+			"stroke_count": 3,
 			"parent_names":["X1-3 Top Right Corner", "Two"]	
+		},
+		{
+			"name": "Katakana Yu",
+			"character": "ユ",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["X1-3 Top Right Corner", "One"]	
 		},
 		{
 			"name": "Romaji T",
