@@ -5599,6 +5599,69 @@
 			"stroke_arrangement": "⿻",
 			"stroke_count": 8,
 			"parent_names":["Big", "Day", "R5 Fishhook"]
+		},
+		{
+			"name": "Pierce",
+			"character": "貫",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["X4-23 Strikethrough Field", "Shellfish"]
+		},
+		{
+			"name": "Concubine",
+			"character": "妾",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["Stand", "Woman"]
+		},
+		{
+			"name": "This",
+			"character": "此",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["Stop", "Spoon"]
+		},
+		{
+			"name": "Pavilion",
+			"character": "亭",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 9,
+			"parent_names":["X5-13 Roofed Mouth", "R14 Wa Shaped Crown", "District"]
+		},
+		{
+			"name": "Accustomed",
+			"character": "慣",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["R61 Heart", "Pierce"]
+		},
+		{
+			"name": "Touch",
+			"character": "接",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R64 Hand", "Concubine"]
+		},
+		{
+			"name": "Purple",
+			"character": "紫",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["This", "Thread"]
+		},
+		{
+			"name": "Myself",
+			"character": "俺",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R9 Person", "Cover"]
+		},
+		{
+			"name": "Detain",
+			"character": "留",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 10,
+			"parent_names":["X1-8 Shallow No", "Katakana Re", "R3 Dot", "Sword", "Rice Field"]
 		}
 	],
 	"radical":[
@@ -6450,6 +6513,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["X1-8 Shallow No", "X2-11 Sideways T", "One"]	
+		},
+		{
+			"name": "X4-23 Strikethrough Field",
+			"image_name": "4-23 Strikethrough Field.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["X1-3 Top Right Corner", "X1-7 Bottom Left Corner", "Ten"]	
 		},
 		{
 			"name": "X5-1 Little Brother",
