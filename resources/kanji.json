@@ -5662,6 +5662,76 @@
 			"stroke_arrangement": "⿻",
 			"stroke_count": 10,
 			"parent_names":["X1-8 Shallow No", "Katakana Re", "R3 Dot", "Sword", "Rice Field"]
+		},
+		{
+			"name": "Scatter",
+			"character": "散",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["X4-6 Twin Cross", "Moon", "R66 Strike"]
+		},
+		{
+			"name": "Jailer",
+			"character": "尉",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R44 Flag", "Show", "Measurement"]
+		},
+		{
+			"name": "Consolation",
+			"character": "慰",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 15,
+			"parent_names":["Jailer", "Heart"]
+		},
+		{
+			"name": "Health",
+			"character": "健",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R9 Person", "Build"]
+		},
+		{
+			"name": "Rule",
+			"character": "則",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Shellfish", "Katakana Ri"]
+		},
+		{
+			"name": "Reformation",
+			"character": "改",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Self", "R66 Strike"]
+		},
+		{
+			"name": "Elder",
+			"character": "伯",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R9 Person", "White"]
+		},
+		{
+			"name": "Sabre",
+			"character": "剣",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["X8-3 Sword", "Katakana Ri"]
+		},
+		{
+			"name": "Artisan",
+			"character": "匠",
+			"stroke_arrangement": "⿷",
+			"stroke_count": 6,
+			"parent_names":["R22 Box On Side", "Axe"]
+		},
+		{
+			"name": "Trust",
+			"character": "頼",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["Bundle", "Page"]
 		}
 	],
 	"radical":[
@@ -6860,7 +6930,7 @@
 			"character": "リ",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 2,
-			"parent_names":["R2 Line", "Katakana No"]	
+			"parent_names":["R2 Line", "R4 Slash"]	
 		},
 		{
 			"name": "Katakana Su",
