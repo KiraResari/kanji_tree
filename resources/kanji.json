@@ -5732,6 +5732,146 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 16,
 			"parent_names":["Bundle", "Page"]
+		},
+		{
+			"name": "Responsibility",
+			"character": "任",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["R9 Person", "King"]
+		},
+		{
+			"name": "Agriculture",
+			"character": "農",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Bend", "Sign of the Dragon"]
+		},
+		{
+			"name": "Ego",
+			"character": "我",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 7,
+			"parent_names":["Halberd", "X1-8 Shallow No", "R6 Feathered Stick"]
+		},
+		{
+			"name": "Goose",
+			"character": "鵞",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 18,
+			"parent_names":["Ego", "Bird"]
+		},
+		{
+			"name": "Again",
+			"character": "再",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["King", "R13 Upside-Down Box"]
+		},
+		{
+			"name": "Lecture",
+			"character": "講",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 17,
+			"parent_names":["Say", "D Put Together"]
+		},
+		{
+			"name": "Restore",
+			"character": "復",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R60 Going Man", "D Return"]
+		},
+		{
+			"name": "Masculine",
+			"character": "雄",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Katakana Na", "R28 I", "R172 Bird"]
+		},
+		{
+			"name": "Flash",
+			"character": "閃",
+			"stroke_arrangement": "⿵",
+			"stroke_count": 10,
+			"parent_names":["Gate", "Person"]
+		},
+		{
+			"name": "Rut",
+			"character": "軌",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Car", "Nine"]
+		},
+		{
+			"name": "Trails",
+			"character": "跡",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["X7-4 Trails", "Also"]
+		},
+		{
+			"name": "Sign of the Snake",
+			"character": "巳",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["Katakana Ko", "R5 Fishhook"]	
+		},
+		{
+			"name": "Plant",
+			"character": "植",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Tree", "Straightaway"]	
+		},
+		{
+			"name": "Violence",
+			"character": "暴",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 15,
+			"parent_names":["Day", "Together", "R85 Water Variant"]	
+		},
+		{
+			"name": "Bomb",
+			"character": "爆",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 19,
+			"parent_names":["Fire", "Violence"]	
+		},
+		{
+			"name": "Simple",
+			"character": "単",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["R42 Small Variant", "Armor", "One"]	
+		},
+		{
+			"name": "Bullet",
+			"character": "弾",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Bow", "Simple"]	
+		},
+		{
+			"name": "Prolong",
+			"character": "延",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 8,
+			"parent_names":["R54 Long Stride", "Correct"]	
+		},
+		{
+			"name": "Birth",
+			"character": "誕",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["Say", "Prolong"]	
+		},
+		{
+			"name": "Take Along",
+			"character": "連",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 10,
+			"parent_names":["R162 Walk", "Car"]	
 		}
 	],
 	"radical":[
@@ -5972,7 +6112,7 @@
 			"character": "扌",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
-			"parent_names":["R2 Line", "One", "X1-8 Shallow No"]	
+			"parent_names":["R6 Feathered Stick", "One", "X1-8 Shallow No"]	
 		},
 		{
 			"name": "R66 Strike",
@@ -7094,6 +7234,20 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 8,
 			"parent_names":["R9 Person", "Hundred"]	
+		},		
+		{
+			"name": "D Put Together",
+			"character": "冓",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["Well", "Again"]	
+		},		
+		{
+			"name": "D Return",
+			"character": "复",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 9,
+			"parent_names":["X2-6 Slash Dash", "Day", "R34 Winter"]	
 		}
 	]
 }
