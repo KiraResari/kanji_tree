@@ -467,7 +467,7 @@
 			"character": "五",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
-			"parent_names":["Two", "R2 Line", "X1-3 Top Right Corner"]	
+			"parent_names":["One", "X3-15 Topless Five"]	
 		},
 		{
 			"name": "Six",
@@ -4033,7 +4033,7 @@
 			"parent_names":["Official Rank", "Mouth"]	
 		},
 		{
-			"name": "Angle",
+			"name": "Corner",
 			"character": "角",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 7,
@@ -4506,7 +4506,7 @@
 			"character": "嶺",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 17,
-			"parent_names":["Mountain", "D Guide"]	
+			"parent_names":["Mountain", "Territory"]	
 		},
 		{
 			"name": "Disaster",
@@ -5872,6 +5872,146 @@
 			"stroke_arrangement": "⿺",
 			"stroke_count": 10,
 			"parent_names":["R162 Walk", "Car"]	
+		},
+		{
+			"name": "Entwine",
+			"character": "絡",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Thread", "Each"]	
+		},
+		{
+			"name": "News",
+			"character": "報",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Happiness", "X4-3 News"]	
+		},
+		{
+			"name": "Tag",
+			"character": "札",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["Tree", "R5 Fishhook"]	
+		},
+		{
+			"name": "Territory",
+			"character": "領",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Orders", "Page"]	
+		},
+		{
+			"name": "Drive",
+			"character": "駆",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Horse", "Ward"]	
+		},
+		{
+			"name": "Unravel",
+			"character": "解",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Corner", "Sword", "Cow"]	
+		},
+		{
+			"name": "Surplus",
+			"character": "余",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["X3-10 Triangle Roof", "Katakana Ho"]	
+		},
+		{
+			"name": "Exclude",
+			"character": "除",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R170 Village", "Surplus"]	
+		},
+		{
+			"name": "Grope",
+			"character": "探",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R64 Hand", "R112 Net", "Tree"]	
+		},
+		{
+			"name": "Promise",
+			"character": "約",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Thread", "Ladle"]	
+		},
+		{
+			"name": "Difference",
+			"character": "違",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["R162 Walk", "R178 Tanned Leather"]	
+		},
+		{
+			"name": "Natto",
+			"character": "納",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Thread", "Inside"]	
+		},
+		{
+			"name": "Exquisite",
+			"character": "妙",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["Woman", "Few"]	
+		},
+		{
+			"name": "Bed",
+			"character": "床",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 7,
+			"parent_names":["R53 Dotted Cliff", "Tree"]	
+		},
+		{
+			"name": "Treasure",
+			"character": "宝",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R40 Roof", "Jewel"]	
+		},
+		{
+			"name": "Box",
+			"character": "箱",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 15,
+			"parent_names":["R118 Bamboo", "Mutual"]	
+		},
+		{
+			"name": "Back",
+			"character": "裏",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 13,
+			"parent_names":["R8 Lid", "Home Village", "X4-16 Clothes"]	
+		},
+		{
+			"name": "Wall",
+			"character": "壁",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 15,
+			"parent_names":["False", "Soil"]	
+		},
+		{
+			"name": "Attractive",
+			"character": "妖",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["Woman", "Heavens"]	
+		},
+		{
+			"name": "Practice",
+			"character": "練",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Thread", "East"]	
 		}
 	],
 	"radical":[
@@ -6304,6 +6444,13 @@
 			"parent_names":["R9 Person", "X1-1 Reverse Dot", "One", "R2 Line"]	
 		},
 		{
+			"name": "R178 Tanned Leather",
+			"character": "韋",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 10,
+			"parent_names":["X3-15 Topless Five", "Mouth", "X4-11 Year"]	
+		},
+		{
 			"name": "RX Half Tree Trunk",
 			"character": "⺦",
 			"stroke_arrangement": "⿰",
@@ -6583,6 +6730,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 3,
 			"parent_names":["One","District"]	
+		},
+		{
+			"name": "X3-15 Topless Five",
+			"image_name": "3-15 Topless Five.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["R2 Line","X1-3 Top Right Corner", "One"]	
 		},
 		{
 			"name": "X4-1 Torii",
@@ -7192,14 +7346,7 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
 			"parent_names":["X4-19 Overscore Mouth", "Rice Field"]	
-		},		
-		{
-			"name": "D Guide",
-			"character": "領",
-			"stroke_arrangement": "⿰",
-			"stroke_count": 14,
-			"parent_names":["Orders", "Page"]	
-		},		
+		},				
 		{
 			"name": "D Art",
 			"character": "埶",
