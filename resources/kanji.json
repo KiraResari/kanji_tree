@@ -519,7 +519,7 @@
 			"parent_names":["Thread", "Someone"]	
 		},
 		{
-			"name": "Beans",
+			"name": "Bean",
 			"character": "豆",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 7,
@@ -530,7 +530,7 @@
 			"character": "登",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 12,
-			"parent_names":["R105 Footsteps", "Beans"]	
+			"parent_names":["R105 Footsteps", "Bean"]	
 		},
 		{
 			"name": "Few",
@@ -2070,7 +2070,7 @@
 			"character": "短",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 12,
-			"parent_names":["Arrow", "Beans"]	
+			"parent_names":["Arrow", "Bean"]	
 		},
 		{
 			"name": "Weak",
@@ -2798,7 +2798,7 @@
 			"character": "頭",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 16,
-			"parent_names":["Beans", "Page"]	
+			"parent_names":["Bean", "Page"]	
 		},
 		{
 			"name": "Hand",
@@ -3806,7 +3806,7 @@
 			"character": "塔",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 12,
-			"parent_names":["Soil", "D Adzuki Beans"]	
+			"parent_names":["Soil", "D Adzuki Bean"]	
 		},
 		{
 			"name": "Fur",
@@ -4639,7 +4639,7 @@
 			"character": "豊",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 13,
-			"parent_names":["Bend", "Beans"]	
+			"parent_names":["Bend", "Bean"]	
 		},
 		{
 			"name": "Department",
@@ -5290,7 +5290,7 @@
 			"character": "嘉",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 14,
-			"parent_names":["Ten", "Beans", "Add"]
+			"parent_names":["Ten", "Bean", "Add"]
 		},
 		{
 			"name": "Cloud",
@@ -6012,6 +6012,209 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 14,
 			"parent_names":["Thread", "East"]	
+		},
+		{
+			"name": "Suspicious",
+			"character": "怪",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R61 Heart", "D Holy"]	
+		},
+		{
+			"name": "Cannon",
+			"character": "砲",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Stone", "Wrap"]	
+		},
+		{
+			"name": "Introduce",
+			"character": "紹",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Thread", "Seduce"]	
+		},
+		{
+			"name": "Usual",
+			"character": "常",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["Esteem", "Towel"]	
+		},
+		{
+			"name": "Front Door",
+			"character": "扉",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 12,
+			"parent_names":["Door", "Un"]	
+		},
+		{
+			"name": "Enforcer",
+			"character": "執",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Happiness", "Round"]	
+		},
+		{
+			"name": "Embrace",
+			"character": "抱",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R64 Hand", "Wrap"]	
+		},
+		{
+			"name": "First",
+			"character": "甫",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 7,
+			"parent_names":["Ten", "R3 Dot", "Moon"]	
+		},
+		{
+			"name": "Prosperous",
+			"character": "昌",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["Day"]	
+		},
+		{
+			"name": "Deep Fry",
+			"character": "揚",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R64 Hand", "D Open"]	
+		},
+		{
+			"name": "Ticket",
+			"character": "券",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["X6-2 Victory", "Sword"]	
+		},
+		{
+			"name": "Strike",
+			"character": "叩",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["Mouth", "R26 Seal"]	
+		},
+		{
+			"name": "Suspension",
+			"character": "懸",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 20,
+			"parent_names":["D County", "Heart"]	
+		},
+		{
+			"name": "Utensil",
+			"character": "器",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 15,
+			"parent_names":["Mouth", "Big"]	
+		},
+		{
+			"name": "Director",
+			"character": "司",
+			"stroke_arrangement": "⿹",
+			"stroke_count": 5,
+			"parent_names":["X1-5 Corner Hook", "X4-19 Overscore Mouth"]	
+		},
+		{
+			"name": "Fool",
+			"character": "阿",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R170 Village", "Can"]	
+		},
+		{
+			"name": "Needle",
+			"character": "針",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Gold", "Ten"]	
+		},
+		{
+			"name": "Participate",
+			"character": "参",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 8,
+			"parent_names":["R28 I", "Big", "R59 Bristle"]	
+		},
+		{
+			"name": "Salute",
+			"character": "礼",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["R113 Cult", "R5 Fishhook"]	
+		},
+		{
+			"name": "War",
+			"character": "戦",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Simple", "Halberd"]	
+		},
+		{
+			"name": "Fight",
+			"character": "闘",
+			"stroke_arrangement": "⿵",
+			"stroke_count": 18,
+			"parent_names":["Gate", "Bean", "Measurement"]	
+		},
+		{
+			"name": "Lost",
+			"character": "迷",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 9,
+			"parent_names":["R162 Walk", "Rice"]	
+		},
+		{
+			"name": "Street",
+			"character": "街",
+			"stroke_arrangement": "⿲",
+			"stroke_count": 9,
+			"parent_names":["R60 Going Man", "Square Jewel", "X3-14 Roofed District"]	
+		},
+		{
+			"name": "Dispute",
+			"character": "争",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 6,
+			"parent_names":["X2-4 Wrap Hat", "X3-2 Strikethrough Ko", "R6 Feathered Stick"]	
+		},
+		{
+			"name": "Hope",
+			"character": "希",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["Romaji X", "Linen"]	
+		},
+		{
+			"name": "Ambition",
+			"character": "望",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["Deceased", "Moon", "King"]	
+		},
+		{
+			"name": "That",
+			"character": "其",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["One", "R2 Line", "Katakana Ha"]	
+		},
+		{
+			"name": "Period",
+			"character": "期",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["That", "Moon"]	
+		},
+		{
+			"name": "Evaluate",
+			"character": "評",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Say", "Flat"]	
 		}
 	],
 	"radical":[
@@ -7334,7 +7537,7 @@
 			"parent_names":["One", "X2-11 Sideways T", "Person"]	
 		},		
 		{
-			"name": "D Adzuki Beans",
+			"name": "D Adzuki Bean",
 			"character": "荅",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
@@ -7395,6 +7598,13 @@
 			"stroke_arrangement": "⿳",
 			"stroke_count": 9,
 			"parent_names":["X2-6 Slash Dash", "Day", "R34 Winter"]	
+		},		
+		{
+			"name": "D County",
+			"character": "縣",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["Prefecture", "System"]	
 		}
 	]
 }
