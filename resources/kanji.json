@@ -703,7 +703,7 @@
 		{
 			"name": "Selling",
 			"character": "商",
-			"stroke_arrangement": "⿱",
+			"stroke_arrangement": "⿵",
 			"stroke_count": 11,
 			"parent_names":["X6-1 Stand Box", "R10 Legs", "Mouth"]	
 		},
@@ -719,7 +719,7 @@
 			"character": "敵",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 15,
-			"parent_names":["X6-1 Stand Box", "Old", "R66 Strike"]	
+			"parent_names":["X11-2 Enemy", "R66 Strike"]	
 		},
 		{
 			"name": "Tome",
@@ -1776,7 +1776,7 @@
 			"character": "楽",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 13,
-			"parent_names":["R3 Dot", "X1-1 Reverse Dot", "White", "Tree"]	
+			"parent_names":["X4-17 Four Dots", "White", "Tree"]	
 		},
 		{
 			"name": "Spoon",
@@ -2091,14 +2091,14 @@
 			"character": "井",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
-			"parent_names":["Two", "R2 Line", "R4 Slash"]	
+			"parent_names":["Two", "X2-12 Riverbanks"]	
 		},
 		{
 			"name": "Cold",
 			"character": "寒",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 12,
-			"parent_names":["R40 Roof", "Well", "One", "Katakana Ha", "X2-10 Double Dot"]	
+			"parent_names":["X10-1 Cold", "X2-10 Double Dot"]	
 		},
 		{
 			"name": "Darkness",
@@ -5010,7 +5010,7 @@
 			"character": "虎",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 8,
-			"parent_names":["X2-15 Hooked Cliff", "X2-11 Sideways T", "Seven", "R10 Legs"]	
+			"parent_names":["R141 Tiger Stripes", "R10 Legs"]	
 		},
 		{
 			"name": "Jewelled Utensil",
@@ -6215,6 +6215,356 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 12,
 			"parent_names":["Say", "Flat"]	
+		},
+		{
+			"name": "Price",
+			"character": "価",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R9 Person", "R146 West"]	
+		},
+		{
+			"name": "Surround",
+			"character": "囲",
+			"stroke_arrangement": "⿴",
+			"stroke_count": 7,
+			"parent_names":["Mouth", "Well"]	
+		},
+		{
+			"name": "Play",
+			"character": "遊",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 12,
+			"parent_names":["R162 Walk", "D Swim"]	
+		},
+		{
+			"name": "Warehouse",
+			"character": "庫",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 10,
+			"parent_names":["R53 Dotted Cliff", "Car"]	
+		},
+		{
+			"name": "Some",
+			"character": "或",
+			"stroke_arrangement": "⿹",
+			"stroke_count": 8,
+			"parent_names":["Halberd", "Mouth", "One"]	
+		},
+		{
+			"name": "Region",
+			"character": "域",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Soil", "Some"]	
+		},
+		{
+			"name": "Vessels",
+			"character": "隻",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["R172 Bird", "Or"]	
+		},
+		{
+			"name": "Safeguard",
+			"character": "護",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 20,
+			"parent_names":["Say", "R140 Grass", "Vessels"]	
+		},
+		{
+			"name": "Precious",
+			"character": "貴",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 20,
+			"parent_names":["Middle", "One", "Shellfish"]	
+		},
+		{
+			"name": "Duty",
+			"character": "役",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R60 Going Man", "R79 Pike"]	
+		},
+		{
+			"name": "Breath",
+			"character": "息",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["Oneself", "Heart"]	
+		},
+		{
+			"name": "Concept",
+			"character": "想",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Mutual", "Heart"]	
+		},
+		{
+			"name": "Exist",
+			"character": "在",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 6,
+			"parent_names":["X3-16 Person Corner", "Soil"]	
+		},
+		{
+			"name": "Flip",
+			"character": "翻",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 18,
+			"parent_names":["Turn", "Feathers"]	
+		},
+		{
+			"name": "Translate",
+			"character": "訳",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Say", "Shaku"]	
+		},
+		{
+			"name": "Zero",
+			"character": "零",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Rain", "Orders"]	
+		},
+		{
+			"name": "Scarlet",
+			"character": "緋",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Thread", "Un"]	
+		},
+		{
+			"name": "Suitable",
+			"character": "適",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 14,
+			"parent_names":["R162 Walk", "X11-2 Enemy"]	
+		},
+		{
+			"name": "Lord",
+			"character": "殿",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["R44 Flag", "Together", "R79 Pike"]	
+		},
+		{
+			"name": "Emperor",
+			"character": "皇",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["White", "King"]	
+		},
+		{
+			"name": "Tuft",
+			"character": "房",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 8,
+			"parent_names":["Door", "Direction"]	
+		},
+		{
+			"name": "Obstruct",
+			"character": "塞",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["X10-1 Cold", "Soil"]	
+		},
+		{
+			"name": "Comrade",
+			"character": "輩",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 15,
+			"parent_names":["Un", "Car"]	
+		},
+		{
+			"name": "Measuring Box",
+			"character": "升",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["X1-8 Shallow No", "R55 Twenty"]	
+		},
+		{
+			"name": "Rise Up",
+			"character": "昇",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["Day", "Measuring Box"]	
+		},
+		{
+			"name": "Ratio",
+			"character": "率",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["R8 Lid", "X4-17 Four Dots", "R52 Short Thread", "Ten"]	
+		},
+		{
+			"name": "Kill",
+			"character": "殺",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Romaji X", "Tree", "R79 Pike"]	
+		},
+		{
+			"name": "Slow",
+			"character": "遅",
+			"stroke_arrangement": "⿷",
+			"stroke_count": 12,
+			"parent_names":["R44 Flag", "Sheep", "R162 Walk"]	
+		},
+		{
+			"name": "Rat",
+			"character": "鼡",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R42 Small Variant", "X1-16 Corner Hook Right", "R4 Slash", "X3-7 Vertical Ki"]	
+		},
+		{
+			"name": "Hunt",
+			"character": "猟",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R94 Dog", "Rat"]	
+		},
+		{
+			"name": "Resemblance",
+			"character": "肖",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["R42 Small", "Moon"]	
+		},
+		{
+			"name": "Statue",
+			"character": "像",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["R9 Person", "Elephant"]	
+		},
+		{
+			"name": "Extinguish",
+			"character": "消",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R85 Water", "Resemblance"]	
+		},
+		{
+			"name": "Destroy",
+			"character": "滅",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["R85 Water", "5th Calendar Sign", "One", "Fire"]	
+		},
+		{
+			"name": "Assurance",
+			"character": "確",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["Stone", "R14 Wa Shaped Crown", "R172 Bird"]	
+		},
+		{
+			"name": "Advance",
+			"character": "進",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 11,
+			"parent_names":["R162 Walk", "R172 Bird"]	
+		},
+		{
+			"name": "Camp",
+			"character": "陣",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R170 Village", "Car"]	
+		},
+		{
+			"name": "Whirlpool",
+			"character": "渦",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R85 Water", "X9-4 Whirlpool"]	
+		},
+		{
+			"name": "Do",
+			"character": "為",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 9,
+			"parent_names":["X1-3 Top Right Corner", "X1-5 Corner Hook", "R3 Dot", "Katakana No", "R86 Four Legs"]	
+		},
+		{
+			"name": "Fake",
+			"character": "偽",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R9 Person", "Do"]	
+		},
+		{
+			"name": "Current",
+			"character": "流",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R85 Water", "D Pennant"]	
+		},
+		{
+			"name": "Suppose",
+			"character": "存",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 6,
+			"parent_names":["X3-16 Person Corner", "Child"]	
+		},
+		{
+			"name": "Uncommon",
+			"character": "異",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["Rice Field", "Together"]	
+		},
+		{
+			"name": "Wing",
+			"character": "翼",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 17,
+			"parent_names":["Feathers", "Uncommon"]	
+		},
+		{
+			"name": "Curse",
+			"character": "呪",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Mouth", "Big Brother"]	
+		},
+		{
+			"name": "Void",
+			"character": "虚",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 11,
+			"parent_names":["R141 Tiger Stripes", "X5-14 Four Dot Lid"]	
+		},
+		{
+			"name": "Lie",
+			"character": "嘘",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Mouth", "Void"]	
+		},
+		{
+			"name": "Adventure",
+			"character": "冒",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Day", "Eye"]	
+		},
+		{
+			"name": "Dangerous",
+			"character": "険",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R170 Village", "X8-3 Sword"]	
+		},
+		{
+			"name": "Cry",
+			"character": "泣",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R85 Water", "Stand"]	
 		}
 	],
 	"radical":[
@@ -6420,7 +6770,7 @@
 			"character": "廾",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
-			"parent_names":["One", "R4 Slash", "R2 Line"]	
+			"parent_names":["X2-12 Riverbanks", "R2 Line"]	
 		},
 		{
 			"name": "R58 Pig Head",
@@ -6598,6 +6948,13 @@
 			"parent_names":["One", "R2 Line"]	
 		},
 		{
+			"name": "R141 Tiger Stripes",
+			"character": "虍",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 6,
+			"parent_names":["X2-15 Hooked Cliff", "X2-15 Hooked Cliff", "Seven"]	
+		},
+		{
 			"name": "R145 Clothes",
 			"character": "衤",
 			"stroke_arrangement": "⬚",
@@ -6756,6 +7113,12 @@
 		{
 			"name": "X1-15 Bottom Left Curve",
 			"image_name": "1-15 Bottom Left Curve.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 1
+		},
+		{
+			"name": "X1-16 Corner Hook Right",
+			"image_name": "1-16 Corner Hook Right.png",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
@@ -6940,6 +7303,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["R2 Line","X1-3 Top Right Corner", "One"]	
+		},
+		{
+			"name": "X3-16 Person Corner",
+			"image_name": "3-16 Person Corner.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["R9 Person", "One"]	
 		},
 		{
 			"name": "X4-1 Torii",
@@ -7233,7 +7603,7 @@
 			"image_name": "6-9 Normal.png",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 6,
-			"parent_names":["X4-18 Connected Two", "R12 Eight Variant"]	
+			"parent_names":["One", "X5-14 Four Dot Lid"]	
 		},
 		{
 			"name": "X6-10 Before",
@@ -7320,6 +7690,20 @@
 			"parent_names":["Day", "R5 Fishhook"]	
 		},
 		{
+			"name": "X9-4 Whirlpool",
+			"image_name": "9-4 Whirlpool.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["R13 Upside-Down Box", "R2 Line", "One", "X5-7 Box in Box"]	
+		},
+		{
+			"name": "X10-1 Cold",
+			"image_name": "10-1 Cold.png",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 10,
+			"parent_names":["R40 Roof", "Well", "One", "Katakana Ha"]	
+		},
+		{
 			"name": "X10-2 Far",
 			"image_name": "10-2 Far.png",
 			"stroke_arrangement": "⿻",
@@ -7332,6 +7716,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 11,
 			"parent_names":["X2-6 Slash Dash", "D Open"]	
+		},
+		{
+			"name": "X11-2 Enemy",
+			"image_name": "11-2 Enemy.png",
+			"stroke_arrangement": "⿵",
+			"stroke_count": 11,
+			"parent_names":["X6-1 Stand Box", "Old"]	
 		},
 		{
 			"name": "X14-1 Weekday",
@@ -7605,6 +7996,20 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 16,
 			"parent_names":["Prefecture", "System"]	
+		},		
+		{
+			"name": "D Swim",
+			"character": "斿",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Direction", "X2-6 Slash Dash", "Child"]	
+		},		
+		{
+			"name": "D Pennant",
+			"character": "㐬",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["X4-14 Dotted Overscore I", "River"]	
 		}
 	]
 }
