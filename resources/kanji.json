@@ -2483,7 +2483,7 @@
 			"character": "院",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 10,
-			"parent_names":["R170 Village", "Perfect"]	
+			"parent_names":["Place Name", "R40 Roof"]	
 		},
 		{
 			"name": "Fortune-Telling",
@@ -2812,7 +2812,7 @@
 			"character": "彦",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 9,
-			"parent_names":["Stand", "R4 Slash", "R59 Bristle"]	
+			"parent_names":["X6-15 Stand Cliff", "R59 Bristle"]	
 		},
 		{
 			"name": "Face",
@@ -2985,9 +2985,9 @@
 		{
 			"name": "Wear",
 			"character": "着",
-			"stroke_arrangement": "⿻",
+			"stroke_arrangement": "⿸",
 			"stroke_count": 12,
-			"parent_names":["X6-5 Tailless Sheep", "Katakana No", "Eye"]	
+			"parent_names":["X7-5 Wear", "Eye"]	
 		},
 		{
 			"name": "Hurry",
@@ -3253,7 +3253,7 @@
 			"character": "尭",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 8,
-			"parent_names":["Ten","R140 Grass", "Lofty"]	
+			"parent_names":["X5-18 Fry", "Lofty"]	
 		},
 		{
 			"name": "Bake",
@@ -5219,7 +5219,7 @@
 			"name": "Snake",
 			"character": "蛇",
 			"stroke_arrangement": "⿰",
-			"stroke_count": 16,
+			"stroke_count": 11,
 			"parent_names":["Insect", "D Other"]
 		},
 		{
@@ -6270,7 +6270,7 @@
 			"character": "護",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 20,
-			"parent_names":["Say", "R140 Grass", "Vessels"]	
+			"parent_names":["Say", "X13-1 Prey"]	
 		},
 		{
 			"name": "Precious",
@@ -6553,7 +6553,7 @@
 			"parent_names":["Day", "Eye"]	
 		},
 		{
-			"name": "Dangerous",
+			"name": "Precipitous",
 			"character": "険",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 11,
@@ -6565,6 +6565,356 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 8,
 			"parent_names":["R85 Water", "Stand"]	
+		},
+		{
+			"name": "Justice",
+			"character": "義",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["X6-5 Tailless Sheep", "Ego"]	
+		},
+		{
+			"name": "Debate",
+			"character": "議",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 20,
+			"parent_names":["Say", "Justice"]	
+		},
+		{
+			"name": "Dangerous",
+			"character": "危",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 6,
+			"parent_names":["X2-4 Wrap Hat", "R27 Trailing Cliff", "X1-5 Corner Hook", "R5 Fishhook"]	
+		},
+		{
+			"name": "Defeat",
+			"character": "負",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["X2-4 Wrap Hat", "Shellfish"]	
+		},
+		{
+			"name": "Priest",
+			"character": "坊",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["Soil", "Direction"]	
+		},
+		{
+			"name": "Knock",
+			"character": "打",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["R64 Hand", "District"]	
+		},
+		{
+			"name": "Throw",
+			"character": "投",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R64 Hand", "R79 Pike"]	
+		},
+		{
+			"name": "Journey",
+			"character": "往",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R60 Going Man", "Master"]	
+		},
+		{
+			"name": "Product",
+			"character": "産",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 11,
+			"parent_names":["X6-15 Stand Cliff", "Life"]	
+		},
+		{
+			"name": "Scenery",
+			"character": "景",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["Day", "Capital"]	
+		},
+		{
+			"name": "Shadow",
+			"character": "影",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["Scenery", "R59 Bristle"]	
+		},
+		{
+			"name": "Nun",
+			"character": "尼",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 5,
+			"parent_names":["R44 Flag", "Spoon"]	
+		},
+		{
+			"name": "Mud",
+			"character": "泥",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R85 Water", "Nun"]	
+		},
+		{
+			"name": "Place Name",
+			"character": "阮",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R170 Village", "Origin"]	
+		},
+		{
+			"name": "Ruanxian",
+			"character": "咸",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 9,
+			"parent_names":["5th Calendar Sign", "X4-19 Overscore Mouth"]	
+		},
+		{
+			"name": "Emotion",
+			"character": "感",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Ruanxian", "Heart"]	
+		},
+		{
+			"name": "Offer",
+			"character": "奉",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["X5-17 Spread Big Three", "X3-7 Vertical Ki"]	
+		},
+		{
+			"name": "Rod",
+			"character": "棒",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Tree", "Offer"]	
+		},
+		{
+			"name": "Shame",
+			"character": "恥",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Ear", "Heart"]	
+		},
+		{
+			"name": "Pick up",
+			"character": "拾",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Hand", "Fit"]	
+		},
+		{
+			"name": "Purport",
+			"character": "旨",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["Spoon", "Day"]	
+		},
+		{
+			"name": "Finger",
+			"character": "指",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R64 Hand", "Purport"]	
+		},
+		{
+			"name": "Distinction",
+			"character": "差",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 10,
+			"parent_names":["X7-5 Wear", "Craft"]	
+		},
+		{
+			"name": "Seize",
+			"character": "獲",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["R94 Dog", "X13-1 Prey"]	
+		},
+		{
+			"name": "Release",
+			"character": "放",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Direction", "R66 Strike"]	
+		},
+		{
+			"name": "Organize",
+			"character": "整",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 16,
+			"parent_names":["D Imperial Order", "Correct"]	
+		},
+		{
+			"name": "Put",
+			"character": "置",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["X5-4 Lying Eye", "Straightaway"]	
+		},
+		{
+			"name": "Shrine Maiden",
+			"character": "巫",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 7,
+			"parent_names":["Craft", "Person"]	
+		},
+		{
+			"name": "Pledge",
+			"character": "契",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["X4-5 Double Cross", "Sword", "Big"]	
+		},
+		{
+			"name": "Consume",
+			"character": "喫",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Mouth", "Pledge"]	
+		},
+		{
+			"name": "Garbage",
+			"character": "塵",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 14,
+			"parent_names":["Deer", "Soil"]	
+		},
+		{
+			"name": "Cottage",
+			"character": "舎",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["X2-2 Roof", "Luck"]	
+		},
+		{
+			"name": "Distribute",
+			"character": "配",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Sign of the Bird", "Self"]	
+		},
+		{
+			"name": "Shining",
+			"character": "昭",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Day", "Seduce"]	
+		},
+		{
+			"name": "Plank",
+			"character": "板",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Tree", "Anti"]	
+		},
+		{
+			"name": "Pillar",
+			"character": "柱",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Tree", "Master"]	
+		},
+		{
+			"name": "Government Office",
+			"character": "庁",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 5,
+			"parent_names":["R53 Dotted Cliff", "District"]	
+		},
+		{
+			"name": "Watch Over",
+			"character": "看",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 9,
+			"parent_names":["Hand", "Eye"]	
+		},
+		{
+			"name": "Nostalgic",
+			"character": "懐",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["R61 Heart", "Ten", "X5-4 Lying Eye", "Garment"]	
+		},
+		{
+			"name": "Catch",
+			"character": "捕",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R64 Hand", "First"]	
+		},
+		{
+			"name": "Bonds",
+			"character": "絆",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Thread", "Half"]	
+		},
+		{
+			"name": "Specimen",
+			"character": "鑑",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 23,
+			"parent_names":["Gold", "Oversee"]	
+		},
+		{
+			"name": "Root",
+			"character": "根",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Tree", "Northeast"]	
+		},
+		{
+			"name": "Property",
+			"character": "財",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Shellfish", "Katakana O"]	
+		},
+		{
+			"name": "Pray",
+			"character": "祈",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R113 Cult", "Axe"]	
+		},
+		{
+			"name": "Honey",
+			"character": "蜜",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 14,
+			"parent_names":["R40 Roof", "Certain", "Insect"]	
+		},
+		{
+			"name": "Spout",
+			"character": "噴",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["Mouth", "D Decorate"]	
+		},
+		{
+			"name": "Bubble",
+			"character": "泡",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R85 Water", "Wrap"]	
+		},
+		{
+			"name": "Gong",
+			"character": "鉦",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Gold", "Correct"]	
+		},
+		{
+			"name": "Podium",
+			"character": "壇",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["Soil", "D Truly"]	
 		}
 	],
 	"radical":[
@@ -7557,6 +7907,20 @@
 			"parent_names":["Family Name", "One"]	
 		},
 		{
+			"name": "X5-17 Spread Big Three",
+			"image_name": "5-17 Spread Big Three.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["X4-20 Spread Big Two", "One"]	
+		},
+		{
+			"name": "X5-18 Fry",
+			"image_name": "5-18 Fry.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["Ten", "R140 Grass"]	
+		},
+		{
 			"name": "X6-1 Stand Box",
 			"image_name": "6-1 Stand Box.png",
 			"stroke_arrangement": "⬚",
@@ -7641,6 +8005,13 @@
 			"parent_names":["X2-4 Wrap Hat", "X4-7 Lying Day"]	
 		},
 		{
+			"name": "X6-15 Stand Cliff",
+			"image_name": "6-15 Stand Cliff.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["Stand", "R4 Slash"]	
+		},
+		{
 			"name": "X7-1 Roofed Self",
 			"image_name": "7-1 Roofed Self.png",
 			"stroke_arrangement": "⿱",
@@ -7660,6 +8031,13 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 7,
 			"parent_names":["Mouth", "Stop"]	
+		},
+		{
+			"name": "X7-5 Wear",
+			"image_name": "7-5 Wear.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["X6-5 Tailless Sheep", "Katakana No"]	
 		},
 		{
 			"name": "X8-2 Standing Mouth",
@@ -7723,6 +8101,13 @@
 			"stroke_arrangement": "⿵",
 			"stroke_count": 11,
 			"parent_names":["X6-1 Stand Box", "Old"]	
+		},
+		{
+			"name": "X13-1 Prey",
+			"image_name": "13-1 Prey.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["R140 Grass", "Vessels"]	
 		},
 		{
 			"name": "X14-1 Weekday",
@@ -8010,6 +8395,27 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
 			"parent_names":["X4-14 Dotted Overscore I", "River"]	
+		},		
+		{
+			"name": "D Imperial Order",
+			"character": "敕",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Bundle", "R66 Strike"]	
+		},		
+		{
+			"name": "D Decorate",
+			"character": "賁",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["X5-18 Fry", "Shellfish"]	
+		},		
+		{
+			"name": "D Truly",
+			"character": "亶",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 13,
+			"parent_names":["R8 Lid", "Occurrences", "Daybreak"]	
 		}
 	]
 }
