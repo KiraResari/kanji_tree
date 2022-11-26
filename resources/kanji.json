@@ -6915,6 +6915,76 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 16,
 			"parent_names":["Soil", "D Truly"]	
+		},
+		{
+			"name": "Side",
+			"character": "側",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R9 Person", "Rule"]	
+		},
+		{
+			"name": "Hundred Million",
+			"character": "億",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["R9 Person", "Idea"]	
+		},
+		{
+			"name": "Trillion",
+			"character": "兆",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 6,
+			"parent_names":["R10 Legs", "X4-17 Four Dots"]	
+		},
+		{
+			"name": "Newborn",
+			"character": "児",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["Old Times", "R10 Legs"]	
+		},
+		{
+			"name": "Printing",
+			"character": "刷",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R44 Flag", "Towel", "Katakana Ri"]	
+		},
+		{
+			"name": "Status",
+			"character": "格",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Tree", "Each"]	
+		},
+		{
+			"name": "Buddha",
+			"character": "仏",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 4,
+			"parent_names":["R9 Person", "R28 I"]	
+		},
+		{
+			"name": "Religion",
+			"character": "宗",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R40 Roof", "Show"]	
+		},
+		{
+			"name": "Cost",
+			"character": "値",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R9 Person", "Straightaway"]	
+		},
+		{
+			"name": "Stairs",
+			"character": "段",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["X4-22 Crooked E", "X1-8 Shallow No", "R79 Pike"]	
 		}
 	],
 	"radical":[
