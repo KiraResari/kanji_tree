@@ -6417,7 +6417,7 @@
 			"character": "鼡",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 8,
-			"parent_names":["R42 Small Variant", "X1-16 Corner Hook Right", "R4 Slash", "X3-7 Vertical Ki"]	
+			"parent_names":["R42 Small Variant", "R5 Corner Fishhook", "R4 Slash", "X3-7 Vertical Ki"]	
 		},
 		{
 			"name": "Hunt",
@@ -7187,7 +7187,7 @@
 			"character": "迅",
 			"stroke_arrangement": "⿺",
 			"stroke_count": 6,
-			"parent_names":["R162 Walk", "X1-16 Corner Hook Right", "Ten"]	
+			"parent_names":["R162 Walk", "R5 Corner Fishhook", "Ten"]	
 		},
 		{
 			"name": "Request",
@@ -7890,12 +7890,6 @@
 		{
 			"name": "X1-15 Bottom Left Curve",
 			"image_name": "1-15 Bottom Left Curve.png",
-			"stroke_arrangement": "⬚",
-			"stroke_count": 1
-		},
-		{
-			"name": "X1-16 Corner Hook Right",
-			"image_name": "1-16 Corner Hook Right.png",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 1
 		},
