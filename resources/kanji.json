@@ -7335,6 +7335,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 8,
 			"parent_names":["R140 Grass", "D Holy"]	
+		},
+		{
+			"name": "Contain",
+			"character": "容",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["R40 Roof", "Valley"]	
+		},
+		{
+			"name": "Wipe",
+			"character": "拭",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R64 Hand", "Ceremony"]	
+		},
+		{
+			"name": "Pan",
+			"character": "鍋",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 17,
+			"parent_names":["Gold", "X9-4 Whirlpool"]	
+		},
+		{
+			"name": "Assistant",
+			"character": "副",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["D Fill", "Katakana Ri"]	
+		},
+		{
+			"name": "Merit",
+			"character": "功",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["Craft", "Strength"]	
 		}
 	],
 	"radical":[
