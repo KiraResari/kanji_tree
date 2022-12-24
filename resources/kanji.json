@@ -7370,6 +7370,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 5,
 			"parent_names":["Craft", "Strength"]	
+		},
+		{
+			"name": "Word",
+			"character": "詞",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Say", "Director"]	
+		},
+		{
+			"name": "Fill",
+			"character": "充",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["X4-14 Dotted Overscore I", "R10 Legs"]	
+		},
+		{
+			"name": "Ruling",
+			"character": "統",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Thread", "Fill"]	
+		},
+		{
+			"name": "Raid",
+			"character": "狩",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R94 Dog", "Guard"]	
+		},
+		{
+			"name": "Guy",
+			"character": "奴",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["Woman", "Or"]	
 		}
 	],
 	"radical":[
