@@ -7405,6 +7405,48 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 5,
 			"parent_names":["Woman", "Or"]	
+		},
+		{
+			"name": "He",
+			"character": "彼",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R60 Going Man", "Pelt"]	
+		},
+		{
+			"name": "Toil",
+			"character": "努",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["Guy", "Strength"]	
+		},
+		{
+			"name": "Labor",
+			"character": "労",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["X5-3 Three Dot Roof", "Strength"]	
+		},
+		{
+			"name": "Man",
+			"character": "男",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["Rice Field", "Strength"]	
+		},
+		{
+			"name": "Courage",
+			"character": "勇",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Katakana Ma", "Man"]	
+		},
+		{
+			"name": "Cooperation",
+			"character": "協",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Ten", "Strength"]	
 		}
 	],
 	"radical":[
