@@ -7447,6 +7447,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 8,
 			"parent_names":["Ten", "Strength"]	
+		},
+		{
+			"name": "Quiet",
+			"character": "静",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Blue", "Dispute"]	
+		},
+		{
+			"name": "Abandon",
+			"character": "廃",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 12,
+			"parent_names":["R53 Dotted Cliff", "Departure"]	
+		},
+		{
+			"name": "Ruins",
+			"character": "墟",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 15,
+			"parent_names":["Soil", "R141 Tiger Stripes", "X6-16 Horns"]	
+		},
+		{
+			"name": "Address",
+			"character": "宛",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R40 Roof", "D Sign of the Hare"]	
+		},
+		{
+			"name": "Arm",
+			"character": "腕",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Moon", "Address"]	
 		}
 	],
 	"radical":[
@@ -8195,6 +8230,13 @@
 			"parent_names":["R9 Person", "One"]	
 		},
 		{
+			"name": "X3-17 Double Pot Lid",
+			"image_name": "3-17 Double Pot Lid.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["One", "R2 Line"]	
+		},
+		{
 			"name": "X4-1 Torii",
 			"image_name": "4-1 Torii.png",
 			"stroke_arrangement": "⬚",
@@ -8304,7 +8346,7 @@
 			"image_name": "4-18 Connected Two.png",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
-			"parent_names":["Two", "R2 Line"]	
+			"parent_names":["One", "X3-17 Double Pot Lid"]	
 		},
 		{
 			"name": "X4-19 Overscore Mouth",
@@ -8423,7 +8465,7 @@
 			"image_name": "5-14 Four Dot Lid.png",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 5,
-			"parent_names":["One", "R12 Eight Variant", "R2 Line"]	
+			"parent_names":["X3-17 Double Pot Lid", "R12 Eight Variant"]	
 		},
 		{
 			"name": "X5-15 Dragon",
@@ -8543,6 +8585,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 6,
 			"parent_names":["Stand", "R4 Slash"]	
+		},
+		{
+			"name": "X6-16 Horns",
+			"image_name": "6-16 Horns.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["X3-17 Double Pot Lid", "X1-7 Bottom Left Corner", "One", "Line"]	
 		},
 		{
 			"name": "X7-1 Roofed Self",
@@ -8970,6 +9019,13 @@
 			"stroke_arrangement": "⿳",
 			"stroke_count": 13,
 			"parent_names":["R8 Lid", "Occurrences", "Daybreak"]	
+		},		
+		{
+			"name": "D Sign of the Hare",
+			"character": "夘",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["Evening", "R26 Seal"]	
 		}
 	]
 }
