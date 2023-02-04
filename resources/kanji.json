@@ -726,7 +726,7 @@
 			"character": "冊",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
-			"parent_names":["R13 Upside-Down Box", "R2 Line", "One"]	
+			"parent_names":["X4-24 Beard", "One"]	
 		},
 		{
 			"name": "Argument",
@@ -7482,6 +7482,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 12,
 			"parent_names":["Moon", "Address"]	
+		},
+		{
+			"name": "Ring",
+			"character": "輪",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["Car", "D Think"]	
+		},
+		{
+			"name": "However",
+			"character": "而",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 15,
+			"parent_names":["One", "X1-1 Reverse Dot", "X4-24 Beard"]	
+		},
+		{
+			"name": "Enduring",
+			"character": "耐",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["However", "Measurement"]	
+		},
+		{
+			"name": "Revelation",
+			"character": "告",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["Luck", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "Chant",
+			"character": "唱",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Mouth", "Prosperous"]	
 		}
 	],
 	"radical":[
@@ -8382,6 +8417,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["X1-3 Top Right Corner", "X1-7 Bottom Left Corner", "Ten"]	
+		},
+		{
+			"name": "X4-24 Beard",
+			"image_name": "4-24 Beard.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["R13 Upside-Down Box", "R2 Line"]	
 		},
 		{
 			"name": "X5-1 Little Brother",
