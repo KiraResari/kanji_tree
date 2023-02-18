@@ -5290,7 +5290,7 @@
 			"character": "嘉",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 14,
-			"parent_names":["Ten", "Bean", "Add"]
+			"parent_names":["X9-5 Cross Bean", "Add"]
 		},
 		{
 			"name": "Cloud",
@@ -7517,6 +7517,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 11,
 			"parent_names":["Mouth", "Prosperous"]	
+		},
+		{
+			"name": "Establishment",
+			"character": "設",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Say", "R79 Pike"]	
+		},
+		{
+			"name": "Harden",
+			"character": "固",
+			"stroke_arrangement": "⿴",
+			"stroke_count": 8,
+			"parent_names":["Mouth", "Old"]	
+		},
+		{
+			"name": "Individual",
+			"character": "個",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R9 Person", "Harden"]	
+		},
+		{
+			"name": "Rejoice",
+			"character": "喜",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["X9-5 Cross Bean", "Mouth"]	
+		},
+		{
+			"name": "Season",
+			"character": "季",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R115 Grain", "Child"]	
 		}
 	],
 	"radical":[
@@ -7911,7 +7946,7 @@
 			"character": "衤",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
-			"parent_names":["Katakana Ne", "X1-1 Reverse Dot"]	
+			"parent_names":["R113 Cult", "X1-1 Reverse Dot"]	
 		},
 		{
 			"name": "R146 West",
@@ -8713,6 +8748,13 @@
 			"parent_names":["R13 Upside-Down Box", "R2 Line", "One", "X5-7 Box in Box"]	
 		},
 		{
+			"name": "X9-5 Cross Bean",
+			"image_name": "9-5 Cross Bean.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Ten", "Bean"]	
+		},
+		{
 			"name": "X10-1 Cold",
 			"image_name": "10-1 Cold.png",
 			"stroke_arrangement": "⿳",
@@ -8809,13 +8851,6 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["R4 Slash", "One"]	
-		},
-		{
-			"name": "Katakana Ne",
-			"character": "ネ",
-			"stroke_arrangement": "⬚",
-			"stroke_count": 4,
-			"parent_names":["Katakana Fu", "R3 Dot", "R2 Line"]	
 		},
 		{
 			"name": "Katakana No",
