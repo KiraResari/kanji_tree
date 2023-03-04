@@ -278,7 +278,7 @@
 			"character": "車",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 7,
-			"parent_names":["Two", "R2 Line", "Day"]	
+			"parent_names":["Two", "Sign of the Monkey"]	
 		},
 		{
 			"name": "Middle",
@@ -6837,7 +6837,7 @@
 			"character": "懐",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 16,
-			"parent_names":["R61 Heart", "Ten", "X5-4 Lying Eye", "Garment"]	
+			"parent_names":["R61 Heart", "X7-8 Crossed Lying Eye", "Garment"]	
 		},
 		{
 			"name": "Catch",
@@ -7552,6 +7552,41 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 8,
 			"parent_names":["R115 Grain", "Child"]	
+		},
+		{
+			"name": "Pure",
+			"character": "清",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R85 Water", "Blue"]	
+		},
+		{
+			"name": "Hearing",
+			"character": "聴",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 17,
+			"parent_names":["Ear", "X7-8 Crossed Lying Eye", "Heart"]	
+		},
+		{
+			"name": "Policy",
+			"character": "策",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["R118 Bamboo", "D Thorn"]	
+		},
+		{
+			"name": "Insert",
+			"character": "挿",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R64 Hand", "Thousand", "Day"]	
+		},
+		{
+			"name": "Resemble",
+			"character": "似",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R9 Person", "Because"]	
 		}
 	],
 	"radical":[
@@ -8699,6 +8734,13 @@
 			"parent_names":["X6-5 Tailless Sheep", "Katakana No"]	
 		},
 		{
+			"name": "X7-8 Crossed Lying Eye",
+			"image_name": "7-8 Crossed Lying Eye.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["Ten", "X5-4 Lying Eye"]	
+		},
+		{
 			"name": "X8-2 Standing Mouth",
 			"image_name": "8-2 Standing Mouth.png",
 			"stroke_arrangement": "⿱",
@@ -9103,6 +9145,13 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 5,
 			"parent_names":["Evening", "R26 Seal"]	
+		},		
+		{
+			"name": "D Thorn",
+			"character": "朿",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 6,
+			"parent_names":["City", "X2-2 Roof"]	
 		}
 	]
 }
