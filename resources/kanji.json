@@ -1895,7 +1895,7 @@
 			"character": "度",
 			"stroke_arrangement": "⿸",
 			"stroke_count": 9,
-			"parent_names":["R53 Dotted Cliff", "X4-13 Narrow Base Twin Cross", "Or"]	
+			"parent_names":["R53 Dotted Cliff", "D Twenty", "Or"]	
 		},
 		{
 			"name": "Talk",
@@ -2651,7 +2651,7 @@
 			"character": "世",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
-			"parent_names":["X4-13 Narrow Base Twin Cross", "X1-7 Bottom Left Corner"]	
+			"parent_names":["D Twenty", "X1-7 Bottom Left Corner"]	
 		},
 		{
 			"name": "Intervention",
@@ -5374,7 +5374,7 @@
 			"character": "席",
 			"stroke_arrangement": "⿸",
 			"stroke_count": 10,
-			"parent_names":["R53 Dotted Cliff", "X4-13 Narrow Base Twin Cross", "Towel"]
+			"parent_names":["R53 Dotted Cliff", "D Twenty", "Towel"]
 		},
 		{
 			"name": "How Many",
@@ -7587,6 +7587,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 7,
 			"parent_names":["R9 Person", "Because"]	
+		},
+		{
+			"name": "Single",
+			"character": "独",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R94 Dog", "Insect"]	
+		},
+		{
+			"name": "Grandchild",
+			"character": "孫",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Child", "System"]	
+		},
+		{
+			"name": "Injury",
+			"character": "害",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 10,
+			"parent_names":["R40 Roof", "X4-5 Double Cross", "Mouth"]	
+		},
+		{
+			"name": "Nest",
+			"character": "巣",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["R42 Small Variant", "Fruit"]	
+		},
+		{
+			"name": "Belt",
+			"character": "帯",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["D Thirty", "X5-9 Roofed Towel"]	
 		}
 	],
 	"radical":[
@@ -8412,13 +8447,6 @@
 			"parent_names":["Two", "R4 Slash", "R2 Line"]	
 		},
 		{
-			"name": "X4-13 Narrow Base Twin Cross",
-			"image_name": "4-13 Narrow Base Twin Cross.png",
-			"stroke_arrangement": "⬚",
-			"stroke_count": 4,
-			"parent_names":["R140 Grass", "One"]	
-		},
-		{
 			"name": "X4-14 Dotted Overscore I",
 			"image_name": "4-14 Dotted Overscore I.png",
 			"stroke_arrangement": "⬚",
@@ -9152,6 +9180,20 @@
 			"stroke_arrangement": "⿻",
 			"stroke_count": 6,
 			"parent_names":["City", "X2-2 Roof"]	
+		},
+		{
+			"name": "D Twenty",
+			"character": "廿",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["R140 Grass", "One"]	
+		},
+		{
+			"name": "D Thirty",
+			"character": "丗",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["D Twenty", "R2 Line"]	
 		}
 	]
 }
