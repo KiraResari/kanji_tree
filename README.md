@@ -1,4 +1,4 @@
-![Kanji Tree R Logo](\resources\images\KanjiTreeRIcon.png)
+![Kanji Tree R Logo](/resources/images/KanjiTreeRIcon.png)
 
 # Kanji Tree R
 
