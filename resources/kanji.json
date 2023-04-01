@@ -7603,7 +7603,7 @@
 			"parent_names":["Child", "System"]	
 		},
 		{
-			"name": "Injury",
+			"name": "Harm",
 			"character": "害",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 10,
@@ -7622,6 +7622,41 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 12,
 			"parent_names":["D Thirty", "X5-9 Roofed Towel"]	
+		},
+		{
+			"name": "Orphan",
+			"character": "孤",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Child", "Melon"]	
+		},
+		{
+			"name": "Daughter",
+			"character": "娘",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Woman", "Good"]	
+		},
+		{
+			"name": "Dusk",
+			"character": "昏",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Family Name", "Day"]	
+		},
+		{
+			"name": "Marriage",
+			"character": "婚",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Woman", "Dusk"]	
+		},
+		{
+			"name": "Bottom",
+			"character": "底",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 8,
+			"parent_names":["R53 Dotted Cliff", "X5-16 Low"]	
 		}
 	],
 	"radical":[
