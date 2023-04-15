@@ -3568,7 +3568,7 @@
 			"character": "枕",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 8,
-			"parent_names":["Tree", "R14 Wa Shaped Crown", "X2-14 Pillow"]	
+			"parent_names":["Tree", "X4-25 Roofed Pillow"]	
 		},
 		{
 			"name": "Hill",
@@ -7657,6 +7657,41 @@
 			"stroke_arrangement": "⿸",
 			"stroke_count": 8,
 			"parent_names":["R53 Dotted Cliff", "X5-16 Low"]	
+		},
+		{
+			"name": "Servant",
+			"character": "僕",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["R9 Person", "X5-14 Four Dot Lid", "R12 Eight Variant", "Three", "Person"]	
+		},
+		{
+			"name": "Sink",
+			"character": "沈",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R85 Water", "X4-25 Roofed Pillow"]	
+		},
+		{
+			"name": "Ease",
+			"character": "康",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 11,
+			"parent_names":["R53 Dotted Cliff", "R171 Slave"]	
+		},
+		{
+			"name": "Diameter",
+			"character": "径",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R60 Going Man", "D Holy"]	
+		},
+		{
+			"name": "Gain",
+			"character": "得",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R60 Going Man", "Day", "One", "Measurement"]	
 		}
 	],
 	"radical":[
@@ -8087,6 +8122,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["R2 Line", "Katakana Fu", "R6 Feathered Stick"]	
+		},
+		{
+			"name": "R171 Slave",
+			"character": "隶",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 8,
+			"parent_names":["X3-2 Strikethrough Ko", "R85 Water Variant"]	
 		},
 		{
 			"name": "R172 Bird",
@@ -8557,6 +8599,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["R13 Upside-Down Box", "R2 Line"]	
+		},
+		{
+			"name": "X4-25 Roofed Pillow",
+			"image_name": "4-25 Roofed Pillow.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["X2-14 Pillow", "R14 Wa Shaped Crown"]	
 		},
 		{
 			"name": "X5-1 Little Brother",
