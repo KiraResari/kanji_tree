@@ -6704,7 +6704,7 @@
 			"character": "拾",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 9,
-			"parent_names":["Hand", "Fit"]	
+			"parent_names":["R64 Hand", "Fit"]	
 		},
 		{
 			"name": "Purport",
@@ -7692,6 +7692,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 11,
 			"parent_names":["R60 Going Man", "Day", "One", "Measurement"]	
+		},
+		{
+			"name": "Thought",
+			"character": "念",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["Now", "Heart"]	
+		},
+		{
+			"name": "Fold",
+			"character": "折",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R64 Hand", "Axe"]	
+		},
+		{
+			"name": "Raise",
+			"character": "挙",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["R42 Small Variant", "One", "Katakana Ha", "Hand"]	
+		},
+		{
+			"name": "Salvation",
+			"character": "救",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Request", "R66 Strike"]	
+		},
+		{
+			"name": "Failure",
+			"character": "敗",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Shellfish", "R66 Strike"]	
 		}
 	],
 	"radical":[
