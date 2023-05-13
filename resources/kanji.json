@@ -7727,6 +7727,48 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 11,
 			"parent_names":["Shellfish", "R66 Strike"]	
+		},
+		{
+			"name": "Remainder",
+			"character": "残",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R78 Death", "X6-17 Triple Halberd"]	
+		},
+		{
+			"name": "Incur",
+			"character": "被",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R145 Clothes", "Pelt"]	
+		},
+		{
+			"name": "Focus",
+			"character": "省",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Few", "Eye"]	
+		},
+		{
+			"name": "Overgrown",
+			"character": "茂",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R140 Grass", "5th Calendar Sign"]	
+		},
+		{
+			"name": "Banner",
+			"character": "旗",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Direction", "X2-6 Slash Dash", "That"]	
+		},
+		{
+			"name": "Flourish",
+			"character": "栄",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["X5-3 Three Dot Roof", "Tree"]	
 		}
 	],
 	"radical":[
@@ -8851,6 +8893,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 6,
 			"parent_names":["X3-17 Double Pot Lid", "X1-7 Bottom Left Corner", "One", "Line"]	
+		},
+		{
+			"name": "X6-17 Triple Halberd",
+			"image_name": "6-17 Triple Halberd.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["Piling", "Two", "X1-8 Shallow No"]	
 		},
 		{
 			"name": "X7-1 Roofed Self",
