@@ -817,7 +817,7 @@
 			"character": "弓",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
-			"parent_names":["X1-3 Top Right Corner", "One", "X1-11 Zig-Zag"]	
+			"parent_names":["Katakana Ko", "X1-11 Zig-Zag"]	
 		},
 		{
 			"name": "Condolences",
@@ -7769,6 +7769,34 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
 			"parent_names":["X5-3 Three Dot Roof", "Tree"]	
+		},
+		{
+			"name": "Hat",
+			"character": "帽",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Towel", "Adventure"]	
+		},
+		{
+			"name": "Chronicle",
+			"character": "紀",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Thread", "Self"]	
+		},
+		{
+			"name": "Lengthen",
+			"character": "張",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Bow", "Long"]	
+		},
+		{
+			"name": "Umbrella",
+			"character": "傘",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 12,
+			"parent_names":["X2-2 Roof", "Ten", "Person"]	
 		}
 	],
 	"radical":[
