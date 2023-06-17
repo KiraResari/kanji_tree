@@ -7797,6 +7797,41 @@
 			"stroke_arrangement": "⿻",
 			"stroke_count": 12,
 			"parent_names":["X2-2 Roof", "Ten", "Person"]	
+		},
+		{
+			"name": "Exhausted",
+			"character": "疲",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 19,
+			"parent_names":["R104 Sickness", "Pelt"]	
+		},
+		{
+			"name": "Performance",
+			"character": "芸",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["R140 Grass", "Say Variant"]	
+		},
+		{
+			"name": "Sleeve",
+			"character": "筒",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["R118 Bamboo", "Same"]	
+		},
+		{
+			"name": "Commandment",
+			"character": "戒",
+			"stroke_arrangement": "⿹",
+			"stroke_count": 7,
+			"parent_names":["Halberd", "R55 Twenty"]	
+		},
+		{
+			"name": "Contraption",
+			"character": "械",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Tree", "Commandment"]	
 		}
 	],
 	"radical":[
