@@ -1594,7 +1594,7 @@
 			"character": "年",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
-			"parent_names":["X2-6 Slash Dash", "X4-11 Year"]	
+			"parent_names":["X2-6 Slash Dash", "Katakana Wi"]	
 		},
 		{
 			"name": "Evening",
@@ -7832,6 +7832,76 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 11,
 			"parent_names":["Tree", "Commandment"]	
+		},
+		{
+			"name": "Soft",
+			"character": "軟",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Car", "Lack"]	
+		},
+		{
+			"name": "Who",
+			"character": "誰",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["Say", "R172 Bird"]	
+		},
+		{
+			"name": "Pole",
+			"character": "極",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Tree", "D Fast"]	
+		},
+		{
+			"name": "Ballot",
+			"character": "票",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["R146 West", "Show"]	
+		},
+		{
+			"name": "Signpost",
+			"character": "標",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["Tree", "Ballot"]	
+		},
+		{
+			"name": "Window",
+			"character": "窓",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["X5-10 Roofed Legs", "R28 I", "Heart"]	
+		},
+		{
+			"name": "Rope",
+			"character": "索",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["Ten", "R14 Wa Shaped Crown", "Thread"]	
+		},
+		{
+			"name": "Easy",
+			"character": "易",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["Day", "Must Not"]	
+		},
+		{
+			"name": "Leather",
+			"character": "革",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["D Twenty", "Middle", "One"]	
+		},
+		{
+			"name": "Shoes",
+			"character": "靴",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Leather", "Change"]	
 		}
 	],
 	"radical":[
@@ -8282,7 +8352,7 @@
 			"character": "韋",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 10,
-			"parent_names":["X3-15 Topless Five", "Mouth", "X4-11 Year"]	
+			"parent_names":["X3-15 Topless Five", "Mouth", "Katakana Wi"]	
 		},
 		{
 			"name": "R190 Hair Hanging Long",
@@ -8648,13 +8718,6 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["X3-11 Re Flag", "One"]	
-		},
-		{
-			"name": "X4-11 Year",
-			"image_name": "4-11 Year.png",
-			"stroke_arrangement": "⬚",
-			"stroke_count": 4,
-			"parent_names":["Two", "R2 Line"]	
 		},
 		{
 			"name": "X4-12 Straight Torii",
@@ -9201,6 +9264,13 @@
 			"parent_names":["R2 Line", "R3 Dot"]	
 		},
 		{
+			"name": "Katakana Wi",
+			"character": "ヰ",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["Two", "R2 Line"]	
+		},
+		{
 			"name": "Katakana Yo",
 			"character": "ヨ",
 			"stroke_arrangement": "⬚",
@@ -9277,7 +9347,7 @@
 			"character": "夅",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 5,
-			"parent_names":["R34 Winter", "X4-11 Year"]	
+			"parent_names":["R34 Winter", "Katakana Wi"]	
 		},		
 		{
 			"name": "D Road",
@@ -9425,6 +9495,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["D Twenty", "R2 Line"]	
+		},
+		{
+			"name": "D Fast",
+			"character": "亟",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 8,
+			"parent_names":["Two", "X1-11 Zig-Zag", "Mouth", "Or"]	
 		}
 	]
 }
