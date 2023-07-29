@@ -7902,6 +7902,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 13,
 			"parent_names":["Leather", "Change"]	
+		},
+		{
+			"name": "Defense",
+			"character": "衛",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["R60 Going Man", "R178 Tanned Leather", "X3-14 Roofed District"]	
+		},
+		{
+			"name": "Neighboring",
+			"character": "隣",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["R170 Village", "X13-2 Neighbor"]	
+		},
+		{
+			"name": "Sweep",
+			"character": "掃",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R64 Hand", "D Broom"]	
+		},
+		{
+			"name": "Shallow",
+			"character": "浅",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R85 Water", "X6-17 Triple Halberd"]	
+		},
+		{
+			"name": "Bathe",
+			"character": "浴",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R85 Water", "Valley"]	
 		}
 	],
 	"radical":[
@@ -8276,6 +8311,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
 			"parent_names":["X3-2 Strikethrough Ko", "Two", "R2 Line"]	
+		},
+		{
+			"name": "R136 Dancing",
+			"character": "舛",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["Evening", "Katakana Wi"]	
 		},
 		{
 			"name": "R140 Grass",
@@ -9152,6 +9194,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 13,
 			"parent_names":["R140 Grass", "Vessels"]	
+		},
+		{
+			"name": "X13-2 Neighbor",
+			"image_name": "13-2 Neighbor.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Rice", "R136 Dancing"]	
 		},
 		{
 			"name": "X14-1 Weekday",
