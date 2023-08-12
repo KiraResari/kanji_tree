@@ -3830,7 +3830,7 @@
 			"parent_names":["R20 Wrap", "R3 Dot"]	
 		},
 		{
-			"name": "Fishing",
+			"name": "Angling",
 			"character": "釣",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 11,
@@ -7937,6 +7937,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 9,
 			"parent_names":["R85 Water", "Valley"]	
+		},
+		{
+			"name": "Wax",
+			"character": "蝋",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Insect", "Rat"]	
+		},
+		{
+			"name": "Maize",
+			"character": "蜀",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["X5-4 Lying Eye", "R20 Wrap", "Insect"]	
+		},
+		{
+			"name": "Candle",
+			"character": "燭",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 17,
+			"parent_names":["Fire", "Maize"]	
+		},
+		{
+			"name": "Fishing",
+			"character": "漁",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["R85 Water", "Fish"]	
+		},
+		{
+			"name": "Illuminate",
+			"character": "照",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Shining", "R86 Four Legs"]	
 		}
 	],
 	"radical":[
