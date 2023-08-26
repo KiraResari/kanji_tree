@@ -7972,6 +7972,41 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 13,
 			"parent_names":["Shining", "R86 Four Legs"]	
+		},
+		{
+			"name": "Millet",
+			"character": "黍",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["R115 Grain", "X2-2 Roof", "R85 Water Variant"]	
+		},
+		{
+			"name": "Expert",
+			"character": "師",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["D Store Up", "One", "Towel"]	
+		},
+		{
+			"name": "Conduct",
+			"character": "営",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["X5-3 Three Dot Roof", "Spine"]	
+		},
+		{
+			"name": "Fear",
+			"character": "恐",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["Craft", "Table", "R3 Dot", "Heart"]	
+		},
+		{
+			"name": "Breed",
+			"character": "牧",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R93 Cow", "R66 Strike"]	
 		}
 	],
 	"radical":[
