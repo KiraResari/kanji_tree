@@ -3708,7 +3708,7 @@
 			"character": "勧",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 13,
-			"parent_names":["X2-6 Slash Dash", "One", "R172 Bird", "Strength"]	
+			"parent_names":["X11-3 Recommend", "Strength"]	
 		},
 		{
 			"name": "Boulder",
@@ -8007,6 +8007,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 8,
 			"parent_names":["R93 Cow", "R66 Strike"]	
+		},
+		{
+			"name": "Outlook",
+			"character": "観",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 18,
+			"parent_names":["X11-3 Recommend", "See"]	
+		},
+		{
+			"name": "Incense",
+			"character": "香",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["R115 Grain", "Day"]	
+		},
+		{
+			"name": "Unison",
+			"character": "斉",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["Sentence", "X2-12 Riverbanks", "One"]	
+		},
+		{
+			"name": "Dose",
+			"character": "剤",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Unison", "Katakana Ri"]	
+		},
+		{
+			"name": "Celebrate",
+			"character": "祝",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R113 Cult", "Big Brother"]	
 		}
 	],
 	"radical":[
@@ -9257,6 +9292,13 @@
 			"stroke_arrangement": "⿵",
 			"stroke_count": 11,
 			"parent_names":["X6-1 Stand Box", "Old"]	
+		},
+		{
+			"name": "X11-3 Recommend",
+			"image_name": "11-3 Recommend.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["X2-6 Slash Dash", "One", "R172 Bird"]	
 		},
 		{
 			"name": "X13-1 Prey",
