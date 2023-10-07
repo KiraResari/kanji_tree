@@ -3799,7 +3799,7 @@
 			"character": "卵",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 7,
-			"parent_names":["X1-8 Shallow No", "Katakana Re", "R4 Slash", "R3 Dot", "R26 Seal"]	
+			"parent_names":["X4-26 Egg", "R4 Slash", "R3 Dot"]	
 		},
 		{
 			"name": "Tower",
@@ -8042,6 +8042,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 9,
 			"parent_names":["R113 Cult", "Big Brother"]	
+		},
+		{
+			"name": "That one",
+			"character": "伊",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["R9 Person", "Official Rank"]	
+		},
+		{
+			"name": "Forces",
+			"character": "勢",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["D Art", "Strength"]	
+		},
+		{
+			"name": "Repress",
+			"character": "抑",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R64 Hand", "X4-26 Egg"]	
+		},
+		{
+			"name": "Receive",
+			"character": "戴",
+			"stroke_arrangement": "⿹",
+			"stroke_count": 17,
+			"parent_names":["Ten", "Halberd", "Uncommon"]	
+		},
+		{
+			"name": "Blame",
+			"character": "責",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["X4-5 Double Cross", "Shellfish"]	
 		}
 	],
 	"radical":[
@@ -8956,6 +8991,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["X2-14 Pillow", "R14 Wa Shaped Crown"]	
+		},
+		{
+			"name": "X4-26 Egg",
+			"image_name": "4-26 Egg.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["X1-8 Shallow No", "Katakana Re", "R26 Seal"]	
 		},
 		{
 			"name": "X5-1 Little Brother",
