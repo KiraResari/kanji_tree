@@ -8077,6 +8077,41 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 11,
 			"parent_names":["X4-5 Double Cross", "Shellfish"]	
+		},
+		{
+			"name": "Tears",
+			"character": "涙",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R85 Water", "Revert"]	
+		},
+		{
+			"name": "Volume",
+			"character": "積",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["R115 Grain", "Blame"]	
+		},
+		{
+			"name": "Compete",
+			"character": "競",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 20,
+			"parent_names":["Stand", "Big Brother"]	
+		},
+		{
+			"name": "Pipe",
+			"character": "管",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 14,
+			"parent_names":["R118 Bamboo", "Bureaucrat"]	
+		},
+		{
+			"name": "Flour",
+			"character": "粉",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Rice", "Minute"]	
 		}
 	],
 	"radical":[
