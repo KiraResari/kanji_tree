@@ -8112,6 +8112,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 10,
 			"parent_names":["Rice", "Minute"]	
+		},
+		{
+			"name": "Regret",
+			"character": "悔",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R61 Heart", "Every"]	
+		},
+		{
+			"name": "Acknowledge",
+			"character": "承",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 8,
+			"parent_names":["Finish", "Three", "Katakana Fu", "X2-5 Spur"]	
+		},
+		{
+			"name": "Foolhardy",
+			"character": "馮",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R15 Ice", "Horse"]	
+		},
+		{
+			"name": "Depend",
+			"character": "憑",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 16,
+			"parent_names":["Foolhardy", "Heart"]	
+		},
+		{
+			"name": "Noodles",
+			"character": "麺",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 16,
+			"parent_names":["Barley", "Mask"]	
 		}
 	],
 	"radical":[
