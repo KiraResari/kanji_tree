@@ -8147,6 +8147,41 @@
 			"stroke_arrangement": "⿺",
 			"stroke_count": 16,
 			"parent_names":["Barley", "Mask"]	
+		},
+		{
+			"name": "Ramen",
+			"character": "拉",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R64 Hand", "Stand"]	
+		},
+		{
+			"name": "Fridge",
+			"character": "蔵",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 15,
+			"parent_names":["R140 Grass", "5th Calendar Sign", "Retainer"]	
+		},
+		{
+			"name": "Journal",
+			"character": "雑",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Nine", "Tree", "R172 Bird"]	
+		},
+		{
+			"name": "Node",
+			"character": "節",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["R118 Bamboo", "Instant"]	
+		},
+		{
+			"name": "Salary",
+			"character": "給",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Thread", "Fit"]	
 		}
 	],
 	"radical":[
