@@ -8182,6 +8182,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 12,
 			"parent_names":["Thread", "Fit"]	
+		},
+		{
+			"name": "Agree",
+			"character": "致",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Climax", "R66 Strike"]	
+		},
+		{
+			"name": "Duplicate",
+			"character": "複",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["R145 Clothes", "D Return"]	
+		},
+		{
+			"name": "Continue",
+			"character": "続",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Thread", "Sell"]	
+		},
+		{
+			"name": "Old Person",
+			"character": "老",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R125 Old", "Spoon"]	
+		},
+		{
+			"name": "Stomach",
+			"character": "胃",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Rice Field", "Moon"]	
 		}
 	],
 	"radical":[
