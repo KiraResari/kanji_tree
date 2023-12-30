@@ -2329,7 +2329,7 @@
 			"character": "旅",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 10,
-			"parent_names":["Direction", "X2-6 Slash Dash", "X1-8 Shallow No", "R2 Line", "X2-5 Spur"]	
+			"parent_names":["Direction", "X2-6 Slash Dash", "X4-27 Spur Cliff"]	
 		},
 		{
 			"name": "Plan",
@@ -7565,7 +7565,7 @@
 			"character": "聴",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 17,
-			"parent_names":["Ear", "X7-8 Crossed Lying Eye", "Heart"]	
+			"parent_names":["Ear", "X11-4 Hearing"]	
 		},
 		{
 			"name": "Policy",
@@ -8217,6 +8217,41 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
 			"parent_names":["Rice Field", "Moon"]	
+		},
+		{
+			"name": "Intestines",
+			"character": "腸",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Moon", "D Open"]	
+		},
+		{
+			"name": "Virtue",
+			"character": "善",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["Sheep", "One", "R12 Eight Variant", "Mouth"]	
+		},
+		{
+			"name": "Benevolence",
+			"character": "徳",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["R60 Going Man", "X11-4 Hearing"]	
+		},
+		{
+			"name": "Vein",
+			"character": "脈",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Moon", "R27 Trailing Cliff", "X4-27 Spur Cliff"]	
+		},
+		{
+			"name": "High Spirits",
+			"character": "亢",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["R8 Lid", "Table"]	
 		}
 	],
 	"radical":[
@@ -9140,6 +9175,13 @@
 			"parent_names":["X1-8 Shallow No", "Katakana Re", "R26 Seal"]	
 		},
 		{
+			"name": "X4-27 Spur Cliff",
+			"image_name": "4-27 Spur Cliff.png",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 4,
+			"parent_names":["X1-8 Shallow No", "R2 Line", "X2-5 Spur"]	
+		},
+		{
 			"name": "X5-1 Little Brother",
 			"image_name": "5-1 Little Brother.png",
 			"stroke_arrangement": "⬚",
@@ -9481,6 +9523,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 11,
 			"parent_names":["X2-6 Slash Dash", "One", "R172 Bird"]	
+		},
+		{
+			"name": "X11-4 Hearing",
+			"image_name": "11-4 Hearing.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["X7-8 Crossed Lying Eye", "Heart"]	
 		},
 		{
 			"name": "X13-1 Prey",
