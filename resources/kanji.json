@@ -8252,6 +8252,41 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 4,
 			"parent_names":["R8 Lid", "Table"]	
+		},
+		{
+			"name": "Intention",
+			"character": "志",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["Gentleman", "Heart"]	
+		},
+		{
+			"name": "Document",
+			"character": "誌",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Say", "Intention"]	
+		},
+		{
+			"name": "Navigate",
+			"character": "航",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Boat", "High Spirits"]	
+		},
+		{
+			"name": "Bud",
+			"character": "芽",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R140 Grass", "Fang"]	
+		},
+		{
+			"name": "Instruction",
+			"character": "訓",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Say", "River"]	
 		}
 	],
 	"radical":[
