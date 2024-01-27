@@ -8287,6 +8287,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 10,
 			"parent_names":["Say", "River"]	
+		},
+		{
+			"name": "Publish",
+			"character": "刊",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["Dry", "Katakana Ri"]	
+		},
+		{
+			"name": "Sprout",
+			"character": "萌",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["R140 Grass", "Bright"]	
+		},
+		{
+			"name": "Freight",
+			"character": "貨",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["Change", "Shellfish"]	
+		},
+		{
+			"name": "Savings",
+			"character": "貯",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Shellfish", "R40 Roof", "District"]	
+		},
+		{
+			"name": "Dollar",
+			"character": "弗",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 5,
+			"parent_names":["Bow", "X2-12 Riverbanks"]	
 		}
 	],
 	"radical":[
