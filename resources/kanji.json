@@ -8322,6 +8322,41 @@
 			"stroke_arrangement": "⿻",
 			"stroke_count": 5,
 			"parent_names":["Bow", "X2-12 Riverbanks"]	
+		},
+		{
+			"name": "Pay",
+			"character": "払",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["R64 Hand", "R28 I"]	
+		},
+		{
+			"name": "Desk",
+			"character": "机",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["Tree", "Table"]	
+		},
+		{
+			"name": "Deliver",
+			"character": "届",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 8,
+			"parent_names":["R44 Flag", "Wherefore"]	
+		},
+		{
+			"name": "Gallop",
+			"character": "馳",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Horse", "To be"]	
+		},
+		{
+			"name": "Expense",
+			"character": "費",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["Dollar", "Shellfish"]	
 		}
 	],
 	"radical":[
