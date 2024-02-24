@@ -8357,6 +8357,41 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 12,
 			"parent_names":["Dollar", "Shellfish"]	
+		},
+		{
+			"name": "Lonely",
+			"character": "寂",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["R40 Roof", "Youth"]	
+		},
+		{
+			"name": "Prize",
+			"character": "賞",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 15,
+			"parent_names":["X5-3 Three Dot Roof", "Employee"]	
+		},
+		{
+			"name": "Vicinity",
+			"character": "辺",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 5,
+			"parent_names":["R162 Walk", "Sword"]	
+		},
+		{
+			"name": "County",
+			"character": "郡",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Mister", "R170 Village"]	
+		},
+		{
+			"name": "Quantity",
+			"character": "量",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["Daybreak", "Home Village"]	
 		}
 	],
 	"radical":[
