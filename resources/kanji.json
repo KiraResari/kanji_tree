@@ -1132,7 +1132,7 @@
 			"character": "緑",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 14,
-			"parent_names":["Thread", "Katakana Yo", "R85 Water Variant"]	
+			"parent_names":["Thread", "X8-6 Green"]	
 		},
 		{
 			"name": "Sheep",
@@ -8392,6 +8392,41 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 12,
 			"parent_names":["Daybreak", "Home Village"]	
+		},
+		{
+			"name": "Shake",
+			"character": "揺",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R64 Hand", "RX Closed Claw", "Two", "Mountain"]	
+		},
+		{
+			"name": "Deposit",
+			"character": "預",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Beforehand", "Page"]	
+		},
+		{
+			"name": "Hobby",
+			"character": "趣",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 15,
+			"parent_names":["Run", "Take"]	
+		},
+		{
+			"name": "Eaves",
+			"character": "宇",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["R40 Roof", "D Going"]	
+		},
+		{
+			"name": "Record",
+			"character": "録",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["Gold", "X8-6 Green"]	
 		}
 	],
 	"radical":[
@@ -9602,6 +9637,13 @@
 			"parent_names":["R112 Net", "Tree"]	
 		},
 		{
+			"name": "X8-6 Green",
+			"image_name": "8-6 Green.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["Katakana Yo", "R85 Water Variant"]	
+		},
+		{
 			"name": "X9-2 Standing Tree",
 			"image_name": "9-2 Standing Tree.png",
 			"stroke_arrangement": "⿱",
@@ -10034,6 +10076,13 @@
 			"stroke_arrangement": "⿻",
 			"stroke_count": 8,
 			"parent_names":["Two", "X1-11 Zig-Zag", "Mouth", "Or"]	
+		},
+		{
+			"name": "D Going",
+			"character": "于",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["Two", "R6 Feathered Stick"]	
 		}
 	]
 }
