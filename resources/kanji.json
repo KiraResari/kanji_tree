@@ -8427,6 +8427,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 16,
 			"parent_names":["Gold", "X8-6 Green"]	
+		},
+		{
+			"name": "Mid-Air",
+			"character": "宙",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["R40 Roof", "Wherefore"]	
+		},
+		{
+			"name": "Permit",
+			"character": "允",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["R28 I", "R10 Legs"]	
+		},
+		{
+			"name": "Completion",
+			"character": "竣",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Stand", "Permit", "R34 Winter"]	
+		},
+		{
+			"name": "Awake",
+			"character": "醒",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["Sign of the Bird", "Star"]	
+		},
+		{
+			"name": "Land",
+			"character": "陸",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R170 Village", "X8-7 Earth Teacher"]	
 		}
 	],
 	"radical":[
@@ -8673,7 +8708,7 @@
 			"name": "R66 Strike",
 			"character": "攵",
 			"stroke_arrangement": "⬚",
-			"stroke_count": 3,
+			"stroke_count": 4,
 			"parent_names":["X2-6 Slash Dash", "Romaji X"]	
 		},
 		{
@@ -9644,6 +9679,13 @@
 			"parent_names":["Katakana Yo", "R85 Water Variant"]	
 		},
 		{
+			"name": "X8-7 Earth Teacher",
+			"image_name": "8-7 Earth Teacher.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["X4-21 Teacher", "Soil"]	
+		},
+		{
 			"name": "X9-2 Standing Tree",
 			"image_name": "9-2 Standing Tree.png",
 			"stroke_arrangement": "⿱",
@@ -9956,7 +9998,7 @@
 			"character": "埶",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 11,
-			"parent_names":["X4-21 Teacher", "Soil", "Round"]	
+			"parent_names":["X8-7 Earth Teacher", "Round"]	
 		},		
 		{
 			"name": "D Fasten",
