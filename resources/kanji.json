@@ -3351,7 +3351,7 @@
 			"character": "公",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 4,
-			"parent_names":["Eight", "R28 I"]	
+			"parent_names":["Katakana Ha", "R28 I"]	
 		},
 		{
 			"name": "Pine Tree",
@@ -5423,7 +5423,7 @@
 			"character": "候",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 10,
-			"parent_names":["R9 Person", "R2 Line", "Katakana Yu", "Arrow"]
+			"parent_names":["X3-18 Person Line", "Katakana Yu", "Arrow"]
 		},
 		{
 			"name": "Mail",
@@ -8462,6 +8462,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 11,
 			"parent_names":["R170 Village", "X8-7 Earth Teacher"]	
+		},
+		{
+			"name": "Glitter",
+			"character": "煌",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Fire", "Emperor"]	
+		},
+		{
+			"name": "Regiment",
+			"character": "隊",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R170 Village", "R12 Eight Variant", "R152 Pig"]	
+		},
+		{
+			"name": "Order",
+			"character": "順",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["River", "Page"]	
+		},
+		{
+			"name": "Foster",
+			"character": "養",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 15,
+			"parent_names":["X6-5 Tailless Sheep", "Katakana Ha", "Good"]	
+		},
+		{
+			"name": "Discipline",
+			"character": "修",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["X3-18 Person Line", "R66 Strike", "R59 Bristle"]	
 		}
 	],
 	"radical":[
@@ -9231,6 +9266,13 @@
 			"parent_names":["One", "R2 Line"]	
 		},
 		{
+			"name": "X3-18 Person Line",
+			"image_name": "3-18 Person Line.png",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 3,
+			"parent_names":["R9 Person", "R2 Line"]	
+		},
+		{
 			"name": "X4-1 Torii",
 			"image_name": "4-1 Torii.png",
 			"stroke_arrangement": "⬚",
@@ -9522,7 +9564,7 @@
 			"image_name": "6-5 Tailless Sheep.png",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
-			"parent_names":["R12 Eight Variant", "Three", "R2 Line"]	
+			"parent_names":["R12 Eight Variant", "King"]	
 		},
 		{
 			"name": "X6-6 Roofed Wherefore",
