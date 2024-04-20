@@ -8492,11 +8492,39 @@
 			"parent_names":["X6-5 Tailless Sheep", "Katakana Ha", "Good"]	
 		},
 		{
-			"name": "Discipline",
-			"character": "修",
+			"name": "Huai",
+			"character": "淮",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R85 Water", "R172 Bird"]	
+		},
+		{
+			"name": "Standard",
+			"character": "準",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Huai", "Ten"]	
+		},
+		{
+			"name": "Preparation",
+			"character": "備",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R9 Person", "R140 Grass", "R27 Trailing Cliff", "Utilize"]	
+		},
+		{
+			"name": "Repeat",
+			"character": "繰",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 19,
+			"parent_names":["Thread", "Goods", "Tree"]	
+		},
+		{
+			"name": "Provide",
+			"character": "俵",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 10,
-			"parent_names":["X3-18 Person Line", "R66 Strike", "R59 Bristle"]	
+			"parent_names":["R9 Person", "Surface"]	
 		}
 	],
 	"radical":[
