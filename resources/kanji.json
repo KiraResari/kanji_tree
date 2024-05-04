@@ -8525,6 +8525,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 10,
 			"parent_names":["R9 Person", "Surface"]	
+		},
+		{
+			"name": "Judge",
+			"character": "判",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["Half", "Katakana Ri"]	
+		},
+		{
+			"name": "Control",
+			"character": "制",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Cow", "R13 Upside-Down Box", "Katakana Ri"]	
+		},
+		{
+			"name": "Rich",
+			"character": "厚",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 9,
+			"parent_names":["R27 Trailing Cliff", "Day", "Child"]	
+		},
+		{
+			"name": "Pressure",
+			"character": "圧",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 5,
+			"parent_names":["R27 Trailing Cliff", "Soil"]	
+		},
+		{
+			"name": "Level",
+			"character": "均",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["Soil", "D Equal"]	
 		}
 	],
 	"radical":[
@@ -10195,6 +10230,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["Two", "R6 Feathered Stick"]	
+		},
+		{
+			"name": "D Equal",
+			"character": "匀",
+			"stroke_arrangement": "⿹",
+			"stroke_count": 4,
+			"parent_names":["R20 Wrap", "Two"]	
 		}
 	]
 }
