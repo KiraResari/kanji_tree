@@ -1671,7 +1671,7 @@
 			"character": "買",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 12,
-			"parent_names":["X5-4 Lying Eye", "Shellfish"]	
+			"parent_names":["R122 Net", "Shellfish"]	
 		},
 		{
 			"name": "See",
@@ -3848,7 +3848,7 @@
 			"character": "曼",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 11,
-			"parent_names":["Day", "X5-4 Lying Eye", "Or"]	
+			"parent_names":["Day", "R122 Net", "Or"]	
 		},
 		{
 			"name": "Cartoon",
@@ -4429,7 +4429,7 @@
 			"character": "寧",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 14,
-			"parent_names":["R40 Roof", "Heart", "X5-4 Lying Eye", "District"]	
+			"parent_names":["R40 Roof", "Heart", "R122 Net", "District"]	
 		},
 		{
 			"name": "False",
@@ -6753,7 +6753,7 @@
 			"character": "置",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 13,
-			"parent_names":["X5-4 Lying Eye", "Straightaway"]	
+			"parent_names":["R122 Net", "Straightaway"]	
 		},
 		{
 			"name": "Shrine Maiden",
@@ -7096,7 +7096,7 @@
 			"character": "夢",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 13,
-			"parent_names":["R140 Grass", "X5-4 Lying Eye", "R14 Wa Shaped Crown", "Evening"]	
+			"parent_names":["R140 Grass", "R122 Net", "R14 Wa Shaped Crown", "Evening"]	
 		},
 		{
 			"name": "Memorize",
@@ -7250,7 +7250,7 @@
 			"character": "罠",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 10,
-			"parent_names":["X5-4 Lying Eye", "People"]	
+			"parent_names":["R122 Net", "People"]	
 		},
 		{
 			"name": "Pair",
@@ -7950,7 +7950,7 @@
 			"character": "蜀",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 13,
-			"parent_names":["X5-4 Lying Eye", "R20 Wrap", "Insect"]	
+			"parent_names":["R122 Net", "R20 Wrap", "Insect"]	
 		},
 		{
 			"name": "Candle",
@@ -8560,6 +8560,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 7,
 			"parent_names":["Soil", "D Equal"]	
+		},
+		{
+			"name": "Court",
+			"character": "廷",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 7,
+			"parent_names":["R54 Long Stride", "King"]	
+		},
+		{
+			"name": "Crime",
+			"character": "罪",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["R122 Net", "Un"]	
+		},
+		{
+			"name": "Inspection",
+			"character": "視",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R113 Cult", "See"]	
+		},
+		{
+			"name": "Analyze",
+			"character": "析",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Tree", "Axe"]	
+		},
+		{
+			"name": "Lizard",
+			"character": "蜥",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Insect", "Analyze"]	
 		}
 	],
 	"radical":[
@@ -8920,6 +8955,13 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 6,
 			"parent_names":["X1-1 Reverse Dot", "One", "R3 Dot"]	
+		},
+		{
+			"name": "R122 Net",
+			"character": "罒",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["Mouth", "R2 Line"]	
 		},
 		{
 			"name": "R125 Old",
@@ -9518,13 +9560,6 @@
 			"parent_names":["R14 Wa Shaped Crown", "R42 Small Variant"]	
 		},
 		{
-			"name": "X5-4 Lying Eye",
-			"image_name": "5-4 Lying Eye.png",
-			"stroke_arrangement": "⿱",
-			"stroke_count": 5,
-			"parent_names":["Mouth", "R2 Line"]	
-		},
-		{
 			"name": "X5-7 Box in Box",
 			"image_name": "5-7 Box in Box.png",
 			"stroke_arrangement": "⿵",
@@ -9746,7 +9781,7 @@
 			"image_name": "7-8 Crossed Lying Eye.png",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 7,
-			"parent_names":["Ten", "X5-4 Lying Eye"]	
+			"parent_names":["Ten", "R122 Net"]	
 		},
 		{
 			"name": "X8-2 Standing Mouth",
