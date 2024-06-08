@@ -6585,7 +6585,7 @@
 			"character": "危",
 			"stroke_arrangement": "⿸",
 			"stroke_count": 6,
-			"parent_names":["X2-4 Wrap Hat", "R27 Trailing Cliff", "X1-5 Corner Hook", "R5 Fishhook"]	
+			"parent_names":["X2-4 Wrap Hat", "R27 Trailing Cliff", "RX Knot"]	
 		},
 		{
 			"name": "Defeat",
@@ -8595,6 +8595,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 14,
 			"parent_names":["Insect", "Analyze"]	
+		},
+		{
+			"name": "Frog",
+			"character": "蛙",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Insect", "Square Jewel"]	
+		},
+		{
+			"name": "Sin",
+			"character": "犯",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["R94 Dog", "RX Knot"]	
+		},
+		{
+			"name": "Reverse",
+			"character": "逆",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 9,
+			"parent_names":["R162 Walk", "X6-18 Roofed Grass"]	
+		},
+		{
+			"name": "Foundation",
+			"character": "基",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["That", "Soil"]	
+		},
+		{
+			"name": "Boundary",
+			"character": "境",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Soil", "Finally"]	
 		}
 	],
 	"radical":[
@@ -8766,6 +8801,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["R4 Slash", "X1-3 Top Right Corner", "One"]	
+		},
+		{
+			"name": "R45 Old Grass",
+			"character": "屮",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["R17 Receptacle", "R4 Slash"]	
 		},
 		{
 			"name": "R47 Curving River",
@@ -9081,6 +9123,13 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 3,
 			"parent_names":["X1-8 Shallow No", "R42 Small Variant"]	
+		},
+		{
+			"name": "RX Knot",
+			"character": "㔾",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["R5 Fishhook", "X1-13 Top Right Angle"]	
 		}
 	],
 	"x_part":[
@@ -9747,6 +9796,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
 			"parent_names":["Piling", "Two", "X1-8 Shallow No"]	
+		},
+		{
+			"name": "X6-18 Roofed Grass",
+			"image_name": "6-18 Roofed Grass.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["X3-1 Double Lid", "R45 Old Grass"]	
 		},
 		{
 			"name": "X7-1 Roofed Self",
