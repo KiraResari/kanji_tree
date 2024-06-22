@@ -8630,6 +8630,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 14,
 			"parent_names":["Soil", "Finally"]	
+		},
+		{
+			"name": "Formerly",
+			"character": "曽",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["R12 Eight Variant", "Rice Field", "Day"]	
+		},
+		{
+			"name": "Hate",
+			"character": "憎",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["R61 Heart", "Formerly"]	
+		},
+		{
+			"name": "Poor",
+			"character": "貧",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["Minute", "Shellfish"]	
+		},
+		{
+			"name": "Of",
+			"character": "之",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["R2 Line", "Katakana Fu", "X1-2 Reverse No"]	
+		},
+		{
+			"name": "Destitution",
+			"character": "乏",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 4,
+			"parent_names":["X1-8 Shallow No", "Of"]	
 		}
 	],
 	"radical":[
