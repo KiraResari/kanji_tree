@@ -8657,7 +8657,7 @@
 			"character": "之",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
-			"parent_names":["R2 Line", "Katakana Fu", "X1-2 Reverse No"]	
+			"parent_names":["R2 Line", "Katakana Fu", "X1-10 Wave"]	
 		},
 		{
 			"name": "Destitution",
@@ -8665,6 +8665,41 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 4,
 			"parent_names":["X1-8 Shallow No", "Of"]	
+		},
+		{
+			"name": "Favor",
+			"character": "恵",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["X6-12 Specialist", "Heart"]	
+		},
+		{
+			"name": "Squid",
+			"character": "鰞",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 21,
+			"parent_names":["Fish", "Crow"]	
+		},
+		{
+			"name": "Salmon",
+			"character": "鮭",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 17,
+			"parent_names":["Fish", "Square Jewel"]	
+		},
+		{
+			"name": "Vast",
+			"character": "莫",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 10,
+			"parent_names":["R140 Grass", "Day", "Big"]	
+		},
+		{
+			"name": "Grave",
+			"character": "墓",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Vast", "Soil"]	
 		}
 	],
 	"radical":[
