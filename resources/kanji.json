@@ -8700,6 +8700,41 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 13,
 			"parent_names":["Vast", "Soil"]	
+		},
+		{
+			"name": "Lady",
+			"character": "婦",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Woman", "D Broom"]	
+		},
+		{
+			"name": "Increase",
+			"character": "増",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Soil", "Formerly"]	
+		},
+		{
+			"name": "Pass Through",
+			"character": "経",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Thread", "D Holy"]	
+		},
+		{
+			"name": "Present",
+			"character": "現",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["King", "See"]	
+		},
+		{
+			"name": "Approach",
+			"character": "寄",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["R40 Roof", "Strange"]	
 		}
 	],
 	"radical":[
