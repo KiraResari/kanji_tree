@@ -8735,6 +8735,41 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 11,
 			"parent_names":["R40 Roof", "Strange"]	
+		},
+		{
+			"name": "Increasingly",
+			"character": "弥",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Bow", "D You"]	
+		},
+		{
+			"name": "Abundant",
+			"character": "富",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["R40 Roof", "D Fill"]	
+		},
+		{
+			"name": "Reside",
+			"character": "居",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 8,
+			"parent_names":["R44 Flag", "Old"]	
+		},
+		{
+			"name": "Generally",
+			"character": "総",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Thread", "D Hurry"]	
+		},
+		{
+			"name": "Authority",
+			"character": "権",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["Tree", "X11-3 Recommend"]	
 		}
 	],
 	"radical":[
@@ -10433,6 +10468,20 @@
 			"stroke_arrangement": "⿹",
 			"stroke_count": 4,
 			"parent_names":["R20 Wrap", "Two"]	
+		},
+		{
+			"name": "D You",
+			"character": "尓",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["X2-6 Slash Dash", "Small"]	
+		},
+		{
+			"name": "D Hurry",
+			"character": "忩",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["Public", "Heart"]	
 		}
 	]
 }
