@@ -6276,7 +6276,7 @@
 			"name": "Precious",
 			"character": "貴",
 			"stroke_arrangement": "⿳",
-			"stroke_count": 20,
+			"stroke_count": 12,
 			"parent_names":["Middle", "One", "Shellfish"]	
 		},
 		{
@@ -8770,6 +8770,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 15,
 			"parent_names":["Tree", "X11-3 Recommend"]	
+		},
+		{
+			"name": "Happenstance",
+			"character": "故",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Old", "R66 Strike"]	
+		},
+		{
+			"name": "Hinder",
+			"character": "障",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["R170 Village", "Chapter"]	
+		},
+		{
+			"name": "Left Behind",
+			"character": "遺",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["R162 Walk", "Precious"]	
+		},
+		{
+			"name": "Intelligent",
+			"character": "賢",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 19,
+			"parent_names":["X9-6 Princess Or", "Shellfish"]	
+		},
+		{
+			"name": "Seclude",
+			"character": "幽",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 9,
+			"parent_names":["Mountain", "R52 Short Thread"]	
 		}
 	],
 	"radical":[
@@ -10048,6 +10083,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
 			"parent_names":["Ten", "Bean"]	
+		},
+		{
+			"name": "X9-6 Princess Or",
+			"image_name": "9-6 Princess Or.png",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Retainer", "Or"]	
 		},
 		{
 			"name": "X10-1 Cold",
