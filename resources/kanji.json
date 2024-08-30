@@ -1552,7 +1552,7 @@
 			"character": "朝",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 12,
-			"parent_names":["Ten", "Early", "Moon"]	
+			"parent_names":["X8-8 Morning", "Moon"]	
 		},
 		{
 			"name": "Shaku",
@@ -8244,7 +8244,7 @@
 			"character": "脈",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 10,
-			"parent_names":["Moon", "R27 Trailing Cliff", "X4-27 Spur Cliff"]	
+			"parent_names":["Moon", "X6-19 Double Spur Cliff"]	
 		},
 		{
 			"name": "High Spirits",
@@ -8805,6 +8805,41 @@
 			"stroke_arrangement": "⿻",
 			"stroke_count": 9,
 			"parent_names":["Mountain", "R52 Short Thread"]	
+		},
+		{
+			"name": "Stride",
+			"character": "禹",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 9,
+			"parent_names":["X1-8 Shallow No", "Insect", "R13 Upside-Down Box"]	
+		},
+		{
+			"name": "Belong",
+			"character": "属",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 12,
+			"parent_names":["R44 Flag", "Stride"]	
+		},
+		{
+			"name": "Tree Trunk",
+			"character": "幹",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["X8-8 Morning", "X2-2 Roof", "Dry"]	
+		},
+		{
+			"name": "Faction",
+			"character": "派",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R85 Water", "X6-19 Double Spur Cliff"]	
+		},
+		{
+			"name": "Settle",
+			"character": "済",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R85 Water", "Unison"]	
 		}
 	],
 	"radical":[
@@ -9980,6 +10015,13 @@
 			"parent_names":["X3-1 Double Lid", "R45 Old Grass"]	
 		},
 		{
+			"name": "X6-19 Double Spur Cliff",
+			"image_name": "6-19 Double Spur Cliff.png",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 6,
+			"parent_names":["R27 Trailing Cliff", "X4-27 Spur Cliff"]	
+		},
+		{
 			"name": "X7-1 Roofed Self",
 			"image_name": "7-1 Roofed Self.png",
 			"stroke_arrangement": "⿱",
@@ -10055,6 +10097,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 8,
 			"parent_names":["X4-21 Teacher", "Soil"]	
+		},
+		{
+			"name": "X8-8 Morning",
+			"image_name": "8-8 Morning.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["Ten", "Early"]	
 		},
 		{
 			"name": "X9-2 Standing Tree",
