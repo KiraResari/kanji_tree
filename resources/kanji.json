@@ -6277,7 +6277,7 @@
 			"character": "貴",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 12,
-			"parent_names":["Middle", "One", "Shellfish"]	
+			"parent_names":["X5-19 Underlined Middle", "Shellfish"]	
 		},
 		{
 			"name": "Duty",
@@ -8840,6 +8840,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 11,
 			"parent_names":["R85 Water", "Unison"]	
+		},
+		{
+			"name": "Dispatch",
+			"character": "遣",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 13,
+			"parent_names":["R162 Walk", "X5-19 Underlined Middle", "X5-11 Bureaucrat"]	
+		},
+		{
+			"name": "Preface",
+			"character": "序",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 7,
+			"parent_names":["R53 Dotted Cliff", "Beforehand"]	
+		},
+		{
+			"name": "Respond",
+			"character": "応",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 7,
+			"parent_names":["R53 Dotted Cliff", "Heart"]	
+		},
+		{
+			"name": "Assets",
+			"character": "資",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Next", "Shellfish"]	
+		},
+		{
+			"name": "Investigate",
+			"character": "査",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Tree", "Moreover"]	
 		}
 	],
 	"radical":[
@@ -9851,7 +9886,7 @@
 			"image_name": "5-11 Bureaucrat.png",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
-			"parent_names":["R2 Line", "X1-3 Top Right Corner", "One"]	
+			"parent_names":["R44 Flag", "Katakana Ko"]	
 		},	
 		{
 			"name": "X5-12 Drink",
@@ -9901,6 +9936,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 5,
 			"parent_names":["Ten", "R140 Grass"]	
+		},
+		{
+			"name": "X5-19 Underlined Middle",
+			"image_name": "5-19 Underlined Middle.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["Middle", "One"]	
 		},
 		{
 			"name": "X6-1 Stand Box",
