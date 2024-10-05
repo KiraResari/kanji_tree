@@ -7032,8 +7032,8 @@
 			"name": "Decide",
 			"character": "決",
 			"stroke_arrangement": "⿰",
-			"stroke_count": 15,
-			"parent_names":["R85 Water", "Husband", "R2 Line"]	
+			"stroke_count": 7,
+			"parent_names":["R85 Water", "D Decide"]	
 		},
 		{
 			"name": "Eternity",
@@ -8875,6 +8875,41 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
 			"parent_names":["Tree", "Moreover"]	
+		},
+		{
+			"name": "Cheerful",
+			"character": "快",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R61 Heart", "D Decide"]	
+		},
+		{
+			"name": "Grace",
+			"character": "恩",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["Cause", "Heart"]	
+		},
+		{
+			"name": "Endure",
+			"character": "忍",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["Blade", "Heart"]	
+		},
+		{
+			"name": "Recognize",
+			"character": "認",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Say", "Endure"]	
+		},
+		{
+			"name": "Feelings",
+			"character": "情",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R61 Heart", "Blue"]	
 		}
 	],
 	"radical":[
@@ -10622,6 +10657,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 8,
 			"parent_names":["Public", "Heart"]	
+		},
+		{
+			"name": "D Decide",
+			"character": "夬",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["Katakana Yu", "Big"]	
 		}
 	]
 }
