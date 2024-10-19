@@ -915,7 +915,7 @@
 			"character": "全",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 6,
-			"parent_names":["X2-2 Roof", "King"]	
+			"parent_names":["RX Roof", "King"]	
 		},
 		{
 			"name": "Gold",
@@ -1272,7 +1272,7 @@
 			"character": "走",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 7,
-			"parent_names":["Soil", "Person", "X2-11 Sideways T"]	
+			"parent_names":["Ten", "D Head"]	
 		},
 		{
 			"name": "Self",
@@ -1650,7 +1650,7 @@
 			"character": "食",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
-			"parent_names":["X2-2 Roof", "Good"]	
+			"parent_names":["RX Roof", "Good"]	
 		},
 		{
 			"name": "Lack",
@@ -1713,7 +1713,7 @@
 			"character": "茶",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 9,
-			"parent_names":["R140 Grass", "X2-2 Roof", "Katakana Ho"]	
+			"parent_names":["R140 Grass", "RX Roof", "Katakana Ho"]	
 		},
 		{
 			"name": "Lofty",
@@ -2658,7 +2658,7 @@
 			"character": "介",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 4,
-			"parent_names":["X2-2 Roof", "X2-12 Riverbanks"]	
+			"parent_names":["RX Roof", "X2-12 Riverbanks"]	
 		},
 		{
 			"name": "World",
@@ -3771,7 +3771,7 @@
 			"character": "谷",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 7,
-			"parent_names":["Katakana Ha", "X2-2 Roof", "Mouth"]	
+			"parent_names":["Katakana Ha", "RX Roof", "Mouth"]	
 		},
 		{
 			"name": "File",
@@ -6788,7 +6788,7 @@
 			"character": "舎",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 8,
-			"parent_names":["X2-2 Roof", "Luck"]	
+			"parent_names":["RX Roof", "Luck"]	
 		},
 		{
 			"name": "Distribute",
@@ -7138,7 +7138,7 @@
 			"character": "珍",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 9,
-			"parent_names":["King", "X2-2 Roof", "R59 Bristle"]	
+			"parent_names":["King", "X5-20 Roofed Bristle"]	
 		},
 		{
 			"name": "Forget",
@@ -7796,7 +7796,7 @@
 			"character": "傘",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 12,
-			"parent_names":["X2-2 Roof", "Ten", "Person"]	
+			"parent_names":["RX Roof", "Ten", "Person"]	
 		},
 		{
 			"name": "Exhausted",
@@ -7978,7 +7978,7 @@
 			"character": "黍",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 12,
-			"parent_names":["R115 Grain", "X2-2 Roof", "R85 Water Variant"]	
+			"parent_names":["R115 Grain", "RX Roof", "R85 Water Variant"]	
 		},
 		{
 			"name": "Expert",
@@ -8825,7 +8825,7 @@
 			"character": "幹",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 13,
-			"parent_names":["X8-8 Morning", "X2-2 Roof", "Dry"]	
+			"parent_names":["X8-8 Morning", "RX Roof", "Dry"]	
 		},
 		{
 			"name": "Faction",
@@ -8910,6 +8910,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 11,
 			"parent_names":["R61 Heart", "Blue"]	
+		},
+		{
+			"name": "Ritual",
+			"character": "儀",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["R9 Person", "Justice"]	
+		},
+		{
+			"name": "Slaughter",
+			"character": "戮",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["X11-5 Winged Roofed Bristle", "Halberd"]	
+		},
+		{
+			"name": "Subjugate",
+			"character": "征",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R60 Going Man", "Correct"]	
+		},
+		{
+			"name": "Attitude",
+			"character": "態",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 14,
+			"parent_names":["Ability", "Heart"]	
+		},
+		{
+			"name": "Propose",
+			"character": "提",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R64 Hand", "Day", "D Head"]	
 		}
 	],
 	"radical":[
@@ -9410,6 +9445,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["R5 Fishhook", "X1-13 Top Right Angle"]	
+		},
+		{
+			"name": "RX Roof",
+			"character": "𠆢",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["Katakana No", "X1-2 Reverse No"]	
 		}
 	],
 	"x_part":[
@@ -9509,13 +9551,6 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["X1-5 Corner Hook", "R4 Slash"]	
-		},
-		{
-			"name": "X2-2 Roof",
-			"image_name": "2-2 Roof.png",
-			"stroke_arrangement": "⬚",
-			"stroke_count": 2,
-			"parent_names":["Katakana No", "X1-2 Reverse No"]	
 		},
 		{
 			"name": "X2-3 Skewed Cross",
@@ -9648,7 +9683,7 @@
 			"image_name": "3-10 Triangle Roof.png",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
-			"parent_names":["X2-2 Roof", "One"]	
+			"parent_names":["RX Roof", "One"]	
 		},
 		{
 			"name": "X3-11 Re Flag",
@@ -9928,7 +9963,7 @@
 			"image_name": "5-12 Drink.png",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
-			"parent_names":["X2-2 Roof", "X4-10 Re Divided Flag", "R3 Dot"]	
+			"parent_names":["RX Roof", "X4-10 Re Divided Flag", "R3 Dot"]	
 		},	
 		{
 			"name": "X5-13 Roofed Mouth",
@@ -9978,6 +10013,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 5,
 			"parent_names":["Middle", "One"]	
+		},
+		{
+			"name": "X5-20 Roofed Bristle",
+			"image_name": "5-20 Roofed Bristle.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["RX Roof", "R59 Bristle"]	
 		},
 		{
 			"name": "X6-1 Stand Box",
@@ -10265,6 +10307,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 11,
 			"parent_names":["X7-8 Crossed Lying Eye", "Heart"]	
+		},
+		{
+			"name": "X11-5 Winged Roofed Bristle",
+			"image_name": "11-5 Winged Roofed Bristle.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["Feathers", "X5-20 Roofed Bristle"]	
 		},
 		{
 			"name": "X13-1 Prey",
@@ -10607,7 +10656,7 @@
 			"character": "朿",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 6,
-			"parent_names":["City", "X2-2 Roof"]	
+			"parent_names":["City", "RX Roof"]	
 		},
 		{
 			"name": "D Twenty",
