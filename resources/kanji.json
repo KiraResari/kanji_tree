@@ -2882,7 +2882,7 @@
 			"character": "采",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 8,
-			"parent_names":["R87 Claw", "Tree"]	
+			"parent_names":["RX Closed Claw", "Tree"]	
 		},
 		{
 			"name": "Vegetable",
@@ -8945,6 +8945,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 12,
 			"parent_names":["R64 Hand", "Day", "D Head"]	
+		},
+		{
+			"name": "Concurrently",
+			"character": "兼",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 10,
+			"parent_names":["X3-1 Double Lid", "X3-2 Strikethrough Ko", "R2 Line", "Katakana Ha"]	
+		},
+		{
+			"name": "Dislike",
+			"character": "嫌",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Woman", "Concurrently"]	
+		},
+		{
+			"name": "Instruct",
+			"character": "授",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R64 Hand", "Accept"]	
+		},
+		{
+			"name": "Pick",
+			"character": "採",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R64 Hand", "Dice"]	
+		},
+		{
+			"name": "Dwindle",
+			"character": "減",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R85 Water", "Ruanxian"]	
 		}
 	],
 	"radical":[
