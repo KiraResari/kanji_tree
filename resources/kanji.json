@@ -1111,7 +1111,7 @@
 			"character": "黄",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 11,
-			"parent_names":["R140 Grass", "X6-6 Roofed Wherefore", "Katakana Ha"]	
+			"parent_names":["R140 Grass", "X8-9 Yellow"]	
 		},
 		{
 			"name": "Water",
@@ -8980,6 +8980,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 12,
 			"parent_names":["R85 Water", "Ruanxian"]	
+		},
+		{
+			"name": "Longevity",
+			"character": "寿",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 7,
+			"parent_names":["R4 Slash", "Three", "Measurement"]	
+		},
+		{
+			"name": "Demand",
+			"character": "需",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 14,
+			"parent_names":["Rain", "However"]	
+		},
+		{
+			"name": "Wet",
+			"character": "濡",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 17,
+			"parent_names":["R85 Water", "Demand"]	
+		},
+		{
+			"name": "Damage",
+			"character": "損",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["R64 Hand", "Employee"]	
+		},
+		{
+			"name": "Sign of the Tiger",
+			"character": "寅",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["R40 Roof", "X8-9 Yellow"]	
 		}
 	],
 	"radical":[
@@ -10265,6 +10300,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 8,
 			"parent_names":["Ten", "Early"]	
+		},
+		{
+			"name": "X8-9 Yellow",
+			"image_name": "8-9 Yellow.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["X6-6 Roofed Wherefore", "Katakana Ha"]	
 		},
 		{
 			"name": "X9-2 Standing Tree",
