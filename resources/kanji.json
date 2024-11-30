@@ -9015,6 +9015,40 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 11,
 			"parent_names":["R40 Roof", "X8-9 Yellow"]	
+		},
+		{
+			"name": "The Latter",
+			"character": "乙",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 1
+		},
+		{
+			"name": "Beg",
+			"character": "乞",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 3,
+			"parent_names":["X2-6 Slash Dash", "The Latter"]	
+		},
+		{
+			"name": "Drought",
+			"character": "乾",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["X8-8 Morning", "Beg"]	
+		},
+		{
+			"name": "Counter for Cupfuls",
+			"character": "杯",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Tree", "Negative"]	
+		},
+		{
+			"name": "Article",
+			"character": "条",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["R34 Winter", "Tree"]	
 		}
 	],
 	"radical":[
