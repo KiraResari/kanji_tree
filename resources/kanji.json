@@ -9049,6 +9049,41 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 7,
 			"parent_names":["R34 Winter", "Tree"]	
+		},
+		{
+			"name": "Skin",
+			"character": "肌",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["Moon", "Table"]	
+		},
+		{
+			"name": "Desire",
+			"character": "欲",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Valley", "Lack"]	
+		},
+		{
+			"name": "Twig",
+			"character": "枝",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Tree", "Branch"]	
+		},
+		{
+			"name": "Act",
+			"character": "演",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["R85 Water", "Sign of the Tiger"]	
+		},
+		{
+			"name": "Undertake",
+			"character": "企",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["RX Roof", "Stop"]	
 		}
 	],
 	"radical":[
