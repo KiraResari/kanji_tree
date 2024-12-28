@@ -3141,7 +3141,7 @@
 			"character": "説",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 14,
-			"parent_names":["Say", "R12 Eight Variant", "Big Brother"]	
+			"parent_names":["Say", "X7-10 Horned Big Brother"]	
 		},
 		{
 			"name": "Yesterday",
@@ -9084,6 +9084,41 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 6,
 			"parent_names":["RX Roof", "Stop"]	
+		},
+		{
+			"name": "Cherry",
+			"character": "桜",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Tree", "R42 Small Variant", "Woman"]	
+		},
+		{
+			"name": "Examination",
+			"character": "検",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Tree", "X8-3 Sword"]	
+		},
+		{
+			"name": "Doubt",
+			"character": "疑",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Spoon", "Arrow", "Katakana Ma", "D Head"]	
+		},
+		{
+			"name": "Tax",
+			"character": "税",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R115 Grain", "X7-10 Horned Big Brother"]	
+		},
+		{
+			"name": "Wisteria",
+			"character": "藤",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 19,
+			"parent_names":["R140 Grass", "D Rising Water"]	
 		}
 	],
 	"radical":[
@@ -10322,6 +10357,13 @@
 			"parent_names":["R64 Hand", "RX Closed Claw"]	
 		},
 		{
+			"name": "X7-10 Horned Big Brother",
+			"image_name": "7-10 Horned Big Brother.png",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R12 Eight Variant", "Big Brother"]	
+		},
+		{
 			"name": "X8-2 Standing Mouth",
 			"image_name": "8-2 Standing Mouth.png",
 			"stroke_arrangement": "⿱",
@@ -10859,6 +10901,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["Katakana Yu", "Big"]	
+		},
+		{
+			"name": "D Rising Water",
+			"character": "滕",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 15,
+			"parent_names":["Moon", "X6-2 Victory", "R85 Water Variant"]	
 		}
 	]
 }
