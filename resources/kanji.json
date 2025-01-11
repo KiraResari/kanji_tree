@@ -8069,7 +8069,7 @@
 			"character": "戴",
 			"stroke_arrangement": "⿹",
 			"stroke_count": 17,
-			"parent_names":["Ten", "Halberd", "Uncommon"]	
+			"parent_names":["X6-20 Cross Halberd", "Uncommon"]	
 		},
 		{
 			"name": "Blame",
@@ -9119,6 +9119,41 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 19,
 			"parent_names":["R140 Grass", "D Rising Water"]	
+		},
+		{
+			"name": "Chastise",
+			"character": "討",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Say", "Measurement"]	
+		},
+		{
+			"name": "Posture",
+			"character": "構",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Tree", "D Put Together"]	
+		},
+		{
+			"name": "Fluid",
+			"character": "液",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R85 Water", "Night"]	
+		},
+		{
+			"name": "Swamp",
+			"character": "沢",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R85 Water", "Shaku"]	
+		},
+		{
+			"name": "Tailor",
+			"character": "裁",
+			"stroke_arrangement": "⿹",
+			"stroke_count": 12,
+			"parent_names":["X6-20 Cross Halberd", "Garment"]	
 		}
 	],
 	"radical":[
@@ -10313,6 +10348,13 @@
 			"stroke_arrangement": "⿸",
 			"stroke_count": 6,
 			"parent_names":["R27 Trailing Cliff", "X4-27 Spur Cliff"]	
+		},
+		{
+			"name": "X6-20 Cross Halberd",
+			"image_name": "6-20 Cross Halberd.png",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 6,
+			"parent_names":["Ten", "Halberd"]	
 		},
 		{
 			"name": "X7-1 Roofed Self",
