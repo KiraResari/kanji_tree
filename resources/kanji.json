@@ -655,8 +655,8 @@
 			"name": "Pursue",
 			"character": "辿",
 			"stroke_arrangement": "⿺",
-			"stroke_count": 6,
-			"parent_names":["R162 Walk", "Mountain"]	
+			"stroke_count": 7,
+			"parent_names":["R162x Double Dot Walk", "Mountain"]	
 		},
 		{
 			"name": "Rain",
@@ -9154,6 +9154,41 @@
 			"stroke_arrangement": "⿹",
 			"stroke_count": 12,
 			"parent_names":["X6-20 Cross Halberd", "Garment"]	
+		},
+		{
+			"name": "Rendezvous",
+			"character": "逢",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 11,
+			"parent_names":["R162x Double Dot Walk", "R34 Winter", "Three", "R2 Line"]	
+		},
+		{
+			"name": "Sew",
+			"character": "縫",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["Thread", "Rendezvous"]	
+		},
+		{
+			"name": "Measure",
+			"character": "測",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R85 Water", "Rule"]	
+		},
+		{
+			"name": "Status Quo",
+			"character": "状",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["RX Half Tree Trunk", "Dog"]	
+		},
+		{
+			"name": "Employment",
+			"character": "職",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 18,
+			"parent_names":["Ear", "D Sword"]	
 		}
 	],
 	"radical":[
@@ -9591,6 +9626,13 @@
 			"stroke_arrangement": "⿻",
 			"stroke_count": 3,
 			"parent_names":["R3 Dot", "X1-9 Three", "X1-10 Wave"]	
+		},
+		{
+			"name": "R162x Double Dot Walk",
+			"character": "辶",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 4,
+			"parent_names":["R3 Dot", "R162 Walk"]	
 		},
 		{
 			"name": "R165 Topped Rice",
@@ -10950,6 +10992,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 15,
 			"parent_names":["Moon", "X6-2 Victory", "R85 Water Variant"]	
+		},
+		{
+			"name": "D Sword",
+			"character": "戠",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Sound", "Halberd"]	
 		}
 	]
 }
