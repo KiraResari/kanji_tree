@@ -6767,7 +6767,7 @@
 			"character": "契",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
-			"parent_names":["X4-5 Double Cross", "Sword", "Big"]	
+			"parent_names":["X6-21 Double Cross Sword", "Big"]	
 		},
 		{
 			"name": "Consume",
@@ -9189,6 +9189,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 18,
 			"parent_names":["Ear", "D Sword"]	
+		},
+		{
+			"name": "Conjecture",
+			"character": "推",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R64 Hand", "R172 Bird"]	
+		},
+		{
+			"name": "Condition",
+			"character": "況",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R85 Water", "Big Brother"]	
+		},
+		{
+			"name": "Clean",
+			"character": "潔",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["R85 Water", "D Marking Line"]	
+		},
+		{
+			"name": "Proportion",
+			"character": "割",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Harm", "Katakana Ri"]	
+		},
+		{
+			"name": "Give",
+			"character": "施",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["Direction", "X2-6 Slash Dash", "To be"]	
 		}
 	],
 	"radical":[
@@ -10399,6 +10434,13 @@
 			"parent_names":["Ten", "Halberd"]	
 		},
 		{
+			"name": "X6-21 Double Cross Sword",
+			"image_name": "6-21 Double Cross Sword.png",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["X4-5 Double Cross", "Sword"]	
+		},
+		{
 			"name": "X7-1 Roofed Self",
 			"image_name": "7-1 Roofed Self.png",
 			"stroke_arrangement": "⿱",
@@ -10999,6 +11041,13 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 13,
 			"parent_names":["Sound", "Halberd"]	
+		},
+		{
+			"name": "D Marking Line",
+			"character": "絜",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["X6-21 Double Cross Sword", "Thread"]	
 		}
 	]
 }
