@@ -1986,7 +1986,7 @@
 			"character": "漢",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 13,
-			"parent_names":["R85 Water", "R140 Grass", "Mouth", "Husband"]	
+			"parent_names":["R85 Water", "X10-3 China"]	
 		},
 		{
 			"name": "Letter",
@@ -5059,7 +5059,7 @@
 			"character": "術",
 			"stroke_arrangement": "⿲",
 			"stroke_count": 11,
-			"parent_names":["R60 Going Man", "Katakana Ho", "R3 Dot", "X3-14 Roofed District"]	
+			"parent_names":["R60 Going Man", "X5-21 Dotted Ho", "X3-14 Roofed District"]	
 		},
 		{
 			"name": "Nothingness",
@@ -9224,6 +9224,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 9,
 			"parent_names":["Direction", "X2-6 Slash Dash", "To be"]	
+		},
+		{
+			"name": "Simplicity",
+			"character": "簡",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 18,
+			"parent_names":["R118 Bamboo", "Interval"]	
+		},
+		{
+			"name": "Mention",
+			"character": "述",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 8,
+			"parent_names":["R162 Walk", "X5-21 Dotted Ho"]	
+		},
+		{
+			"name": "Printing Block",
+			"character": "版",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["One-sided", "Anti"]	
+		},
+		{
+			"name": "Difficult",
+			"character": "難",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 18,
+			"parent_names":["X10-3 China", "R172 Bird"]	
+		},
+		{
+			"name": "Supplement",
+			"character": "補",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R145 Clothes", "First"]	
 		}
 	],
 	"radical":[
@@ -10308,6 +10343,13 @@
 			"parent_names":["RX Roof", "R59 Bristle"]	
 		},
 		{
+			"name": "X5-21 Dotted Ho",
+			"image_name": "5-21 Dotted Ho.png",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 5,
+			"parent_names":["Katakana Ho", "R3 Dot"]	
+		},
+		{
 			"name": "X6-1 Stand Box",
 			"image_name": "6-1 Stand Box.png",
 			"stroke_arrangement": "⬚",
@@ -10593,6 +10635,13 @@
 			"stroke_arrangement": "⿻",
 			"stroke_count": 10,
 			"parent_names":["Soil", "Mouth", "X3-8 Upward Arrow", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "X10-3 China",
+			"image_name": "10-3 China.png",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 10,
+			"parent_names":["R140 Grass", "Mouth", "Husband"]	
 		},
 		{
 			"name": "X11-1 Wound",
