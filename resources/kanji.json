@@ -4674,7 +4674,7 @@
 			"character": "愛",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 13,
-			"parent_names":["X6-11 Claw Roof", "Heart", "R34 Winter"]	
+			"parent_names":["X6-11 Claw Roof", "X7-11 Love"]	
 		},
 		{
 			"name": "Transport",
@@ -7494,7 +7494,7 @@
 			"name": "However",
 			"character": "而",
 			"stroke_arrangement": "⿳",
-			"stroke_count": 15,
+			"stroke_count": 6,
 			"parent_names":["One", "X1-1 Reverse Dot", "X4-24 Beard"]	
 		},
 		{
@@ -9259,6 +9259,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 12,
 			"parent_names":["R145 Clothes", "First"]	
+		},
+		{
+			"name": "Dispose",
+			"character": "処",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 5,
+			"parent_names":["R34 Winter", "Table"]	
+		},
+		{
+			"name": "Abbreviation",
+			"character": "略",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Rice Field", "Each"]	
+		},
+		{
+			"name": "Benefit",
+			"character": "益",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 10,
+			"parent_names":["X3-1 Double Lid", "Katakana Ha", "Dish"]	
+		},
+		{
+			"name": "Melancholy",
+			"character": "憂",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 15,
+			"parent_names":["One", "X1-1 Reverse Dot", "Moon", "R14 Wa Shaped Crown", "X7-11 Love"]	
+		},
+		{
+			"name": "Tenderness",
+			"character": "優",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 17,
+			"parent_names":["R9 Person", "Melancholy"]	
 		}
 	],
 	"radical":[
@@ -10530,6 +10565,13 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 7,
 			"parent_names":["R12 Eight Variant", "Big Brother"]	
+		},
+		{
+			"name": "X7-11 Love",
+			"image_name": "7-11 Love.png",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["Heart", "R34 Winter"]	
 		},
 		{
 			"name": "X8-2 Standing Mouth",
