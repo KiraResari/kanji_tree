@@ -2063,7 +2063,7 @@
 			"character": "長",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 8,
-			"parent_names":["X5-8 Long Top", "Katakana Re", "X2-5 Spur"]	
+			"parent_names":["X5-8 Long Top", "X3-19 Re Spur"]	
 		},
 		{
 			"name": "Short",
@@ -3904,7 +3904,7 @@
 			"character": "辰",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 7,
-			"parent_names":["R27 Trailing Cliff", "Two", "Katakana Re", "X2-5 Spur"]	
+			"parent_names":["R27 Trailing Cliff", "Two", "X3-19 Re Spur"]	
 		},
 		{
 			"name": "Quake",
@@ -9329,6 +9329,34 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 11,
 			"parent_names":["Husband", "See"]	
+		},
+		{
+			"name": "Obey",
+			"character": "従",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R60 Going Man", "R12 Eight Variant", "D Head"]	
+		},
+		{
+			"name": "Plough",
+			"character": "耒",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["One", "Not yet"]	
+		},
+		{
+			"name": "Unfold",
+			"character": "展",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 10,
+			"parent_names":["R44 Flag", "X4-6 Twin Cross", "X3-19 Re Spur"]	
+		},
+		{
+			"name": "Fresh",
+			"character": "鮮",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 17,
+			"parent_names":["Fish", "Sheep"]	
 		}
 	],
 	"radical":[
@@ -10133,6 +10161,13 @@
 			"parent_names":["R9 Person", "R2 Line"]	
 		},
 		{
+			"name": "X3-19 Re Spur",
+			"image_name": "3-19 Re Spur.png",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 3,
+			"parent_names":["Katakana Re", "X2-5 Spur"]	
+		},
+		{
 			"name": "X4-1 Torii",
 			"image_name": "4-1 Torii.png",
 			"stroke_arrangement": "⬚",
@@ -10158,7 +10193,7 @@
 			"image_name": "4-4 Leg.png",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
-			"parent_names":["Person", "R2 Line", "One"]	
+			"parent_names":["Person", "X2-11 Sideways T"]	
 		},
 		{
 			"name": "X4-5 Double Cross",
@@ -10214,7 +10249,7 @@
 			"image_name": "4-16 Clothes.png",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 4,
-			"parent_names":["Katakana No", "Katakana Re", "X2-5 Spur"]	
+			"parent_names":["Katakana No", "X3-19 Re Spur"]	
 		},
 		{
 			"name": "X4-17 Four Dots",
@@ -10984,7 +11019,7 @@
 			"character": "疋",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
-			"parent_names":["One", "X2-11 Sideways T", "Person"]	
+			"parent_names":["One", "X4-4 Leg"]	
 		},		
 		{
 			"name": "D Adzuki Bean",
