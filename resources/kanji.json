@@ -9357,6 +9357,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 17,
 			"parent_names":["Fish", "Sheep"]	
+		},
+		{
+			"name": "Lightning",
+			"character": "雷",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Rain", "Rice Field"]	
+		},
+		{
+			"name": "Fat",
+			"character": "肥",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Moon", "Tomoe"]	
+		},
+		{
+			"name": "Manufacture",
+			"character": "製",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 14,
+			"parent_names":["Control", "Garment"]	
+		},
+		{
+			"name": "Sum",
+			"character": "額",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 18,
+			"parent_names":["Guest", "Page"]	
+		},
+		{
+			"name": "Approve",
+			"character": "許",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Say", "Noon"]	
 		}
 	],
 	"radical":[
