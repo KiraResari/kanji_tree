@@ -9392,6 +9392,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 11,
 			"parent_names":["Say", "Noon"]	
+		},
+		{
+			"name": "Livestock",
+			"character": "畜",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["Mysterious", "Rice Field"]	
+		},
+		{
+			"name": "Gamble",
+			"character": "賭",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["Shellfish", "Someone", "R3 Dot"]	
+		},
+		{
+			"name": "Riddle",
+			"character": "謎",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["Say", "Lost"]	
+		},
+		{
+			"name": "Prohibit",
+			"character": "禁",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Grove", "Show"]	
+		},
+		{
+			"name": "Circle",
+			"character": "環",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 17,
+			"parent_names":["King", "R122 Net", "One", "7-13 Un Mouth"]	
 		}
 	],
 	"radical":[
@@ -10686,6 +10721,13 @@
 			"parent_names":["Katakana Yo", "R14 Wa Shaped Crown", "Or"]	
 		},
 		{
+			"name": "7-13 Un Mouth",
+			"image_name": "7-13 Un Mouth.png",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 7,
+			"parent_names":["Mouth", "X3-8 Upward Arrow", "X1-1 Reverse Dot"]	
+		},
+		{
 			"name": "X8-2 Standing Mouth",
 			"image_name": "8-2 Standing Mouth.png",
 			"stroke_arrangement": "⿱",
@@ -10788,7 +10830,7 @@
 			"image_name": "10-2 Far.png",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 10,
-			"parent_names":["Soil", "Mouth", "X3-8 Upward Arrow", "X1-1 Reverse Dot"]	
+			"parent_names":["Soil", "7-13 Un Mouth"]	
 		},
 		{
 			"name": "X10-3 China",
