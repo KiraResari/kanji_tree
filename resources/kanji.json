@@ -9427,6 +9427,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 17,
 			"parent_names":["King", "R122 Net", "One", "7-13 Un Mouth"]	
+		},
+		{
+			"name": "Smoke",
+			"character": "煙",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Fire", "R146 West", "Soil"]	
+		},
+		{
+			"name": "Thwart",
+			"character": "阻",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R170 Village", "Moreover"]	
+		},
+		{
+			"name": "Shift",
+			"character": "移",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R115 Grain", "Many"]	
+		},
+		{
+			"name": "Trial",
+			"character": "審",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["R40 Roof", "Turn"]	
+		},
+		{
+			"name": "Europe",
+			"character": "欧",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Ward", "Lack"]	
 		}
 	],
 	"radical":[
