@@ -9462,6 +9462,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 8,
 			"parent_names":["Ward", "Lack"]	
+		},
+		{
+			"name": "Rubbish",
+			"character": "屑",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 10,
+			"parent_names":["R44 Flag", "Resemblance"]	
+		},
+		{
+			"name": "Glaring",
+			"character": "睨",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Eye", "D Child"]	
+		},
+		{
+			"name": "Display",
+			"character": "呈",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["Mouth", "King"]	
+		},
+		{
+			"name": "Extent",
+			"character": "程",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R115 Grain", "Display"]	
+		},
+		{
+			"name": "Shouldering",
+			"character": "担",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R64 Hand", "Daybreak"]	
 		}
 	],
 	"radical":[
@@ -11328,6 +11363,13 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 12,
 			"parent_names":["X6-21 Double Cross Sword", "Thread"]	
+		},
+		{
+			"name": "D Child",
+			"character": "兒",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["Mortar", "R10 Legs"]	
 		}
 	]
 }
