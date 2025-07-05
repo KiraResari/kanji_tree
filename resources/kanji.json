@@ -8447,7 +8447,7 @@
 			"character": "竣",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 12,
-			"parent_names":["Stand", "Permit", "R34 Winter"]	
+			"parent_names":["Stand", "7-14 Permit Winter"]	
 		},
 		{
 			"name": "Awake",
@@ -9497,6 +9497,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 8,
 			"parent_names":["R64 Hand", "Daybreak"]	
+		},
+		{
+			"name": "Gift",
+			"character": "贈",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 18,
+			"parent_names":["Shellfish", "Formerly"]	
+		},
+		{
+			"name": "Shoulder",
+			"character": "肩",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 8,
+			"parent_names":["Door", "Moon"]	
+		},
+		{
+			"name": "Spinning",
+			"character": "紡",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Thread", "Direction"]	
+		},
+		{
+			"name": "Genesis",
+			"character": "創",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Godown", "Katakana Ri"]	
+		},
+		{
+			"name": "Acid",
+			"character": "酸",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Sign of the Bird", "7-14 Permit Winter"]	
 		}
 	],
 	"radical":[
@@ -10796,6 +10831,13 @@
 			"stroke_arrangement": "⿻",
 			"stroke_count": 7,
 			"parent_names":["Mouth", "X3-8 Upward Arrow", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "7-14 Permit Winter",
+			"image_name": "7-14 Permit Winter.png",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 7,
+			"parent_names":["Permit", "R34 Winter"]	
 		},
 		{
 			"name": "X8-2 Standing Mouth",
