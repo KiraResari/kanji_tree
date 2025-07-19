@@ -7998,8 +7998,8 @@
 			"name": "Fear",
 			"character": "恐",
 			"stroke_arrangement": "⿱",
-			"stroke_count": 12,
-			"parent_names":["Craft", "Table", "R3 Dot", "Heart"]	
+			"stroke_count": 10,
+			"parent_names":["X6-22 Fear", "Heart"]	
 		},
 		{
 			"name": "Breed",
@@ -9532,6 +9532,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 14,
 			"parent_names":["Sign of the Bird", "7-14 Permit Winter"]	
+		},
+		{
+			"name": "Achievement",
+			"character": "績",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 17,
+			"parent_names":["Thread", "Blame"]	
+		},
+		{
+			"name": "Ancient Musical Instrument",
+			"character": "筑",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["R118 Bamboo", "X6-22 Fear"]	
+		},
+		{
+			"name": "Fabricate",
+			"character": "築",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 16,
+			"parent_names":["Ancient Musical Instrument", "Tree"]	
+		},
+		{
+			"name": "Reject",
+			"character": "斥",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["Axe", "R3 Dot"]	
+		},
+		{
+			"name": "Accuse",
+			"character": "訴",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Say", "Reject"]	
 		}
 	],
 	"radical":[
@@ -10761,6 +10796,13 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 6,
 			"parent_names":["X4-5 Double Cross", "Sword"]	
+		},
+		{
+			"name": "X6-22 Fear",
+			"image_name": "6-22 Fear.png",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["Craft", "Table", "R3 Dot"]	
 		},
 		{
 			"name": "X7-1 Roofed Self",
