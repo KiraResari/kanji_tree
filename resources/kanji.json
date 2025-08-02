@@ -9567,6 +9567,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 12,
 			"parent_names":["Say", "Reject"]	
+		},
+		{
+			"name": "Expel",
+			"character": "排",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R64 Hand", "Un"]	
+		},
+		{
+			"name": "Warp",
+			"character": "歪",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Negative", "Correct"]	
+		},
+		{
+			"name": "Around",
+			"character": "廻",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 9,
+			"parent_names":["R162 Walk", "Occurrences"]	
+		},
+		{
+			"name": "Cloth",
+			"character": "帛",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["White", "Towel"]	
+		},
+		{
+			"name": "Cotton",
+			"character": "綿",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Thread", "Cloth"]	
 		}
 	],
 	"radical":[
