@@ -9602,6 +9602,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 14,
 			"parent_names":["Thread", "Cloth"]	
+		},
+		{
+			"name": "Suck",
+			"character": "吸",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["Mouth", "Reach out"]	
+		},
+		{
+			"name": "Flat & Small",
+			"character": "扁",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 9,
+			"parent_names":["Door", "Tome"]	
+		},
+		{
+			"name": "Compile",
+			"character": "編",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["Thread", "Flat & Small"]	
+		},
+		{
+			"name": "Create",
+			"character": "造",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 10,
+			"parent_names":["R162 Walk", "Revelation"]	
+		},
+		{
+			"name": "Ugly",
+			"character": "醜",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 17,
+			"parent_names":["Sign of the Bird", "Oni"]	
 		}
 	],
 	"radical":[
