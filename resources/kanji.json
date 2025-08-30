@@ -1125,7 +1125,7 @@
 			"character": "父",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 4,
-			"parent_names":["Katakana Ha", "Romaji X"]	
+			"parent_names":["Katakana Ha", "D Mow"]	
 		},
 		{
 			"name": "Green",
@@ -2119,7 +2119,7 @@
 			"character": "気",
 			"stroke_arrangement": "⿹",
 			"stroke_count": 6,
-			"parent_names":["R84 Steam", "Romaji X"]	
+			"parent_names":["R84 Steam", "D Mow"]	
 		},
 		{
 			"name": "Possess",
@@ -2294,7 +2294,7 @@
 			"character": "文",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 4,
-			"parent_names":["R8 Lid", "Romaji X"]	
+			"parent_names":["R8 Lid", "D Mow"]	
 		},
 		{
 			"name": "Wash",
@@ -2567,7 +2567,7 @@
 			"character": "図",
 			"stroke_arrangement": "⿴",
 			"stroke_count": 7,
-			"parent_names":["Mouth", "Romaji X", "R3 Dot"]	
+			"parent_names":["Mouth", "D Mow", "R3 Dot"]	
 		},
 		{
 			"name": "Bureaucrat",
@@ -2742,7 +2742,7 @@
 			"character": "区",
 			"stroke_arrangement": "⿷",
 			"stroke_count": 4,
-			"parent_names":["R22 Box On Side", "Romaji X"]	
+			"parent_names":["R22 Box On Side", "D Mow"]	
 		},
 		{
 			"name": "Gigantic",
@@ -3540,7 +3540,7 @@
 			"character": "対",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 7,
-			"parent_names":["R8 Lid", "Romaji X", "Measurement"]	
+			"parent_names":["R8 Lid", "D Mow", "Measurement"]	
 		},
 		{
 			"name": "Rank",
@@ -6186,7 +6186,7 @@
 			"character": "希",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 7,
-			"parent_names":["Romaji X", "Linen"]	
+			"parent_names":["D Mow", "Linen"]	
 		},
 		{
 			"name": "Ambition",
@@ -6403,7 +6403,7 @@
 			"character": "殺",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 10,
-			"parent_names":["Romaji X", "Tree", "R79 Pike"]	
+			"parent_names":["D Mow", "Tree", "R79 Pike"]	
 		},
 		{
 			"name": "Slow",
@@ -9637,6 +9637,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 17,
 			"parent_names":["Sign of the Bird", "Oni"]	
+		},
+		{
+			"name": "Villain",
+			"character": "凶",
+			"stroke_arrangement": "⿶",
+			"stroke_count": 4,
+			"parent_names":["R17 Receptacle", "D Mow"]	
+		},
+		{
+			"name": "Brain",
+			"character": "脳",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Moon", "R42 Small Variant", "Villain"]	
+		},
+		{
+			"name": "Expand",
+			"character": "伸",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R9 Person", "Sign of the Monkey"]	
+		},
+		{
+			"name": "Contact",
+			"character": "触",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Corner", "Insect"]	
+		},
+		{
+			"name": "Weave",
+			"character": "織",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 18,
+			"parent_names":["Thread", "D Sword"]	
 		}
 	],
 	"radical":[
@@ -9891,7 +9926,7 @@
 			"character": "攵",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
-			"parent_names":["X2-6 Slash Dash", "Romaji X"]	
+			"parent_names":["X2-6 Slash Dash", "D Mow"]	
 		},
 		{
 			"name": "R78 Death",
@@ -11249,13 +11284,6 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 2,
 			"parent_names":["R2 Line", "One"]	
-		},
-		{
-			"name": "Romaji X",
-			"character": "X",
-			"stroke_arrangement": "⬚",
-			"stroke_count": 2,
-			"parent_names":["Katakana No", "X1-2 Reverse No"]	
 		}
 	],
 	"dead":[
@@ -11524,6 +11552,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 8,
 			"parent_names":["Mortar", "R10 Legs"]	
+		},
+		{
+			"name": "D Mow",
+			"character": "乂",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["Katakana No", "X1-2 Reverse No"]	
 		}
 	]
 }
