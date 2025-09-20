@@ -9672,6 +9672,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 18,
 			"parent_names":["Thread", "D Sword"]	
+		},
+		{
+			"name": "Back (Body)",
+			"character": "背",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["North", "Moon"]	
+		},
+		{
+			"name": "Flinch",
+			"character": "屈",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 8,
+			"parent_names":["R44 Flag", "Exit"]	
+		},
+		{
+			"name": "Apologize",
+			"character": "謝",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 17,
+			"parent_names":["Say", "Shoot"]	
+		},
+		{
+			"name": "Stocks",
+			"character": "株",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Tree", "Vermilion"]	
+		},
+		{
+			"name": "Figure",
+			"character": "姿",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Next", "Woman"]	
 		}
 	],
 	"radical":[
