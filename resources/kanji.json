@@ -5661,7 +5661,7 @@
 			"character": "留",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 10,
-			"parent_names":["X1-8 Shallow No", "Katakana Re", "R3 Dot", "Sword", "Rice Field"]
+			"parent_names":["X5-22 Detain", "Rice Field"]
 		},
 		{
 			"name": "Scatter",
@@ -5948,7 +5948,7 @@
 			"character": "違",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 13,
-			"parent_names":["R162 Walk", "R178 Tanned Leather"]	
+			"parent_names":["R162 Walk", "Tanned Leather"]	
 		},
 		{
 			"name": "Natto",
@@ -7908,7 +7908,7 @@
 			"character": "衛",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 16,
-			"parent_names":["R60 Going Man", "R178 Tanned Leather", "X3-14 Roofed District"]	
+			"parent_names":["R60 Going Man", "Tanned Leather", "X3-14 Roofed District"]	
 		},
 		{
 			"name": "Neighboring",
@@ -9707,6 +9707,41 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
 			"parent_names":["Next", "Woman"]	
+		},
+		{
+			"name": "Knowledge",
+			"character": "識",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 19,
+			"parent_names":["Say", "D Sword"]	
+		},
+		{
+			"name": "Trade",
+			"character": "貿",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["X5-22 Detain", "Shellfish"]	
+		},
+		{
+			"name": "Tanned Leather",
+			"character": "韋",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 10,
+			"parent_names":["X3-15 Topless Five", "Mouth", "Katakana Wi"]	
+		},
+		{
+			"name": "Korea",
+			"character": "韓",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 18,
+			"parent_names":["X8-8 Morning", "Tanned Leather"]	
+		},
+		{
+			"name": "Masses",
+			"character": "衆",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["Blood", "Katakana No", "X1-8 Shallow No", "R2 Line", "X1-2 Reverse No"]	
 		}
 	],
 	"radical":[
@@ -10179,13 +10214,6 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 8,
 			"parent_names":["R9 Person", "X1-1 Reverse Dot", "One", "R2 Line"]	
-		},
-		{
-			"name": "R178 Tanned Leather",
-			"character": "韋",
-			"stroke_arrangement": "⿳",
-			"stroke_count": 10,
-			"parent_names":["X3-15 Topless Five", "Mouth", "Katakana Wi"]	
 		},
 		{
 			"name": "R190 Hair Hanging Long",
@@ -10803,6 +10831,13 @@
 			"stroke_arrangement": "⿻",
 			"stroke_count": 5,
 			"parent_names":["Katakana Ho", "R3 Dot"]	
+		},
+		{
+			"name": "X5-22 Detain",
+			"image_name": "5-22 Detain.png",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["X1-8 Shallow No", "Katakana Re", "R3 Dot", "Sword"]	
 		},
 		{
 			"name": "X6-1 Stand Box",
