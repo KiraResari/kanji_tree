@@ -362,7 +362,7 @@
 			"character": "替",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 12,
-			"parent_names":["Husband", "Day"]	
+			"parent_names":["X8-10 Double Husband", "Day"]	
 		},
 		{
 			"name": "Submerge",
@@ -9742,6 +9742,41 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 12,
 			"parent_names":["Blood", "Katakana No", "X1-8 Shallow No", "R2 Line", "X1-2 Reverse No"]	
+		},
+		{
+			"name": "Celebration",
+			"character": "賀",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["Add", "Shellfish"]	
+		},
+		{
+			"name": "Praise",
+			"character": "賛",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 15,
+			"parent_names":["X8-10 Double Husband", "Shellfish"]	
+		},
+		{
+			"name": "Include",
+			"character": "含",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["Now", "Mouth"]	
+		},
+		{
+			"name": "Advisor",
+			"character": "佐",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["R9 Person", "Left"]	
+		},
+		{
+			"name": "Core",
+			"character": "核",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Tree", "Sign of the Boar"]	
 		}
 	],
 	"radical":[
@@ -11111,6 +11146,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 8,
 			"parent_names":["X6-6 Roofed Wherefore", "Katakana Ha"]	
+		},
+		{
+			"name": "X8-10 Double Husband",
+			"image_name": "8-10 Double Husband.png",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Husband"]	
 		},
 		{
 			"name": "X9-2 Standing Tree",
