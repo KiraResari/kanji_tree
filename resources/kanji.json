@@ -9777,6 +9777,48 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 10,
 			"parent_names":["Tree", "Sign of the Boar"]	
+		},
+		{
+			"name": "Challenge",
+			"character": "挑",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["R64 Hand", "Trillion"]	
+		},
+		{
+			"name": "Mineral",
+			"character": "鉱",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Gold", "Wide"]	
+		},
+		{
+			"name": "Copper",
+			"character": "銅",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Gold", "Same"]	
+		},
+		{
+			"name": "Loan",
+			"character": "融",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["R193 Tripod", "Insect"]	
+		},
+		{
+			"name": "Call",
+			"character": "融",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["R193 Tripod", "Insect"]	
+		},
+		{
+			"name": "Question Mark",
+			"character": "乎",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 5,
+			"parent_names":["Two", "R6 Feathered Stick", "R12 Eight Variant"]	
 		}
 	],
 	"radical":[
@@ -10256,6 +10298,13 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 10,
 			"parent_names":["X5-8 Long Top", "R28 I", "R59 Bristle"]	
+		},
+		{
+			"name": "R193 Tripod",
+			"character": "鬲",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 10,
+			"parent_names":["X4-19 Overscore Mouth", "R13 Upside-Down Box", "R10 Legs", "Romaji T"]	
 		},
 		{
 			"name": "RX Half Tree Trunk",
