@@ -1664,7 +1664,7 @@
 			"character": "飲",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 12,
-			"parent_names":["X5-12 Drink", "Lack"]	
+			"parent_names":["R184 Food", "Lack"]	
 		},
 		{
 			"name": "Buy",
@@ -2581,7 +2581,7 @@
 			"character": "館",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 16,
-			"parent_names":["X5-12 Drink", "Bureaucrat"]	
+			"parent_names":["R184 Food", "Bureaucrat"]	
 		},
 		{
 			"name": "Near",
@@ -2861,7 +2861,7 @@
 			"character": "飯",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 12,
-			"parent_names":["X5-12 Drink", "Anti"]	
+			"parent_names":["R184 Food", "Anti"]	
 		},
 		{
 			"name": "Beforehand",
@@ -9807,18 +9807,46 @@
 			"parent_names":["R193 Tripod", "Insect"]	
 		},
 		{
-			"name": "Call",
-			"character": "融",
-			"stroke_arrangement": "⿰",
-			"stroke_count": 16,
-			"parent_names":["R193 Tripod", "Insect"]	
-		},
-		{
 			"name": "Question Mark",
 			"character": "乎",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 5,
 			"parent_names":["Two", "R6 Feathered Stick", "R12 Eight Variant"]	
+		},
+		{
+			"name": "Call",
+			"character": "呼",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Mouth", "Question Mark"]	
+		},
+		{
+			"name": "Stiff",
+			"character": "凝",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["R15 Ice", "Doubt"]	
+		},
+		{
+			"name": "Coin",
+			"character": "銭",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Gold", "X6-17 Triple Halberd"]	
+		},
+		{
+			"name": "Domesticate",
+			"character": "飼",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["R184 Food", "Director"]	
+		},
+		{
+			"name": "Involve",
+			"character": "渉",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R85 Water", "Walk"]	
 		}
 	],
 	"radical":[
@@ -10291,6 +10319,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 8,
 			"parent_names":["R9 Person", "X1-1 Reverse Dot", "One", "R2 Line"]	
+		},
+		{
+			"name": "R184 Food",
+			"character": "飠",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["RX Roof", "X4-10 Re Divided Flag", "R3 Dot"]	
 		},
 		{
 			"name": "R190 Hair Hanging Long",
@@ -10845,13 +10880,6 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["R44 Flag", "Katakana Ko"]	
-		},	
-		{
-			"name": "X5-12 Drink",
-			"image_name": "5-12 Drink.png",
-			"stroke_arrangement": "⬚",
-			"stroke_count": 5,
-			"parent_names":["RX Roof", "X4-10 Re Divided Flag", "R3 Dot"]	
 		},	
 		{
 			"name": "X5-13 Roofed Mouth",
