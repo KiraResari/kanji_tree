@@ -5458,7 +5458,7 @@
 			"character": "即",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 7,
-			"parent_names":["X4-10 Re Divided Flag", "R3 Dot", "R26 Seal"]
+			"parent_names":["X5-6 Drink", "R26 Seal"]
 		},
 		{
 			"name": "Fly",
@@ -9847,6 +9847,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 11,
 			"parent_names":["R85 Water", "Walk"]	
+		},
+		{
+			"name": "Confront",
+			"character": "抗",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R64 Hand", "High Spirits"]	
+		},
+		{
+			"name": "Humanity",
+			"character": "仁",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 4,
+			"parent_names":["R9 Person", "Two"]	
+		},
+		{
+			"name": "Drama",
+			"character": "劇",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["D Wild Boar", "Katakana Ri"]	
+		},
+		{
+			"name": "Shout",
+			"character": "叫",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["Mouth", "D Join"]	
+		},
+		{
+			"name": "Birthplace",
+			"character": "郷",
+			"stroke_arrangement": "⿲",
+			"stroke_count": 11,
+			"parent_names":["RX Countryside", "X5-6 Drink", "R170 Village"]	
 		}
 	],
 	"radical":[
@@ -10255,7 +10290,7 @@
 			"character": "虍",
 			"stroke_arrangement": "⿸",
 			"stroke_count": 6,
-			"parent_names":["X2-15 Hooked Cliff", "X2-15 Hooked Cliff", "Seven"]	
+			"parent_names":["X2-11 Sideways T", "X2-15 Hooked Cliff", "Seven"]	
 		},
 		{
 			"name": "R145 Clothes",
@@ -10325,7 +10360,7 @@
 			"character": "飠",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
-			"parent_names":["RX Roof", "X4-10 Re Divided Flag", "R3 Dot"]	
+			"parent_names":["RX Roof", "R3 Dot" , "X5-6 Drink"]	
 		},
 		{
 			"name": "R190 Hair Hanging Long",
@@ -10368,6 +10403,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["Katakana No", "X1-2 Reverse No"]	
+		},
+		{
+			"name": "RX Countryside",
+			"character": "乡",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 3,
+			"parent_names":["Hiragana Ku", "X1-4 Bottom Left Angle", "Katakana No"]	
 		}
 	],
 	"x_part":[
@@ -10845,6 +10887,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 5,
 			"parent_names":["R14 Wa Shaped Crown", "R42 Small Variant"]	
+		},
+		{
+			"name": "X5-6 Drink",
+			"image_name": "5-6 Drink.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["X4-10 Re Divided Flag", "R3 Dot"]	
 		},
 		{
 			"name": "X5-7 Box in Box",
@@ -11748,6 +11797,20 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["Katakana No", "X1-2 Reverse No"]	
+		},
+		{
+			"name": "D Wild Boar",
+			"character": "豦",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 13,
+			"parent_names":["R141 Tiger Stripes", "R152 Pig"]	
+		},
+		{
+			"name": "D Join",
+			"character": "丩",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 13,
+			"parent_names":["Katakana Re", "R2 Line"]	
 		}
 	]
 }
