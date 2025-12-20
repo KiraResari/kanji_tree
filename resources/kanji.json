@@ -7222,7 +7222,7 @@
 			"character": "収",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 4,
-			"parent_names":["Katakana Re", "R2 Line", "Or"]	
+			"parent_names":["D Join", "Or"]	
 		},
 		{
 			"name": "Guide",
@@ -9882,6 +9882,41 @@
 			"stroke_arrangement": "⿲",
 			"stroke_count": 11,
 			"parent_names":["RX Countryside", "X5-6 Drink", "R170 Village"]	
+		},
+		{
+			"name": "Diligence",
+			"character": "勤",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R140 Grass", "Mouth", "R2 Line", "Three", "Strength"]	
+		},
+		{
+			"name": "Daring",
+			"character": "敢",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Romaji T", "Ear", "R66 Strike"]	
+		},
+		{
+			"name": "Strict",
+			"character": "厳",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 17,
+			"parent_names":["R42 Small Variant", "R27 Trailing Cliff", "Daring"]	
+		},
+		{
+			"name": "Echo",
+			"character": "響",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 20,
+			"parent_names":["Birthplace", "Sound"]	
+		},
+		{
+			"name": "Heights",
+			"character": "阪",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R170 Village", "Anti"]	
 		}
 	],
 	"radical":[
