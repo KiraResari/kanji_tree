@@ -1615,7 +1615,7 @@
 			"character": "春",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
-			"parent_names":["Three", "Katakana No", "X1-2 Reverse No", "Day"]	
+			"parent_names":["RX Spring", "Day"]	
 		},
 		{
 			"name": "Summer",
@@ -2167,7 +2167,7 @@
 			"name": "Negative",
 			"character": "不",
 			"stroke_arrangement": "⿻",
-			"stroke_count": 7,
+			"stroke_count": 4,
 			"parent_names":["One", "X3-8 Upward Arrow"]	
 		},
 		{
@@ -9917,6 +9917,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 7,
 			"parent_names":["R170 Village", "Anti"]	
+		},
+		{
+			"name": "Frost",
+			"character": "霜",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 17,
+			"parent_names":["Rain", "Mutual"]	
+		},
+		{
+			"name": "Queen",
+			"character": "后",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 6,
+			"parent_names":["R27 Trailing Cliff", "X4-19 Overscore Mouth"]	
+		},
+		{
+			"name": "Negate",
+			"character": "否",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["Negative", "Mouth"]	
+		},
+		{
+			"name": "Solicit",
+			"character": "請",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["Say", "Blue"]	
+		},
+		{
+			"name": "Play Music",
+			"character": "奏",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["RX Spring", "Heavens"]	
 		}
 	],
 	"radical":[
@@ -10445,6 +10480,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
 			"parent_names":["Hiragana Ku", "X1-4 Bottom Left Angle", "Katakana No"]	
+		},
+		{
+			"name": "RX Spring",
+			"character": "𡗗",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 5,
+			"parent_names":["Person", "Three"]	
 		}
 	],
 	"x_part":[
