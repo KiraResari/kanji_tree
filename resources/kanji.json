@@ -9952,6 +9952,41 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
 			"parent_names":["RX Spring", "Heavens"]	
+		},
+		{
+			"name": "Stirred Up",
+			"character": "奮",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 16,
+			"parent_names":["D Stride", "Rice Field"]	
+		},
+		{
+			"name": "Span",
+			"character": "亘",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["One", "Daybreak"]	
+		},
+		{
+			"name": "Proclaim",
+			"character": "宣",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["R40 Roof", "Span"]	
+		},
+		{
+			"name": "Coach",
+			"character": "督",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Youth", "Eye"]	
+		},
+		{
+			"name": "Sponsor",
+			"character": "催",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["R9 Person", "D Cliff"]	
 		}
 	],
 	"radical":[
@@ -11888,6 +11923,20 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 13,
 			"parent_names":["Katakana Re", "R2 Line"]	
+		},
+		{
+			"name": "D Stride",
+			"character": "奞",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["Big", "R172 Bird"]	
+		},
+		{
+			"name": "D Cliff",
+			"character": "崔",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["Mountain", "R172 Bird"]	
 		}
 	]
 }
