@@ -7607,7 +7607,7 @@
 			"character": "害",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 10,
-			"parent_names":["R40 Roof", "X4-5 Double Cross", "Mouth"]	
+			"parent_names":["X7-6 Roofed Double Cross", "Mouth"]	
 		},
 		{
 			"name": "Nest",
@@ -9987,6 +9987,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 13,
 			"parent_names":["R9 Person", "D Cliff"]	
+		},
+		{
+			"name": "Leader",
+			"character": "将",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["RX Half Tree Trunk", "RX Closed Claw", "Measurement"]	
+		},
+		{
+			"name": "Revered",
+			"character": "尊",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["R12 Eight Variant", "Sign of the Bird", "Measurement"]	
+		},
+		{
+			"name": "Curve",
+			"character": "弯",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Also", "Bow"]	
+		},
+		{
+			"name": "Bay",
+			"character": "湾",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R85 Water", "Curve"]	
+		},
+		{
+			"name": "Constitution",
+			"character": "憲",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["X7-6 Roofed Double Cross", "R122 Net", "Heart"]	
 		}
 	],
 	"radical":[
@@ -11279,6 +11314,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 7,
 			"parent_names":["X6-5 Tailless Sheep", "Katakana No"]	
+		},
+		{
+			"name": "X7-6 Roofed Double Cross",
+			"image_name": "7-6 Roofed Double Cross.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 7,
+			"parent_names":["R40 Roof", "X4-5 Double Cross"]	
 		},
 		{
 			"name": "X7-8 Crossed Lying Eye",
