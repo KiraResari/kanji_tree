@@ -10022,6 +10022,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 16,
 			"parent_names":["X7-6 Roofed Double Cross", "R122 Net", "Heart"]	
+		},
+		{
+			"name": "Shogi",
+			"character": "棋",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Tree", "That"]	
+		},
+		{
+			"name": "Reasonable",
+			"character": "尤",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 4,
+			"parent_names":["R43 Lame", "R3 Dot"]	
+		},
+		{
+			"name": "Concerning",
+			"character": "就",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["Capital", "Reasonable"]	
+		},
+		{
+			"name": "Detach",
+			"character": "離",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 19,
+			"parent_names":["D Rare Beast", "R172 Bird"]	
+		},
+		{
+			"name": "Violent",
+			"character": "激",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["R85 Water", "D Ancient Musical Instrument"]	
 		}
 	],
 	"radical":[
@@ -10375,6 +10410,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["Katakana Su", "R3 Dot", "R2 Line"]	
+		},
+		{
+			"name": "R114 Rump",
+			"character": "禸",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 5,
+			"parent_names":["R13 Upside-Down Box", "R28 I"]	
 		},
 		{
 			"name": "R115 Grain",
@@ -11979,6 +12021,27 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 11,
 			"parent_names":["Mountain", "R172 Bird"]	
+		},
+		{
+			"name": "D Villain",
+			"character": "㐫",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 6,
+			"parent_names":["R8 Lid", "Villain"]	
+		},
+		{
+			"name": "D Rare Beast",
+			"character": "离",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["D Villain", "R114 Rump"]	
+		},
+		{
+			"name": "D Ancient Musical Instrument",
+			"character": "敫",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["White", "Direction", "R66 Strike"]	
 		}
 	]
 }
