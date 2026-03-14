@@ -719,7 +719,7 @@
 			"character": "敵",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 15,
-			"parent_names":["X11-2 Enemy", "R66 Strike"]	
+			"parent_names":["D Stem", "R66 Strike"]	
 		},
 		{
 			"name": "Tome",
@@ -6340,7 +6340,7 @@
 			"character": "適",
 			"stroke_arrangement": "⿺",
 			"stroke_count": 14,
-			"parent_names":["R162 Walk", "X11-2 Enemy"]	
+			"parent_names":["R162 Walk", "D Stem"]	
 		},
 		{
 			"name": "Lord",
@@ -10057,6 +10057,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 16,
 			"parent_names":["R85 Water", "D Ancient Musical Instrument"]	
+		},
+		{
+			"name": "Angry",
+			"character": "怒",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Guy", "Heart"]	
+		},
+		{
+			"name": "Stratum",
+			"character": "層",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 14,
+			"parent_names":["R44 Flag", "Formerly"]	
+		},
+		{
+			"name": "Curtain",
+			"character": "幕",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Vast", "Towel"]	
+		},
+		{
+			"name": "Pinch",
+			"character": "摘",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["R64 Hand", "D Stem"]	
+		},
+		{
+			"name": "Criticism",
+			"character": "批",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["R64 Hand", "Compare"]	
 		}
 	],
 	"radical":[
@@ -11540,13 +11575,6 @@
 			"parent_names":["X2-6 Slash Dash", "D Open"]	
 		},
 		{
-			"name": "X11-2 Enemy",
-			"image_name": "11-2 Enemy.png",
-			"stroke_arrangement": "⿵",
-			"stroke_count": 11,
-			"parent_names":["X6-1 Stand Box", "Old"]	
-		},
-		{
 			"name": "X11-3 Recommend",
 			"image_name": "11-3 Recommend.png",
 			"stroke_arrangement": "⿱",
@@ -12042,6 +12070,13 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 13,
 			"parent_names":["White", "Direction", "R66 Strike"]	
+		},
+		{
+			"name": "D Stem",
+			"character": "啇",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["X6-1 Stand Box", "Old"]	
 		}
 	]
 }
