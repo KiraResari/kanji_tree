@@ -10092,6 +10092,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 7,
 			"parent_names":["R64 Hand", "Compare"]	
+		},
+		{
+			"name": "Bend down",
+			"character": "俯",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R9 Person", "Borough"]	
+		},
+		{
+			"name": "Infancy",
+			"character": "幼",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["R52 Short Thread", "Strength"]	
+		},
+		{
+			"name": "Rhythm",
+			"character": "律",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 5,
+			"parent_names":["R60 Going Man", "R129 Brush"]	
+		},
+		{
+			"name": "Son",
+			"character": "郎",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 9,
+			"parent_names":["X6-3 Good", "R170 Village"]	
+		},
+		{
+			"name": "Alliance",
+			"character": "盟",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Bright", "Dish"]	
 		}
 	],
 	"radical":[
@@ -10577,7 +10612,7 @@
 			"character": "飠",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
-			"parent_names":["RX Roof", "R3 Dot" , "X5-6 Drink"]	
+			"parent_names":["RX Roof", "X6-3 Good"]	
 		},
 		{
 			"name": "R190 Hair Hanging Long",
@@ -11237,6 +11272,13 @@
 			"stroke_arrangement": "⿻",
 			"stroke_count": 6,
 			"parent_names":["R12 Eight Variant", "X4-20 Spread Big Two"]	
+		},
+		{
+			"name": "X6-3 Good",
+			"image_name": "6-3 Good.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["X5-6 Drink", "R3 Dot"]	
 		},
 		{
 			"name": "X6-5 Tailless Sheep",
