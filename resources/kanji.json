@@ -3799,7 +3799,7 @@
 			"character": "卵",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 7,
-			"parent_names":["X4-26 Egg", "R4 Slash", "R3 Dot"]	
+			"parent_names":["D Lofty", "R4 Slash", "R3 Dot"]	
 		},
 		{
 			"name": "Tower",
@@ -6788,7 +6788,7 @@
 			"character": "舎",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 8,
-			"parent_names":["RX Roof", "Luck"]	
+			"parent_names":["RX Roof", "Soil", "Mouth"]	
 		},
 		{
 			"name": "Distribute",
@@ -8062,7 +8062,7 @@
 			"character": "抑",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 7,
-			"parent_names":["R64 Hand", "X4-26 Egg"]	
+			"parent_names":["R64 Hand", "D Lofty"]	
 		},
 		{
 			"name": "Receive",
@@ -10162,6 +10162,41 @@
 			"stroke_arrangement": "⿸",
 			"stroke_count": 17,
 			"parent_names":["R104 Sickness", "D Fuel"]	
+		},
+		{
+			"name": "Commonplace",
+			"character": "凡",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 3,
+			"parent_names":["Table", "R3 Dot"]	
+		},
+		{
+			"name": "Broaden",
+			"character": "拡",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R64 Hand", "Wide"]	
+		},
+		{
+			"name": "Discard",
+			"character": "捨",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["R64 Hand", "Cottage"]	
+		},
+		{
+			"name": "Swing",
+			"character": "振",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R64 Hand", "Sign of the Dragon"]	
+		},
+		{
+			"name": "Welcome",
+			"character": "迎",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 7,
+			"parent_names":["R162 Walk", "D Lofty"]	
 		}
 	],
 	"radical":[
@@ -11148,13 +11183,6 @@
 			"parent_names":["X2-14 Pillow", "R14 Wa Shaped Crown"]	
 		},
 		{
-			"name": "X4-26 Egg",
-			"image_name": "4-26 Egg.png",
-			"stroke_arrangement": "⬚",
-			"stroke_count": 4,
-			"parent_names":["X1-8 Shallow No", "Katakana Re", "R26 Seal"]	
-		},
-		{
 			"name": "X4-27 Spur Cliff",
 			"image_name": "4-27 Spur Cliff.png",
 			"stroke_arrangement": "⿸",
@@ -11439,7 +11467,7 @@
 			"image_name": "6-22 Fear.png",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 6,
-			"parent_names":["Craft", "Table", "R3 Dot"]	
+			"parent_names":["Craft", "Commonplace"]	
 		},
 		{
 			"name": "X7-1 Roofed Self",
@@ -12168,6 +12196,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 12,
 			"parent_names":["Big", "R3 Dot", "X1-1 Reverse Dot", "X7-7 Small Day"]	
+		},
+		{
+			"name": "D Lofty",
+			"character": "卬",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["X1-8 Shallow No", "Katakana Re", "R26 Seal"]	
 		}
 	]
 }
