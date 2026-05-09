@@ -1478,7 +1478,7 @@
 			"parent_names":["Mouth", "Shellfish"]	
 		},
 		{
-			"name": "Time",
+			"name": "Hour",
 			"character": "時",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 10,
@@ -8517,7 +8517,7 @@
 			"character": "繰",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 19,
-			"parent_names":["Thread", "Goods", "Tree"]	
+			"parent_names":["Thread", "D Chirping of Birds"]	
 		},
 		{
 			"name": "Provide",
@@ -10197,6 +10197,41 @@
 			"stroke_arrangement": "⿺",
 			"stroke_count": 7,
 			"parent_names":["R162 Walk", "D Lofty"]	
+		},
+		{
+			"name": "Tin Can",
+			"character": "缶",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 6,
+			"parent_names":["Mountain", "Two", "X1-1 Reverse Dot"]	
+		},
+		{
+			"name": "Time",
+			"character": "頃",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Spoon", "Page"]	
+		},
+		{
+			"name": "Brandish",
+			"character": "揮",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R64 Hand", "Army"]	
+		},
+		{
+			"name": "Offering",
+			"character": "献",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["South", "Dog"]	
+		},
+		{
+			"name": "Maneuver",
+			"character": "操",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["R64 Hand", "D Chirping of Birds"]	
 		}
 	],
 	"radical":[
@@ -12203,6 +12238,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 4,
 			"parent_names":["X1-8 Shallow No", "Katakana Re", "R26 Seal"]	
+		},
+		{
+			"name": "D Chirping of Birds",
+			"character": "喿",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Goods", "Tree"]	
 		}
 	]
 }
