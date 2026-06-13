@@ -6837,7 +6837,7 @@
 			"character": "懐",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 16,
-			"parent_names":["R61 Heart", "X7-8 Crossed Lying Eye", "Garment"]	
+			"parent_names":["R61 Heart", "X13-3 Nostalgy"]	
 		},
 		{
 			"name": "Catch",
@@ -10267,6 +10267,41 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 14,
 			"parent_names":["Vast", "Day"]	
+		},
+		{
+			"name": "Demolition",
+			"character": "壊",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["Soil", "X13-3 Nostalgy"]	
+		},
+		{
+			"name": "Melodious",
+			"character": "朗",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["X6-3 Good", "Moon"]	
+		},
+		{
+			"name": "Sheet",
+			"character": "枚",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["Tree", "R66 Strike"]	
+		},
+		{
+			"name": "Fiber",
+			"character": "維",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Thread", "R172 Bird"]	
+		},
+		{
+			"name": "General",
+			"character": "般",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Boat", "R79 Pike"]	
 		}
 	],
 	"radical":[
@@ -11797,6 +11832,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 13,
 			"parent_names":["Rice", "R136 Dancing"]	
+		},
+		{
+			"name": "X13-3 Nostalgy",
+			"image_name": "13-3 Nostalgy.png",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["X7-8 Crossed Lying Eye", "Garment"]	
 		},
 		{
 			"name": "X14-1 Weekday",
