@@ -5066,7 +5066,7 @@
 			"character": "無",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 12,
-			"parent_names":["R9 Person", "Three", "R2 Line", "R86 Four Legs"]	
+			"parent_names":["X8-11 Nothing", "R86 Four Legs"]	
 		},
 		{
 			"name": "Burdensome",
@@ -10302,6 +10302,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 10,
 			"parent_names":["Boat", "R79 Pike"]	
+		},
+		{
+			"name": "Dye",
+			"character": "染",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["R85 Water", "Nine", "Tree"]	
+		},
+		{
+			"name": "Imitation",
+			"character": "模",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Tree", "Vast"]	
+		},
+		{
+			"name": "Base",
+			"character": "塁",
+			"stroke_arrangement": "⿳",
+			"stroke_count": 12,
+			"parent_names":["Rice Field", "X4-17 Four Dots", "Soil"]	
+		},
+		{
+			"name": "Home Country",
+			"character": "邦",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 7,
+			"parent_names":["Three", "R4 Slash", "R170 Village"]	
+		},
+		{
+			"name": "Dance",
+			"character": "舞",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 15,
+			"parent_names":["X8-11 Nothing", "R136 Dancing"]	
 		}
 	],
 	"radical":[
@@ -11727,6 +11762,13 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 8,
 			"parent_names":["Husband"]	
+		},
+		{
+			"name": "X8-11 Nothing",
+			"image_name": "8-11 Nothing.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 8,
+			"parent_names":["R9 Person", "Three", "R2 Line"]	
 		},
 		{
 			"name": "X9-2 Standing Tree",
