@@ -5290,7 +5290,7 @@
 			"character": "嘉",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 14,
-			"parent_names":["X9-5 Cross Bean", "Add"]
+			"parent_names":["RX Cross Bean", "Add"]
 		},
 		{
 			"name": "Cloud",
@@ -7544,7 +7544,7 @@
 			"character": "喜",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 12,
-			"parent_names":["X9-5 Cross Bean", "Mouth"]	
+			"parent_names":["RX Cross Bean", "Mouth"]	
 		},
 		{
 			"name": "Season",
@@ -10304,7 +10304,7 @@
 			"parent_names":["Boat", "R79 Pike"]	
 		},
 		{
-			"name": "Dye",
+			"name": "Infect",
 			"character": "染",
 			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
@@ -10337,6 +10337,41 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 15,
 			"parent_names":["X8-11 Nothing", "R136 Dancing"]	
+		},
+		{
+			"name": "Illness",
+			"character": "症",
+			"stroke_arrangement": "⿸",
+			"stroke_count": 10,
+			"parent_names":["R104 Sickness", "Correct"]	
+		},
+		{
+			"name": "Boots",
+			"character": "沓",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["Water", "Day"]	
+		},
+		{
+			"name": "Step",
+			"character": "踏",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 15,
+			"parent_names":["X7-4 Trails", "Boots"]	
+		},
+		{
+			"name": "Trees",
+			"character": "樹",
+			"stroke_arrangement": "⿲",
+			"stroke_count": 16,
+			"parent_names":["Tree", "RX Cross Bean", "Measurement"]	
+		},
+		{
+			"name": "Crowded",
+			"character": "込",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 5,
+			"parent_names":["R162 Walk", "Enter"]	
 		}
 	],
 	"radical":[
@@ -10879,6 +10914,13 @@
 			"stroke_arrangement": "⿻",
 			"stroke_count": 5,
 			"parent_names":["Person", "Three"]	
+		},
+		{
+			"name": "RX Cross Bean",
+			"character": "壴",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["Ten", "Bean"]	
 		}
 	],
 	"x_part":[
@@ -11790,13 +11832,6 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
 			"parent_names":["R13 Upside-Down Box", "R2 Line", "One", "X5-7 Box in Box"]	
-		},
-		{
-			"name": "X9-5 Cross Bean",
-			"image_name": "9-5 Cross Bean.png",
-			"stroke_arrangement": "⿱",
-			"stroke_count": 9,
-			"parent_names":["Ten", "Bean"]	
 		},
 		{
 			"name": "X9-6 Princess Or",
