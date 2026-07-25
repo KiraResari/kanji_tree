@@ -985,14 +985,14 @@
 			"character": "鉛",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 19,
-			"parent_names":["Gold", "X5-2 Ship"]	
+			"parent_names":["Gold", "D Marsh"]	
 		},
 		{
 			"name": "Ship",
 			"character": "船",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 11,
-			"parent_names":["Boat", "X5-2 Ship"]	
+			"parent_names":["Boat", "D Marsh"]	
 		},
 		{
 			"name": "Eye",
@@ -10372,6 +10372,41 @@
 			"stroke_arrangement": "⿺",
 			"stroke_count": 5,
 			"parent_names":["R162 Walk", "Enter"]	
+		},
+		{
+			"name": "Connect",
+			"character": "繋",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 17,
+			"parent_names":["Car", "R79 Pike", "Thread"]	
+		},
+		{
+			"name": "Run along",
+			"character": "沿",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R85 Water", "D Marsh"]	
+		},
+		{
+			"name": "Source",
+			"character": "源",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["R85 Water", "Meadow"]	
+		},
+		{
+			"name": "Tense",
+			"character": "緊",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 15,
+			"parent_names":["X9-6 Princess Or", "Thread"]	
+		},
+		{
+			"name": "Tide",
+			"character": "潮",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 15,
+			"parent_names":["R85 Water", "Morning"]	
 		}
 	],
 	"radical":[
@@ -11377,13 +11412,6 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 5,
 			"parent_names":["Condolences", "Katakana No"]	
-		},
-		{
-			"name": "X5-2 Ship",
-			"image_name": "5-2 Ship.png",
-			"stroke_arrangement": "⿱",
-			"stroke_count": 5,
-			"parent_names":["Eight", "Mouth"]	
 		},
 		{
 			"name": "X5-3 Three Dot Roof",
@@ -12406,6 +12434,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 13,
 			"parent_names":["Goods", "Tree"]	
+		},
+		{
+			"name": "D Marsh",
+			"character": "㕣",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 5,
+			"parent_names":["Eight", "Mouth"]	
 		}
 	]
 }
