@@ -10381,7 +10381,7 @@
 			"parent_names":["Car", "R79 Pike", "Thread"]	
 		},
 		{
-			"name": "Run along",
+			"name": "Along",
 			"character": "沿",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 8,
@@ -10407,6 +10407,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 15,
 			"parent_names":["R85 Water", "Morning"]	
+		},
+		{
+			"name": "Enjoy",
+			"character": "享",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 8,
+			"parent_names":["X5-13 Roofed Mouth", "Child"]	
+		},
+		{
+			"name": "Which",
+			"character": "孰",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 11,
+			"parent_names":["Enjoy", "Round"]	
+		},
+		{
+			"name": "Ripe",
+			"character": "熟",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 15,
+			"parent_names":["Which", "R86 Four Legs"]	
+		},
+		{
+			"name": "Squad",
+			"character": "班",
+			"stroke_arrangement": "⿲",
+			"stroke_count": 10,
+			"parent_names":["King", "Katakana Ri"]	
+		},
+		{
+			"name": "Transfer",
+			"character": "換",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 12,
+			"parent_names":["R64 Hand", "D Clear"]	
 		}
 	],
 	"radical":[
@@ -12441,6 +12476,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 5,
 			"parent_names":["Eight", "Mouth"]	
+		},
+		{
+			"name": "D Clear",
+			"character": "奐",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["X2-4 Wrap Hat", "R13 Upside-Down Box", "R10 Legs", "Big"]	
 		}
 	]
 }
