@@ -1356,7 +1356,7 @@
 			"character": "虫",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
-			"parent_names":["Middle", "X1-8 Shallow No", "R3 Dot"]	
+			"parent_names":["Middle", "X2-2 Shallow No Dot"]	
 		},
 		{
 			"name": "Strong",
@@ -3176,7 +3176,7 @@
 			"character": "瓜",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 6,
-			"parent_names":["Claw", "X1-8 Shallow No", "R3 Dot"]	
+			"parent_names":["Claw", "X2-2 Shallow No Dot"]	
 		},
 		{
 			"name": "Fox",
@@ -10442,6 +10442,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 12,
 			"parent_names":["R64 Hand", "D Clear"]	
+		},
+		{
+			"name": "Long-tailed Monkey",
+			"character": "禺",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 9,
+			"parent_names":["Armor", "R13 Upside-Down Box", "X2-2 Shallow No Dot"]	
+		},
+		{
+			"name": "Foolish",
+			"character": "愚",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Long-tailed Monkey", "Heart"]	
+		},
+		{
+			"name": "Prosper",
+			"character": "盛",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 11,
+			"parent_names":["Turn into", "Dish"]	
+		},
+		{
+			"name": "Colleague",
+			"character": "僚",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["R9 Person", "D Fuel"]	
+		},
+		{
+			"name": "Route",
+			"character": "途",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 10,
+			"parent_names":["R162 Walk", "Surplus"]	
 		}
 	],
 	"radical":[
@@ -11090,6 +11125,13 @@
 			"stroke_arrangement": "⬚",
 			"stroke_count": 2,
 			"parent_names":["X1-5 Corner Hook", "R4 Slash"]	
+		},
+		{
+			"name": "X2-2 Shallow No Dot",
+			"image_name": "2-2 Shallow No Dot.png",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 2,
+			"parent_names":["X1-8 Shallow No", "R3 Dot"]	
 		},
 		{
 			"name": "X2-3 Skewed Cross",
