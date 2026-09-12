@@ -10477,6 +10477,41 @@
 			"stroke_arrangement": "⿺",
 			"stroke_count": 10,
 			"parent_names":["R162 Walk", "Surplus"]	
+		},
+		{
+			"name": "Exhaust",
+			"character": "尽",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 6,
+			"parent_names":["Shaku", "X2-10 Double Dot"]	
+		},
+		{
+			"name": "Magnet",
+			"character": "磁",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Stone", "D This"]	
+		},
+		{
+			"name": "Look to",
+			"character": "臨",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 18,
+			"parent_names":["Retainer", "X2-6 Slash Dash", "Goods"]	
+		},
+		{
+			"name": "Signature",
+			"character": "署",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["R122 Net", "Someone"]	
+		},
+		{
+			"name": "Debt",
+			"character": "債",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["R9 Person", "Blame"]	
 		}
 	],
 	"radical":[
@@ -12525,6 +12560,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
 			"parent_names":["X2-4 Wrap Hat", "R13 Upside-Down Box", "R10 Legs", "Big"]	
+		},
+		{
+			"name": "D This",
+			"character": "兹",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 9,
+			"parent_names":["X3-1 Double Lid", "R52 Short Thread"]	
 		}
 	]
 }
