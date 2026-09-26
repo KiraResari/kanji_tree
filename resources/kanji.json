@@ -7047,7 +7047,7 @@
 			"character": "断",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 11,
-			"parent_names":["X1-7 Bottom Left Corner", "Rice", "Axe"]	
+			"parent_names":["X7-9 Cornered Rice", "Axe"]	
 		},
 		{
 			"name": "Swim",
@@ -10512,6 +10512,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 13,
 			"parent_names":["R9 Person", "Blame"]	
+		},
+		{
+			"name": "Cereals",
+			"character": "穀",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 14,
+			"parent_names":["Gentleman", "R14 Wa Shaped Crown", "R115 Grain", "R79 Pike"]	
+		},
+		{
+			"name": "Rib",
+			"character": "肋",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 6,
+			"parent_names":["Moon", "Strength"]	
+		},
+		{
+			"name": "Muscle",
+			"character": "筋",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["R118 Bamboo", "Rib"]	
+		},
+		{
+			"name": "Inherit",
+			"character": "継",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 13,
+			"parent_names":["Thread", "X7-9 Cornered Rice"]	
+		},
+		{
+			"name": "Aim",
+			"character": "狙",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 8,
+			"parent_names":["R94 Dog", "Moreover"]	
 		}
 	],
 	"radical":[
@@ -11846,6 +11881,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 7,
 			"parent_names":["Ten", "R122 Net"]	
+		},
+		{
+			"name": "X7-9 Cornered Rice",
+			"image_name": "7-9 Cornered Rice.png",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 7,
+			"parent_names":["X1-7 Bottom Left Corner", "Rice"]	
 		},
 		{
 			"name": "X7-10 Horned Big Brother",
