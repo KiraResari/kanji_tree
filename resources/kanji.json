@@ -10547,6 +10547,41 @@
 			"stroke_arrangement": "⿰",
 			"stroke_count": 8,
 			"parent_names":["R94 Dog", "Moreover"]	
+		},
+		{
+			"name": "Garrison",
+			"character": "屯",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 4,
+			"parent_names":["X1-8 Shallow No", "R17 Receptacle", "R5 Fishhook"]	
+		},
+		{
+			"name": "Genuine",
+			"character": "純",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["Thread", "Garrison"]	
+		},
+		{
+			"name": "Silk",
+			"character": "絹",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 13,
+			"parent_names":["Thread", "D Small Worm"]	
+		},
+		{
+			"name": "Bury",
+			"character": "葬",
+			"stroke_arrangement": "⿱",
+			"stroke_count": 12,
+			"parent_names":["R140 Grass", "Death", "R55 Twenty"]	
+		},
+		{
+			"name": "Arrest",
+			"character": "逮",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 11,
+			"parent_names":["R162 Walk", "R171 Slave"]	
 		}
 	],
 	"radical":[
@@ -10759,7 +10794,7 @@
 			"character": "廾",
 			"stroke_arrangement": "⬚",
 			"stroke_count": 3,
-			"parent_names":["X2-12 Riverbanks", "R2 Line"]	
+			"parent_names":["X2-12 Riverbanks", "One"]	
 		},
 		{
 			"name": "R58 Pig Head",
@@ -12609,6 +12644,13 @@
 			"stroke_arrangement": "⿱",
 			"stroke_count": 9,
 			"parent_names":["X3-1 Double Lid", "R52 Short Thread"]	
+		},
+		{
+			"name": "D Small Worm",
+			"character": "肙",
+			"stroke_arrangement": "⬚",
+			"stroke_count": 7,
+			"parent_names":["Mouth", "Moon"]	
 		}
 	]
 }
