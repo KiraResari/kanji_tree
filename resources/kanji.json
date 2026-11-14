@@ -1300,7 +1300,7 @@
 			"character": "寝",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 13,
-			"parent_names":["R40 Roof", "RX Half Tree Trunk", "7-12 Yo Roof Or"]	
+			"parent_names":["R40 Roof", "RX Half Tree Trunk", "X7-12 Yo Roof Or"]	
 		},
 		{
 			"name": "Strength",
@@ -5192,7 +5192,7 @@
 			"character": "乳",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 8,
-			"parent_names":["RX Closed Claw", "Child", "R5 Fishhook"]
+			"parent_names":["X7-15 Nourish", "R5 Fishhook"]
 		},
 		{
 			"name": "Heat",
@@ -8447,7 +8447,7 @@
 			"character": "竣",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 12,
-			"parent_names":["Stand", "7-14 Permit Winter"]	
+			"parent_names":["Stand", "X7-14 Permit Winter"]	
 		},
 		{
 			"name": "Awake",
@@ -9300,7 +9300,7 @@
 			"character": "侵",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 9,
-			"parent_names":["R9 Person", "7-12 Yo Roof Or"]	
+			"parent_names":["R9 Person", "X7-12 Yo Roof Or"]	
 		},
 		{
 			"name": "Punishment",
@@ -9426,7 +9426,7 @@
 			"character": "環",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 17,
-			"parent_names":["King", "R122 Net", "One", "7-13 Un Mouth"]	
+			"parent_names":["King", "R122 Net", "One", "X7-13 Un Mouth"]	
 		},
 		{
 			"name": "Smoke",
@@ -9531,7 +9531,7 @@
 			"character": "酸",
 			"stroke_arrangement": "⿰",
 			"stroke_count": 14,
-			"parent_names":["Sign of the Bird", "7-14 Permit Winter"]	
+			"parent_names":["Sign of the Bird", "X7-14 Permit Winter"]	
 		},
 		{
 			"name": "Achievement",
@@ -10582,6 +10582,41 @@
 			"stroke_arrangement": "⿺",
 			"stroke_count": 11,
 			"parent_names":["R162 Walk", "R171 Slave"]	
+		},
+		{
+			"name": "Vertical",
+			"character": "縦",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 16,
+			"parent_names":["Thread", "Obey"]	
+		},
+		{
+			"name": "Shrink",
+			"character": "縮",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 17,
+			"parent_names":["Thread", "Inn"]	
+		},
+		{
+			"name": "Senior",
+			"character": "齢",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 17,
+			"parent_names":["Tooth", "Orders"]	
+		},
+		{
+			"name": "Urge",
+			"character": "迫",
+			"stroke_arrangement": "⿺",
+			"stroke_count": 8,
+			"parent_names":["R162 Walk", "White"]	
+		},
+		{
+			"name": "Float",
+			"character": "浮",
+			"stroke_arrangement": "⿰",
+			"stroke_count": 10,
+			"parent_names":["R85 Water", "X7-15 Nourish"]	
 		}
 	],
 	"radical":[
@@ -11939,25 +11974,32 @@
 			"parent_names":["Heart", "R34 Winter"]	
 		},
 		{
-			"name": "7-12 Yo Roof Or",
+			"name": "X7-12 Yo Roof Or",
 			"image_name": "7-12 Yo Roof Or.png",
 			"stroke_arrangement": "⿳",
 			"stroke_count": 7,
 			"parent_names":["Katakana Yo", "R14 Wa Shaped Crown", "Or"]	
 		},
 		{
-			"name": "7-13 Un Mouth",
+			"name": "X7-13 Un Mouth",
 			"image_name": "7-13 Un Mouth.png",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 7,
 			"parent_names":["Mouth", "X3-8 Upward Arrow", "X1-1 Reverse Dot"]	
 		},
 		{
-			"name": "7-14 Permit Winter",
+			"name": "X7-14 Permit Winter",
 			"image_name": "7-14 Permit Winter.png",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 7,
 			"parent_names":["Permit", "R34 Winter"]	
+		},
+		{
+			"name": "X7-15 Nourish",
+			"image_name": "7-15 Nourish.png",
+			"stroke_arrangement": "⿻",
+			"stroke_count": 7,
+			"parent_names":["RX Closed Claw", "Child"]	
 		},
 		{
 			"name": "X8-2 Standing Mouth",
@@ -12076,7 +12118,7 @@
 			"image_name": "10-2 Far.png",
 			"stroke_arrangement": "⿻",
 			"stroke_count": 10,
-			"parent_names":["Soil", "7-13 Un Mouth"]	
+			"parent_names":["Soil", "X7-13 Un Mouth"]	
 		},
 		{
 			"name": "X10-3 China",
